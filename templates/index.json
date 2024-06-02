@@ -34,6 +34,9 @@
         "text_PHFgaC",
         "buttons_JXwQCm"
       ],
+      "custom_css": [
+        "h2 {font-family: Orbitron; font-weight: 900;}"
+      ],
       "settings": {
         "image_overlay_opacity": 0,
         "image_height": "medium",
