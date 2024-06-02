@@ -5,7 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="">
+    <link rel="dns-prefetch" href="https://cdn.shopify.com">
     <link rel="canonical" href="{{ canonical_url }}">
+
+    {{
+      'https://cdn.shopify.com/s/files/1/0790/1269/2294/files/orbitron-v31-latin-regular.woff2'
+      | preload_tag: 'font', as: 'font', type: 'font/woff2', crossorigin: 'anonymous'
+    }}
+    {{
+      'https://cdn.shopify.com/s/files/1/0790/1269/2294/files/orbitron-v31-latin-500.woff2'
+      | preload_tag: 'font', as: 'font', type: 'font/woff2', crossorigin: 'anonymous'
+    }}
+    {{
+      'https://cdn.shopify.com/s/files/1/0790/1269/2294/files/orbitron-v31-latin-600.woff2'
+      | preload_tag: 'font', as: 'font', type: 'font/woff2', crossorigin: 'anonymous'
+    }}
+    {{
+      'https://cdn.shopify.com/s/files/1/0790/1269/2294/files/orbitron-v31-latin-700.woff2'
+      | preload_tag: 'font', as: 'font', type: 'font/woff2', crossorigin: 'anonymous'
+    }}
+    {{
+      'https://cdn.shopify.com/s/files/1/0790/1269/2294/files/orbitron-v31-latin-800.woff2'
+      | preload_tag: 'font', as: 'font', type: 'font/woff2', crossorigin: 'anonymous'
+    }}
+    {{
+      'https://cdn.shopify.com/s/files/1/0790/1269/2294/files/orbitron-v31-latin-900.woff2'
+      | preload_tag: 'font', as: 'font', type: 'font/woff2', crossorigin: 'anonymous'
+    }}
+
+    {% render 'css-fonts' %}
 
     {%- if settings.favicon != blank -%}
       <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
