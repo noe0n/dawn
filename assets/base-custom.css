@@ -22,7 +22,7 @@ body {
     position: absolute;
     width: 100%;
     backdrop-filter: blur(6px);
-    /* background: rgba(0,0,0,0.0); */
+    background: rgba(0,0,0,0.0);
     /* transition: background .5s ease; */
 }
 .home-page .scrolled-past-header .header-wrapper {
