@@ -76,6 +76,10 @@
         "heading_pqJC3b",
         "text_aw83KR"
       ],
+      "custom_css": [
+        ".banner {min-height: 80vh;}",
+        ".banner__heading {max-width: 70rem;}"
+      ],
       "settings": {
         "image_overlay_opacity": 0,
         "image_overlay_opacity_top": 100,
