@@ -1,0 +1,18 @@
+body {
+    background-color: black !important;
+    background: black !important;
+}
+
+/*--- VIDEO BACKGROUND ---*/
+#background-video {
+    position: fixed;
+    left: 0;
+    top: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    background-size: cover;
+    overflow: hidden;
+}
