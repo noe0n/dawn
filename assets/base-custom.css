@@ -19,11 +19,11 @@ body {
 
 /*--- HEADER ---*/
 .home-page .header-wrapper{
-    position: absolute;
-    width: 100%;
+    /* position: absolute; */
+    /* width: 100%; */
     background: rgba(0,0,0,0.0);
     transition: background .5s ease;
 }
 .home-page .scrolled-past-header .header-wrapper {
     background: rgba(0,0,0,1);
-  }
+}
