@@ -385,5 +385,14 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+
+    {% comment %}------- CUSTOM CODE STARTING -------{% endcomment %}
+    {% if template == 'index' %}
+      <video autoplay muted loop id="background-video">
+        <source src="https://cdn.shopify.com/videos/c/o/v/b2829207202e4c08b6127ee2b3f6faac.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    {% endif %}
+    {% comment %}------- CUSTOM CODE ENDING -------{% endcomment %}
   </body>
 </html>
