@@ -28,7 +28,7 @@
     opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
     /*--- CUSTOM CODE STARTING ---*/
     background: linear-gradient(
-      rgba(var(--color-foreground), {{ section.settings.image_overlay_opacity_top | divided_by: 100.0 }}),
+      rgba(var(--color-foreground), {{ section.settings.image_overlay_opacity_top | divided_by: 100.0 }}) {{ section.settings.image_overlay_opacity_top_position }}%,
       rgba(var(--color-foreground), {{ section.settings.image_overlay_opacity_bottom | divided_by: 100.0 }}) {{ section.settings.image_overlay_opacity_bottom_position }}%
     );
     /*--- CUSTOM CODE ENDING ---*/
@@ -218,6 +218,16 @@
     },
     {
       "type": "range",
+      "id": "image_overlay_opacity_top_position",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "label": "Image overlay opacity TOP POSITION",
+      "default": 50
+    },
+    {
+      "type": "range",
       "id": "image_overlay_opacity_bottom",
       "min": 0,
       "max": 100,
@@ -233,7 +243,7 @@
       "max": 100,
       "step": 1,
       "unit": "%",
-      "label": "Image overlay opacity BOTTOM",
+      "label": "Image overlay opacity BOTTOM POSITION",
       "default": 50
     },
     //--- CUSTOM CODE ENDING ---//
