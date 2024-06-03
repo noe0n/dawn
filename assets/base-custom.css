@@ -1,61 +1,83 @@
 body {
-    background-color: black !important;
-    background: black !important;
+  background-color: black !important;
+  background: black !important;
 }
 
 /*--- VIDEO BACKGROUND ---*/
 #background-video {
-    position: fixed;
-    left: 0;
-    top: 0;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -1;
-    background-size: cover;
-    overflow: hidden;
+  position: fixed;
+  left: 0;
+  top: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  background-size: cover;
+  overflow: hidden;
 }
 
 /*--- HEADER ---*/
-.home-page .header-wrapper{
-    position: absolute;
-    width: 100%;
-    backdrop-filter: blur(0px);
-    -webkit-backdrop-filter: blur(0px);
-    background: rgba(0,0,0,0.0);
-    transition: background .5s ease, backdrop-filter .5s ease, -webkit-backdrop-filter .5s ease;
+.home-page .header-wrapper {
+  position: absolute;
+  width: 100%;
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.5s ease, backdrop-filter 0.5s ease, -webkit-backdrop-filter 0.5s ease;
 }
 .home-page .scrolled-past-header .header-wrapper {
-    background: rgba(0,0,0,0.25);
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px);
+  background: rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
 }
-
-/*--- FONTS SETTINGS ---*/
-.h2 { /*small*/
-    font-family: 'Montserrat';
-    font-weight: 700;
-}
-.h1 { /*medium*/
-    font-family: 'Orbitron';
-    font-weight: 500;
-}
-
 
 /*--- BUTTONS ---*/
 .button {
-    background-color: #fff;
-    color: #000;
-    border: 1px solid white;
-    transform: scale(1.05);
-    box-shadow: 0 0 30px #00000050;
-    transition: ease .2s all;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid white;
+  transform: scale(1.05);
+  box-shadow: 0 0 30px #00000050;
+  transition: ease 0.2s all;
 }
 .button:hover {
-    background-color: #fff0;
-    color: #fff;
-    border: 1px solid white;
-    /* transform: scale(1); */
-    box-shadow: 0 0 #0000;
+  background-color: #fff0;
+  color: #fff;
+  border: 1px solid white;
+  /* transform: scale(1); */
+  box-shadow: 0 0 #0000;
+}
+
+/*--- FONTS SETTINGS ---*/
+.h2 {
+  /*small*/
+  font-family: 'Montserrat';
+  font-weight: 700;
+}
+.h1 {
+  /*medium*/
+  font-family: 'Orbitron';
+  font-weight: 500;
+}
+
+/*------- POUR ECRANS LARGES (DESKTOP) -------*/
+@media (min-width: 990px) {
+  .h2 {
+    font-size: calc(var(--font-heading-scale) * 3.3rem) !important;
+  }
+}
+
+/*------- POUR ECRANS MOYENS (TABLET) -------*/
+@media (min-width: 750px) and (max-width: 989px) {
+  .h2 {
+    font-size: calc(var(--font-heading-scale) * 3rem) !important;
+  }
+}
+
+/*------- POUR PETITS ECRANS (SMARTPHONE) -------*/
+@media (max-width: 749px) {
+  .h2 {
+    font-size: calc(var(--font-heading-scale) * 2.7rem) !important;
+  }
 }
