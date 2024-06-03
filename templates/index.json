@@ -6,24 +6,24 @@
         "heading_7c79eR": {
           "type": "heading",
           "settings": {
-            "heading": "Bannière avec image",
+            "heading": "VISIBILITÉ TOTALE, SÉCURITÉ INTÉGRALE.",
             "heading_size": "h1"
           }
         },
         "text_PHFgaC": {
           "type": "text",
           "settings": {
-            "text": "Fournissez des détails à votre clientèle sur l’image\/les images ou le contenu de la bannière du modèle.",
+            "text": "Une révolution dans l'éclairage de vélo. Notre système innovant offre une visibilité à 360°, illuminant le cycliste dans toute sa largeur et incluant des indicateurs de direction. Intégré dans les extrémités du guidon, SideLights allie sécurité et style.",
             "text_style": "body"
           }
         },
         "buttons_JXwQCm": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Texte du bouton",
+            "button_label_1": "Tester en avant-première",
             "button_link_1": "",
             "button_style_secondary_1": false,
-            "button_label_2": "Texte du bouton",
+            "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
@@ -35,13 +35,15 @@
         "buttons_JXwQCm"
       ],
       "custom_css": [
-        "h2 {font-family: \"Orbitron\", sans-serif; font-weight: 900;}"
+        ".banner {min-height: 100vh;}"
       ],
       "settings": {
-        "image_overlay_opacity": 50,
+        "image_overlay_opacity": 0,
+        "image_overlay_opacity_top": 0,
+        "image_overlay_opacity_bottom": 0,
         "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "scheme-4",
         "image_behavior": "none",
