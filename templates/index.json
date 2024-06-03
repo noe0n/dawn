@@ -38,9 +38,10 @@
         ".banner {min-height: 100vh;}"
       ],
       "settings": {
-        "image_overlay_opacity": 0,
-        "image_overlay_opacity_top": 0,
+        "image_overlay_opacity": 100,
+        "image_overlay_opacity_top": 100,
         "image_overlay_opacity_bottom": 0,
+        "image_overlay_opacity_bottom_position": 46,
         "image_height": "medium",
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
