@@ -63,6 +63,9 @@ body {
 
 /*------- POUR ECRANS LARGES (DESKTOP) -------*/
 @media (min-width: 990px) {
+  .h1 {
+    font-size: calc(var(--font-heading-scale) * 3.8rem) !important;
+  }
   .h2 {
     font-size: calc(var(--font-heading-scale) * 3.3rem) !important;
   }
@@ -70,6 +73,9 @@ body {
 
 /*------- POUR ECRANS MOYENS (TABLET) -------*/
 @media (min-width: 750px) and (max-width: 989px) {
+  .h1 {
+    font-size: calc(var(--font-heading-scale) * 3.4rem) !important;
+  }
   .h2 {
     font-size: calc(var(--font-heading-scale) * 3rem) !important;
   }
@@ -77,6 +83,9 @@ body {
 
 /*------- POUR PETITS ECRANS (SMARTPHONE) -------*/
 @media (max-width: 749px) {
+  .h1 {
+    font-size: calc(var(--font-heading-scale) * 3rem) !important;
+  }
   .h2 {
     font-size: calc(var(--font-heading-scale) * 2.7rem) !important;
   }
