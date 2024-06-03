@@ -4,6 +4,9 @@
   "sections": {
     "header": {
       "type": "header",
+      "custom_css": [
+        ".header__search,.header__icon--cart {display: none !important;}"
+      ],
       "settings": {
         "logo_position": "middle-center",
         "menu": "main-menu",
