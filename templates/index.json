@@ -70,23 +70,11 @@
             "text": "*Selon une <a href=\"https:\/\/www.bfu.ch\/fr\" target=\"_blank\" title=\"BFU | Bureau de prévention des accidents\">étude du Bureau suisse de prévention des accidents <\/a>.",
             "text_style": "body"
           }
-        },
-        "buttons_6r89QR": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Texte du bouton",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Texte du bouton",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
         "heading_pqJC3b",
-        "text_aw83KR",
-        "buttons_6r89QR"
+        "text_aw83KR"
       ],
       "settings": {
         "image_overlay_opacity": 0,
