@@ -33,10 +33,15 @@ body {
 }
 
 /*--- FONTS SETTINGS ---*/
-.h1 {
+.h2 { /*small*/
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+.h1 { /*medium*/
     font-family: 'Orbitron';
     font-weight: 500;
 }
+
 
 /*--- BUTTONS ---*/
 .button {
