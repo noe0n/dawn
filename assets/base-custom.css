@@ -30,3 +30,9 @@ body {
     backdrop-filter: blur(6px);
 
 }
+
+/*--- FONTS SETTINGS ---*/
+.h1 {
+    font-family: 'Orbitron';
+    font-weight: 500;
+}
