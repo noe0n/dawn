@@ -315,7 +315,9 @@
     </script>
   </head>
 
+  {% comment %}------- CUSTOM CODE STARTING - Si template = index (page d'accueil) attribue classe home-page -------{% endcomment %}
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}{% if template == 'index' %} home-page{% endif %}">
+    {% comment %}------- CUSTOM CODE ENDING -------{% endcomment %}
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ 'accessibility.skip_to_text' | t }}
     </a>
