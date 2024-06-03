@@ -18,12 +18,12 @@ body {
 }
 
 /*--- HEADER ---*/
-.home-page > .header-wrapper{
+.home-page .header-wrapper{
     position: absolute!important;
     width: 100%!important;
     background: rgba(0,0,0,0.0)!important;
     transition: background .5s ease!important;
 }
-.home-page > .scrolled-past-header .header-wrapper {
+.home-page .scrolled-past-header .header-wrapper {
     background: rgba(0,0,0,0.9)!important;
   }
