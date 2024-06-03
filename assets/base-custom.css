@@ -36,3 +36,20 @@ body {
     font-family: 'Orbitron';
     font-weight: 500;
 }
+
+/*--- BUTTONS ---*/
+.button {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid white;
+    transform: scale(1.05);
+    box-shadow: 0 0 30px #00000050;
+    transition: ease .2s all;
+}
+.button:hover {
+    background-color: #fff0;
+    color: #fff;
+    border: 1px solid white;
+    transform: scale(1);
+    box-shadow: 0 0 #0000;
+}
