@@ -81,8 +81,8 @@
         ".banner__heading {max-width: 70rem;}"
       ],
       "settings": {
-        "image_overlay_opacity": 0,
-        "image_overlay_opacity_top": 100,
+        "image_overlay_opacity": 100,
+        "image_overlay_opacity_top": 0,
         "image_overlay_opacity_top_position": 0,
         "image_overlay_opacity_bottom": 100,
         "image_overlay_opacity_bottom_position": 100,
@@ -96,10 +96,83 @@
         "stack_images_on_mobile": true,
         "show_text_below": false
       }
+    },
+    "multicolumn_dFTpYM": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_bAPdNe": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon_v3_3.png",
+            "title": "<strong>Visibilité à 360<\/strong>",
+            "text": "<p>Assurez une sécurité maximale avec une visibilité à 360°, éliminant les angles morts et renforçant votre présence sur la route.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_MWgaAA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon_v3_2.png",
+            "title": "<strong>Illuminé sur toute la largeur<\/strong>",
+            "text": "<p>SideLights illumine toute la largeur de votre vélo, permettant aux autres véhicules de mieux estimer la distance de sécurité lors de dépassements.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_rEcU8j": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon_v3.png",
+            "title": "<strong>Signalisation intuitive<\/strong>",
+            "text": "<p>Soyez clair dans vos intentions de virage avec nos indicateurs de direction intégrés, améliorant la communication et la sécurité sur la route.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_bAPdNe",
+        "column_MWgaAA",
+        "column_rEcU8j"
+      ],
+      "settings": {
+        "title": "Notre promesse : Votre sécurité.",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-4",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "video_ig4jrx": {
+      "type": "video",
+      "settings": {
+        "heading": "Voyez par vous-même.",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video": "shopify:\/\/files\/videos\/SIDELIGHT_PRES_1.2 modifié.mp4",
+        "video_url": "",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "scheme-4",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "image_banner_rKJfUY",
-    "image_banner_4gtVzB"
+    "image_banner_4gtVzB",
+    "multicolumn_dFTpYM",
+    "video_ig4jrx"
   ]
 }
