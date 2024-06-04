@@ -155,6 +155,9 @@
     },
     "video_ig4jrx": {
       "type": "video",
+      "custom_css": [
+        ".deferred-media__poster-button {background-color: white; color: black;}"
+      ],
       "settings": {
         "heading": "Voyez par vous-même.",
         "heading_size": "h1",
