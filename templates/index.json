@@ -170,12 +170,66 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "multicolumn_yf69dL": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_6T69kE": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Installation et utilisation facile<\/strong>",
+            "text": "<p>Produit plug-and-play, installable en quelques minutes : une fois fixé, plus besoin de démonter votre système. Recharge simplifiée avec nos batteries interchangeables en 5s.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Xt3Wi9": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Design ergonomique<\/strong>",
+            "text": "<p>Produit ingénieusement développé pour s'intégrer dans l'espace intérieur vide de votre guidon, offrant un design sans compromis.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_y946tT": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Compatible avec votre guidon<\/strong>",
+            "text": "<p>S'adapte à la majorité des guidons droits ou légèrement incurvés*. *Backsweep entre 0° et 25° \/ diamètre interne de min. 15mm.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_6T69kE",
+        "column_Xt3Wi9",
+        "column_y946tT"
+      ],
+      "settings": {
+        "title": "Pensé par des cyclistes, et ça se voit.",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-4",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "image_banner_rKJfUY",
     "image_banner_4gtVzB",
     "multicolumn_dFTpYM",
-    "video_ig4jrx"
+    "video_ig4jrx",
+    "multicolumn_yf69dL"
   ]
 }
