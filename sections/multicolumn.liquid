@@ -14,24 +14,15 @@
     }
   }
 
+  /*--- CUSTOM CODE STARTING ---*/
   .section-{{ section.id }} {
-    background: rgba(255, 255, 255, {{ section.settings.background_opacity | divided_by: 100 }});
-  }
-
-  .section-{{ section.id }}:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    opacity: {{ section.settings.background_opacity | divided_by: 100.0 }};
     background: linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, {{ section.settings.gradient_opacity_start | divided_by: 100 }}),
-      rgba(255, 255, 255, {{ section.settings.gradient_opacity_end | divided_by: 100 }})
+      rgba(var(--color-foreground), {{ section.settings.background_gradient_opacity_start | divided_by: 100.0 }}) {{ section.settings.background_gradient_opacity_start_position }}%,
+      rgba(var(--color-foreground), {{ section.settings.background_gradient_opacity_end | divided_by: 100.0 }}) {{ section.settings.background_gradient_opacity_end_position }}%
     );
-    z-index: -1;
   }
+  /*--- CUSTOM CODE ENDING ---*/
 {%- endstyle -%}
 
 {%- liquid
@@ -316,29 +307,49 @@
       "id": "background_opacity",
       "min": 0,
       "max": 100,
-      "step": 10,
+      "step": 1,
       "unit": "%",
       "label": "Background opacity",
-      "default": 100
+      "default": 0
     },
     {
       "type": "range",
-      "id": "gradient_opacity_start",
+      "id": "background_gradient_opacity_start",
       "min": 0,
       "max": 100,
-      "step": 10,
+      "step": 1,
       "unit": "%",
       "label": "Gradient opacity start",
       "default": 100
     },
     {
       "type": "range",
-      "id": "gradient_opacity_end",
+      "id": "background_gradient_opacity_start_position",
       "min": 0,
       "max": 100,
-      "step": 10,
+      "step": 1,
+      "unit": "%",
+      "label": "Gradient opacity start position",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "background_gradient_opacity_end",
+      "min": 0,
+      "max": 100,
+      "step": 1,
       "unit": "%",
       "label": "Gradient opacity end",
+      "default": 100
+    },
+    {
+      "type": "range",
+      "id": "background_gradient_opacity_end_position",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "label": "Gradient opacity end position",
       "default": 100
     },
     {
