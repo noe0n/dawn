@@ -18,8 +18,8 @@
   .section-{{ section.id }} {
     opacity: {{ section.settings.background_opacity | divided_by: 100.0 }};
     background: linear-gradient(
-      rgba(var(--color-foreground), {{ section.settings.background_gradient_opacity_start | divided_by: 100.0 }}) {{ section.settings.background_gradient_opacity_start_position }}%,
-      rgba(var(--color-foreground), {{ section.settings.background_gradient_opacity_end | divided_by: 100.0 }}) {{ section.settings.background_gradient_opacity_end_position }}%
+      rgba(var(--color-background), {{ section.settings.background_gradient_opacity_start | divided_by: 100.0 }}) {{ section.settings.background_gradient_opacity_start_position }}%,
+      rgba(var(--color-background), {{ section.settings.background_gradient_opacity_end | divided_by: 100.0 }}) {{ section.settings.background_gradient_opacity_end_position }}%
     );
   }
   /*--- CUSTOM CODE ENDING ---*/
