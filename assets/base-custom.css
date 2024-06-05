@@ -1,3 +1,7 @@
+:root {
+  --custom-background-color-rgb: 12, 12, 12;
+  --custom-background-color-hex: #0c0c0c;
+}
 body {
   background-color: black !important;
   background: black !important;
