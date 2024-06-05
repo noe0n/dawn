@@ -223,6 +223,57 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "image_banner_tXFRFd": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_NHLmtJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "SIDELIGHTS BETA : DEVENEZ TESTEUR.",
+            "heading_size": "h1"
+          }
+        },
+        "text_qRWkkt": {
+          "type": "text",
+          "settings": {
+            "text": "Soyez l'un des premiers à tester SideLights et à donner votre avis en participant au programme <strong>SideLights <\/strong><em>Beta<\/em>.",
+            "text_style": "subtitle"
+          }
+        },
+        "buttons_VBJhgx": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Tester SideLights",
+            "button_link_1": "shopify:\/\/pages\/pre-order",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_NHLmtJ",
+        "text_qRWkkt",
+        "buttons_VBJhgx"
+      ],
+      "settings": {
+        "image_overlay_opacity": 100,
+        "image_overlay_opacity_top": 0,
+        "image_overlay_opacity_top_position": 0,
+        "image_overlay_opacity_bottom": 100,
+        "image_overlay_opacity_bottom_position": 100,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
     }
   },
   "order": [
@@ -230,6 +281,7 @@
     "image_banner_4gtVzB",
     "multicolumn_dFTpYM",
     "video_ig4jrx",
-    "multicolumn_yf69dL"
+    "multicolumn_yf69dL",
+    "image_banner_tXFRFd"
   ]
 }
