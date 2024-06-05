@@ -13,16 +13,6 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
-
-  /*--- CUSTOM CODE STARTING ---*/
-  .multicolumn {
-    opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
-    background: linear-gradient(
-      rgba(var(--color-foreground), {{ section.settings.image_overlay_opacity_top | divided_by: 100.0 }}) {{ section.settings.image_overlay_opacity_top_position }}%,
-      rgba(var(--color-foreground), {{ section.settings.image_overlay_opacity_bottom | divided_by: 100.0 }}) {{ section.settings.image_overlay_opacity_bottom_position }}%
-    );
-  }
-  /*--- CUSTOM CODE ENDING ---*/
 {%- endstyle -%}
 
 {%- liquid
