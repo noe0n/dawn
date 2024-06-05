@@ -3,8 +3,8 @@
   --custom-background-color-hex: #0c0c0c;
 }
 body {
-  background-color: black !important;
-  background: black !important;
+  background-color: var(--custom-background-color-rgb) !important;
+  background: var(--custom-background-color-rgb) !important;
 }
 
 /*--- VIDEO BACKGROUND ---*/
