@@ -144,7 +144,7 @@
         "columns_desktop": 3,
         "column_alignment": "center",
         "background_opacity": 100,
-        "background_gradient_opacity_start": 0,
+        "background_gradient_opacity_start": 100,
         "background_gradient_opacity_start_position": 0,
         "background_gradient_opacity_end": 100,
         "background_gradient_opacity_end_position": 100,
