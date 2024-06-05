@@ -15,7 +15,7 @@
   }
 
   /*--- CUSTOM CODE STARTING ---*/
-  .section-{{ section.id }} {
+  .section-{{ section.id }}::after {
     opacity: {{ section.settings.background_opacity | divided_by: 100.0 }};
     background: linear-gradient(
       rgba(var(--color-foreground), {{ section.settings.background_gradient_opacity_start | divided_by: 100.0 }}) {{ section.settings.background_gradient_opacity_start_position }}%,
