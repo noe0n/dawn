@@ -6,8 +6,8 @@
         "heading_7c79eR": {
           "type": "heading",
           "settings": {
-            "heading": "VISIBILITÉ TOTALE, <br>SÉCURITÉ INTÉGRALE.",
-            "heading_size": "h1"
+            "heading": "For a safer ride.",
+            "heading_size": "h0"
           }
         },
         "text_PHFgaC": {
@@ -20,7 +20,7 @@
         "buttons_JXwQCm": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Tester en avant-première",
+            "button_label_1": "Commander en avant-première",
             "button_link_1": "shopify:\/\/pages\/pre-order",
             "button_style_secondary_1": false,
             "button_label_2": "",
