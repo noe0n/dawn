@@ -38,7 +38,7 @@
         ".banner {min-height: 100vh;}"
       ],
       "settings": {
-        "image_overlay_opacity": 0,
+        "image_overlay_opacity": 20,
         "image_overlay_opacity_top": 100,
         "image_overlay_opacity_top_position": 0,
         "image_overlay_opacity_bottom": 100,
