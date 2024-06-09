@@ -52,6 +52,11 @@ body {
   box-shadow: 0 0 200px #ffffff40;
 }
 
+/*--- TITLES ---*/
+.title.inline-richtext.h1 {
+  text-align: center !important;
+}
+
 /*--- FONTS SETTINGS ---*/
 .h2 {
   /*small*/
