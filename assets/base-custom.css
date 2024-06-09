@@ -2,8 +2,9 @@
   --custom-background-color-rgb: 12, 12, 12;
   --custom-background-color-hex: #0c0c0c;
 
-  --buttons-border-width: 0.1rem !important;
+  --border-offset: none !important;
 }
+
 body {
   background-color: var(--custom-background-color-rgb) !important;
   background: var(--custom-background-color-rgb) !important;
@@ -45,12 +46,12 @@ body {
   -webkit-backdrop-filter: blur(25px);
   color: rgba(255, 255, 255);
   box-shadow: 0 0 30px #00000040;
+  border: 1px solid rgba(var(--color-foreground), 0.08);
   transition: ease 0.2s all;
 }
 .button:hover {
   background-color: rgba(255, 255, 255, 1);
   color: rgba(0, 0, 0);
-  box-shadow: 0 0 #0000;
   box-shadow: 0 0 200px #ffffff40;
 }
 
