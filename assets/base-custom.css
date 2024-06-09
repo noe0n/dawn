@@ -68,6 +68,11 @@ body {
 }
 .h1 {
   /*medium*/
+  font-family: 'Montserrat';
+  font-weight: 700;
+}
+.h0 {
+  /*medium*/
   font-family: 'Orbitron';
   font-weight: 500;
 }
