@@ -56,7 +56,7 @@ body {
 .title.inline-richtext.h1 {
   text-align: center !important;
 }
-.title-wrapper-with-link > .title.inline-richtext.h1 {
+.title-wrapper-with-link {
   justify-content: center !important;
 }
 
