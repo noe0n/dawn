@@ -2,7 +2,7 @@
   --custom-background-color-rgb: 12, 12, 12;
   --custom-background-color-hex: #0c0c0c;
 
-  --buttons-border-width: 0.1rem;
+  --buttons-border-width: 0.1rem !important;
 }
 body {
   background-color: var(--custom-background-color-rgb) !important;
