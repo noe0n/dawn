@@ -70,11 +70,13 @@ body {
   /*medium*/
   font-family: 'Montserrat';
   font-weight: 700;
+  text-transform: uppercase;
 }
 .h0 {
-  /*medium*/
+  /*big*/
   font-family: 'Orbitron';
   font-weight: 500;
+  text-transform: uppercase;
 }
 
 /*------- POUR ECRANS LARGES (DESKTOP) -------*/
