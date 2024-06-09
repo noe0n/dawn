@@ -53,7 +53,7 @@ body {
 }
 
 /*--- TITLES ---*/
-.title.inline-richtext.h1 {
+.title {
   text-align: center !important;
 }
 
