@@ -38,10 +38,10 @@
         ".banner {min-height: 100vh;}"
       ],
       "settings": {
-        "image_overlay_opacity": 20,
-        "image_overlay_opacity_top": 100,
+        "image_overlay_opacity": 100,
+        "image_overlay_opacity_top": 0,
         "image_overlay_opacity_top_position": 0,
-        "image_overlay_opacity_bottom": 100,
+        "image_overlay_opacity_bottom": 30,
         "image_overlay_opacity_bottom_position": 100,
         "image_height": "medium",
         "desktop_content_position": "bottom-center",
@@ -82,7 +82,7 @@
       ],
       "settings": {
         "image_overlay_opacity": 100,
-        "image_overlay_opacity_top": 0,
+        "image_overlay_opacity_top": 30,
         "image_overlay_opacity_top_position": 0,
         "image_overlay_opacity_bottom": 100,
         "image_overlay_opacity_bottom_position": 100,
