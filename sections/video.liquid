@@ -13,6 +13,15 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+  /*--- CUSTOM CODE STARTING ---*/
+  .section-{{ section.id }} {
+    background: linear-gradient(
+      rgba(var(--custom-background-color-rgb), {{ section.settings.background_gradient_opacity_start | divided_by: 100.0 }}) {{ section.settings.background_gradient_opacity_start_position }}%,
+      rgba(var(--custom-background-color-rgb), {{ section.settings.background_gradient_opacity_end | divided_by: 100.0 }}) {{ section.settings.background_gradient_opacity_end_position }}%
+    );
+  }
+  /*--- CUSTOM CODE ENDING ---*/
 {%- endstyle -%}
 
 {%- liquid
@@ -38,7 +47,7 @@
   {%- endif %}
 {%- endcapture -%}
 
-<div class="color-{{ section.settings.color_scheme }} gradient">
+<div class="section-{{ section.id }} color-{{ section.settings.color_scheme }} gradient">
   <div class="video-section isolate{% unless section.settings.full_width %} page-width{% endunless %} section-{{ section.id }}-padding">
     <div
       {% if section.settings.full_width %}
