@@ -16,7 +16,6 @@
 
   /*--- CUSTOM CODE STARTING ---*/
   .section-{{ section.id }} {
-    opacity: {{ section.settings.background_opacity | divided_by: 100.0 }};
     background: linear-gradient(
       rgba(var(--custom-background-color-rgb), {{ section.settings.background_gradient_opacity_start | divided_by: 100.0 }}) {{ section.settings.background_gradient_opacity_start_position }}%,
       rgba(var(--custom-background-color-rgb), {{ section.settings.background_gradient_opacity_end | divided_by: 100.0 }}) {{ section.settings.background_gradient_opacity_end_position }}%
@@ -301,16 +300,6 @@
       ],
       "default": "left",
       "label": "t:sections.multicolumn.settings.column_alignment.label"
-    },
-    {
-      "type": "range",
-      "id": "background_opacity",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "unit": "%",
-      "label": "Background opacity",
-      "default": 0
     },
     {
       "type": "range",
