@@ -150,7 +150,7 @@
                   {% if block.settings.button_link_1 == blank and block.settings.button_isPopup == false %}
                     role="link" aria-disabled="true"
                   {% elsif block.settings.button_isPopup %}
-                    onclick="openPopup()" href="#"
+                    onclick="openPopup()" style="cursor: pointer;"
                   {% else %}
                     href="{{ block.settings.button_link_1 }}"
                   {% endif %}
