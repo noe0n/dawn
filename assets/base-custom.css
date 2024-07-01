@@ -4,8 +4,8 @@
 }
 
 body {
-  background-color: var(--custom-background-color-rgb) !important;
-  background: var(--custom-background-color-rgb) !important;
+  background-color: var(--custom-background-color-hex) !important;
+  background: var(--custom-background-color-hex) !important;
 }
 
 /*--- VIDEO BACKGROUND ---*/
