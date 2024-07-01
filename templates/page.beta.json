@@ -37,7 +37,7 @@
         "row_LzzFt8"
       ],
       "custom_css": [
-
+        ".button {animation: glowing 2500ms infinite; animation-timing-function: ease;}"
       ],
       "settings": {
         "image_height": "medium",
