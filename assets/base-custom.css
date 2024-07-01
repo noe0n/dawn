@@ -54,16 +54,16 @@ body {
 }
 @keyframes glowing {
   0% {
-    background-color: #a8a505;
-    box-shadow: 0 0 5px #a8a505;
+    background-color: #00000040;
+    box-shadow: 0 0 5px #00000040;
   }
   50% {
-    background-color: #fffb00;
-    box-shadow: 0 0 20px #fffb00;
+    background-color: #fffec2d2;
+    box-shadow: 0 0 20px #fffec2d2;
   }
   100% {
-    background-color: #a8a505;
-    box-shadow: 0 0 5px #a8a505;
+    background-color: #00000040;
+    box-shadow: 0 0 5px #00000040;
   }
 }
 
