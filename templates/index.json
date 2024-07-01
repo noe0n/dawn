@@ -45,7 +45,8 @@
       ],
       "custom_css": [
         ".banner {min-height: 100vh;}",
-        ".button {animation: glowing 2200ms infinite;}"
+        ".button {animation: glowing 2500ms infinite;}",
+        ".button:hover {background-color: rgba(255, 251, 194, 0.2); color: rgba(255,255,255,1); box-shadow: 0 0 35px #fffbc2d2}"
       ],
       "settings": {
         "image_overlay_opacity": 100,
