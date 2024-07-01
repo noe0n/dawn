@@ -11,65 +11,271 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
     },
-    "image_banner_gHAXnR": {
+    "image_banner_fyqdnt": {
       "type": "image-banner",
-      "blocks": {
-        "heading_g4cbr6": {
-          "type": "heading",
-          "settings": {
-            "heading": "Bannière avec image",
-            "heading_size": "h1"
-          }
-        },
-        "text_hpNhnN": {
-          "type": "text",
-          "settings": {
-            "text": "Fournissez des détails à votre clientèle sur l’image\/les images ou le contenu de la bannière du modèle.",
-            "text_style": "body"
-          }
-        },
-        "buttons_NJirfX": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Texte du bouton",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Texte du bouton",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_g4cbr6",
-        "text_hpNhnN",
-        "buttons_NJirfX"
+      "custom_css": [
+        ".banner {position: fixed; width: 100%; height: 100vh;}"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/claessens-arthur_heig-vd-1406-Avec_accentuation-Bruit_5e3dac9b-09b5-4a2a-95e3-5ef0de6542bc.jpg",
+        "video_background": false,
+        "video_url": "",
         "image_overlay_opacity": 0,
-        "image_overlay_opacity_top": 100,
-        "image_overlay_opacity_top_position": 0,
-        "image_overlay_opacity_bottom": 100,
-        "image_overlay_opacity_bottom_position": 100,
-        "image_height": "medium",
+        "image_height": "adapt",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-4",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "collapsible_content_bDH7tH": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_Kc7JbV": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Qu'inclut le produit SideLights ?",
+            "icon": "question_mark",
+            "row_content": "<p>Le produit SideLights inclut une lumière gauche, une lumière droite, deux batteries, des anneaux d’adaptation au guidon, un câble de chargement USB Type-C et un outil de montage.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Wadq3j": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Comment obtenir le produit SideLights ?",
+            "icon": "question_mark",
+            "row_content": "<p>Vous pouvez obtenir le produit SideLights via notre <a href=\"https:\/\/sidelights.com\/\" target=\"_blank\" title=\"https:\/\/sidelights.com\/\"><span style=\"text-decoration:underline\">site internet<\/span><\/a> ou via nos magasins partenaires. Dans le cas d’une commande sur notre site internet, le produit SideLights vous sera envoyé par colis par la poste. Si vous souhaitez acheter le produit SideLights en magasin, contactez-nous à l’adresse <a href=\"mailto:info@sidelights.com\" target=\"_blank\" title=\"mailto:info@sidelights.com\"><span style=\"text-decoration:underline\">info@sidelights.com<\/span><\/a> et nous vous renseignerons sur nos magasins partenaires. <\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_rzKqGF": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Quelle est la garantie de SideLights BETA ?",
+            "icon": "question_mark",
+            "row_content": "<p>Dans le cadre de la pré-série SideLights BETA, aucun remboursement ne sera effectué. <\/p><p>Si vous rencontrez un problème avec votre produit SideLights, veuillez nous contacter à l’adresse <a href=\"mailto:info@sidelights.com\" target=\"_blank\" title=\"mailto:info@sidelights.com\"><span style=\"text-decoration:underline\">info@sidelights.com<\/span><\/a>. <\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Xb3438": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "En quoi consiste la participation au test utilisateur·rice·s ?",
+            "icon": "question_mark",
+            "row_content": "<p>SideLights BETA est la première version de notre produit, vous êtes donc les premier·ère·s à utiliser ce produit. Participez au développement du produit en nous communiquant vos retours et commentaires, ils nous sont précieux !<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_b9rUMN": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Le système SideLights permet-il d’éclairer la route ?",
+            "icon": "question_mark",
+            "row_content": "<p>Oui, le système permet de voir et d’être vu. Grâce à une puissante double lumière avant, le système permet de bien voir la route, même en cas de nuit complète.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_rePM9V": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "La fonction clignotante remplace-t-elle le geste de la main lors d’un changement de direction ?",
+            "icon": "question_mark",
+            "row_content": "<p>Non, le clignoteur augmente la visibilité lors de l’annonce d’un changement de direction, mais ne remplace pas le geste obligatoire de la main.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_mtdYdA": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Le système de lumière SideLights remplace-t-il un système de lumières classique ayant une lumière avant et arrière ?",
+            "icon": "question_mark",
+            "row_content": "<p>En Suisse, SideLights peut remplacer la lumière avant et arrière de votre vélo. En ce qui concerne les vélos électriques rapides (45km\/h), SideLights ne remplace aucune lumière. <\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_Kc7JbV",
+        "collapsible_row_Wadq3j",
+        "collapsible_row_rzKqGF",
+        "collapsible_row_Xb3438",
+        "collapsible_row_b9rUMN",
+        "collapsible_row_rePM9V",
+        "collapsible_row_mtdYdA"
+      ],
+      "custom_css": [
+        ".color-scheme-4 {background: linear-gradient( 180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.8) 100% );}"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Commandes SideLights BETA",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "scheme-4",
+        "container_color_scheme": "scheme-4",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_DHp6jQ": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_7WxaFV": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Avec quels guidons le produit SideLights est-il compatible ? ",
+            "icon": "question_mark",
+            "row_content": "<p>Le produit SideLights est compatible selon deux conditions : <\/p><ul><li>Le diamètre interne (trou dans le guidon) mesure au minimum 15mm. <\/li><li>L’angle du guidon qui tend vers le cycliste (backsweep) ne dépasse pas les 25 degrés. <\/li><\/ul>",
+            "page": ""
+          }
+        },
+        "collapsible_row_TDAw9C": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Dois-je changer de poignée pour monter le système SideLights sur mon vélo ? ",
+            "icon": "question_mark",
+            "row_content": "<p>Si vous avez la possibilité d’accéder au trou interne de votre guidon avec vos poignées actuelles, vous pouvez les garder.  <\/p><p>Si vos poignées ne permettent aucune ouverture à leur embout, il vous faudra changer de poignée.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_q4e7pW": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Ai-je besoin d’outils pour monter le système SideLights sur mon vélo ? ",
+            "icon": "question_mark",
+            "row_content": "<p>Vous n’aurez pas besoin d’outils particuliers pour monter le produit SideLights sur votre vélo. Tout le nécessaire vous est fourni dans le packaging. <\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_UpgtpQ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Comment monter le système SideLights ? ",
+            "icon": "question_mark",
+            "row_content": "<p>Le montage du système SideLights se veut simple et intuitif. Vous pouvez consulter notre manuel d’utilisation.<\/p><p>Si vous rencontrez un problème dans le montage, vous pouvez nous écrire à l’adresse <a href=\"mailto:info@sidelights.com\" target=\"_blank\" title=\"mailto:info@sidelights.com\"><span style=\"text-decoration:underline\">info@sidelights.com<\/span><\/a>. <\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_7WxaFV",
+        "collapsible_row_TDAw9C",
+        "collapsible_row_q4e7pW",
+        "collapsible_row_UpgtpQ"
+      ],
+      "custom_css": [
+        ".color-scheme-4 {background: rgba(0, 0, 0, 0.8);}"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Compatibilité et Montage",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "scheme-4",
+        "container_color_scheme": "scheme-4",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_hrj7Li": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_84PfM7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Quels sont les avantages de visibilité du système SideLights par rapport à un système de lumières classique ? ",
+            "icon": "question_mark",
+            "row_content": "<p>Le système SideLights vous offre une visibilité à 360 degrés et dans toute votre largeur. Les clignoteurs indicateurs de direction vous accompagnent dans les changements de direction, augmentant ainsi votre visibilité lors d’un changement de direction.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_BpXpwF": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Le système SideLights permet-il d’éclairer la route ? ",
+            "icon": "question_mark",
+            "row_content": "<p>Oui, le système SideLights permet de voir et d’être vu·e. Grâce à ses deux puissantes lumières avants, SideLights vous permet de bien voir la route, peu importe le niveau d’éclairage de la route. <\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_fVP3xK": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "La fonction clignotante remplace-t-elle le geste de la main lors d’un changement de direction ? ",
+            "icon": "question_mark",
+            "row_content": "<p>Non, le clignoteur augmente votre visibilité lors de l’annonce d’un changement de direction, mais ne remplace pas le geste obligatoire de la main.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_UDV6NJ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Le système de lumières SideLights remplace-t-il un système de lumières classique ayant une lumière avant et arrière ? ",
+            "icon": "question_mark",
+            "row_content": "<p>En Suisse, le système SideLights peut remplacer la lumière avant et arrière de votre vélo. Concernant les vélos électriques rapides (45km\/h), le système SideLights ne remplace aucune lumière.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_J3C4NF": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Comment recharger mon système SideLights ? ",
+            "icon": "question_mark",
+            "row_content": "<p>Les deux lumières du produit Sidelights ont chacune une batterie qui s’enlève de la partie fixe du système. Ces batteries se rechargent via un branchement usb-c qui vous est fourni. <\/p><p>Vous pouvez trouver plus d’informations dans notre manuel d’utilisation.<\/p><p>Vous avez également la possibilité d’acheter des batteries supplémentaires. <\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_84PfM7",
+        "collapsible_row_BpXpwF",
+        "collapsible_row_fVP3xK",
+        "collapsible_row_UDV6NJ",
+        "collapsible_row_J3C4NF"
+      ],
+      "custom_css": [
+        ".color-scheme-4 {background: linear-gradient( 180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 1) 100% );}"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Fonctionnalités et Utilisation ",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "scheme-4",
+        "container_color_scheme": "scheme-4",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "image_banner_gHAXnR"
+    "image_banner_fyqdnt",
+    "collapsible_content_bDH7tH",
+    "collapsible_content_DHp6jQ",
+    "collapsible_content_hrj7Li"
   ]
 }
