@@ -58,7 +58,7 @@ body {
     box-shadow: 0 0 5px #ffffff40;
   }
   50% {
-    background-color: rgba(255, 251, 194, 0.5);
+    background-color: rgba(255, 251, 194, 0.2);
     box-shadow: 0 0 50px #fffbc2d2;
   }
   100% {
