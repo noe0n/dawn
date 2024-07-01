@@ -13,9 +13,28 @@
   "sections": {
     "footer": {
       "type": "footer",
+      "blocks": {
+        "brand_information_kwhAYi": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": true
+          }
+        },
+        "link_list_cF4PUw": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Liens rapides",
+            "menu": "footer"
+          }
+        }
+      },
+      "block_order": [
+        "brand_information_kwhAYi",
+        "link_list_cF4PUw"
+      ],
       "settings": {
         "color_scheme": "scheme-4",
-        "newsletter_enable": false,
+        "newsletter_enable": true,
         "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": false,
         "show_social": true,
