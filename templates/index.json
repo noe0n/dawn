@@ -45,7 +45,7 @@
       ],
       "custom_css": [
         ".banner {min-height: 100vh;}",
-        ".button {animation: glowing 2500ms infinite;}"
+        ".button {animation: glowing 2500ms infinite; animation-timing-function: ease;}"
       ],
       "settings": {
         "image_overlay_opacity": 100,
