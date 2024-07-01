@@ -102,11 +102,54 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "timeline_KqpgV3": {
+      "type": "timeline",
+      "blocks": {
+        "heading_6PkmgM": {
+          "type": "heading",
+          "settings": {
+            "heading": "Principales étapes du projet",
+            "heading_size": "h1"
+          }
+        },
+        "text_mLJhFN": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li><em>2021 - 2022<\/em> : <strong>Idée, premiers prototypes durant les études<\/strong><\/li><li><em>Juillet 2023<\/em> : <strong>Incubation du projet au sein de la HEIG-VD. Soutien financier de la fondation Gebert Rüf Stiftung<\/strong><\/li><li><em>Mars 2024<\/em> : <strong>Dépôt de brevet, présentation du projet et du prototype au public​<\/strong><\/li><li><em>Mai 2024<\/em> : <strong>Design final​<\/strong><\/li><li><em>Été 2024<\/em> : <strong>Lancement de SideLights BETA​<\/strong><\/li><li><em>Fin 2024<\/em> : <strong>Lancement officiel du produit, en avant-première sur notre campagne de crowdfunding.​​​<\/strong><\/li><\/ul>"
+          }
+        },
+        "button_XQ4AGm": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_6PkmgM",
+        "text_mLJhFN",
+        "button_XQ4AGm"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "rich_text_ePwxBQ",
-    "image_with_text_HfWTxV"
+    "image_with_text_HfWTxV",
+    "timeline_KqpgV3"
   ]
 }
