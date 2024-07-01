@@ -11,385 +11,56 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
     },
-    "image_banner_fyqdnt": {
-      "type": "image-banner",
-      "custom_css": [
-        ".banner {position: fixed; width: 100%; height: 100vh;}"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/claessens-arthur_heig-vd-1406-Avec_accentuation-Bruit_5e3dac9b-09b5-4a2a-95e3-5ef0de6542bc.jpg",
-        "video_background": false,
-        "video_url": "",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-4",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "rich_text_ETQRVi": {
+    "rich_text_NY9zht": {
       "type": "rich-text",
       "blocks": {
-        "heading_6XweBg": {
+        "heading_Pd79Pm": {
           "type": "heading",
           "settings": {
-            "heading": "Pourquoi SideLights ?",
+            "heading": "Parler de sa marque",
             "heading_size": "h1"
           }
         },
-        "text_VeQB8A": {
+        "text_z63mym": {
           "type": "text",
           "settings": {
-            "text": "<p>Le vélo est un moyen de transport génial, écologique et de plus en plus utilisé. Cependant la sécurité des cyclistes est mise à rude épreuve face au trafic. Les cyclistes sont trop peu visibles, pourtant, <a href=\"https:\/\/www.bfu.ch\/fr\" target=\"_blank\" title=\"https:\/\/www.bfu.ch\/fr\">la moitié des accidents pourraient être évités si le cycliste était vu 1s plus tôt<\/a>. Les systèmes de lumières actuels manquent de visibilité et n’ont pas suivi l’évolution qu’a eu le vélo sur les dernières années. ​<br\/><br\/>C’est un soir en se déplaçant en vélo qu’Arthur Claessens eu l’idée de SideLights : un système de lumière complet et intégré au guidon. De fils en aiguilles le concept s’est transformé en prototypes fabriqués à la main, notamment réalisé par deux anciens collègues étudiants de la HEIG-VD : Tim Hofer et Claude Allenspach. ​<br\/><br\/>Après plus de 2 ans de travail et de multiples essais de prototypes, l’équipe SideLights arrive enfin avec un produit qui va révolutionner la visibilité à vélo. En plus de son concept novateur sécurisant, SideLights est une prouesse technologique : Compact, puissant, résistant et facile d’utilisation. Il fait l’objet d’une demande de brevet.  Ce produit a tout pour répondre aux attentes des cyclistes les plus aguerris. ​<br\/><br\/>Après une première série BETA de SideLights, le produit sera officiellement lancé sur une campagne de financement participatif fin 2024. Vous souhaitez suivre notre aventure de plus près ? N’hésitez pas à nous suivre sur les réseaux sociaux et vous inscrire à notre newsletter !​<\/p>"
+            "text": "<p>Partagez des informations sur votre marque. Décrivez un produit, partagez des annonces ou souhaitez la bienvenue à vos clients dans votre boutique.<\/p>"
+          }
+        },
+        "button_F9Q8FN": {
+          "type": "button",
+          "settings": {
+            "button_label": "Texte du bouton",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "heading_6XweBg",
-        "text_VeQB8A"
-      ],
-      "custom_css": [
-        ".rich-text__text {text-align: left;}",
-        ".rich-text {background: rgb(0, 0, 0); background: rgba(0, 0, 0, 0.7);}"
+        "heading_Pd79Pm",
+        "text_z63mym",
+        "button_F9Q8FN"
       ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "scheme-4",
-        "full_width": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multirow_DYpDXw": {
-      "type": "multirow",
-      "blocks": {
-        "row_LzzFt8": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/claessens-arthur_heig-vd-1329-2-lower.jpg",
-            "caption": "Fondateur & CEO",
-            "heading": "Arthur Claessens",
-            "text": "<ul><li>Cycliste de haut niveau en BMX Racing<\/li><li>Passionné de vélos en tous genres, commuter​<\/li><li>Alumni HEIG-VD, en économie d’entrepris<\/li><\/ul>",
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "row_LzzFt8"
-      ],
-      "custom_css": [
-        ".multirow {background: rgb(0, 0, 0); background: rgba(0, 0, 0, 0.7);}"
-      ],
-      "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "scheme-4",
-        "row_color_scheme": "scheme-4",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "timeline_XzCQzp": {
-      "type": "timeline",
-      "blocks": {
-        "heading_DWag9X": {
-          "type": "heading",
-          "settings": {
-            "heading": "Principales Étapes du projet",
-            "heading_size": "h1"
-          }
-        },
-        "text_MrDEe7": {
-          "type": "text",
-          "settings": {
-            "text": "<ul><li><em>2021 - 2022<\/em> : <strong>Idée, premiers prototypes durant les études<\/strong><\/li><li><em>Juillet 2023<\/em> : <strong>Incubation du projet au sein de la HEIG-VD. Soutien financier de la fondation Gebert Rüf Stiftung<\/strong><\/li><li><em>Mars 2024<\/em> : <strong>Dépôt de brevet, présentation du projet et du prototype au public​<\/strong><\/li><li><em>Mai 2024<\/em> : <strong>Design final​<\/strong><\/li><li><em>Été 2024<\/em> : <strong>Lancement de SideLights BETA​<\/strong><\/li><li><em>Fin 2024<\/em> : <strong>Lancement officiel du produit, en avant-première sur notre campagne de crowdfunding.​​​<\/strong><\/li><\/ul>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_DWag9X",
-        "text_MrDEe7"
-      ],
-      "custom_css": [
-        ".timeline {background: rgb(0, 0, 0); background: rgba(0, 0, 0, 0.7);}"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-4",
+        "color_scheme": "",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
-      }
-    },
-    "multicolumn_zXLpcL": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_UCiLcQ": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/portrait_arthur.jpg",
-            "title": "Arthur Claessens",
-            "text": "<p>Founder & CEO<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_JJBiYF": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/portrait_martin.jpg",
-            "title": "Martin Stricker",
-            "text": "<p>Art & Product Manager​<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_9JNKay": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/portrait_thibault.jpg",
-            "title": "Thibault Francfort",
-            "text": "<p>Industrialization Manager​<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_DTA7JD": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/portrait_alexandre.png",
-            "title": "Alexandre Pagès",
-            "text": "<p>CFO<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_hkEbtc": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/portrait_bastien.png",
-            "title": "Bastien Claessens",
-            "text": "<p>Web Manager<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_UCiLcQ",
-        "column_JJBiYF",
-        "column_9JNKay",
-        "column_DTA7JD",
-        "column_hkEbtc"
-      ],
-      "custom_css": [
-        ".multicolumn {background: rgb(0, 0, 0); background: rgba(0, 0, 0, 0.7);}"
-      ],
-      "settings": {
-        "title": "Qui se trouve derrière SideLights ?",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "square",
-        "columns_desktop": 5,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-4",
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multirow_W6TgU7": {
-      "type": "multirow",
-      "blocks": {
-        "row_UFitnw": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/portrait_zoe_lower_croped.jpg",
-            "caption": "Notre ambassadrice",
-            "heading": "Zoé Claessens",
-            "text": "<p>Athlète professionnelle de BMX Racing<\/p><ul><li>Vice-championne du monde<\/li><li>Championne d'Europe<\/li><\/ul>",
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "row_UFitnw"
-      ],
-      "custom_css": [
-        ".multirow {background: rgb(0, 0, 0); background: rgba(0, 0, 0, 0.7);}"
-      ],
-      "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "scheme-4",
-        "row_color_scheme": "scheme-4",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn_GGQ6Qp": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_y9rU3i": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/HEIG-VD_logotype-baseline_blanc-rvb.png",
-            "title": "",
-            "text": "",
-            "link_label": "HEIG-VD",
-            "link": "https:\/\/heig-vd.ch\/"
-          }
-        },
-        "column_PK4WMA": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/grs_logo_WEISS.png",
-            "title": "",
-            "text": "",
-            "link_label": "Gebert Rüf Stiftung",
-            "link": "https:\/\/www.grstiftung.ch\/fr.html"
-          }
-        }
-      },
-      "block_order": [
-        "column_y9rU3i",
-        "column_PK4WMA"
-      ],
-      "custom_css": [
-        ".multicolumn {background: rgb(0, 0, 0); background: rgba(0, 0, 0, 0.7);}",
-        ".multicolumn-card {background: #000;}"
-      ],
-      "settings": {
-        "title": "Merci à nos partenaires",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-4",
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 12
-      }
-    },
-    "multicolumn_JGf7wb": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_9CA9NA": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/logo_VENTUREKICK_cmyk-1.png",
-            "title": "",
-            "text": "",
-            "link_label": "Venture Kick",
-            "link": "https:\/\/www.venturekick.ch\/"
-          }
-        },
-        "column_UkJBHn": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Innosuisse_Logo_supported_Initial_Coaching_rgb_negativ_EN_8128639e-8bed-4e91-beb3-ed7dcf061920.png",
-            "title": "",
-            "text": "",
-            "link_label": "Innosuisse",
-            "link": "https:\/\/www.innosuisse.ch\/inno\/fr\/home.html"
-          }
-        },
-        "column_TGe7Pr": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Innovaud_white.png",
-            "title": "",
-            "text": "",
-            "link_label": "Innovaud",
-            "link": "https:\/\/www.innovaud.ch\/fr\/"
-          }
-        },
-        "column_WyhFBF": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/EDB_logo_white.svg",
-            "title": "",
-            "text": "",
-            "link_label": "Enabled By Design",
-            "link": "https:\/\/enabledbydesign.ch\/"
-          }
-        }
-      },
-      "block_order": [
-        "column_9CA9NA",
-        "column_UkJBHn",
-        "column_TGe7Pr",
-        "column_WyhFBF"
-      ],
-      "custom_css": [
-        ".multicolumn {background: rgb(0, 0, 0); background: rgba(0, 0, 0, 0.7);}",
-        ".multicolumn-card {background: #000;}"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 4,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-4",
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 0,
-        "padding_bottom": 36
       }
     }
   },
   "order": [
     "main",
-    "image_banner_fyqdnt",
-    "rich_text_ETQRVi",
-    "multirow_DYpDXw",
-    "timeline_XzCQzp",
-    "multicolumn_zXLpcL",
-    "multirow_W6TgU7",
-    "multicolumn_GGQ6Qp",
-    "multicolumn_JGf7wb"
+    "rich_text_NY9zht"
   ]
 }
