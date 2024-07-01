@@ -314,18 +314,20 @@
       }
     </script>
   </head>
-  {% comment %} CUSTOM CODE STARTING - FOR POPUP {% endcomment %}
-  <div id="Popup" class="popup">
-    <div class="popup-content">
-      <span class="close">&times;</span>
-      <p>Contenu de votre popup</p>
-    </div>
-  </div>
-  {% comment %} CUSTOM CODE ENDING - FOR POPUP {% endcomment %}
 
   {% comment %}------- CUSTOM CODE STARTING - Si template = index (page d'accueil) attribue classe home-page -------{% endcomment %}
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}{% if template == 'index' %} home-page{% endif %}">
     {% comment %}------- CUSTOM CODE ENDING -------{% endcomment %}
+
+    {% comment %} CUSTOM CODE STARTING - FOR POPUP {% endcomment %}
+    <div id="Popup" class="popup">
+      <div class="popup-content">
+        <span class="close">&times;</span>
+        <p>Contenu de votre popup</p>
+      </div>
+    </div>
+    {% comment %} CUSTOM CODE ENDING - FOR POPUP {% endcomment %}
+
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ 'accessibility.skip_to_text' | t }}
     </a>
