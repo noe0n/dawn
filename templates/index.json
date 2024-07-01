@@ -26,11 +26,11 @@
             "text_style": "body"
           }
         },
-        "buttons_JXwQCm": {
+        "buttons_ThRq7E": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Précommander",
-            "button_link_1": "shopify:\/\/pages\/pre-order",
+            "button_label_1": "Précommander SideLights",
+            "button_link_1": "",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -41,7 +41,7 @@
       "block_order": [
         "heading_7c79eR",
         "text_PHFgaC",
-        "buttons_JXwQCm"
+        "buttons_ThRq7E"
       ],
       "custom_css": [
         ".banner {min-height: 100vh;}",
