@@ -17,25 +17,6 @@
         "padding_bottom": 28
       }
     },
-    "image_banner_fyqdnt": {
-      "type": "image-banner",
-      "custom_css": [
-        ".banner {position: fixed; width: 100%; height: 100vh;}"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/claessens-arthur_heig-vd-1406-Avec_accentuation-Bruit_5e3dac9b-09b5-4a2a-95e3-5ef0de6542bc.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-4",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "multirow_DYpDXw": {
       "type": "multirow",
       "blocks": {
@@ -55,7 +36,7 @@
         "row_LzzFt8"
       ],
       "custom_css": [
-        ".multirow {position: relative; z-index: 1; background: rgba(0, 0, 0, 1);}"
+
       ],
       "settings": {
         "image_height": "medium",
@@ -154,6 +135,10 @@
       ],
       "settings": {
         "image_overlay_opacity": 0,
+        "image_overlay_opacity_top": 100,
+        "image_overlay_opacity_top_position": 0,
+        "image_overlay_opacity_bottom": 100,
+        "image_overlay_opacity_bottom_position": 100,
         "image_height": "small",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
@@ -168,7 +153,6 @@
   },
   "order": [
     "main",
-    "image_banner_fyqdnt",
     "multirow_DYpDXw",
     "rich_text_ETQRVi",
     "custom_liquid_TFMp3q",
