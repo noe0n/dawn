@@ -19,6 +19,8 @@ body {
   height: auto;
   z-index: -1;
   background-size: cover;
+  object-fit: cover;
+  object-position: center;
   overflow: hidden;
 }
 
