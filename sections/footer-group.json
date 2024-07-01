@@ -11,17 +11,18 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "custom_liquid_7Rj4jE": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"width: 100%; display: flex; align-items: center; justify-content: center;\">\n<img src=\"https:\/\/sidelights.com\/cdn\/shop\/files\/Logo_Sidelight_complet_B_sans_fond_0.2_sans_marge.png?v=1709196943&width=70\">\n<\/div>",
+        "color_scheme": "scheme-4",
+        "padding_top": 36,
+        "padding_bottom": 16
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
-        "image_9nHdNf": {
-          "type": "image",
-          "settings": {
-            "image": "{{ shop.brand.square_logo }}",
-            "image_width": 70,
-            "alignment": "center"
-          }
-        },
         "link_list_QXJWbi": {
           "type": "link_list",
           "settings": {
@@ -31,7 +32,6 @@
         }
       },
       "block_order": [
-        "image_9nHdNf",
         "link_list_QXJWbi"
       ],
       "settings": {
@@ -45,12 +45,13 @@
         "payment_enable": false,
         "show_policy": false,
         "margin_top": 0,
-        "padding_top": 36,
+        "padding_top": 20,
         "padding_bottom": 36
       }
     }
   },
   "order": [
+    "custom_liquid_7Rj4jE",
     "footer"
   ]
 }
