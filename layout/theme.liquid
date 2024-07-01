@@ -294,6 +294,11 @@
 
       /* Popup Content */
       .popup-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
         background-color: #fefefe;
         margin: 20px; /* 15% from the top and centered */
         padding: 20px;
@@ -366,18 +371,16 @@
     <div id="Popup" class="popup">
       <div class="popup-content">
         <span class="close">&times;</span>
-        <div>
-          <h2 class="class=" title inline-richtext h1>Offre Early Bird</h2>
-          <img
-            class="popup-picture"
-            src="//sidelights.com/cdn/shop/files/claessens-arthur_heig-vd-1357-2-Avec_accentuation-Bruit.jpg?v=1710187527&width=3840"
-            width="750"
-            height="542"
-          >
-          <label for="popup-email">Votre e-mail :</label>
-          <input type="email" id="popup-email" name="popup-email" required size="email">
-          <button type="button">M'inscrire</button>
-        </div>
+        <h2 class="title inline-richtext h1">Offre Early Bird</h2>
+        <img
+          class="popup-image"
+          src="//sidelights.com/cdn/shop/files/claessens-arthur_heig-vd-1357-2-Avec_accentuation-Bruit.jpg?v=1710187527&width=3840"
+          width="750"
+          height="542"
+        >
+        <label for="popup-email">Votre e-mail :</label>
+        <input type="email" id="popup-email" name="popup-email" required size="email">
+        <button type="button">M'inscrire</button>
       </div>
     </div>
     {% comment %} CUSTOM CODE ENDING - FOR POPUP {% endcomment %}
