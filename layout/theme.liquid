@@ -289,7 +289,7 @@
         width: 100vw; /* Full width */
         height: 100vh; /* Full height */
         background-color: rgb(0, 0, 0); /* Fallback color */
-        background-color: rgba(0, 0, 0, 0.6); /* Black w/ opacity */
+        background-color: rgba(0, 0, 0, 0.7); /* Black w/ opacity */
 
         color: #ffffff;
       }
@@ -372,7 +372,7 @@
     {% comment %}------- CUSTOM CODE ENDING -------{% endcomment %}
 
     {% comment %} CUSTOM CODE STARTING - FOR POPUP {% endcomment %}
-    <div id="Popup" class="popup">
+    <div id="myPopup" class="popup">
       <div class="popup-content">
         <span class="close">&times;</span>
         <h2 class="title inline-richtext h1" style="color: white; margin: 10px 0px 0px 0px;">Offre Early Bird</h2>
@@ -494,6 +494,12 @@
         recipientFormCollapsed: `{{ 'recipient.form.collapsed' | t }}`,
         countrySelectorSearchCount: `{{ 'localization.country_results_count' | t: count: '[count]' }}`,
       };
+
+      function popupTriggered() {
+        console.log('INSIDE');
+        var popup = document.getElementById('myPopup');
+        popup.style.display = 'block';
+      }
     </script>
 
     {%- if settings.predictive_search_enabled -%}
