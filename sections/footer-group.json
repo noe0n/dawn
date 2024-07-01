@@ -14,7 +14,7 @@
     "custom_liquid_7Rj4jE": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div style=\"width: 100%; display: flex; align-items: center; justify-content: center;\">\n<img src=\"https:\/\/sidelights.com\/cdn\/shop\/files\/Logo_Sidelight_complet_B_sans_fond_0.2_sans_marge.png?v=1709196943&width=70\">\n<\/div>",
+        "custom_liquid": "<div style=\"width: 100%; display: flex; align-items: center; justify-content: center;\">\n<img src=\"https:\/\/sidelights.com\/cdn\/shop\/files\/Logo_Sidelight_complet_B_sans_fond_0.2_sans_marge.png?v=1709196943&width=70\" width= \"70\" style=\"max-width: 70px; object-fit: contain;\">\n<\/div>",
         "color_scheme": "scheme-4",
         "padding_top": 36,
         "padding_bottom": 16
