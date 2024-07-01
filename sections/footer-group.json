@@ -14,27 +14,29 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "brand_information_kwhAYi": {
-          "type": "brand_information",
+        "image_9nHdNf": {
+          "type": "image",
           "settings": {
-            "show_social": true
+            "image": "{{ shop.brand.square_logo }}",
+            "image_width": 70,
+            "alignment": "center"
           }
         },
-        "link_list_cF4PUw": {
+        "link_list_QXJWbi": {
           "type": "link_list",
           "settings": {
-            "heading": "Liens rapides",
+            "heading": "",
             "menu": "footer"
           }
         }
       },
       "block_order": [
-        "brand_information_kwhAYi",
-        "link_list_cF4PUw"
+        "image_9nHdNf",
+        "link_list_QXJWbi"
       ],
       "settings": {
         "color_scheme": "scheme-4",
-        "newsletter_enable": true,
+        "newsletter_enable": false,
         "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": false,
         "show_social": true,
