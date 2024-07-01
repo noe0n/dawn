@@ -24,10 +24,10 @@
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/claessens-arthur_heig-vd-1267-croped.jpg",
-            "caption": "PRE-ORDER",
-            "heading": "<strong>SideLights <\/strong>BETA",
-            "text": "<ul><li>Soyez les premiers à acquérir SideLights<\/li><li>Série limitée<\/li><li>Produit en aluminium de haute qualité<\/li><li>Offre spéciale (moins de CHF 100.-)<\/li><li>Contribuer au projet en donnant son feedback au travers d'un questionnaire.<\/li><\/ul>",
-            "button_label": "",
+            "caption": "précommandes",
+            "heading": "<strong>Early birds (-40%)<\/strong>",
+            "text": "<h2>Soyez parmi les premiers à acquérir SideLights<\/h2><h2>Jusqu'à -40% lors du Kickstarter<\/h2>",
+            "button_label": "Précommander",
             "button_link": ""
           }
         }
@@ -54,31 +54,6 @@
         "padding_bottom": 36
       }
     },
-    "rich_text_ETQRVi": {
-      "type": "rich-text",
-      "blocks": {
-        "text_VeQB8A": {
-          "type": "text",
-          "settings": {
-            "text": "<h3>En vous inscrivant au pre-order, vous avez la possibilité <strong>d’acquérir votre système de lumières SideLights en avant-première ! <\/strong><\/h3><h3>Dès que le produit sera prêt, <strong>vous serez les premiers à être contactés<\/strong> pour avoir la possibilité de commander SideLights BETA. Les informations précises plus techniques suivront. <\/h3><h3>En vous inscrivant, vous nous communiquez votre souhait d’acquérir SideLights BETA, cela ne vous engage à rien pour autant. <\/h3>"
-          }
-        }
-      },
-      "block_order": [
-        "text_VeQB8A"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-4",
-        "full_width": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "image_banner_eLTgXH": {
       "type": "image-banner",
       "blocks": {
@@ -101,6 +76,7 @@
           "settings": {
             "button_label_1": "Visiter la FAQ",
             "button_link_1": "shopify:\/\/pages\/faq",
+            "button_isPopup": false,
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -137,7 +113,6 @@
   "order": [
     "main",
     "multirow_DYpDXw",
-    "rich_text_ETQRVi",
     "image_banner_eLTgXH"
   ]
 }
