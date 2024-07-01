@@ -37,6 +37,11 @@ body {
   -webkit-backdrop-filter: blur(25px);
 }
 
+/*--- FOOTER ---*/
+.shopify-section-group-footer-group {
+  background-color: var(-custom-background-color-hex);
+}
+
 /*--- BUTTONS ---*/
 .button {
   background-color: rgba(var(--custom-background-color-rgb), 0.25);
