@@ -45,7 +45,7 @@ body {
   color: rgba(255, 255, 255, 1);
   text-transform: uppercase;
   box-shadow: 0 0 30px #00000040;
-  transition: ease 0.2s all;
+  transition: all 0.2s ease;
 }
 .button:hover {
   background-color: rgba(255, 255, 255, 1) !important;
