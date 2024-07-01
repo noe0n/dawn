@@ -68,30 +68,13 @@
         "text_VeQB8A"
       ],
       "custom_css": [
-        ".rich-text {background: linear-gradient( 180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.3) 100% );}"
+
       ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "scheme-4",
         "full_width": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "custom_liquid_TFMp3q": {
-      "type": "custom-liquid",
-      "custom_css": [
-        ".color-scheme-4 {background: rgba(0, 0, 0, 0.3);}",
-        "#mc_embed_shell {margin: 15px;}",
-        "#mc_embed_signup {margin: 0 auto; padding: 1.5rem; max-width: 73.4rem; background: #000; border-radius: 15px;}",
-        "h1 {font-weight: 400;}",
-        ".button:hover {background-color: #ffffff00; color: white; border: 1px solid white; transform: scale(1); box-shadow: 0px 0px 0px #00000000;}",
-        ".button {background-color: #ffffff; color: black; border: 1px solid white; transform: scale(1.05); box-shadow: 0px 0px 30px #00000050; transition: ease 0.2s all;}"
-      ],
-      "settings": {
-        "custom_liquid": "<div id=\"mc_embed_shell\">\n      <link href=\"\/\/cdn-images.mailchimp.com\/embedcode\/classic-061523.css\" rel=\"stylesheet\" type=\"text\/css\">\n\n<div id=\"mc_embed_signup\">\n    <form action=\"https:\/\/heig-vd.us17.list-manage.com\/subscribe\/post?u=c369b9be6a1e182c4ea49abb9&amp;id=1f6aace689&amp;f_id=004a10e0f0\" method=\"post\" id=\"mc-embedded-subscribe-form\" name=\"mc-embedded-subscribe-form\" class=\"validate\" target=\"_blank\">\n        <div id=\"mc_embed_signup_scroll\"><h1>SideLights BETA : Formulaire Pre-order<\/h1>\n            <div class=\"indicates-required\"><span class=\"asterisk\">*<\/span> indicates required<\/div>\n            <div class=\"mc-field-group\"><label for=\"mce-EMAIL\">Adresse e-mail <span class=\"asterisk\">*<\/span><\/label><input type=\"email\" name=\"EMAIL\" class=\"required email\" id=\"mce-EMAIL\" required=\"\" value=\"\"><\/div><div class=\"mc-field-group\"><label for=\"mce-FNAME\">Prénom <span class=\"asterisk\">*<\/span><\/label><input type=\"text\" name=\"FNAME\" class=\"required text\" id=\"mce-FNAME\" required=\"\" value=\"\"><\/div><div class=\"mc-field-group\"><label for=\"mce-LNAME\">Nom de famille <span class=\"asterisk\">*<\/span><\/label><input type=\"text\" name=\"LNAME\" class=\"required text\" id=\"mce-LNAME\" required=\"\" value=\"\"><\/div>\n<div hidden=\"\"><input type=\"hidden\" name=\"tags\" value=\"8298073\"><\/div>\n        <div id=\"mce-responses\" class=\"clear\">\n            <div class=\"response\" id=\"mce-error-response\" style=\"display: none;\"><\/div>\n            <div class=\"response\" id=\"mce-success-response\" style=\"display: none;\"><\/div>\n        <\/div><div aria-hidden=\"true\" style=\"position: absolute; left: -5000px;\"><input type=\"text\" name=\"b_c369b9be6a1e182c4ea49abb9_1f6aace689\" tabindex=\"-1\" value=\"\"><\/div>\n\n<div style=\"margin-bottom:30px;\"><strong>En m’inscrivant, je confirme mon intérêt à acquérir le produit SideLights BETA lorsqu’il sera prêt.<\/strong> Une fois le produit prêt, vous serez contacté via email afin d’être les premiers à pouvoir recevoir votre système SideLights.<\/div>\n\n<div class=\"clear\"><input type=\"submit\" name=\"subscribe\" id=\"mc-embedded-subscribe\" class=\"button\" value=\"Je m'inscris\"><\/div>\n    <\/div>\n<\/form>\n<\/div>\n<script type=\"text\/javascript\" src=\"\/\/s3.amazonaws.com\/downloads.mailchimp.com\/js\/mc-validate.js\"><\/script><script type=\"text\/javascript\">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';\/*\n * Translated default messages for the $ validation plugin.\n * Locale: FR\n *\/\n$.extend($.validator.messages, {\n        required: \"Ce champ est requis.\",\n        remote: \"Veuillez remplir ce champ pour continuer.\",\n        email: \"Veuillez entrer une adresse email valide.\",\n        url: \"Veuillez entrer une URL valide.\",\n        date: \"Veuillez entrer une date valide.\",\n        dateISO: \"Veuillez entrer une date valide (ISO).\",\n        number: \"Veuillez entrer un nombre valide.\",\n        digits: \"Veuillez entrer (seulement) une valeur numérique.\",\n        creditcard: \"Veuillez entrer un numéro de carte de crédit valide.\",\n        equalTo: \"Veuillez entrer une nouvelle fois la même valeur.\",\n        accept: \"Veuillez entrer une valeur avec une extension valide.\",\n        maxlength: $.validator.format(\"Veuillez ne pas entrer plus de {0} caractères.\"),\n        minlength: $.validator.format(\"Veuillez entrer au moins {0} caractères.\"),\n        rangelength: $.validator.format(\"Veuillez entrer entre {0} et {1} caractères.\"),\n        range: $.validator.format(\"Veuillez entrer une valeur entre {0} et {1}.\"),\n        max: $.validator.format(\"Veuillez entrer une valeur inférieure ou égale à {0}.\"),\n        min: $.validator.format(\"Veuillez entrer une valeur supérieure ou égale à {0}.\")\n});}(jQuery));var $mcj = jQuery.noConflict(true);<\/script><\/div>",
-        "color_scheme": "scheme-4",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -131,12 +114,12 @@
         "buttons_YXirW3"
       ],
       "custom_css": [
-        ".banner {background: linear-gradient( 180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 1) 100% );}"
+
       ],
       "settings": {
-        "image_overlay_opacity": 0,
+        "image_overlay_opacity": 100,
         "image_overlay_opacity_top": 100,
-        "image_overlay_opacity_top_position": 0,
+        "image_overlay_opacity_top_position": 100,
         "image_overlay_opacity_bottom": 100,
         "image_overlay_opacity_bottom_position": 100,
         "image_height": "small",
@@ -155,7 +138,6 @@
     "main",
     "multirow_DYpDXw",
     "rich_text_ETQRVi",
-    "custom_liquid_TFMp3q",
     "image_banner_eLTgXH"
   ]
 }
