@@ -277,6 +277,10 @@
 
       /* Le Popup (caché par défaut) */
       .popup {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
         position: fixed; /* Reste en place */
         display: none; /* Caché par défaut */
         z-index: 1; /* Sit on top */
@@ -288,12 +292,7 @@
         background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
       }
 
-      .popup-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-
+      /* Popup Content */
       .popup-content {
         background-color: #fefefe;
         margin: 20px; /* 15% from the top and centered */
@@ -303,15 +302,15 @@
       }
 
       /* The Close Button */
-      .popup-close {
+      .close {
         color: #aaa;
         float: right;
         font-size: 28px;
         font-weight: bold;
       }
 
-      .popup-close:hover,
-      .popup-close:focus {
+      .close:hover,
+      .close:focus {
         color: black;
         text-decoration: none;
         cursor: pointer;
@@ -365,11 +364,9 @@
 
     {% comment %} CUSTOM CODE STARTING - FOR POPUP {% endcomment %}
     <div id="Popup" class="popup">
-      <div class="popup-container">
-        <div class="popup-content">
-          <span class="popup-close">&times;</span>
-          <p>Contenu de votre popup</p>
-        </div>
+      <div class="popup-content">
+        <span class="close">&times;</span>
+        <p>Contenu de votre popup</p>
       </div>
     </div>
     {% comment %} CUSTOM CODE ENDING - FOR POPUP {% endcomment %}
