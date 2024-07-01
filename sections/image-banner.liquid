@@ -147,9 +147,9 @@
             >
               {%- if block.settings.button_label_1 != blank -%}
                 <a
-                  {% if block.settings.button_link_1 == blank and block.settings.button_isPopup == false %}
+                  {% if block.settings.button_link_1 == blank and section.settings.button_isPopup == false %}
                     role="link" aria-disabled="true"
-                    {% elseif block.settings.button_isPopup %}
+                    {% elseif section.settings.button_isPopup %}
                     onclick="popupTriggered()"
                   {% else %}
                     href="{{ block.settings.button_link_1 }}"
@@ -187,6 +187,12 @@
     "groups": ["header", "footer"]
   },
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "button_isPopup",
+      "default": false,
+      "label": "Ouvrir la pop-up"
+    },
     {
       "type": "image_picker",
       "id": "image",
@@ -523,12 +529,6 @@
           "id": "button_style_secondary_2",
           "default": false,
           "label": "t:sections.image-banner.blocks.buttons.settings.button_style_secondary_2.label"
-        },
-        {
-          "type": "checkbox",
-          "id": "button_isPopup",
-          "default": false,
-          "label": "Ouvrir la pop-up"
         }
       ]
     }
