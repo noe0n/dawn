@@ -29,7 +29,7 @@
         "buttons_JXwQCm": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Commander en avant-première",
+            "button_label_1": "Précommander",
             "button_link_1": "shopify:\/\/pages\/pre-order",
             "button_style_secondary_1": false,
             "button_label_2": "",
