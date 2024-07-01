@@ -31,6 +31,7 @@
           "settings": {
             "button_label_1": "Précommander SideLights",
             "button_link_1": "",
+            "button_isPopup": true,
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
