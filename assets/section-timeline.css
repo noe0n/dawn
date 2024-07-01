@@ -1,0 +1,122 @@
+.timeline {
+  z-index: 1;
+}
+
+.timeline__wrapper {
+  display: flex;
+  justify-content: center;
+  width: calc(100% - 4rem / var(--font-body-scale));
+}
+
+.timeline:not(.timeline--full-width) .timeline__wrapper {
+  margin: auto;
+  width: calc(100% - 8rem / var(--font-body-scale));
+}
+
+.timeline__blocks {
+  width: 100%;
+}
+
+@media screen and (min-width: 750px) {
+  .timeline__wrapper {
+    width: 100%;
+  }
+
+  .timeline__wrapper--left {
+    justify-content: flex-start;
+  }
+
+  .timeline__wrapper--right {
+    justify-content: flex-end;
+  }
+
+  .timeline__blocks {
+    max-width: 50rem;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .timeline__blocks {
+    max-width: 78rem;
+  }
+}
+
+.timeline__blocks * {
+  overflow-wrap: break-word;
+}
+
+.timeline__blocks > * {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.timeline__blocks > * + * {
+  margin-top: 2rem;
+}
+
+.timeline__blocks > * + a {
+  margin-top: 3rem;
+}
+
+.timeline__buttons {
+  display: inline-flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 100%;
+  max-width: 45rem;
+  word-break: break-word;
+}
+
+.timeline__buttons--multiple > * {
+  flex-grow: 1;
+  min-width: 22rem;
+}
+
+.timeline__buttons + .timeline__buttons {
+  margin-top: 1rem;
+}
+
+.timeline__blocks.left .timeline__buttons {
+  justify-content: flex-start;
+}
+
+.timeline__blocks.right .timeline__buttons {
+  justify-content: flex-end;
+}
+
+/*CUSTOM CSS*/
+.timeline__text {
+  text-align: left;
+}
+.timeline__text > ul {
+  list-style: none;
+}
+.timeline__text > ul > li {
+  position: relative;
+  padding: 10px 10px 10px 30px;
+}
+.timeline__text > ul > li a {
+  color: gray;
+}
+
+.timeline__text > ul > li:before {
+  content: '';
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #d8d8d8;
+  position: absolute;
+  left: -14px;
+  top: 16px; /* Align with padding */
+}
+
+.timeline__text > ul > li:not(:last-child):after {
+  content: '';
+  width: 2px;
+  background: #d8d8d8;
+  position: absolute;
+  left: -7px;
+  top: 32px;
+  bottom: -16px;
+}
