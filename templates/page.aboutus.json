@@ -38,6 +38,9 @@
         "heading_Nqnbic",
         "text_WctVyi"
       ],
+      "custom_css": [
+        ".rich-text__text {text-align: left;}"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -195,7 +198,7 @@
         "column_hkEbtc"
       ],
       "custom_css": [
-        ".multicolumn {background: rgb(0, 0, 0); background: rgba(0, 0, 0, 0.7);}"
+
       ],
       "settings": {
         "title": "Qui se trouve derrière SideLights ?",
@@ -204,6 +207,10 @@
         "image_ratio": "square",
         "columns_desktop": 5,
         "column_alignment": "center",
+        "background_gradient_opacity_start": 100,
+        "background_gradient_opacity_start_position": 0,
+        "background_gradient_opacity_end": 100,
+        "background_gradient_opacity_end_position": 100,
         "background_style": "none",
         "button_label": "",
         "button_link": "",
@@ -233,7 +240,7 @@
         "row_UFitnw"
       ],
       "custom_css": [
-        ".multirow {background: rgb(0, 0, 0); background: rgba(0, 0, 0, 0.7);}"
+
       ],
       "settings": {
         "image_height": "medium",
@@ -280,8 +287,7 @@
         "column_PK4WMA"
       ],
       "custom_css": [
-        ".multicolumn {background: rgb(0, 0, 0); background: rgba(0, 0, 0, 0.7);}",
-        ".multicolumn-card {background: #000;}"
+
       ],
       "settings": {
         "title": "Merci à nos partenaires",
@@ -290,6 +296,10 @@
         "image_ratio": "adapt",
         "columns_desktop": 2,
         "column_alignment": "left",
+        "background_gradient_opacity_start": 100,
+        "background_gradient_opacity_start_position": 0,
+        "background_gradient_opacity_end": 100,
+        "background_gradient_opacity_end_position": 100,
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
@@ -351,8 +361,7 @@
         "column_WyhFBF"
       ],
       "custom_css": [
-        ".multicolumn {background: rgb(0, 0, 0); background: rgba(0, 0, 0, 0.7);}",
-        ".multicolumn-card {background: #000;}"
+
       ],
       "settings": {
         "title": "",
@@ -361,6 +370,10 @@
         "image_ratio": "adapt",
         "columns_desktop": 4,
         "column_alignment": "left",
+        "background_gradient_opacity_start": 100,
+        "background_gradient_opacity_start_position": 0,
+        "background_gradient_opacity_end": 100,
+        "background_gradient_opacity_end_position": 100,
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
