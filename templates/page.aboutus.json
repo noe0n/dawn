@@ -74,21 +74,12 @@
             "text": "<ul><li>Cycliste de haut niveau en BMX Racing<\/li><li>Passionné de vélos en tous genres, commuter​<\/li><li>Alumni HEIG-VD, en économie d’entrepris<\/li><\/ul>",
             "text_style": "body"
           }
-        },
-        "button_mcVYqY": {
-          "type": "button",
-          "settings": {
-            "button_label": "Texte du bouton",
-            "button_link": "",
-            "button_style_secondary": false
-          }
         }
       },
       "block_order": [
         "caption_TWHUfe",
         "heading_kk4zeq",
-        "text_6zQ7eM",
-        "button_mcVYqY"
+        "text_6zQ7eM"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/claessens-arthur_heig-vd-1329-2-lower.jpg",
