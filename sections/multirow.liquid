@@ -89,8 +89,10 @@
               {%- endif -%}
               {%- if block.settings.button_label != blank -%}
                 <a
-                  {% if block.settings.button_link == blank %}
+                  {% if block.settings.button_link == blank and block.settings.button_isPopup == false %}
                     role="link" aria-disabled="true"
+                  {% elsif block.settings.button_isPopup %}
+                    onclick="openPopup()" style="cursor: pointer;"
                   {% else %}
                     href="{{ block.settings.button_link }}"
                   {% endif %}
@@ -377,6 +379,12 @@
           "type": "url",
           "id": "button_link",
           "label": "t:sections.multirow.blocks.row.settings.button_link.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "button_isPopup",
+          "label": "Ouvrir la popup",
+          "default": false
         }
       ]
     }
