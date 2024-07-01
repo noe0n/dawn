@@ -313,8 +313,9 @@
       .close {
         color: #aaa;
         float: right;
-        font-size: 28px;
+        font-size: 30px;
         font-weight: bold;
+        padding: 5px;
         transform: rotate(0deg);
         transition: transform .3s ease;
       }
@@ -374,7 +375,7 @@
     {% comment %} CUSTOM CODE STARTING - FOR POPUP {% endcomment %}
     <div id="myPopup" class="popup">
       <div class="popup-content">
-        <span class="close">&times;</span>
+        <span class="close" onclick="closePopup()">&times;</span>
         <h2 class="title inline-richtext h1" style="color: white; margin: 10px 0px 0px 0px;">Offre Early Bird</h2>
         <div style="text-align: center; margin-bottom: 30px;">
           Jusqu'à <strong>-40%</strong> lors du lancement sur Kickstarter, <br>
@@ -495,10 +496,13 @@
         countrySelectorSearchCount: `{{ 'localization.country_results_count' | t: count: '[count]' }}`,
       };
 
-      function popupTriggered() {
-        console.log('INSIDE');
+      function openPopup() {
         var popup = document.getElementById('myPopup');
         popup.style.display = 'flex';
+      }
+      function closePopup() {
+        var popup = document.getElementById('myPopup');
+        popup.style.display = 'none';
       }
     </script>
 
