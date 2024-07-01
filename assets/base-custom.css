@@ -52,6 +52,20 @@ body {
   color: rgba(0, 0, 0);
   box-shadow: 0 0 200px #ffffff40;
 }
+@keyframes glowing {
+  0% {
+    background-color: #a8a505;
+    box-shadow: 0 0 5px #a8a505;
+  }
+  50% {
+    background-color: #fffb00;
+    box-shadow: 0 0 20px #fffb00;
+  }
+  100% {
+    background-color: #a8a505;
+    box-shadow: 0 0 5px #a8a505;
+  }
+}
 
 /*--- TITLES ---*/
 .title.inline-richtext.h1 {
