@@ -11,7 +11,13 @@ body {
 /*--- VIDEO BACKGROUND ---*/
 #background-video {
   position: fixed;
-  left: 0;
+  z-index: -1;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translateX(calc((100% - 100vw) / 2));
+  /* left: 0;
   top: 0;
   min-width: 100%;
   min-height: 100%;
@@ -21,7 +27,7 @@ body {
   background-size: cover;
   object-fit: cover;
   object-position: center;
-  overflow: hidden;
+  overflow: hidden; */
 }
 
 /*--- HEADER ---*/
