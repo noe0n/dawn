@@ -54,15 +54,15 @@ body {
 }
 @keyframes glowing {
   0% {
-    /* background-color: rgba(var(--custom-background-color-rgb), 0.25); */
+    background-color: rgba(var(--custom-background-color-rgb), 0.25);
     box-shadow: 0 0 5px #ffffff40;
   }
   50% {
-    /* background-color: rgba(var(--custom-background-color-rgb), 0.25); */
+    background-color: rgba(255, 251, 194, 0.5);
     box-shadow: 0 0 50px #fffbc2d2;
   }
   100% {
-    /* background-color: rgba(var(--custom-background-color-rgb), 0.25); */
+    background-color: rgba(var(--custom-background-color-rgb), 0.25);
     box-shadow: 0 0 5px #ffffff40;
   }
 }
