@@ -30,15 +30,15 @@ body {
 }
 .home-page .scrolled-past-header .header-wrapper {
   background: rgba(var(--custom-background-color-rgb), 0.25);
-  backdrop-filter: blur(25px);
-  -webkit-backdrop-filter: blur(25px);
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
 }
 
 /*--- BUTTONS ---*/
 .button {
   background-color: rgba(var(--custom-background-color-rgb), 0.25);
-  backdrop-filter: blur(25px);
-  -webkit-backdrop-filter: blur(25px);
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
   color: rgba(255, 255, 255, 1);
   text-transform: uppercase;
   box-shadow: 0 0 30px #00000040;
