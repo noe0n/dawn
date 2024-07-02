@@ -544,6 +544,10 @@
         var scrollPosition = window.scrollY || document.documentElement.scrollTop;
         var triggerPoint = 600; // Modifier cette valeur pour définir la distance de défilement nécessaire
 
+        if (shouldShowPopup() == false) {
+          window.removeEventListener('scroll', arguments.callee);
+        }
+
         if (scrollPosition > triggerPoint && shouldShowPopup()) {
           setTimeout(function () {
             openPopup();
