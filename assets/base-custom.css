@@ -63,6 +63,17 @@ body {
     box-shadow: 0 0 5px #ffffff40;
   }
 }
+@keyframes glowing_around {
+  0% {
+    box-shadow: 0 0 5px #ffffff40;
+  }
+  50% {
+    box-shadow: 0 0 30px #fffcd6d2;
+  }
+  100% {
+    box-shadow: 0 0 5px #ffffff40;
+  }
+}
 
 /*--- TITLES ---*/
 .title.inline-richtext.h1 {
