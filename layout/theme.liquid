@@ -545,6 +545,7 @@
         var triggerPoint = 600; // Modifier cette valeur pour définir la distance de défilement nécessaire
 
         if (shouldShowPopup() == false) {
+          // Évite d'appeler en boucle
           window.removeEventListener('scroll', arguments.callee);
         }
 
