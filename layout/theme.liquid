@@ -514,17 +514,27 @@
         var popup = document.getElementById('myPopup');
         popup.style.display = 'none';
       }
+      function shouldShowPopup() {
+        var lastShown = localStorage.getItem('popState');
+        if (!lastShown) {
+          return true; // Popup never shown
+        }
+        var lastShownDate = new Date(lastShown);
+        var today = new Date();
+
+        // Check if last shown date is not today
+        return lastShownDate.toDateString() !== today.toDateString();
+      }
+
       window.addEventListener('scroll', function () {
         var scrollPosition = window.scrollY || document.documentElement.scrollTop;
         var triggerPoint = 600; // Modifier cette valeur pour définir la distance de défilement nécessaire
 
-        if (scrollPosition > triggerPoint) {
-          if (localStorage.getItem('popState') != 'shown') {
-            openPopup();
-            localStorage.setItem('popState', 'shown');
-            // Supprimer l'écouteur de défilement après l'affichage de la popup
-            window.removeEventListener('scroll', arguments.callee);
-          }
+        if (scrollPosition > triggerPoint && shouldShowPopup()) {
+          openPopup();
+          localStorage.setItem('popState', new Date().toISOString());
+          // Supprimer l'écouteur de défilement après l'affichage de la popup
+          window.removeEventListener('scroll', arguments.callee);
         }
       });
 
