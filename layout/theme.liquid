@@ -514,6 +514,16 @@
         var popup = document.getElementById('myPopup');
         popup.style.display = 'none';
       }
+      window.addEventListener('scroll', function () {
+        var scrollPosition = window.scrollY || document.documentElement.scrollTop;
+        var triggerPoint = 500; // Modifier cette valeur pour définir la distance de défilement nécessaire
+
+        if (scrollPosition > triggerPoint) {
+          openPopup();
+          // Supprimer l'écouteur de défilement après l'affichage de la popup
+          window.removeEventListener('scroll', arguments.callee);
+        }
+      });
     </script>
 
     {%- if settings.predictive_search_enabled -%}
