@@ -536,6 +536,7 @@
         var today = new Date();
 
         // Check if last shown date is not today
+        console.log('last: ' + lastShownDate.toDateString() + ' | today: ' + today.toDateString());
         return lastShownDate.toDateString() !== today.toDateString();
       }
 
