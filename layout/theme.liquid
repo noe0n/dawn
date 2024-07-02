@@ -531,10 +531,12 @@
         var triggerPoint = 600; // Modifier cette valeur pour définir la distance de défilement nécessaire
 
         if (scrollPosition > triggerPoint && shouldShowPopup()) {
-          openPopup();
-          localStorage.setItem('popState', new Date().toISOString());
-          // Supprimer l'écouteur de défilement après l'affichage de la popup
-          window.removeEventListener('scroll', arguments.callee);
+          setTimeout(function () {
+            openPopup();
+            localStorage.setItem('popState', new Date().toISOString());
+            // Supprimer l'écouteur de défilement après l'affichage de la popup
+            window.removeEventListener('scroll', arguments.callee);
+          }, 2000);
         }
       });
 
