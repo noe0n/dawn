@@ -546,6 +546,7 @@
 
         if (shouldShowPopup() == false) {
           // Évite d'appeler en boucle
+          console.log('Scroll listener removed');
           window.removeEventListener('scroll', arguments.callee);
         }
 
