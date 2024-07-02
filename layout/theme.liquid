@@ -516,7 +516,7 @@
       }
       window.addEventListener('scroll', function () {
         var scrollPosition = window.scrollY || document.documentElement.scrollTop;
-        var triggerPoint = 1000; // Modifier cette valeur pour définir la distance de défilement nécessaire
+        var triggerPoint = 600; // Modifier cette valeur pour définir la distance de défilement nécessaire
 
         if (scrollPosition > triggerPoint) {
           if (localStorage.getItem('popState') != 'shown') {
