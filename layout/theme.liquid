@@ -519,10 +519,20 @@
         var triggerPoint = 1000; // Modifier cette valeur pour définir la distance de défilement nécessaire
 
         if (scrollPosition > triggerPoint) {
-          openPopup();
-          // Supprimer l'écouteur de défilement après l'affichage de la popup
-          window.removeEventListener('scroll', arguments.callee);
+          if (localStorage.getItem('popState') != 'shown') {
+            openPopup();
+            localStorage.setItem('popState', 'shown');
+            // Supprimer l'écouteur de défilement après l'affichage de la popup
+            window.removeEventListener('scroll', arguments.callee);
+          }
         }
+      });
+
+      document.addEventListener('DOMContentLoaded', function () {
+        var closeBtn = document.querySelector('.close');
+        closeBtn.addEventListener('click', function () {
+          closePopup();
+        });
       });
     </script>
 
