@@ -292,6 +292,10 @@
         background-color: rgba(0, 0, 0, 0.7); /* Black w/ opacity */
 
         color: #ffffff;
+
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out;
+
       }
 
       /* Popup Content */
@@ -509,10 +513,16 @@
       function openPopup() {
         var popup = document.getElementById('myPopup');
         popup.style.display = 'flex';
+        setTimeout(function () {
+          popup.style.opacity = '1';
+        }, 10); // slight delay to ensure the display change is processed
       }
       function closePopup() {
         var popup = document.getElementById('myPopup');
-        popup.style.display = 'none';
+        popup.style.opacity = '0';
+        setTimeout(function () {
+          popup.style.display = 'none';
+        }, 500); // match the transition duration
       }
       function shouldShowPopup() {
         var lastShown = localStorage.getItem('popState');
