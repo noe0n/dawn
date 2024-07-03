@@ -65,6 +65,31 @@
         "show_text_below": false
       }
     },
+    "rich_text_KRQCTz": {
+      "type": "rich-text",
+      "blocks": {
+        "text_Y8hDWg": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em><strong>PATENT PENDING<\/strong><\/em><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_Y8hDWg"
+      ],
+      "custom_css": [
+        ".rich-text {background: rgba(var(--custom-background-color-rgb), 0.3);}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "full_width": true,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
     "image_banner_4gtVzB": {
       "type": "image-banner",
       "blocks": {
@@ -488,6 +513,7 @@
   },
   "order": [
     "image_banner_rKJfUY",
+    "rich_text_KRQCTz",
     "image_banner_4gtVzB",
     "multicolumn_dFTpYM",
     "video_ig4jrx",
