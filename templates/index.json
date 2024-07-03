@@ -71,7 +71,7 @@
         "text_Y8hDWg": {
           "type": "text",
           "settings": {
-            "text": "<p><em><strong>PATENT PENDING<\/strong><\/em><\/p>"
+            "text": "<p><strong>PATENT<\/strong><\/p><p><strong>PENDING<\/strong><\/p>"
           }
         }
       },
@@ -79,7 +79,8 @@
         "text_Y8hDWg"
       ],
       "custom_css": [
-        ".rich-text {background: rgba(var(--custom-background-color-rgb), 0.3);}"
+        ".rich-text {background: rgba(var(--custom-background-color-rgb), 0.3);}",
+        ".rich-text__text{line-height: 5px;}"
       ],
       "settings": {
         "desktop_content_position": "center",
