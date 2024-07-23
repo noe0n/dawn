@@ -397,18 +397,29 @@
             "link_label": "Gebert Rüf Stiftung",
             "link": "https:\/\/www.grstiftung.ch\/fr.html"
           }
+        },
+        "column_dJyKQC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FIT.png",
+            "title": "",
+            "text": "",
+            "link_label": "FIT",
+            "link": "https:\/\/www.fondation-fit.ch\/fr\/"
+          }
         }
       },
       "block_order": [
         "column_6E34NG",
-        "column_ACp3FP"
+        "column_ACp3FP",
+        "column_dJyKQC"
       ],
       "settings": {
         "title": "Merci à nos partenaires",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 2,
+        "columns_desktop": 3,
         "column_alignment": "left",
         "background_gradient_opacity_start": 50,
         "background_gradient_opacity_start_position": 0,
@@ -466,20 +477,31 @@
             "link_label": "Enabled By Design",
             "link": "https:\/\/enabledbydesign.ch\/"
           }
+        },
+        "column_7mt3XQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/VF.png",
+            "title": "",
+            "text": "",
+            "link_label": "VF Ingénerie",
+            "link": "https:\/\/vfingenierie.ch\/"
+          }
         }
       },
       "block_order": [
         "column_KjkGNW",
         "column_VnxWtx",
         "column_kn4FTx",
-        "column_PdXUxT"
+        "column_PdXUxT",
+        "column_7mt3XQ"
       ],
       "settings": {
         "title": "",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 4,
+        "columns_desktop": 5,
         "column_alignment": "left",
         "background_gradient_opacity_start": 50,
         "background_gradient_opacity_start_position": 0,
