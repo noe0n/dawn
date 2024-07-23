@@ -324,13 +324,35 @@
             "link_label": "PME",
             "link": "https:\/\/www.pme.ch\/business\/2024\/04\/08\/le-velo-et-la-fibre-entrepreneuriale-cest-une-histoire-de-famille-697480"
           }
+        },
+        "column_MMwWQJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/startupticker.png",
+            "title": "<em>First Ventures to accelerate their startup journey<\/em>",
+            "text": "",
+            "link_label": "Startup Ticker",
+            "link": "https:\/\/www.startupticker.ch\/en\/news\/first-ventures-to-accelerate-their-startup-journey"
+          }
+        },
+        "column_bLVEey": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lextension_geneve_logo.jpg",
+            "title": "<em>SideLights : Rendre les cyclistes plus visibles<\/em>",
+            "text": "",
+            "link_label": "L'Extension Diamant Alpin (ETE 2024)",
+            "link": "https:\/\/www.lextension.ch\/"
+          }
         }
       },
       "block_order": [
         "column_W9HAPn",
         "column_9kt4nr",
         "column_nBxWBU",
-        "column_gkWAVn"
+        "column_gkWAVn",
+        "column_MMwWQJ",
+        "column_bLVEey"
       ],
       "settings": {
         "title": "Ils parlent de nous",
