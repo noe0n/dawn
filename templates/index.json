@@ -22,7 +22,7 @@
         "text_PHFgaC": {
           "type": "text",
           "settings": {
-            "text": "Une révolution dans l'éclairage de vélo. Notre système innovant offre une visibilité à 360°, illuminant le cycliste dans toute sa largeur et incluant des indicateurs de direction. Intégré dans les extrémités du guidon, SideLights allie sécurité et style.",
+            "text": "SideLights : visibilité à 360° avec des indicateurs de direction pour une sécurité optimale à chaque trajet.",
             "text_style": "body"
           }
         },
@@ -528,6 +528,7 @@
             "alignment": "center",
             "margin_top": 0,
             "margin_bottom": 0,
+            "background_color": "",
             "html_area": ""
           }
         }
