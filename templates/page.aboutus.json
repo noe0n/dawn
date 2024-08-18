@@ -221,9 +221,10 @@
             "image": "shopify:\/\/shop_images\/portrait_zoe_lower_croped.jpg",
             "caption": "Notre ambassadrice",
             "heading": "Zoé Claessens",
-            "text": "<p>Athlète professionnelle de BMX Racing<\/p><ul><li>Vice-championne du monde<\/li><li>Championne d'Europe<\/li><\/ul>",
+            "text": "<p>Athlète professionnelle de BMX Racing<\/p><ul><li>Médaillée de Bronze aux JO de Paris 2024<\/li><li>2x Vice-championne du monde<\/li><li>2x Championne d'Europe<\/li><\/ul>",
             "button_label": "",
-            "button_link": ""
+            "button_link": "",
+            "button_isPopup": false
           }
         }
       },

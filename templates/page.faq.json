@@ -120,7 +120,7 @@
           "settings": {
             "heading": "Avec quels guidons le produit SideLights est-il compatible ? ",
             "icon": "question_mark",
-            "row_content": "<p>Le produit SideLights est compatible selon deux conditions : <\/p><ul><li>Le diamètre interne (trou dans le guidon) mesure au minimum 15mm. <\/li><li>L’angle du guidon qui tend vers le cycliste (backsweep) ne dépasse pas les 25 degrés. <\/li><\/ul>",
+            "row_content": "<p>Le produit SideLights est compatible selon deux conditions : <\/p><ul><li>Le diamètre interne (trou dans le guidon) mesure au minimum 15mm, sur 13cm de longueur.<\/li><li>L’angle du guidon qui tend vers le cycliste (backsweep) ne dépasse pas les 25 degrés. <\/li><\/ul>",
             "page": ""
           }
         },
@@ -129,7 +129,7 @@
           "settings": {
             "heading": "Dois-je changer de poignée pour monter le système SideLights sur mon vélo ? ",
             "icon": "question_mark",
-            "row_content": "<p>Si vous avez la possibilité d’accéder au trou interne de votre guidon avec vos poignées actuelles, vous pouvez les garder.  <\/p><p>Si vos poignées ne permettent aucune ouverture à leur embout, il vous faudra changer de poignée.<\/p>",
+            "row_content": "<p>Si vous avez la possibilité d’accéder au trou interne de votre guidon avec vos poignées actuelles, vous pouvez les garder.  <\/p><p>Si vos poignées ne permettent aucune ouverture à leur embout, il vous faudra changer de poignée.<\/p><p>Nous proposons également une paire de poignées SideLights ayant un ajustement parfait avec tous nos produits !<\/p>",
             "page": ""
           }
         },
@@ -139,6 +139,15 @@
             "heading": "Ai-je besoin d’outils pour monter le système SideLights sur mon vélo ? ",
             "icon": "question_mark",
             "row_content": "<p>Vous n’aurez pas besoin d’outils particuliers pour monter le produit SideLights sur votre vélo. Tout le nécessaire vous est fourni dans le packaging. <\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_XmBkyP": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "SideLights est-il compatible avec un rétroviseur ?",
+            "icon": "question_mark",
+            "row_content": "<p>SideLights est compatibles avec les rétroviseurs ne s'insérant pas à l'intérieur du guidon. <\/p><p>Nous proposons également une paire de poignées SideLights ayant un ajustement parfait avec tous nos produits !<\/p>",
             "page": ""
           }
         },
@@ -156,6 +165,7 @@
         "collapsible_row_7WxaFV",
         "collapsible_row_TDAw9C",
         "collapsible_row_q4e7pW",
+        "collapsible_row_XmBkyP",
         "collapsible_row_UpgtpQ"
       ],
       "custom_css": [
@@ -185,7 +195,7 @@
           "settings": {
             "heading": "Quels sont les avantages de visibilité du système SideLights par rapport à un système de lumières classique ? ",
             "icon": "question_mark",
-            "row_content": "<p>Le système SideLights vous offre une visibilité à 360 degrés et dans toute votre largeur. Les clignoteurs indicateurs de direction vous accompagnent dans les changements de direction, augmentant ainsi votre visibilité lors d’un changement de direction.<\/p>",
+            "row_content": "<p>Le système SideLights vous offre une visibilité à 360 degrés et dans toute votre largeur. Les indicateurs de direction vous accompagnent dans les changements de direction, augmentant ainsi votre visibilité lors d’un changement de direction.<\/p>",
             "page": ""
           }
         },
@@ -212,7 +222,7 @@
           "settings": {
             "heading": "Le système de lumières SideLights remplace-t-il un système de lumières classique ayant une lumière avant et arrière ? ",
             "icon": "question_mark",
-            "row_content": "<p>En Suisse, le système SideLights peut remplacer la lumière avant et arrière de votre vélo. Concernant les vélos électriques rapides (45km\/h), le système SideLights ne remplace aucune lumière.<\/p>",
+            "row_content": "<p>Le système SideLights peut remplacer la lumière avant et arrière de votre vélo. <\/p><p>Veuillez vérifier que SideLights est conforme aux lois de la route dans votre pays. <\/p><p>Concernant les vélos électriques rapides (45km\/h), le système SideLights ne remplace aucune lumière.<\/p>",
             "page": ""
           }
         },
