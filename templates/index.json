@@ -85,7 +85,7 @@
         "heading_pqJC3b": {
           "type": "heading",
           "settings": {
-            "heading": "La moitié des accidents pourraient être évités si le cycliste était vu 1s plus tôt*. Alors que les systèmes d'éclairage actuels sont limités, SideLights offre une solution révolutionnaire, éclairant efficacement sous tous les angles.",
+            "heading": "La moitié des accidents pourraient être évités si le cycliste était vu 1s plus tôt.*",
             "heading_size": "h2"
           }
         },
@@ -129,8 +129,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/icon_v3_3.png",
-            "title": "<strong>Visibilité à 360<\/strong>",
-            "text": "<p>Assurez une sécurité maximale avec une visibilité à 360°, éliminant les angles morts et renforçant votre présence sur la route.<\/p>",
+            "title": "<strong>Visibilité à 360°<\/strong>",
+            "text": "<p>Soyez visibles même dans les intersections.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -139,8 +139,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/icon_v3_2.png",
-            "title": "<strong>Illuminé sur toute la largeur<\/strong>",
-            "text": "<p>SideLights illumine toute la largeur de votre vélo, permettant aux autres véhicules de mieux estimer la distance de sécurité lors de dépassements.<\/p>",
+            "title": "<strong>Visibilité en largeur<\/strong>",
+            "text": "<p>Toute la largeur du vélo éclairée pour plus de distance de dépassement.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -149,8 +149,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/icon_v3.png",
-            "title": "<strong>Signalisation intuitive<\/strong>",
-            "text": "<p>Soyez clair dans vos intentions de virage avec nos indicateurs de direction intégrés, améliorant la communication et la sécurité sur la route.<\/p>",
+            "title": "<strong>Indicateurs de direction<\/strong>",
+            "text": "<p>Indiquez vos intentions avec des clignotants intégrés, devenez plus prévisibles.<\/p>",
             "link_label": "",
             "link": ""
           }
