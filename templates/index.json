@@ -70,56 +70,13 @@
       "custom_css": [
         ".color-scheme-4 {background-color: rgba(var(--custom-background-color-rgb), 0.3);}",
         "#custom-container {display: flex; flex-direction: column; justify-content: center; align-items: center; width: 100%; height: 100%;}",
-        "#custom-text {text-align: center; font-weight: 600; font-size: 13px; line-height: 17px; border: 1px solid white; border-radius: 5px; padding: 5px; background-color: rgba(var(--custom-background-color-rgb), 0.2);}"
+        "#custom-text {text-align: center; font-weight: 200; font-size: 13px; line-height: 17px; border: 1px solid white; border-radius: 5px; padding: 5px; background-color: rgba(var(--custom-background-color-rgb), 0.2);}"
       ],
       "settings": {
         "custom_liquid": "<div id=\"custom-container\">\n<div id=\"custom-text\">PATENT<br>PENDING<\/div>\n<\/div>",
         "color_scheme": "scheme-4",
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "image_banner_4gtVzB": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_pqJC3b": {
-          "type": "heading",
-          "settings": {
-            "heading": "La moitié des accidents pourraient être évités si le cycliste était vu 1s plus tôt.*",
-            "heading_size": "h2"
-          }
-        },
-        "text_aw83KR": {
-          "type": "text",
-          "settings": {
-            "text": "*Selon une <a href=\"https:\/\/www.bfu.ch\/fr\" target=\"_blank\" title=\"BFU | Bureau de prévention des accidents\">étude du Bureau suisse de prévention des accidents <\/a>.",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_pqJC3b",
-        "text_aw83KR"
-      ],
-      "custom_css": [
-        ".banner {min-height: 80vh;}",
-        ".banner__heading {max-width: 70rem;}"
-      ],
-      "settings": {
-        "image_overlay_opacity": 100,
-        "image_overlay_opacity_top": 30,
-        "image_overlay_opacity_top_position": 0,
-        "image_overlay_opacity_bottom": 100,
-        "image_overlay_opacity_bottom_position": 100,
-        "image_height": "large",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-4",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": false
       }
     },
     "multicolumn_dFTpYM": {
@@ -168,7 +125,7 @@
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "center",
-        "background_gradient_opacity_start": 100,
+        "background_gradient_opacity_start": 30,
         "background_gradient_opacity_start_position": 0,
         "background_gradient_opacity_end": 100,
         "background_gradient_opacity_end_position": 100,
@@ -180,6 +137,77 @@
         "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "rich_text_43hhCx": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_RVXjKp": {
+          "type": "heading",
+          "settings": {
+            "heading": "Visible à 360°",
+            "heading_size": "h1"
+          }
+        },
+        "text_LKW6KW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Soyez visible à chaque intersection, sous n'importe quel angle, grâce à un éclairage de plus de 700 lumens.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_RVXjKp",
+        "text_LKW6KW"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_AhX4k4": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_aQJFNf": {
+          "type": "heading",
+          "settings": {
+            "heading": "Visible à 360°",
+            "heading_size": "h1"
+          }
+        },
+        "text_hK4PAa": {
+          "type": "text",
+          "settings": {
+            "text": "Soyez visible à chaque intersection, sous n'importe quel angle, grâce à un éclairage de plus de 700 lumens.",
+            "text_style": "subtitle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_aQJFNf",
+        "text_hK4PAa"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Render_sidelights_arriere_fond_noir_et_lumieres_croped-v2.png",
+        "image_2": "shopify:\/\/shop_images\/Render_sidelights_avant_fond_noir_et_lumieres_v2.png",
+        "image_overlay_opacity": 0,
+        "image_overlay_opacity_top": 100,
+        "image_overlay_opacity_top_position": 0,
+        "image_overlay_opacity_bottom": 100,
+        "image_overlay_opacity_bottom_position": 100,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
       }
     },
     "video_ig4jrx": {
@@ -200,63 +228,6 @@
         "background_gradient_opacity_end": 100,
         "background_gradient_opacity_end_position": 100,
         "color_scheme": "scheme-4",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn_yf69dL": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_6T69kE": {
-          "type": "column",
-          "settings": {
-            "title": "<strong>Installation et utilisation facile<\/strong>",
-            "text": "<p>Produit plug-and-play, installable en quelques minutes : une fois fixé, plus besoin de démonter votre système. Recharge simplifiée avec nos batteries interchangeables en 5s.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_Xt3Wi9": {
-          "type": "column",
-          "settings": {
-            "title": "<strong>Design ergonomique<\/strong>",
-            "text": "<p>Produit ingénieusement développé pour s'intégrer dans l'espace intérieur vide de votre guidon, offrant un design sans compromis.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_y946tT": {
-          "type": "column",
-          "settings": {
-            "title": "<strong>Compatible avec votre guidon<\/strong>",
-            "text": "<p>S'adapte à la majorité des guidons droits ou légèrement incurvés*. *Backsweep entre 0° et 25° \/ diamètre interne de min. 15mm.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_6T69kE",
-        "column_Xt3Wi9",
-        "column_y946tT"
-      ],
-      "settings": {
-        "title": "Pensé par des cyclistes, et ça se voit.",
-        "heading_size": "h1",
-        "image_width": "half",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_gradient_opacity_start": 100,
-        "background_gradient_opacity_start_position": 0,
-        "background_gradient_opacity_end": 100,
-        "background_gradient_opacity_end_position": 100,
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-4",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -548,10 +519,10 @@
   "order": [
     "image_banner_rKJfUY",
     "custom_liquid_BLW3Jz",
-    "image_banner_4gtVzB",
     "multicolumn_dFTpYM",
+    "rich_text_43hhCx",
+    "image_banner_AhX4k4",
     "video_ig4jrx",
-    "multicolumn_yf69dL",
     "image_banner_VLE8Ac",
     "multicolumn_PzHjBL",
     "multicolumn_7twp4X",
