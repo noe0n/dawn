@@ -190,20 +190,120 @@
         "show_text_below": false
       }
     },
+    "multirow_AGehtJ": {
+      "type": "multirow",
+      "blocks": {
+        "row_VaUyzJ": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Animation_clignottant_1.gif",
+            "caption": "",
+            "heading": "Clignotants",
+            "text": "<p>Indiquez vos intentions sur la route afin d'être prévisible pour les conducteurs, réduisant ainsi le risque d'accidents.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_isPopup": false
+          }
+        },
+        "row_rgHhcH": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/claessens-arthur_heig-vd-1371.jpg",
+            "caption": "",
+            "heading": "Visibilité à Double Faisceau",
+            "text": "<p>Soyez reconnu sur toute la largeur de votre vélo grâce à un puissant double faisceau, encourageant les voitures à laisser une plus grande distance lors du dépassement.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_isPopup": false
+          }
+        },
+        "row_mVBTU6": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/claessens-arthur_heig-vd-1267_-_copie.jpg",
+            "caption": "",
+            "heading": "Installation Facile",
+            "text": "<p>Installation en seulement 5 minutes, et cela sans outil supplémentaire.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_isPopup": false
+          }
+        },
+        "row_UnYtXN": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/L-R_SLfn.jpg",
+            "caption": "",
+            "heading": "Expérience Utilisateur Sans Accroc",
+            "text": "<p>Facile à utiliser et à recharger grâce à des batteries USB-C interchangeables. Une fois en place, il est sécurisé et difficile à voler.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_isPopup": false
+          }
+        },
+        "row_UQirVQ": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_2659_copie.jpg",
+            "caption": "",
+            "heading": "Compatibilité Universelle",
+            "text": "<p>S'adapte facilement à la plupart des vélos et des poignées. Consultez notre page de compatibilité pour vous assurer d'une correspondance parfaite avec votre vélo.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_isPopup": false
+          }
+        },
+        "row_3jJt9R": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Side_SLfn.jpg",
+            "caption": "",
+            "heading": "Innovation Unique en Cours de Brevet",
+            "text": "<p>Découvrez le premier système d'éclairage pour vélo alliant un design avant-gardiste à une visibilité inégalée, rendant votre vélo unique.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_isPopup": false
+          }
+        }
+      },
+      "block_order": [
+        "row_VaUyzJ",
+        "row_rgHhcH",
+        "row_mVBTU6",
+        "row_UnYtXN",
+        "row_UQirVQ",
+        "row_3jJt9R"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "scheme-4",
+        "row_color_scheme": "scheme-4",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "rich_text_erLkeH": {
       "type": "rich-text",
       "blocks": {
         "heading_k39eeN": {
           "type": "heading",
           "settings": {
-            "heading": "Visible à 360°",
+            "heading": "Indicateur de direction",
             "heading_size": "h1"
           }
         },
         "text_4AHwMB": {
           "type": "text",
           "settings": {
-            "text": "<p>Soyez visible à chaque intersection, sous n'importe quel angle, grâce à un éclairage de plus de 700 lumens.<\/p>"
+            "text": "<p>Indiquez vos intentions sur la route afin d'être prévisible pour les conducteurs, réduisant ainsi le risque d'accidents.<\/p>"
           }
         }
       },
@@ -223,8 +323,7 @@
     "image_banner_66QxTg": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Render_sidelights_arriere_fond_noir_et_lumieres_croped-v2.png",
-        "image_2": "shopify:\/\/shop_images\/Render_sidelights_avant_fond_noir_et_lumieres_v2.png",
+        "image": "shopify:\/\/shop_images\/Animation_clignottant_1.gif",
         "image_overlay_opacity": 0,
         "image_overlay_opacity_top": 100,
         "image_overlay_opacity_top_position": 0,
@@ -553,6 +652,7 @@
     "multicolumn_dFTpYM",
     "rich_text_43hhCx",
     "image_banner_AhX4k4",
+    "multirow_AGehtJ",
     "rich_text_erLkeH",
     "image_banner_66QxTg",
     "video_ig4jrx",
