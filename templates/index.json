@@ -171,26 +171,6 @@
     },
     "image_banner_AhX4k4": {
       "type": "image-banner",
-      "blocks": {
-        "heading_aQJFNf": {
-          "type": "heading",
-          "settings": {
-            "heading": "Visible à 360°",
-            "heading_size": "h1"
-          }
-        },
-        "text_hK4PAa": {
-          "type": "text",
-          "settings": {
-            "text": "Soyez visible à chaque intersection, sous n'importe quel angle, grâce à un éclairage de plus de 700 lumens.",
-            "text_style": "subtitle"
-          }
-        }
-      },
-      "block_order": [
-        "heading_aQJFNf",
-        "text_hK4PAa"
-      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Render_sidelights_arriere_fond_noir_et_lumieres_croped-v2.png",
         "image_2": "shopify:\/\/shop_images\/Render_sidelights_avant_fond_noir_et_lumieres_v2.png",
