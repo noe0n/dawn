@@ -190,6 +190,57 @@
         "show_text_below": false
       }
     },
+    "rich_text_erLkeH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_k39eeN": {
+          "type": "heading",
+          "settings": {
+            "heading": "Visible à 360°",
+            "heading_size": "h1"
+          }
+        },
+        "text_4AHwMB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Soyez visible à chaque intersection, sous n'importe quel angle, grâce à un éclairage de plus de 700 lumens.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_k39eeN",
+        "text_4AHwMB"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_66QxTg": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Render_sidelights_arriere_fond_noir_et_lumieres_croped-v2.png",
+        "image_2": "shopify:\/\/shop_images\/Render_sidelights_avant_fond_noir_et_lumieres_v2.png",
+        "image_overlay_opacity": 0,
+        "image_overlay_opacity_top": 100,
+        "image_overlay_opacity_top_position": 0,
+        "image_overlay_opacity_bottom": 100,
+        "image_overlay_opacity_bottom_position": 100,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
     "video_ig4jrx": {
       "type": "video",
       "custom_css": [
@@ -502,6 +553,8 @@
     "multicolumn_dFTpYM",
     "rich_text_43hhCx",
     "image_banner_AhX4k4",
+    "rich_text_erLkeH",
+    "image_banner_66QxTg",
     "video_ig4jrx",
     "image_banner_VLE8Ac",
     "multicolumn_PzHjBL",
