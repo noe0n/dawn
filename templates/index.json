@@ -381,6 +381,10 @@
         "row_3jJt9R"
       ],
       "settings": {
+        "background_gradient_opacity_start": 0,
+        "background_gradient_opacity_start_position": 0,
+        "background_gradient_opacity_end": 100,
+        "background_gradient_opacity_end_position": 100,
         "image_height": "medium",
         "desktop_image_width": "medium",
         "heading_size": "h1",
