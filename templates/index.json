@@ -30,8 +30,8 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Précommander SideLights",
-            "button_link_1": "",
-            "button_isPopup": true,
+            "button_link_1": "shopify:\/\/pages\/pre-order",
+            "button_isPopup": false,
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -179,7 +179,7 @@
       "settings": {
         "background_gradient_opacity_start": 90,
         "background_gradient_opacity_start_position": 0,
-        "background_gradient_opacity_end": 70,
+        "background_gradient_opacity_end": 80,
         "background_gradient_opacity_end_position": 100,
         "image_height": "medium",
         "desktop_image_width": "medium",
@@ -270,7 +270,7 @@
         "video_url": "",
         "description": "",
         "full_width": false,
-        "background_gradient_opacity_start": 70,
+        "background_gradient_opacity_start": 80,
         "background_gradient_opacity_start_position": 0,
         "background_gradient_opacity_end": 100,
         "background_gradient_opacity_end_position": 100,
