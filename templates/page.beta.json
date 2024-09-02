@@ -17,6 +17,57 @@
         "padding_bottom": 28
       }
     },
+    "rich_text_gyVfiR": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_AVfrgn": {
+          "type": "heading",
+          "settings": {
+            "heading": "Êtes-vous prêts ?",
+            "heading_size": "h1"
+          }
+        },
+        "text_34hkTW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Notre campagne de financement sur <strong>Kickstarter <\/strong>est sur le point d'être lancée. <strong>Soyez averti du lancement<\/strong> en entrant votre adresse mail ci-dessous.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_AVfrgn",
+        "text_34hkTW"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_banner_JiDNYn": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Render_sidelights_arriere_fond_noir_et_lumieres_croped-v2_1aac8510-6764-44e1-9b6a-6ba253cbe0dd.png",
+        "image_2": "shopify:\/\/shop_images\/L-R_SLfn_v2_1280650f-6db2-4b69-8074-f2960164c973.png",
+        "image_overlay_opacity": 0,
+        "image_overlay_opacity_top": 100,
+        "image_overlay_opacity_top_position": 0,
+        "image_overlay_opacity_bottom": 100,
+        "image_overlay_opacity_bottom_position": 100,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "multirow_DYpDXw": {
       "type": "multirow",
       "blocks": {
@@ -36,6 +87,7 @@
       "block_order": [
         "row_LzzFt8"
       ],
+      "disabled": true,
       "custom_css": [
         ".button {animation: glowing 2500ms infinite; animation-timing-function: ease;}"
       ],
@@ -118,6 +170,8 @@
   },
   "order": [
     "main",
+    "rich_text_gyVfiR",
+    "image_banner_JiDNYn",
     "multirow_DYpDXw",
     "image_banner_eLTgXH"
   ]
