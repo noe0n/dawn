@@ -121,7 +121,7 @@
         "row_mVBTU6": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/claessens-arthur_heig-vd-1267_-_copie.jpg",
+            "image": "shopify:\/\/shop_images\/Animation_assemblage_1.gif",
             "caption": "",
             "heading": "Installation Facile",
             "text": "<p>Installation en seulement 5 minutes, et cela sans outil supplémentaire.<\/p>",
@@ -145,7 +145,7 @@
         "row_UQirVQ": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_2659_copie.jpg",
+            "image": "shopify:\/\/shop_images\/allbikesblackandwite.jpg",
             "caption": "",
             "heading": "Compatibilité Universelle",
             "text": "<p>S'adapte facilement à la plupart des vélos et des poignées. Consultez notre page de compatibilité pour vous assurer d'une correspondance parfaite avec votre vélo.<\/p>",
@@ -159,8 +159,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Side_SL_Ebikitfn_v2.png",
             "caption": "",
-            "heading": "Innovation Unique en Cours de Brevet",
-            "text": "<p>Découvrez le premier système d'éclairage pour vélo alliant un design avant-gardiste à une visibilité inégalée, rendant votre vélo unique.<\/p>",
+            "heading": "Une innovation mondiale",
+            "text": "<p>Découvrez nos feux en cours de brevetage qui allient un design avant-gardiste à une visibilité inégalée, rendant votre vélo unique.<\/p>",
             "button_label": "",
             "button_link": "",
             "button_isPopup": false
@@ -179,7 +179,7 @@
       "settings": {
         "background_gradient_opacity_start": 90,
         "background_gradient_opacity_start_position": 0,
-        "background_gradient_opacity_end": 100,
+        "background_gradient_opacity_end": 70,
         "background_gradient_opacity_end_position": 100,
         "image_height": "medium",
         "desktop_image_width": "medium",
@@ -235,6 +235,7 @@
         "column_MWgaAA",
         "column_rEcU8j"
       ],
+      "disabled": true,
       "settings": {
         "title": "Notre promesse : Votre sécurité.",
         "heading_size": "h1",
@@ -256,107 +257,6 @@
         "padding_bottom": 36
       }
     },
-    "rich_text_43hhCx": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_RVXjKp": {
-          "type": "heading",
-          "settings": {
-            "heading": "Visible à 360°",
-            "heading_size": "h1"
-          }
-        },
-        "text_LKW6KW": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Soyez visible à chaque intersection, sous n'importe quel angle, grâce à un éclairage de plus de 700 lumens.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_RVXjKp",
-        "text_LKW6KW"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-4",
-        "full_width": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_banner_AhX4k4": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Render_sidelights_arriere_fond_noir_et_lumieres_croped-v2_823d4ccf-8ddc-48ca-858f-082e6d314aec.png",
-        "image_2": "shopify:\/\/shop_images\/Render_sidelights_avant_fond_noir_et_lumieres_v2_721d1919-a079-44f3-8b5f-ccfd6d7ca9eb.png",
-        "image_overlay_opacity": 0,
-        "image_overlay_opacity_top": 100,
-        "image_overlay_opacity_top_position": 0,
-        "image_overlay_opacity_bottom": 100,
-        "image_overlay_opacity_bottom_position": 100,
-        "image_height": "small",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-4",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
-    "rich_text_erLkeH": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_k39eeN": {
-          "type": "heading",
-          "settings": {
-            "heading": "Indicateur de direction",
-            "heading_size": "h1"
-          }
-        },
-        "text_4AHwMB": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Indiquez vos intentions sur la route afin d'être prévisible pour les conducteurs, réduisant ainsi le risque d'accidents.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_k39eeN",
-        "text_4AHwMB"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-4",
-        "full_width": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_banner_66QxTg": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Animation_clignottant_1.gif",
-        "image_overlay_opacity": 0,
-        "image_overlay_opacity_top": 100,
-        "image_overlay_opacity_top_position": 0,
-        "image_overlay_opacity_bottom": 100,
-        "image_overlay_opacity_bottom_position": 100,
-        "image_height": "small",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-4",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
     "video_ig4jrx": {
       "type": "video",
       "custom_css": [
@@ -370,7 +270,7 @@
         "video_url": "",
         "description": "",
         "full_width": false,
-        "background_gradient_opacity_start": 100,
+        "background_gradient_opacity_start": 70,
         "background_gradient_opacity_start_position": 0,
         "background_gradient_opacity_end": 100,
         "background_gradient_opacity_end_position": 100,
@@ -668,10 +568,6 @@
     "custom_liquid_BLW3Jz",
     "multirow_AGehtJ",
     "multicolumn_dFTpYM",
-    "rich_text_43hhCx",
-    "image_banner_AhX4k4",
-    "rich_text_erLkeH",
-    "image_banner_66QxTg",
     "video_ig4jrx",
     "image_banner_VLE8Ac",
     "multicolumn_PzHjBL",
