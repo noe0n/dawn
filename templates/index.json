@@ -183,7 +183,7 @@
         "background_gradient_opacity_end_position": 100,
         "image_height": "medium",
         "desktop_image_width": "medium",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "text_style": "subtitle",
         "button_style": "secondary",
         "desktop_content_position": "middle",
