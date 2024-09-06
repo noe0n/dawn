@@ -17,6 +17,15 @@
         "padding_bottom": 28
       }
     },
+    "custom_liquid_nREaeK": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"width: 100%;display: flex; flex-direction:column;align-items:center;background-color:rgba(0,0,0,1);padding:40px;\">\n<img style=\"width:100px;\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0790\/1269\/2294\/files\/Logo_Sidelight_complet_B_sans_fond_0.2_sans_marge.png?v=1709196943\"><\/div>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "image_with_text_mAypxd": {
       "type": "image-with-text",
       "blocks": {
@@ -251,6 +260,7 @@
   },
   "order": [
     "main",
+    "custom_liquid_nREaeK",
     "image_with_text_mAypxd",
     "multirow_DYpDXw",
     "collapsible_content_kVe6BG",
