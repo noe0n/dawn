@@ -47,6 +47,53 @@
         "padding_bottom": 20
       }
     },
+    "image_with_text_mAypxd": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_J6FfPV": {
+          "type": "heading",
+          "settings": {
+            "heading": "Économisez 43 % en réservant votre kit SideLights aujourd'hui !",
+            "heading_size": "h1"
+          }
+        },
+        "text_czeYGE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pour bénéficier de cette offre, il vous suffit de déposer un acompte de 1 € et vous bénéficierez de notre remise exclusive. En versant 1 € maintenant, <strong>votre réduction<\/strong> sur le prix de vente conseillé de 175 € <strong>vous est garantie<\/strong>.<\/p><p>Cela signifie que vous ne paierez que 99 € au total lors de l'expédition.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_U9ME8F": {
+          "type": "button",
+          "settings": {
+            "button_label": "Je réserve mon kit SideLights maintenant",
+            "button_link": "https:\/\/get.sidelights.com\/checkout\/5",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_J6FfPV",
+        "text_czeYGE",
+        "button_U9ME8F"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Render_sidelights_arriere_fond_noir_et_lumieres_croped-v2.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-4",
+        "color_scheme": "scheme-4",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "custom_liquid_Q6NMXM": {
       "type": "custom-liquid",
       "settings": {
@@ -180,6 +227,7 @@
   "order": [
     "main",
     "rich_text_gyVfiR",
+    "image_with_text_mAypxd",
     "custom_liquid_Q6NMXM",
     "image_banner_JiDNYn",
     "multirow_DYpDXw",
