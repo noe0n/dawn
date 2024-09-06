@@ -201,7 +201,7 @@
         "column_3ND6gR"
       ],
       "custom_css": [
-
+        ".multicolumn-list__item {border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 15px; padding: 15px;}"
       ],
       "settings": {
         "title": "",
