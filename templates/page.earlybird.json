@@ -17,36 +17,6 @@
         "padding_bottom": 28
       }
     },
-    "rich_text_gyVfiR": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_AVfrgn": {
-          "type": "heading",
-          "settings": {
-            "heading": "Êtes-vous prêts ?",
-            "heading_size": "h1"
-          }
-        },
-        "text_34hkTW": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Notre campagne de financement sur <strong>Kickstarter <\/strong>est sur le point d'être lancée. <strong>Soyez averti du lancement et d'offres exclusives<\/strong> en entrant votre adresse mail ci-dessous.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_AVfrgn",
-        "text_34hkTW"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-4",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 20
-      }
-    },
     "image_with_text_mAypxd": {
       "type": "image-with-text",
       "blocks": {
@@ -79,7 +49,7 @@
         "button_U9ME8F"
       ],
       "custom_css": [
-        ".button {text-align: center; padding: 16px; background-color: rgb(235 183 91); color: black; font-weight: 600; border-radius: 4px; border: 0px solid black!important; animation: glowing_around 2500ms infinite;}"
+        ".button {--border-offset: 0; text-align: center; padding: 16px; background-color: rgb(235 183 91); color: black; font-weight: 600; border-radius: 4px; border: 0px solid black !important; animation: glowing_around 2500ms infinite;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Render_sidelights_arriere_fond_noir_et_lumieres_croped-v2.png",
@@ -139,12 +109,124 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "collapsible_content_kVe6BG": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_xqrXAd": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Quels avantages en termes de visibilité le système SideLights offre-t-il par rapport aux systèmes d'éclairage traditionnels ?",
+            "icon": "none",
+            "row_content": "<p>Le système SideLights offre une visibilité à 360 degrés et une couverture sur toute la largeur du vélo. Les clignotants vous aident à signaler vos changements de direction.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Q83i86": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Le système SideLights éclaire-t-il la route ?",
+            "icon": "none",
+            "row_content": "<p>Oui, le système SideLights vous permet de voir et d'être vu. Grâce à ses puissants phares doubles à l'avant, SideLights vous assure une visibilité optimale de la route, quelles que soient les conditions d'éclairage.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_RAHych": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Les clignotants remplacent-ils les signaux manuels pour tourner ?",
+            "icon": "none",
+            "row_content": "<p>Le produit SideLights est compatible sous deux conditions : le diamètre interne (trou du guidon) doit être d'au moins 15 mm sur une longueur de 13 cm, et l'angle du guidon vers le cycliste (backsweep) ne doit pas dépasser 25 degrés.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_xqrXAd",
+        "collapsible_row_Q83i86",
+        "collapsible_row_RAHych"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "FAQ",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "row",
+        "color_scheme": "scheme-4",
+        "container_color_scheme": "scheme-4",
+        "open_first_collapsible_row": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_xFBEah": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_9dNbfr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/100remb_efda65f2-1687-4927-8841-969b450bdc76.png",
+            "title": "Garantie de remboursement à 100 %",
+            "text": "<p>Si vous annulez votre réservation, nous vous garantissons un remboursement intégral à tout moment avant que le projet ne passe en production.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_fz3kbY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/trans_a6b90935-5930-4511-8c25-c35a0e5e9350.png",
+            "title": "Garantie de transparence",
+            "text": "<p>Nous nous engageons à être transparents sur l'avancement de notre projet tout au long de la campagne.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3ND6gR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/secu_81e6dc7d-d7b5-44d1-af5d-fa758393f9cd.png",
+            "title": "Paiement sécurisé",
+            "text": "<p>Toutes les commandes sont traitées via notre réseau sécurisé. Vos informations de carte de crédit ne sont jamais stockées de quelque manière que ce soit. Nous respectons votre vie privée.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_9dNbfr",
+        "column_fz3kbY",
+        "column_3ND6gR"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_gradient_opacity_start": 100,
+        "background_gradient_opacity_start_position": 0,
+        "background_gradient_opacity_end": 100,
+        "background_gradient_opacity_end_position": 100,
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-4",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "rich_text_gyVfiR",
     "image_with_text_mAypxd",
-    "multirow_DYpDXw"
+    "multirow_DYpDXw",
+    "collapsible_content_kVe6BG",
+    "multicolumn_xFBEah"
   ]
 }
