@@ -1,0 +1,188 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_gyVfiR": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_AVfrgn": {
+          "type": "heading",
+          "settings": {
+            "heading": "Êtes-vous prêts ?",
+            "heading_size": "h1"
+          }
+        },
+        "text_34hkTW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Notre campagne de financement sur <strong>Kickstarter <\/strong>est sur le point d'être lancée. <strong>Soyez averti du lancement et d'offres exclusives<\/strong> en entrant votre adresse mail ci-dessous.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_AVfrgn",
+        "text_34hkTW"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 20
+      }
+    },
+    "custom_liquid_Q6NMXM": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div id=\"mc_embed_shell\">\n  <div id=\"mc_embed_signup\">\n    <form\n      action=\"https:\/\/sidelights.us17.list-manage.com\/subscribe\/post?u=c369b9be6a1e182c4ea49abb9&amp;id=1f6aace689&amp;f_id=004a10e0f0\"\n      method=\"post\"\n      id=\"mc-embedded-subscribe-form\"\n      name=\"mc-embedded-subscribe-form\"\n      class=\"validate\"\n    >\n      <div id=\"mc_embed_signup_scroll\">\n        <div class=\"mc-field-group\" style=\"display: flex; flex-direction: column; align-items: center; padding-left : 36px; padding-right: 36px; text-align:center;\">\n          <input\n            type=\"email\"\n            name=\"EMAIL\"\n            class=\"required email\"\n            id=\"mce-EMAIL\"\n            required=\"\"\n            value=\"\"\n            placeholder=\"amazing@example.com\"\n            style=\"text-align: center; padding: 12px 20px; border: 1px solid #ccc; border-radius: 4px; width: 100%; max-width : 500px\"\n          >\n        <\/div>\n        <div hidden=\"\"><input type=\"hidden\" name=\"tags\" value=\"8302905\"><\/div>\n        <div id=\"mce-responses\" class=\"clear\">\n          <div class=\"response\" id=\"mce-error-response\" style=\"display: none;\"><\/div>\n          <div class=\"response\" id=\"mce-success-response\" style=\"display: none;\"><\/div>\n        <\/div>\n        <div aria-hidden=\"true\" style=\"position: absolute; left: -5000px;\">\n          <input type=\"text\" name=\"b_c369b9be6a1e182c4ea49abb9_1f6aace689\" tabindex=\"-1\" value=\"\">\n        <\/div>\n        <div class=\"clear\" style=\"display: flex; justify-content: center;\">\n          <input\n            style=\"margin-top: 16px; border: 1px solid white; border-radius: 4px; animation: glowing_around 2500ms infinite;\"\n            type=\"submit\"\n            name=\"subscribe\"\n            id=\"mc-embedded-subscribe\"\n            class=\"button\"\n            value=\"M'inscrire maintenant\"\n          >\n        <\/div>\n      <\/div>\n    <\/form>\n  <\/div>\n\n  <script type=\"text\/javascript\" src=\"\/\/s3.amazonaws.com\/downloads.mailchimp.com\/js\/mc-validate.js\"><\/script>\n  <script type=\"text\/javascript\">\n    (function ($) {\n      window.fnames = new Array();\n      window.ftypes = new Array();\n      fnames[0] = 'EMAIL';\n      ftypes[0] = 'email';\n    })(jQuery);\n    var $mcj = jQuery.noConflict(true);\n\n    \/\/ Gestion de la soumission du formulaire via AJAX\n    document.getElementById('mc-embedded-subscribe-form').addEventListener('submit', function (e) {\n      e.preventDefault(); \/\/ Empêche la soumission classique du formulaire\n\n      \/\/ Récupérer les données du formulaire\n      var formData = new FormData(this);\n\n      \/\/ Envoyer les données via AJAX\n      fetch(this.action, {\n        method: 'POST',\n        body: formData,\n        mode: 'no-cors' \/\/ Utiliser 'no-cors' pour éviter les problèmes de politique de sécurité\n      })\n      .then(function(response) {\n        \/\/ Rediriger après la soumission\n        window.location.href = \"https:\/\/sidelights.com\"; \/\/ Remplacer par l'URL de redirection\n      })\n      .catch(function(error) {\n        console.error('Erreur:', error);\n      });\n    });\n  <\/script>\n<\/div>",
+        "color_scheme": "scheme-4",
+        "padding_top": 20,
+        "padding_bottom": 52
+      }
+    },
+    "image_banner_JiDNYn": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Render_sidelights_arriere_fond_noir_et_lumieres_croped-v2_1aac8510-6764-44e1-9b6a-6ba253cbe0dd.png",
+        "image_2": "shopify:\/\/shop_images\/L-R_SLfn_v2_1280650f-6db2-4b69-8074-f2960164c973.png",
+        "image_overlay_opacity": 0,
+        "image_overlay_opacity_top": 100,
+        "image_overlay_opacity_top_position": 0,
+        "image_overlay_opacity_bottom": 100,
+        "image_overlay_opacity_bottom_position": 100,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "multirow_DYpDXw": {
+      "type": "multirow",
+      "blocks": {
+        "row_LzzFt8": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/claessens-arthur_heig-vd-1267-croped.jpg",
+            "caption": "précommandes",
+            "heading": "<strong>Early birds (-40%)<\/strong>",
+            "text": "<h3>Soyez parmi <strong>les premiers<\/strong> à acquérir SideLights<\/h3><h3><strong>Jusqu'à -40%<\/strong> lors du Kickstarter !<\/h3>",
+            "button_label": "Je m'inscris",
+            "button_link": "",
+            "button_isPopup": false
+          }
+        }
+      },
+      "block_order": [
+        "row_LzzFt8"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".button {animation: glowing 2500ms infinite; animation-timing-function: ease;}"
+      ],
+      "settings": {
+        "background_gradient_opacity_start": 100,
+        "background_gradient_opacity_start_position": 0,
+        "background_gradient_opacity_end": 100,
+        "background_gradient_opacity_end_position": 100,
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "scheme-4",
+        "row_color_scheme": "scheme-4",
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_eLTgXH": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_fBPXVi": {
+          "type": "heading",
+          "settings": {
+            "heading": "Il vous reste des questions ?",
+            "heading_size": "h1"
+          }
+        },
+        "text_Vx69GE": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "buttons_YXirW3": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Visiter la FAQ",
+            "button_link_1": "shopify:\/\/pages\/faq",
+            "button_isPopup": false,
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_fBPXVi",
+        "text_Vx69GE",
+        "buttons_YXirW3"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/claessens-arthur_heig-vd-1406-Avec_accentuation-Bruit_5e3dac9b-09b5-4a2a-95e3-5ef0de6542bc.jpg",
+        "image_overlay_opacity": 60,
+        "image_overlay_opacity_top": 100,
+        "image_overlay_opacity_top_position": 100,
+        "image_overlay_opacity_bottom": 100,
+        "image_overlay_opacity_bottom_position": 100,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_gyVfiR",
+    "custom_liquid_Q6NMXM",
+    "image_banner_JiDNYn",
+    "multirow_DYpDXw",
+    "image_banner_eLTgXH"
+  ]
+}
