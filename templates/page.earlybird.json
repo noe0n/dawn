@@ -49,7 +49,8 @@
         "button_U9ME8F"
       ],
       "custom_css": [
-        ".button {--border-offset: 0; text-align: center; padding: 16px; background-color: rgb(235 183 91); color: black; font-weight: 600; border-radius: 4px; border: 0px solid black !important; animation: glowing_around 2500ms infinite;}",
+        ".button {--border-offset: 0; text-align: center; padding: 16px; background-color: rgb(235 183 91); color: black; font-weight: 600; border-radius: 4px !important; border: 0px solid black !important; animation: glowing_around 2500ms infinite;}",
+        ".button:hover {border-radius: 4px !important; border: 0px solid black !important; --border-offset: 0;}",
         ".image-with-text__media {border: 0px; border-radius: 15px; box-shadow: 0px 0px 50px rgba(255, 255, 255, 0.1);}"
       ],
       "settings": {
@@ -224,6 +225,28 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "rich_text_3RkRGW": {
+      "type": "rich-text",
+      "blocks": {
+        "text_DiDzQe": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Powered by Launchkit.<\/em><\/p><p><a href=\"https:\/\/get.sidelights.com\/privacy-policy\" target=\"_blank\" title=\"https:\/\/get.sidelights.com\/privacy-policy\">Privacy Policy<\/a> | <a href=\"https:\/\/get.sidelights.com\/terms-and-conditions\" target=\"_blank\" title=\"https:\/\/get.sidelights.com\/terms-and-conditions\">Terms and Conditions<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_DiDzQe"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -231,6 +254,7 @@
     "image_with_text_mAypxd",
     "multirow_DYpDXw",
     "collapsible_content_kVe6BG",
-    "multicolumn_xFBEah"
+    "multicolumn_xFBEah",
+    "rich_text_3RkRGW"
   ]
 }
