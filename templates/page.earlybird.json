@@ -54,7 +54,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Render_sidelights_arriere_fond_noir_et_lumieres_croped-v2.png",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
@@ -151,7 +151,7 @@
         "heading": "FAQ",
         "heading_size": "h1",
         "heading_alignment": "center",
-        "layout": "row",
+        "layout": "none",
         "color_scheme": "scheme-4",
         "container_color_scheme": "scheme-4",
         "open_first_collapsible_row": true,
@@ -199,6 +199,9 @@
         "column_9dNbfr",
         "column_fz3kbY",
         "column_3ND6gR"
+      ],
+      "custom_css": [
+
       ],
       "settings": {
         "title": "",
