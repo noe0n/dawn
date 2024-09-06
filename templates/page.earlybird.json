@@ -224,6 +224,28 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "rich_text_3RkRGW": {
+      "type": "rich-text",
+      "blocks": {
+        "text_DiDzQe": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Powered by Launchkit.<\/em><\/p><p><a href=\"https:\/\/get.sidelights.com\/privacy-policy\" target=\"_blank\" title=\"https:\/\/get.sidelights.com\/privacy-policy\">Privacy Policy<\/a> | <a href=\"https:\/\/get.sidelights.com\/terms-and-conditions\" target=\"_blank\" title=\"https:\/\/get.sidelights.com\/terms-and-conditions\">Terms and Conditions<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_DiDzQe"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -231,6 +253,7 @@
     "image_with_text_mAypxd",
     "multirow_DYpDXw",
     "collapsible_content_kVe6BG",
-    "multicolumn_xFBEah"
+    "multicolumn_xFBEah",
+    "rich_text_3RkRGW"
   ]
 }
