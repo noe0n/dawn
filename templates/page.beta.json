@@ -23,14 +23,14 @@
         "heading_AVfrgn": {
           "type": "heading",
           "settings": {
-            "heading": "Êtes-vous prêts ?",
+            "heading": "Précommander",
             "heading_size": "h1"
           }
         },
         "text_34hkTW": {
           "type": "text",
           "settings": {
-            "text": "<p>Notre campagne de financement sur <strong>Kickstarter <\/strong>est sur le point d'être lancée. <strong>Soyez averti du lancement et d'offres exclusives<\/strong> en entrant votre adresse mail ci-dessous.<\/p>"
+            "text": "<p>Nous sommes sur le point de lancer les pré-commandes. <strong>Soyez averti du lancement et d'offres exclusives<\/strong> en vous inscrivant maintenant!<\/p>"
           }
         }
       },
