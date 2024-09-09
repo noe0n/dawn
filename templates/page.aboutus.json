@@ -110,7 +110,7 @@
         "text_mLJhFN": {
           "type": "text",
           "settings": {
-            "text": "<ul><li><em>2021 - 2022<\/em> : <strong>Idée, premiers prototypes durant les études<\/strong><\/li><li><em>Juillet 2023<\/em> : <strong>Incubation du projet au sein de la HEIG-VD. Soutien financier de la fondation Gebert Rüf Stiftung<\/strong><\/li><li><em>Mars 2024<\/em> : <strong>Dépôt de brevet, présentation du projet et du prototype au public​<\/strong><\/li><li><em>Mai 2024<\/em> : <strong>Design final​<\/strong><\/li><li><em>Été 2024<\/em> : <strong>Lancement de SideLights BETA​<\/strong><\/li><li><em>Fin 2024<\/em> : <strong>Lancement officiel du produit, en avant-première sur notre campagne de crowdfunding.​​​<\/strong><\/li><\/ul>"
+            "text": "<ul><li><em>2021 - 2022<\/em> : <strong>Idée, premiers prototypes durant les études<\/strong><\/li><li><em>Juillet 2023<\/em> : <strong>Incubation du projet au sein de la HEIG-VD. Soutien financier de la fondation Gebert Rüf Stiftung<\/strong><\/li><li><em>Mars 2024<\/em> : <strong>Dépôt de brevet, présentation du projet et du prototype au public​<\/strong><\/li><li><em>Mai 2024<\/em> : <strong>Design final​<\/strong><\/li><li><em>Été 2024<\/em> : <strong>Premier produit de pré-série<\/strong><\/li><li><em>Fin 2024<\/em> : <strong>Lancement officiel du produit, pré-commandes<\/strong><\/li><\/ul>"
           }
         }
       },
@@ -235,6 +235,10 @@
 
       ],
       "settings": {
+        "background_gradient_opacity_start": 100,
+        "background_gradient_opacity_start_position": 0,
+        "background_gradient_opacity_end": 100,
+        "background_gradient_opacity_end_position": 100,
         "image_height": "medium",
         "desktop_image_width": "medium",
         "heading_size": "h1",
