@@ -186,7 +186,8 @@
     "multicolumn_4H66iA": {
       "type": "multicolumn",
       "custom_css": [
-        ".button {animation: glowing 2500ms infinite; animation-timing-function: ease;}"
+        ".button {--border-offset: 0; padding: 16px; background-color: rgb(235 183 91); color: black; font-weight: 600; border-radius: 4px; animation: glowing_around 2500ms infinite; animation-timing-function: ease;}",
+        ".button:hover:after {--border-offset: 0;}"
       ],
       "settings": {
         "title": "",
