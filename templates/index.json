@@ -168,7 +168,7 @@
         "background_gradient_opacity_start_position": 0,
         "background_gradient_opacity_end": 80,
         "background_gradient_opacity_end_position": 100,
-        "image_height": "medium",
+        "image_height": "adapt",
         "desktop_image_width": "medium",
         "heading_size": "h1",
         "text_style": "subtitle",
