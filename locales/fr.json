@@ -57,6 +57,11 @@
       "name": "Carrousel"
     }
   },
+  "custom": {
+    "pre-order": {
+      "submit_btn": "M'inscrire maintenant"
+    }
+  },
   "newsletter": {
     "label": "E-mail",
     "success": "Merci de votre inscription",

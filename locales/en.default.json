@@ -66,6 +66,11 @@
       "name": "Slider"
     }
   },
+  "custom": {
+    "pre-order": {
+      "submit_btn": "Subscribe now"
+    }
+  },
   "newsletter": {
     "label": "Email",
     "success": "Thanks for subscribing",
