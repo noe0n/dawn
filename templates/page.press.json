@@ -31,7 +31,7 @@
           "settings": {
             "button_label_1": "[FR] Communiqué de presse (PDF)",
             "button_link_1": "https:\/\/cdn.shopify.com\/s\/files\/1\/0790\/1269\/2294\/files\/Communique_de_presse_-_SideLights_Lancement_Produit.pdf?v=1727076946",
-            "button_isPopup": true,
+            "button_isPopup": false,
             "button_style_secondary_1": false,
             "button_label_2": "[EN] Press Release (PDF)",
             "button_link_2": "https:\/\/cdn.shopify.com\/s\/files\/1\/0790\/1269\/2294\/files\/Press_Release_-_SideLights_Product_Launch.pdf?v=1727076943",
