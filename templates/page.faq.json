@@ -223,9 +223,9 @@
         "collapsible_row_84PfM7": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Quels sont les avantages de visibilité du système SideLights par rapport à un système de lumières classique ? ",
+            "heading": "Qu'est-ce-qui rend SideLights unique par rapport à un système de lumières classique ? ",
             "icon": "question_mark",
-            "row_content": "<p>Le système SideLights vous offre une visibilité à 360 degrés et dans toute votre largeur. Les indicateurs de direction vous accompagnent dans les changements de direction, augmentant ainsi votre visibilité lors d’un changement de direction.</p>",
+            "row_content": "<p>Le système SideLights vous offre une visibilité à 360 degrés et dans toute votre largeur. Les indicateurs de direction vous accompagnent dans les changements de direction, augmentant ainsi votre visibilité lors d’un changement de direction. </p>",
             "page": ""
           }
         },
@@ -250,7 +250,7 @@
         "collapsible_row_UDV6NJ": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Le système de lumières SideLights remplace-t-il un système de lumières classique ayant une lumière avant et arrière ? ",
+            "heading": "SideLights remplace-t-il un système de lumières classique ayant une lumière avant et arrière ? ",
             "icon": "question_mark",
             "row_content": "<p>Les SideLights peuvent remplacer votre système d'éclairage existant ou être utilisés comme éclairage supplémentaire. Veillez simplement à respecter le code de la route en vigueur dans votre pays et le type de vélo que vous utilisez.</p>",
             "page": ""
@@ -277,7 +277,7 @@
         "collapsible_row_Rn7HEm": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Comment puis-je vérifier le niveau de la batterie et le mode d'éclairage ?",
+            "heading": "Comment vérifier le niveau de la batterie et le mode d'éclairage ?",
             "icon": "question_mark",
             "row_content": "<p>SideLights est doté de trois LEDs situées en haut du produit qui fournit des informations sur l'état de la batterie et le mode d'éclairage. Vous pouvez choisir entre trois modes d'éclairage : ECO, NORMAL et POWER.</p>",
             "page": ""
