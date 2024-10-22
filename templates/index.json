@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner_rKJfUY": {
@@ -30,7 +30,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Précommander SideLights",
-            "button_link_1": "shopify:\/\/pages\/pre-order",
+            "button_link_1": "shopify://pages/pre-order",
             "button_isPopup": false,
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -72,10 +72,10 @@
         "row_jk8jiP": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Produit_monte.54_carre.jpg",
+            "image": "shopify://shop_images/Top_view_w.lights_Vertical_2_More_intense-2_carre_4bf2e742-4c5e-4650-af95-987195a42454.jpg",
             "caption": "",
             "heading": "Visible à 360°",
-            "text": "<p>Soyez visible à chaque intersection et sous n'importe quel angle, éclairé par 700+ lumens.<\/p>",
+            "text": "<p>Soyez visible à chaque intersection et sous n'importe quel angle, éclairé par 700+ lumens.</p>",
             "button_label": "",
             "button_link": "",
             "button_isPopup": false
@@ -84,10 +84,10 @@
         "row_VaUyzJ": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Animation_clignottant_1.gif",
+            "image": "shopify://shop_images/Front_Light_Fleches_Square.gif",
             "caption": "",
             "heading": "INDICATEURS DE DIRECTION",
-            "text": "<p>Indiquez vos intentions sur la route afin d'être prévisible pour les conducteurs, réduisant ainsi le risque d'accidents.<\/p>",
+            "text": "<p>Indiquez vos intentions sur la route afin d'être prévisible pour les conducteurs, réduisant ainsi le risque d'accidents.</p>",
             "button_label": "",
             "button_link": "",
             "button_isPopup": false
@@ -96,10 +96,10 @@
         "row_rgHhcH": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Animation_double_beam_1.gif",
+            "image": "shopify://shop_images/SideLights_claessens_arthur-4821_copie_2_d380b87e-13d5-4abe-ad3f-0646d40e7a46.jpg",
             "caption": "",
             "heading": "Visibilité à Double Faisceau",
-            "text": "<p>Soyez visibles sur toute la largeur de votre vélo grâce à un puissant double faisceau, encourageant les voitures à laisser une plus grande distance de dépassement.<\/p>",
+            "text": "<p>Soyez visibles sur toute la largeur de votre vélo grâce à un puissant double faisceau, encourageant les voitures à laisser une plus grande distance de dépassement.</p>",
             "button_label": "",
             "button_link": "",
             "button_isPopup": false
@@ -108,10 +108,10 @@
         "row_mVBTU6": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Animation_assemblage_1.gif",
+            "image": "shopify://shop_images/Animation_assemblage_1.gif",
             "caption": "",
             "heading": "Installation Facile",
-            "text": "<p>Installation rapide et simple, sans outil supplémentaire.<\/p>",
+            "text": "<p>Installation rapide et simple, sans outil supplémentaire.</p>",
             "button_label": "",
             "button_link": "",
             "button_isPopup": false
@@ -120,10 +120,10 @@
         "row_UnYtXN": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/L-R_SLfn_v2.png",
+            "image": "shopify://shop_images/L-R_SLfn_v2.png",
             "caption": "",
             "heading": "Utilisation Simple et Intuitive",
-            "text": "<p>Facile à utiliser et à recharger grâce à des batteries USB-C interchangeables. Une fois fixé, le système est difficile à voler.<\/p>",
+            "text": "<p>Facile à utiliser et à recharger grâce à des batteries USB-C interchangeables. Le système est solidement intégré au guidon à l'aide d'un outil.</p>",
             "button_label": "",
             "button_link": "",
             "button_isPopup": false
@@ -132,10 +132,10 @@
         "row_UQirVQ": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/allbikesblackandwite.jpg",
+            "image": "shopify://shop_images/allbikesblackandwite.jpg",
             "caption": "",
             "heading": "Compatible",
-            "text": "<p>Compatibilité avec la majorité des vélos. Vérifiez sur notre <a href=\"\/pages\/faq\" title=\"FAQ\">page FAQ<\/a> pour en être sûr.<\/p>",
+            "text": "<p>Compatibilité avec la majorité des vélos. Vérifiez sur notre <a href=\"/pages/faq\" title=\"FAQ\">page FAQ</a> pour en être sûr.</p>",
             "button_label": "",
             "button_link": "",
             "button_isPopup": false
@@ -144,10 +144,10 @@
         "row_3jJt9R": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Produit_explose_2_Carre.jpg",
+            "image": "shopify://shop_images/Produit_explose_2_Carre.jpg",
             "caption": "",
-            "heading": "Innovation mondiale",
-            "text": "<p>Découvrez notre système protégé alliant sécurité, design et technologie, rendant votre vélo unique.<\/p>",
+            "heading": "<strong>Résistant et durable</strong>",
+            "text": "<p>SideLights est conçu pour résister aux chocs et aux intempéries. Le corps en aluminium, associé à des pads protecteurs absorbe les chocs tout en étant waterproof. </p>",
             "button_label": "",
             "button_link": "",
             "button_isPopup": false
@@ -202,7 +202,7 @@
         "background_gradient_opacity_end_position": 100,
         "background_style": "primary",
         "button_label": "Précommander",
-        "button_link": "shopify:\/\/pages\/pre-order",
+        "button_link": "shopify://pages/pre-order",
         "color_scheme": "scheme-4",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
@@ -216,9 +216,9 @@
         "column_bAPdNe": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/icon_v3_3.png",
-            "title": "<strong>Visibilité à 360°<\/strong>",
-            "text": "<p>Soyez visibles même dans les intersections.<\/p>",
+            "image": "shopify://shop_images/icon_v3_3.png",
+            "title": "<strong>Visibilité à 360°</strong>",
+            "text": "<p>Soyez visibles même dans les intersections.</p>",
             "link_label": "",
             "link": ""
           }
@@ -226,9 +226,9 @@
         "column_MWgaAA": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/icon_v3_2.png",
-            "title": "<strong>Visibilité en largeur<\/strong>",
-            "text": "<p>Toute la largeur du vélo éclairée pour plus de distance de dépassement.<\/p>",
+            "image": "shopify://shop_images/icon_v3_2.png",
+            "title": "<strong>Visibilité en largeur</strong>",
+            "text": "<p>Toute la largeur du vélo éclairée pour plus de distance de dépassement.</p>",
             "link_label": "",
             "link": ""
           }
@@ -236,9 +236,9 @@
         "column_rEcU8j": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/icon_v3.png",
-            "title": "<strong>Indicateurs de direction<\/strong>",
-            "text": "<p>Indiquez vos intentions avec des clignotants intégrés, devenez plus prévisibles.<\/p>",
+            "image": "shopify://shop_images/icon_v3.png",
+            "title": "<strong>Indicateurs de direction</strong>",
+            "text": "<p>Indiquez vos intentions avec des clignotants intégrés, devenez plus prévisibles.</p>",
             "link_label": "",
             "link": ""
           }
@@ -280,7 +280,7 @@
         "heading": "Voyez par vous-même.",
         "heading_size": "h1",
         "enable_video_looping": false,
-        "video": "shopify:\/\/files\/videos\/SIDELIGHT_PRES_1.2 modifié.mp4",
+        "video": "shopify://files/videos/SIDELIGHT_PRES_1.2 modifié.mp4",
         "video_url": "",
         "description": "",
         "full_width": false,
@@ -296,8 +296,8 @@
     "image_banner_VLE8Ac": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/claessens-arthur_heig-vd-1371-Avec_accentuation-Bruit.jpg",
-        "image_2": "shopify:\/\/shop_images\/claessens-arthur_heig-vd-1357-2-Avec_accentuation-Bruit.jpg",
+        "image": "shopify://shop_images/claessens-arthur_heig-vd-1371-Avec_accentuation-Bruit.jpg",
+        "image_2": "shopify://shop_images/claessens-arthur_heig-vd-1357-2-Avec_accentuation-Bruit.jpg",
         "image_overlay_opacity": 0,
         "image_overlay_opacity_top": 100,
         "image_overlay_opacity_top_position": 0,
@@ -320,61 +320,61 @@
         "column_W9HAPn": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/logo_latele_vf_white.svg",
-            "title": "<em>Des lumières pour protéger les cyclistes<\/em>",
+            "image": "shopify://shop_images/logo_latele_vf_white.svg",
+            "title": "<em>Des lumières pour protéger les cyclistes</em>",
             "text": "",
             "link_label": "La Télé",
-            "link": "https:\/\/latele.ch\/emissions\/info-vaud\/info-vaud-s-2024-e-52"
+            "link": "https://latele.ch/emissions/info-vaud/info-vaud-s-2024-e-52"
           }
         },
         "column_9kt4nr": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/media_logos3.png",
-            "title": "<em>Arthur Claessens, de l'élite du BMX à la sécurité des cyclistes lambdas<\/em>",
+            "image": "shopify://shop_images/media_logos3.png",
+            "title": "<em>Arthur Claessens, de l'élite du BMX à la sécurité des cyclistes lambdas</em>",
             "text": "",
             "link_label": "Blick",
-            "link": "https:\/\/www.blick.ch\/fr\/sport\/autres-sports\/linnovation-de-sidelights-arthur-claessens-de-lelite-du-bmx-a-la-securite-des-cyclistes-lambdas-id19527451.html"
+            "link": "https://www.blick.ch/fr/sport/autres-sports/linnovation-de-sidelights-arthur-claessens-de-lelite-du-bmx-a-la-securite-des-cyclistes-lambdas-id19527451.html"
           }
         },
         "column_nBxWBU": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/media_logos2.png",
-            "title": "<em>Je ne pensais pas lancer une start-up si tôt, mais j’avais une bonne idée<\/em>",
+            "image": "shopify://shop_images/media_logos2.png",
+            "title": "<em>Je ne pensais pas lancer une start-up si tôt, mais j’avais une bonne idée</em>",
             "text": "",
             "link_label": "24heures",
-            "link": "https:\/\/www.24heures.ch\/je-ne-pensais-pas-lancer-une-start-up-si-tot-mais-javais-une-bonne-idee-685615961700"
+            "link": "https://www.24heures.ch/je-ne-pensais-pas-lancer-une-start-up-si-tot-mais-javais-une-bonne-idee-685615961700"
           }
         },
         "column_gkWAVn": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/media_logos.png",
-            "title": "<em>Le vélo et la fibre entrepreneuriale, c’est une histoire de famille<\/em>",
+            "image": "shopify://shop_images/media_logos.png",
+            "title": "<em>Le vélo et la fibre entrepreneuriale, c’est une histoire de famille</em>",
             "text": "",
             "link_label": "PME",
-            "link": "https:\/\/www.pme.ch\/business\/2024\/04\/08\/le-velo-et-la-fibre-entrepreneuriale-cest-une-histoire-de-famille-697480"
+            "link": "https://www.pme.ch/business/2024/04/08/le-velo-et-la-fibre-entrepreneuriale-cest-une-histoire-de-famille-697480"
           }
         },
         "column_MMwWQJ": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/startupticker.png",
-            "title": "<em>First Ventures to accelerate their startup journey<\/em>",
+            "image": "shopify://shop_images/startupticker.png",
+            "title": "<em>First Ventures to accelerate their startup journey</em>",
             "text": "",
             "link_label": "Startup Ticker",
-            "link": "https:\/\/www.startupticker.ch\/en\/news\/first-ventures-to-accelerate-their-startup-journey"
+            "link": "https://www.startupticker.ch/en/news/first-ventures-to-accelerate-their-startup-journey"
           }
         },
         "column_bLVEey": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/lextension_geneve_logo.jpg",
-            "title": "<em>SideLights : Rendre les cyclistes plus visibles<\/em>",
+            "image": "shopify://shop_images/lextension_geneve_logo.jpg",
+            "title": "<em>SideLights : Rendre les cyclistes plus visibles</em>",
             "text": "",
             "link_label": "L'Extension Diamant Alpin (ETE 2024)",
-            "link": "https:\/\/www.lextension.ch\/"
+            "link": "https://www.lextension.ch/"
           }
         }
       },
@@ -413,31 +413,31 @@
         "column_6E34NG": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HEIG-VD_logotype-baseline_blanc-rvb.png",
+            "image": "shopify://shop_images/HEIG-VD_logotype-baseline_blanc-rvb.png",
             "title": "",
             "text": "",
             "link_label": "HEIG-VD",
-            "link": "https:\/\/heig-vd.ch\/"
+            "link": "https://heig-vd.ch/"
           }
         },
         "column_ACp3FP": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/grs_logo_WEISS.png",
+            "image": "shopify://shop_images/grs_logo_WEISS.png",
             "title": "",
             "text": "",
             "link_label": "Gebert Rüf Stiftung",
-            "link": "https:\/\/www.grstiftung.ch\/fr.html"
+            "link": "https://www.grstiftung.ch/fr.html"
           }
         },
         "column_dJyKQC": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/FIT.png",
+            "image": "shopify://shop_images/FIT.png",
             "title": "",
             "text": "",
             "link_label": "FIT",
-            "link": "https:\/\/www.fondation-fit.ch\/fr\/"
+            "link": "https://www.fondation-fit.ch/fr/"
           }
         }
       },
@@ -473,51 +473,51 @@
         "column_KjkGNW": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/logo_VENTUREKICK_cmyk-1.png",
+            "image": "shopify://shop_images/logo_VENTUREKICK_cmyk-1.png",
             "title": "",
             "text": "",
             "link_label": "Venture Kick",
-            "link": "https:\/\/www.venturekick.ch\/"
+            "link": "https://www.venturekick.ch/"
           }
         },
         "column_VnxWtx": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Innosuisse_Logo_supported_Initial_Coaching_rgb_negativ_EN_8128639e-8bed-4e91-beb3-ed7dcf061920.png",
+            "image": "shopify://shop_images/Innosuisse_Logo_supported_Initial_Coaching_rgb_negativ_EN_8128639e-8bed-4e91-beb3-ed7dcf061920.png",
             "title": "",
             "text": "",
             "link_label": "Innosuisse",
-            "link": "https:\/\/www.innosuisse.ch\/inno\/fr\/home.html"
+            "link": "https://www.innosuisse.ch/inno/fr/home.html"
           }
         },
         "column_kn4FTx": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Innovaud_white.png",
+            "image": "shopify://shop_images/Innovaud_white.png",
             "title": "",
             "text": "",
             "link_label": "Innovaud",
-            "link": "https:\/\/www.innovaud.ch\/fr\/"
+            "link": "https://www.innovaud.ch/fr/"
           }
         },
         "column_PdXUxT": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/EDB_logo_white.svg",
+            "image": "shopify://shop_images/EDB_logo_white.svg",
             "title": "",
             "text": "",
             "link_label": "Enabled By Design",
-            "link": "https:\/\/enabledbydesign.ch\/"
+            "link": "https://enabledbydesign.ch/"
           }
         },
         "column_7mt3XQ": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/VF.png",
+            "image": "shopify://shop_images/VF.png",
             "title": "",
             "text": "",
             "link_label": "VF Ingénerie",
-            "link": "https:\/\/vfingenierie.ch\/"
+            "link": "https://vfingenierie.ch/"
           }
         }
       },
@@ -553,7 +553,7 @@
       "type": "apps",
       "blocks": {
         "instafeed_app_block_REDTUD": {
-          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
             "title": "Rejoignez l'aventure sur Instagram",
             "title_color": "#ffffff",
