@@ -75,26 +75,17 @@
             "heading": "Visible à 360°",
             "heading_size": "h1"
           }
-        },
-        "text_WiCqFg": {
-          "type": "text",
-          "settings": {
-            "text": "Soyez visible à chaque intersection et sous n'importe quel angle, éclairé par 700+ lumens.",
-            "text_style": "body"
-          }
         }
       },
       "block_order": [
-        "heading_78M7Qx",
-        "text_WiCqFg"
+        "heading_78M7Qx"
       ],
-      "disabled": true,
       "custom_css": [
 
       ],
       "settings": {
-        "image": "shopify://shop_images/MG_7427.jpg",
-        "image_2": "shopify://shop_images/SideLights_claessens_arthur-4821_copie_2_d380b87e-13d5-4abe-ad3f-0646d40e7a46.jpg",
+        "image": "shopify://shop_images/SideLights_claessens_arthur-4912.jpg",
+        "image_2": "shopify://shop_images/SXB-41.jpg",
         "image_overlay_opacity": 60,
         "image_overlay_opacity_top": 100,
         "image_overlay_opacity_top_position": 0,
@@ -105,7 +96,7 @@
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "scheme-4",
-        "image_behavior": "none",
+        "image_behavior": "ambient",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": true
@@ -161,7 +152,7 @@
           "settings": {
             "image": "shopify://shop_images/Top_view_w.lights_Vertical_2_More_intense-2_carre_4bf2e742-4c5e-4650-af95-987195a42454.jpg",
             "caption": "",
-            "heading": "Visible à 360°",
+            "heading": "Sous tous les angles",
             "text": "<p>Soyez visible à chaque intersection et sous n'importe quel angle, éclairé par 700+ lumens.</p>",
             "button_label": "",
             "button_link": "",
@@ -352,7 +343,7 @@
         "button_EgnfpU"
       ],
       "custom_css": [
-        ".image-with-text__text p {margin-bottom: 1rem; line-height: 1.5}"
+        ".image-with-text__text p {margin-bottom: 1rem; line-height: 1.5;}"
       ],
       "settings": {
         "image": "shopify://shop_images/MG_7427.jpg",
