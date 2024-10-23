@@ -253,7 +253,7 @@
       "settings": {
         "background_gradient_opacity_start": 90,
         "background_gradient_opacity_start_position": 0,
-        "background_gradient_opacity_end": 80,
+        "background_gradient_opacity_end": 100,
         "background_gradient_opacity_end_position": 100,
         "image_height": "adapt",
         "desktop_image_width": "small",
@@ -283,9 +283,9 @@
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "left",
-        "background_gradient_opacity_start": 80,
+        "background_gradient_opacity_start": 100,
         "background_gradient_opacity_start_position": 0,
-        "background_gradient_opacity_end": 80,
+        "background_gradient_opacity_end": 100,
         "background_gradient_opacity_end_position": 100,
         "background_style": "primary",
         "button_label": "Précommander",
@@ -327,13 +327,13 @@
           "type": "heading",
           "settings": {
             "heading": "Spécifications techniques",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "text_R3PYfK": {
           "type": "text",
           "settings": {
-            "text": "<ul><li>Poids : Moins de 200g / côté</li><li>Éclairage avant : Jusqu'à 500lm</li><li>Éclairage arrière : Jusqu'à 200lm</li><li>Éclairage latéral : Jusqu'à 200lm</li><li>Batterie : 2x 1500mAh</li><li>Résistance à l'eau : IP67 - Résistance contre la pluie et la poussière</li><li>Montage : Compatible avec la plupart des vélos</li><li>Modes d'éclairage : Eco, medium, full</li></ul>",
+            "text": "<ul><li><strong>Poids</strong> : Moins de 200g / côté</li><li><strong>Éclairage avant</strong> : Jusqu'à 500lm</li><li><strong>Éclairage arrière</strong> : Jusqu'à 200lm</li><li><strong>Éclairage latéral</strong> : Jusqu'à 200lm</li><li><strong>Batterie</strong> : 2x 1500mAh</li><li><strong>Waterproof</strong> : Certification IP67 (pluie et poussière)</li><li><strong>Montage</strong> : Compatible avec la plupart des vélos</li><li><strong>Modes d'éclairage</strong> : Eco, medium, full</li></ul>",
             "text_style": "body"
           }
         },
@@ -365,27 +365,6 @@
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "image_banner_VLE8Ac": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify://shop_images/claessens-arthur_heig-vd-1371-Avec_accentuation-Bruit.jpg",
-        "image_2": "shopify://shop_images/claessens-arthur_heig-vd-1357-2-Avec_accentuation-Bruit.jpg",
-        "image_overlay_opacity": 0,
-        "image_overlay_opacity_top": 100,
-        "image_overlay_opacity_top_position": 0,
-        "image_overlay_opacity_bottom": 100,
-        "image_overlay_opacity_bottom_position": 100,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-4",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
       }
     },
     "multicolumn_PzHjBL": {
@@ -491,7 +470,7 @@
         "column_alignment": "left",
         "background_gradient_opacity_start": 100,
         "background_gradient_opacity_start_position": 0,
-        "background_gradient_opacity_end": 50,
+        "background_gradient_opacity_end": 70,
         "background_gradient_opacity_end_position": 100,
         "background_style": "primary",
         "button_label": "",
@@ -549,9 +528,9 @@
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "left",
-        "background_gradient_opacity_start": 50,
+        "background_gradient_opacity_start": 70,
         "background_gradient_opacity_start_position": 0,
-        "background_gradient_opacity_end": 50,
+        "background_gradient_opacity_end": 95,
         "background_gradient_opacity_end_position": 100,
         "background_style": "primary",
         "button_label": "",
@@ -631,7 +610,7 @@
         "image_ratio": "adapt",
         "columns_desktop": 5,
         "column_alignment": "left",
-        "background_gradient_opacity_start": 50,
+        "background_gradient_opacity_start": 95,
         "background_gradient_opacity_start_position": 0,
         "background_gradient_opacity_end": 100,
         "background_gradient_opacity_end_position": 100,
@@ -681,7 +660,6 @@
     "multicolumn_4H66iA",
     "video_ig4jrx",
     "image_with_text_yGzGfd",
-    "image_banner_VLE8Ac",
     "multicolumn_PzHjBL",
     "multicolumn_7twp4X",
     "multicolumn_8gaqWC",
