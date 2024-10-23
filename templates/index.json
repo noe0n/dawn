@@ -351,6 +351,9 @@
         "text_R3PYfK",
         "button_EgnfpU"
       ],
+      "custom_css": [
+        ".image-with-text__text p {margin-bottom: 1rem; line-height: 1.5}"
+      ],
       "settings": {
         "image": "shopify://shop_images/MG_7427.jpg",
         "height": "adapt",
