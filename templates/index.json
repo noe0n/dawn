@@ -320,6 +320,53 @@
         "padding_bottom": 36
       }
     },
+    "image_with_text_yGzGfd": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_XUen3w": {
+          "type": "heading",
+          "settings": {
+            "heading": "Spécifications techniques",
+            "heading_size": "h1"
+          }
+        },
+        "text_R3PYfK": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Poids : Moins de 200g / côté</li><li>Éclairage avant : Jusqu'à 500lm</li><li>Éclairage arrière : Jusqu'à 200lm</li><li>Éclairage latéral : Jusqu'à 200lm</li><li>Batterie : 2x 1500mAh</li><li>Résistance à l'eau : IP67 - Résistance contre la pluie et la poussière</li><li>Montage : Compatible avec la plupart des vélos</li><li>Modes d'éclairage : Eco, medium, full</li></ul>",
+            "text_style": "body"
+          }
+        },
+        "button_EgnfpU": {
+          "type": "button",
+          "settings": {
+            "button_label": "Texte du bouton",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_XUen3w",
+        "text_R3PYfK",
+        "button_EgnfpU"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/MG_7427.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-4",
+        "color_scheme": "scheme-4",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_banner_VLE8Ac": {
       "type": "image-banner",
       "settings": {
@@ -633,6 +680,7 @@
     "multirow_AGehtJ",
     "multicolumn_4H66iA",
     "video_ig4jrx",
+    "image_with_text_yGzGfd",
     "image_banner_VLE8Ac",
     "multicolumn_PzHjBL",
     "multicolumn_7twp4X",
