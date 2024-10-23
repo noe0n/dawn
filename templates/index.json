@@ -340,8 +340,8 @@
         "button_EgnfpU": {
           "type": "button",
           "settings": {
-            "button_label": "Texte du bouton",
-            "button_link": "",
+            "button_label": "Plus d'informations",
+            "button_link": "shopify://pages/faq",
             "button_style_secondary": false
           }
         }
