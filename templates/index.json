@@ -66,6 +66,93 @@
         "show_text_below": false
       }
     },
+    "image_banner_X6M3VK": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_78M7Qx": {
+          "type": "heading",
+          "settings": {
+            "heading": "Visible à 360°",
+            "heading_size": "h1"
+          }
+        },
+        "text_WiCqFg": {
+          "type": "text",
+          "settings": {
+            "text": "Soyez visible à chaque intersection et sous n'importe quel angle, éclairé par 700+ lumens.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_78M7Qx",
+        "text_WiCqFg"
+      ],
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "image": "shopify://shop_images/MG_7427.jpg",
+        "image_2": "shopify://shop_images/SideLights_claessens_arthur-4821_copie_2_d380b87e-13d5-4abe-ad3f-0646d40e7a46.jpg",
+        "image_overlay_opacity": 60,
+        "image_overlay_opacity_top": 100,
+        "image_overlay_opacity_top_position": 0,
+        "image_overlay_opacity_bottom": 100,
+        "image_overlay_opacity_bottom_position": 100,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": true
+      }
+    },
+    "image_banner_xG7JLd": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_zdQ7yD": {
+          "type": "heading",
+          "settings": {
+            "heading": "Indicateurs de direction",
+            "heading_size": "h1"
+          }
+        },
+        "text_gVKizw": {
+          "type": "text",
+          "settings": {
+            "text": "Indiquez vos intentions sur la route afin d'être prévisible pour les conducteurs, réduisant ainsi le risque d'accidents.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_zdQ7yD",
+        "text_gVKizw"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/MG_7427.jpg",
+        "image_2": "shopify://shop_images/SideLights_claessens_arthur-4821_copie_2_d380b87e-13d5-4abe-ad3f-0646d40e7a46.jpg",
+        "image_overlay_opacity": 60,
+        "image_overlay_opacity_top": 100,
+        "image_overlay_opacity_top_position": 0,
+        "image_overlay_opacity_bottom": 100,
+        "image_overlay_opacity_bottom_position": 100,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": true
+      }
+    },
     "multirow_AGehtJ": {
       "type": "multirow",
       "blocks": {
@@ -210,69 +297,9 @@
         "padding_bottom": 48
       }
     },
-    "multicolumn_dFTpYM": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_bAPdNe": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/icon_v3_3.png",
-            "title": "<strong>Visibilité à 360°</strong>",
-            "text": "<p>Soyez visibles même dans les intersections.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_MWgaAA": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/icon_v3_2.png",
-            "title": "<strong>Visibilité en largeur</strong>",
-            "text": "<p>Toute la largeur du vélo éclairée pour plus de distance de dépassement.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_rEcU8j": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/icon_v3.png",
-            "title": "<strong>Indicateurs de direction</strong>",
-            "text": "<p>Indiquez vos intentions avec des clignotants intégrés, devenez plus prévisibles.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_bAPdNe",
-        "column_MWgaAA",
-        "column_rEcU8j"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "Notre promesse : Votre sécurité.",
-        "heading_size": "h1",
-        "image_width": "half",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_gradient_opacity_start": 30,
-        "background_gradient_opacity_start_position": 0,
-        "background_gradient_opacity_end": 100,
-        "background_gradient_opacity_end_position": 100,
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-4",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "video_ig4jrx": {
       "type": "video",
+      "disabled": true,
       "custom_css": [
         ".deferred-media__poster-button {background-color: white; color: black;}"
       ],
@@ -601,9 +628,10 @@
   },
   "order": [
     "image_banner_rKJfUY",
+    "image_banner_X6M3VK",
+    "image_banner_xG7JLd",
     "multirow_AGehtJ",
     "multicolumn_4H66iA",
-    "multicolumn_dFTpYM",
     "video_ig4jrx",
     "image_banner_VLE8Ac",
     "multicolumn_PzHjBL",
