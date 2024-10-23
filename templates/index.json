@@ -376,6 +376,26 @@
             "link_label": "L'Extension Diamant Alpin (ETE 2024)",
             "link": "https://www.lextension.ch/"
           }
+        },
+        "column_NppJaX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/6333f474c31401.16060024.png",
+            "title": "<em>Arthur Claessens, de l’élite du BMX à la sécurité des cyclistes lambdas</em>",
+            "text": "",
+            "link_label": "M Le Média",
+            "link": "https://www.mlemedia.ch/videos/arthur-claessens-de-l-elite-du-bmx-a-la-securite-des-cyclistes-lambdas-2001"
+          }
+        },
+        "column_ajCXfM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BonsPlansEcolo_eshop_last.png",
+            "title": "<em>Sidelights un éclairage vélo révolutionnaire à 360° avec clignotants intégrés</em>",
+            "text": "",
+            "link_label": "Bons Plans Ecolo",
+            "link": "https://bonsplansecolo.fr/sidelights-un-eclairage-velo-revolutionnaire-a-360-avec-clignotants-integres"
+          }
         }
       },
       "block_order": [
@@ -384,14 +404,16 @@
         "column_nBxWBU",
         "column_gkWAVn",
         "column_MMwWQJ",
-        "column_bLVEey"
+        "column_bLVEey",
+        "column_NppJaX",
+        "column_ajCXfM"
       ],
       "settings": {
         "title": "Ils parlent de nous",
         "heading_size": "h1",
         "image_width": "third",
         "image_ratio": "adapt",
-        "columns_desktop": 2,
+        "columns_desktop": 4,
         "column_alignment": "left",
         "background_gradient_opacity_start": 100,
         "background_gradient_opacity_start_position": 0,
@@ -401,7 +423,7 @@
         "button_label": "",
         "button_link": "",
         "color_scheme": "scheme-4",
-        "columns_mobile": "1",
+        "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
