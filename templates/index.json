@@ -66,85 +66,6 @@
         "show_text_below": false
       }
     },
-    "image_banner_X6M3VK": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_78M7Qx": {
-          "type": "heading",
-          "settings": {
-            "heading": "Visible à 360°",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "heading_78M7Qx"
-      ],
-      "disabled": true,
-      "custom_css": [
-
-      ],
-      "settings": {
-        "image": "shopify://shop_images/SideLights_claessens_arthur-4912.jpg",
-        "image_2": "shopify://shop_images/SXB-41.jpg",
-        "image_overlay_opacity": 60,
-        "image_overlay_opacity_top": 100,
-        "image_overlay_opacity_top_position": 0,
-        "image_overlay_opacity_bottom": 100,
-        "image_overlay_opacity_bottom_position": 100,
-        "image_height": "small",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-4",
-        "image_behavior": "ambient",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": true
-      }
-    },
-    "image_banner_xG7JLd": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_zdQ7yD": {
-          "type": "heading",
-          "settings": {
-            "heading": "Indicateurs de direction",
-            "heading_size": "h1"
-          }
-        },
-        "text_gVKizw": {
-          "type": "text",
-          "settings": {
-            "text": "Indiquez vos intentions sur la route afin d'être prévisible pour les conducteurs, réduisant ainsi le risque d'accidents.",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_zdQ7yD",
-        "text_gVKizw"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify://shop_images/MG_7427.jpg",
-        "image_2": "shopify://shop_images/SideLights_claessens_arthur-4821_copie_2_d380b87e-13d5-4abe-ad3f-0646d40e7a46.jpg",
-        "image_overlay_opacity": 60,
-        "image_overlay_opacity_top": 100,
-        "image_overlay_opacity_top_position": 0,
-        "image_overlay_opacity_bottom": 100,
-        "image_overlay_opacity_bottom_position": 100,
-        "image_height": "small",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-4",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": true
-      }
-    },
     "multirow_AGehtJ": {
       "type": "multirow",
       "blocks": {
@@ -264,6 +185,7 @@
     },
     "multicolumn_4H66iA": {
       "type": "multicolumn",
+      "disabled": true,
       "custom_css": [
         ".button {--border-offset: 0; padding: 16px; background-color: rgb(235 183 91); color: black; font-weight: 600; border-radius: 4px !important; animation: glowing_around 2500ms infinite; animation-timing-function: ease;}",
         ".button:hover:after {--border-offset: 0;}"
@@ -310,6 +232,66 @@
         "color_scheme": "scheme-4",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "image_banner_X6M3VK": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_78M7Qx": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "L'Éclairage Vélo Ultime pour Votre Sécurité",
+            "heading_size": "h1"
+          }
+        },
+        "text_jRCn7F": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "SideLights : visibilité à 360°, indicateurs de direction et double faisceau lumineux. Une innovation conçue et développée en Suisse.",
+            "text_style": "body"
+          }
+        },
+        "buttons_QdUFRL": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Précommander",
+            "button_link_1": "shopify://pages/pre-order",
+            "button_isPopup": false,
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_78M7Qx",
+        "text_jRCn7F",
+        "buttons_QdUFRL"
+      ],
+      "custom_css": [
+        ".button {--border-offset: 0; padding: 16px; background-color: rgb(235 183 91); color: black; font-weight: 600; border-radius: 4px !important; animation: glowing_around 2500ms infinite; animation-timing-function: ease;}",
+        ".button:hover:after {--border-offset: 0;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/SideLights_claessens_arthur-4912.jpg",
+        "image_2": "shopify://shop_images/SXB-41.jpg",
+        "image_overlay_opacity": 60,
+        "image_overlay_opacity_top": 100,
+        "image_overlay_opacity_top_position": 0,
+        "image_overlay_opacity_bottom": 100,
+        "image_overlay_opacity_bottom_position": 100,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
       }
     },
     "image_with_text_yGzGfd": {
@@ -649,11 +631,10 @@
   },
   "order": [
     "image_banner_rKJfUY",
-    "image_banner_X6M3VK",
-    "image_banner_xG7JLd",
     "multirow_AGehtJ",
     "multicolumn_4H66iA",
     "video_ig4jrx",
+    "image_banner_X6M3VK",
     "image_with_text_yGzGfd",
     "multicolumn_PzHjBL",
     "multicolumn_7twp4X",
