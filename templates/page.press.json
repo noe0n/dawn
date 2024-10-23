@@ -76,7 +76,7 @@
         "text_4XkFkr"
       ],
       "custom_css": [
-        "p,li,ul,h3,ol {text-align: justify;}"
+        "p,li,ul,h3,ol {text-align: left;}"
       ],
       "settings": {
         "desktop_content_position": "center",
