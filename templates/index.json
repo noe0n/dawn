@@ -278,7 +278,7 @@
       "settings": {
         "image": "shopify://shop_images/SideLights_claessens_arthur-4912.jpg",
         "image_2": "shopify://shop_images/SXB-41.jpg",
-        "image_overlay_opacity": 60,
+        "image_overlay_opacity": 40,
         "image_overlay_opacity_top": 100,
         "image_overlay_opacity_top_position": 0,
         "image_overlay_opacity_bottom": 100,
@@ -288,7 +288,7 @@
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "scheme-4",
-        "image_behavior": "ambient",
+        "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
