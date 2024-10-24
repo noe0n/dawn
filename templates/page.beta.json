@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -30,7 +30,7 @@
         "text_34hkTW": {
           "type": "text",
           "settings": {
-            "text": "<p>Nous sommes sur le point de lancer les pré-commandes. <strong>Soyez averti du lancement et d'offres exclusives<\/strong> en vous inscrivant maintenant !<\/p>"
+            "text": "<p>Nous sommes sur le point de lancer les pré-commandes. <strong>Soyez averti du lancement et d'offres exclusives</strong> en vous inscrivant maintenant !</p>"
           }
         }
       },
@@ -50,7 +50,7 @@
     "custom_liquid_Q6NMXM": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div id=\"mc_embed_shell\">\n  <div id=\"mc_embed_signup\">\n    <form\n      action=\"https:\/\/sidelights.us17.list-manage.com\/subscribe\/post?u=c369b9be6a1e182c4ea49abb9&amp;id=1f6aace689&amp;f_id=004a10e0f0\"\n      method=\"post\"\n      id=\"mc-embedded-subscribe-form\"\n      name=\"mc-embedded-subscribe-form\"\n      class=\"validate\"\n    >\n      <div id=\"mc_embed_signup_scroll\" style=\"text-align: center;\">\n        <div class=\"mc-field-group\" style=\"display: flex; flex-direction: column; align-items: center; padding-left : 36px; padding-right: 36px;\">\n          <input\n            type=\"email\"\n            name=\"EMAIL\"\n            class=\"required email\"\n            id=\"mce-EMAIL\"\n            required=\"\"\n            value=\"\"\n            placeholder=\"amazing@example.com\"\n            style=\"text-align: center; padding: 12px 20px; border: 1px solid #ccc; border-radius: 4px; width: 100%; max-width : 500px\"\n          >\n        <\/div>\n        <div hidden=\"\"><input type=\"hidden\" name=\"tags\" value=\"8302905\"><\/div>\n        <div id=\"mce-responses\" class=\"clear\">\n          <div class=\"response\" id=\"mce-error-response\" style=\"display: none; color: red;\"><\/div>\n          <div class=\"response\" id=\"mce-success-response\" style=\"display: none;\"><\/div>\n        <\/div>\n        <div aria-hidden=\"true\" style=\"position: absolute; left: -5000px;\">\n          <input type=\"text\" name=\"b_c369b9be6a1e182c4ea49abb9_1f6aace689\" tabindex=\"-1\" value=\"\">\n        <\/div>\n        <div class=\"clear\" style=\"display: flex; justify-content: center;\">\n          <input\n            style=\"margin-top: 16px; background-color: rgb(235 183 91); color: black; font-weight: 600; border-radius: 4px; animation: glowing_around 2500ms infinite;\"\n            type=\"submit\"\n            name=\"subscribe\"\n            id=\"mc-embedded-subscribe\"\n            class=\"button\"\n            value=\"{{ 'custom.pre-order.submit_btn' | t }}\"\n          >\n        <\/div>\n      <\/div>\n    <\/form>\n  <\/div>\n\n  <script type=\"text\/javascript\" src=\"\/\/s3.amazonaws.com\/downloads.mailchimp.com\/js\/mc-validate.js\"><\/script>\n  <script type=\"text\/javascript\">\n    (function ($) {\n      window.fnames = new Array();\n      window.ftypes = new Array();\n      fnames[0] = 'EMAIL';\n      ftypes[0] = 'email';\n    })(jQuery);\n    var $mcj = jQuery.noConflict(true);\n\n    \/\/ Fonction de validation de l'email\n    function isValidEmail(email) {\n      \/\/ Utilisation d'une expression régulière pour vérifier la validité de l'email\n      var emailPattern = \/^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$\/;\n      return emailPattern.test(email);\n    }\n\n    \/\/ Gestion de la soumission du formulaire via AJAX\n    document.getElementById('mc-embedded-subscribe-form').addEventListener('submit', function (e) {\n      e.preventDefault(); \/\/ Empêche la soumission classique du formulaire\n\n      var emailField = document.getElementById('mce-EMAIL');\n      var email = emailField.value.trim();\n\n      \/\/ Vérifier si le champ email est vide ou invalide\n      if (!email || !isValidEmail(email)) {\n        \/\/ Afficher un message d'erreur\n        var errorResponse = document.getElementById('mce-error-response');\n        errorResponse.style.display = 'block';\n        errorResponse.innerText = 'Veuillez entrer une adresse email valide.';\n        return; \/\/ Ne pas soumettre le formulaire ni rediriger\n      }\n\n      \/\/ Si l'email est valide, envoyer les données via AJAX\n      var formData = new FormData(this);\n\n      fetch(this.action, {\n        method: 'POST',\n        body: formData,\n        mode: 'no-cors' \/\/ Utiliser 'no-cors' pour éviter les problèmes de politique de sécurité\n      })\n      .then(function(response) {\n        \/\/ Rediriger après la soumission réussie\n        window.location.href = \"https:\/\/sidelights.com\/pages\/earlybird\"; \n      })\n      .catch(function(error) {\n        console.error('Erreur:', error);\n      });\n    });\n  <\/script>\n<\/div>",
+        "custom_liquid": "<div id=\"mc_embed_shell\">\n  <div id=\"mc_embed_signup\">\n    <form\n      action=\"https://sidelights.us17.list-manage.com/subscribe/post?u=c369b9be6a1e182c4ea49abb9&amp;id=1f6aace689&amp;f_id=004a10e0f0\"\n      method=\"post\"\n      id=\"mc-embedded-subscribe-form\"\n      name=\"mc-embedded-subscribe-form\"\n      class=\"validate\"\n    >\n      <div id=\"mc_embed_signup_scroll\" style=\"text-align: center;\">\n        <div class=\"mc-field-group\" style=\"display: flex; flex-direction: column; align-items: center; padding-left : 36px; padding-right: 36px;\">\n          <input\n            type=\"email\"\n            name=\"EMAIL\"\n            class=\"required email\"\n            id=\"mce-EMAIL\"\n            required=\"\"\n            value=\"\"\n            placeholder=\"amazing@example.com\"\n            style=\"text-align: center; padding: 12px 20px; border: 1px solid #ccc; border-radius: 4px; width: 100%; max-width : 500px\"\n          >\n        </div>\n        <div hidden=\"\"><input type=\"hidden\" name=\"tags\" value=\"8302905\"></div>\n        <div id=\"mce-responses\" class=\"clear\">\n          <div class=\"response\" id=\"mce-error-response\" style=\"display: none; color: red;\"></div>\n          <div class=\"response\" id=\"mce-success-response\" style=\"display: none;\"></div>\n        </div>\n        <div aria-hidden=\"true\" style=\"position: absolute; left: -5000px;\">\n          <input type=\"text\" name=\"b_c369b9be6a1e182c4ea49abb9_1f6aace689\" tabindex=\"-1\" value=\"\">\n        </div>\n        <div class=\"clear\" style=\"display: flex; justify-content: center;\">\n          <input\n            style=\"margin-top: 16px; background-color: rgb(255 173 91); color: black; font-weight: 600; border-radius: 4px; animation: glowing_around 2500ms infinite;\"\n            type=\"submit\"\n            name=\"subscribe\"\n            id=\"mc-embedded-subscribe\"\n            class=\"button\"\n            value=\"{{ 'custom.pre-order.submit_btn' | t }}\"\n          >\n        </div>\n      </div>\n    </form>\n  </div>\n\n  <script type=\"text/javascript\" src=\"//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js\"></script>\n  <script type=\"text/javascript\">\n    (function ($) {\n      window.fnames = new Array();\n      window.ftypes = new Array();\n      fnames[0] = 'EMAIL';\n      ftypes[0] = 'email';\n    })(jQuery);\n    var $mcj = jQuery.noConflict(true);\n\n    // Fonction de validation de l'email\n    function isValidEmail(email) {\n      // Utilisation d'une expression régulière pour vérifier la validité de l'email\n      var emailPattern = /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/;\n      return emailPattern.test(email);\n    }\n\n    // Gestion de la soumission du formulaire via AJAX\n    document.getElementById('mc-embedded-subscribe-form').addEventListener('submit', function (e) {\n      e.preventDefault(); // Empêche la soumission classique du formulaire\n\n      var emailField = document.getElementById('mce-EMAIL');\n      var email = emailField.value.trim();\n\n      // Vérifier si le champ email est vide ou invalide\n      if (!email || !isValidEmail(email)) {\n        // Afficher un message d'erreur\n        var errorResponse = document.getElementById('mce-error-response');\n        errorResponse.style.display = 'block';\n        errorResponse.innerText = 'Veuillez entrer une adresse email valide.';\n        return; // Ne pas soumettre le formulaire ni rediriger\n      }\n\n      // Si l'email est valide, envoyer les données via AJAX\n      var formData = new FormData(this);\n\n      fetch(this.action, {\n        method: 'POST',\n        body: formData,\n        mode: 'no-cors' // Utiliser 'no-cors' pour éviter les problèmes de politique de sécurité\n      })\n      .then(function(response) {\n        // Rediriger après la soumission réussie\n        window.location.href = \"https://sidelights.com/pages/earlybird\"; \n      })\n      .catch(function(error) {\n        console.error('Erreur:', error);\n      });\n    });\n  </script>\n</div>",
         "color_scheme": "scheme-4",
         "padding_top": 20,
         "padding_bottom": 52
@@ -59,8 +59,8 @@
     "image_banner_JiDNYn": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Render_sidelights_arriere_fond_noir_et_lumieres_croped-v2_1aac8510-6764-44e1-9b6a-6ba253cbe0dd.png",
-        "image_2": "shopify:\/\/shop_images\/L-R_SLfn_v2_1280650f-6db2-4b69-8074-f2960164c973.png",
+        "image": "shopify://shop_images/Render_sidelights_arriere_fond_noir_et_lumieres_croped-v2_1aac8510-6764-44e1-9b6a-6ba253cbe0dd.png",
+        "image_2": "shopify://shop_images/L-R_SLfn_v2_1280650f-6db2-4b69-8074-f2960164c973.png",
         "image_overlay_opacity": 0,
         "image_overlay_opacity_top": 100,
         "image_overlay_opacity_top_position": 0,
@@ -83,10 +83,10 @@
         "row_LzzFt8": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/claessens-arthur_heig-vd-1267-croped.jpg",
+            "image": "shopify://shop_images/claessens-arthur_heig-vd-1267-croped.jpg",
             "caption": "précommandes",
-            "heading": "<strong>Early birds (-40%)<\/strong>",
-            "text": "<h3>Soyez parmi <strong>les premiers<\/strong> à acquérir SideLights<\/h3><h3><strong>Jusqu'à -40%<\/strong> lors du Kickstarter !<\/h3>",
+            "heading": "<strong>Early birds (-40%)</strong>",
+            "text": "<h3>Soyez parmi <strong>les premiers</strong> à acquérir SideLights</h3><h3><strong>Jusqu'à -40%</strong> lors du Kickstarter !</h3>",
             "button_label": "Je m'inscris",
             "button_link": "",
             "button_isPopup": false
@@ -141,7 +141,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Visiter la FAQ",
-            "button_link_1": "shopify:\/\/pages\/faq",
+            "button_link_1": "shopify://pages/faq",
             "button_isPopup": false,
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -159,7 +159,7 @@
 
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/claessens-arthur_heig-vd-1406-Avec_accentuation-Bruit_5e3dac9b-09b5-4a2a-95e3-5ef0de6542bc.jpg",
+        "image": "shopify://shop_images/claessens-arthur_heig-vd-1406-Avec_accentuation-Bruit_5e3dac9b-09b5-4a2a-95e3-5ef0de6542bc.jpg",
         "image_overlay_opacity": 60,
         "image_overlay_opacity_top": 100,
         "image_overlay_opacity_top_position": 100,
