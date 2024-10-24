@@ -171,13 +171,13 @@
         ".button:hover:after {--border-offset: 0;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/DSC_0251-2-1.jpg",
-        "image_2": "shopify://shop_images/P1130783.jpg",
-        "image_overlay_opacity": 30,
+        "image": "shopify://shop_images/DSC_0251-2-1_279f4741-ff69-42cb-adf4-f3ceb2df8260.jpg",
+        "image_2": "shopify://shop_images/P1130783_true.jpg",
+        "image_overlay_opacity": 100,
         "image_overlay_opacity_top": 100,
         "image_overlay_opacity_top_position": 0,
-        "image_overlay_opacity_bottom": 100,
-        "image_overlay_opacity_bottom_position": 100,
+        "image_overlay_opacity_bottom": 0,
+        "image_overlay_opacity_bottom_position": 30,
         "image_height": "small",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
