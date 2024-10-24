@@ -176,7 +176,7 @@
         "image_2": "shopify://shop_images/P1130783_true.jpg",
         "image_overlay_opacity": 100,
         "image_overlay_opacity_top": 0,
-        "image_overlay_opacity_top_position": 70,
+        "image_overlay_opacity_top_position": 60,
         "image_overlay_opacity_bottom": 100,
         "image_overlay_opacity_bottom_position": 100,
         "image_height": "small",
@@ -350,9 +350,9 @@
         "row_3jJt9R"
       ],
       "settings": {
-        "background_gradient_opacity_start": 90,
+        "background_gradient_opacity_start": 100,
         "background_gradient_opacity_start_position": 0,
-        "background_gradient_opacity_end": 100,
+        "background_gradient_opacity_end": 75,
         "background_gradient_opacity_end_position": 100,
         "image_height": "adapt",
         "desktop_image_width": "small",
@@ -464,7 +464,7 @@
       "settings": {
         "image": "shopify://shop_images/SideLights_claessens_arthur-4912.jpg",
         "image_2": "shopify://shop_images/SXB-41.jpg",
-        "image_overlay_opacity": 40,
+        "image_overlay_opacity": 20,
         "image_overlay_opacity_top": 100,
         "image_overlay_opacity_top_position": 0,
         "image_overlay_opacity_bottom": 100,
