@@ -353,7 +353,7 @@
         "background_gradient_opacity_start": 100,
         "background_gradient_opacity_start_position": 0,
         "background_gradient_opacity_end": 75,
-        "background_gradient_opacity_end_position": 100,
+        "background_gradient_opacity_end_position": 50,
         "image_height": "adapt",
         "desktop_image_width": "small",
         "heading_size": "h1",
