@@ -46,7 +46,7 @@
         "buttons_ThRq7E"
       ],
       "custom_css": [
-        ".banner {min-height: 75vh;}",
+        ".banner {min-height: 75vh; height: 75vh; max-height: 75vh;}",
         ".button {--border-offset: 0; padding: 16px; background-color: rgb(235 183 91); color: black; font-weight: 600; border-radius: 4px !important; animation: glowing_around 2500ms infinite; animation-timing-function: ease;}",
         ".button:hover:after {--border-offset: 0;}"
       ],
@@ -166,7 +166,7 @@
         "buttons_TFa7mb"
       ],
       "custom_css": [
-        ".banner {min-height: 25vh;}",
+        ".banner {min-height: 25vh; height: 25vh; max-height: 25vh;}",
         ".button {--border-offset: 0; padding: 16px; background-color: rgb(255 173 91); color: black; font-weight: 600; border-radius: 4px !important; animation: glowing_around 2500ms infinite; animation-timing-function: ease;}",
         ".button:hover:after {--border-offset: 0;}"
       ],
