@@ -66,6 +66,68 @@
         "show_text_below": false
       }
     },
+    "image_banner_i6Dggj": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_ri9rP8": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Bannière avec image",
+            "heading_size": "h1"
+          }
+        },
+        "text_HgQqy9": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Fournissez des détails à votre clientèle sur l’image/les images ou le contenu de la bannière du modèle.",
+            "text_style": "body"
+          }
+        },
+        "buttons_ehHMJW": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Précommander SideLights",
+            "button_link_1": "shopify://pages/pre-order",
+            "button_isPopup": false,
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_ri9rP8",
+        "text_HgQqy9",
+        "buttons_ehHMJW"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".banner {min-height: 25vh;}",
+        ".button {--border-offset: 0; padding: 16px; background-color: rgb(235 183 91); color: black; font-weight: 600; border-radius: 4px !important; animation: glowing_around 2500ms infinite; animation-timing-function: ease;}",
+        ".button:hover:after {--border-offset: 0;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/P1130784_2.jpg",
+        "image_2": "shopify://shop_images/P1130783.jpg",
+        "image_overlay_opacity": 100,
+        "image_overlay_opacity_top": 100,
+        "image_overlay_opacity_top_position": 0,
+        "image_overlay_opacity_bottom": 0,
+        "image_overlay_opacity_bottom_position": 100,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "multirow_AGehtJ": {
       "type": "multirow",
       "blocks": {
@@ -633,6 +695,7 @@
   },
   "order": [
     "image_banner_rKJfUY",
+    "image_banner_i6Dggj",
     "multirow_AGehtJ",
     "multicolumn_4H66iA",
     "video_ig4jrx",
