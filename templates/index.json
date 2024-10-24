@@ -307,7 +307,7 @@
         "text_R3PYfK": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Éclairage avant</strong> : Jusqu'à 600 Lumens</p><p><strong>Éclairage total</strong> : Jusqu'à +700 Lumens</p><p><strong>Batterie</strong> : 2x 1500mAh</p><p><strong>Autonomie</strong> : ECO - 8h, NORMAL - 4h, POWER - 8h</p><p><strong>Chargement</strong> : USB Type-C (batteries interchangeables)</p><p><strong>Waterproof</strong> : Certification IP67 (pluie et poussière)</p><p><strong>Poids</strong> : Moins de 250g</p><p><strong>Modes d'éclairage</strong> : Eco, medium, full</p>",
+            "text": "<p><strong>Éclairage avant</strong> : Jusqu'à 600 Lumens</p><p><strong>Éclairage total</strong> : Jusqu'à +700 Lumens</p><p><strong>Batterie</strong> : 2x 1500mAh</p><p><strong>Autonomie</strong> : </p><ul><li>ECO - 8h</li><li>NORMAL - 4h</li><li>POWER - 2h</li></ul><p><strong>Chargement</strong> : USB Type-C (batteries interchangeables)</p><p><strong>Waterproof</strong> : Certification IP67 (pluie et poussière)</p><p><strong>Poids</strong> : Moins de 250g</p><p><strong>Modes d'éclairage</strong> : Eco, medium, full</p>",
             "text_style": "body"
           }
         },
@@ -326,7 +326,8 @@
         "button_EgnfpU"
       ],
       "custom_css": [
-        ".image-with-text__text p {margin-bottom: 1rem; line-height: 1.5;}"
+        ".image-with-text__text p {margin-bottom: 1rem; line-height: 1.5;}",
+        "li{line-height: 1.5;}"
       ],
       "settings": {
         "image": "shopify://shop_images/MG_7427.jpg",
