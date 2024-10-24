@@ -8,17 +8,27 @@ body {
   background: var(--custom-background-color-hex) !important;
 }
 
-/*--- VIDEO BACKGROUND ---*/
+/* Pour la vidéo de fond */
 #background-video {
   position: fixed;
   z-index: -1;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-width: 100vw;
-  min-height: 100%;
-  transform: translateX(calc((100% - 100vw) / 2));
+  top: 50%;
+  left: 50%;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover; /* Ajustement de la vidéo pour qu'elle s'adapte correctement */
+  object-position: center; /* Centrage de la vidéo */
+  transform: translate(-50%, -50%); /* Centrage de la vidéo par rapport à la page */
 }
+
+/*--- POUR PETITS ECRANS (SMARTPHONE) ---*/
+@media (max-width: 749px) {
+  #background-video {
+    object-fit: cover; /* Assurez-vous que la vidéo couvre toute la surface sans déformation */
+    object-position: center center; /* Centrage de la vidéo sur l'axe X et Y */
+  }
+}
+
 
 /*--- HEADER ---*/
 .home-page .header-wrapper {
