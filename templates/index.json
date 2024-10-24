@@ -46,10 +46,10 @@
         "buttons_ThRq7E"
       ],
       "custom_css": [
-        ".banner {min-height: 75dvh; min-height: 75lvh; height: 75dvh; height: 75lvh; max-height: 75dvh; text-shadow: 0px 0px 20px rgba(0, 0, 0, 1);}",
+        ".banner {min-height: 75dvh; min-height: 75svh; height: 75dvh; height: 75svh; max-height: 75dvh; max-height: 75svh; text-shadow: 0px 0px 20px rgba(0, 0, 0, 1);}",
         ".button {--border-offset: 0; padding: 16px; background-color: rgb(235 183 91); color: black; font-weight: 600; border-radius: 4px !important; animation: glowing_around 2500ms infinite; animation-timing-function: ease;}",
         ".button:hover:after {--border-offset: 0;}",
-        "@media (max-width: 749px) {.banner__content--bottom-center {position: absolute; bottom: 0; width: 100%; text-align: center; padding-bottom: 20px; }}"
+        "@media (max-width: 749px) {.banner__content--bottom-center {position: absolute; bottom: 0; text-align: center; padding-bottom: 20px; }}"
       ],
       "settings": {
         "image_overlay_opacity": 100,
