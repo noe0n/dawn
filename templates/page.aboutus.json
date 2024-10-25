@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -30,7 +30,7 @@
         "text_WctVyi": {
           "type": "text",
           "settings": {
-            "text": "<p>Le vélo est un moyen de transport génial, écologique et de plus en plus utilisé. Cependant la sécurité des cyclistes est mise à rude épreuve face au trafic. Les cyclistes sont trop peu visibles, pourtant, <a href=\"https:\/\/www.bfu.ch\/fr\" target=\"_blank\" title=\"https:\/\/www.bfu.ch\/fr\">la moitié des accidents pourraient être évités si le cycliste était vu 1s plus tôt<\/a>. Les systèmes de lumières actuels manquent de visibilité et n’ont pas suivi l’évolution qu’a eu le vélo sur les dernières années. ​<br\/><br\/>C’est un soir en se déplaçant en vélo qu’Arthur Claessens eu l’idée de SideLights : un système de lumière complet et intégré au guidon. De fils en aiguilles le concept s’est transformé en prototypes fabriqués à la main, notamment réalisé par deux anciens collègues étudiants de la HEIG-VD : Tim Hofer et Claude Allenspach. ​<br\/><br\/>Après plus de 2 ans de travail et de multiples essais de prototypes, l’équipe SideLights arrive enfin avec un produit qui va révolutionner la visibilité à vélo. En plus de son concept novateur sécurisant, SideLights est une prouesse technologique : Compact, puissant, résistant et facile d’utilisation. Il fait l’objet d’une demande de brevet.  Ce produit a tout pour répondre aux attentes des cyclistes les plus aguerris. ​<br\/><br\/>Après une première série BETA de SideLights, le produit sera officiellement lancé sur une campagne de financement participatif fin 2024. Vous souhaitez suivre notre aventure de plus près ? N’hésitez pas à nous suivre sur les réseaux sociaux et vous inscrire à notre newsletter !​<\/p>"
+            "text": "<p>Le vélo est un moyen de transport génial, écologique et de plus en plus utilisé. Cependant la sécurité des cyclistes est mise à rude épreuve face au trafic. Les cyclistes sont trop peu visibles, pourtant, <a href=\"https://www.bfu.ch/fr\" target=\"_blank\" title=\"https://www.bfu.ch/fr\">la moitié des accidents pourraient être évités si le cycliste était vu 1s plus tôt</a>. Les systèmes de lumières actuels manquent de visibilité et n’ont pas suivi l’évolution qu’a eu le vélo sur les dernières années. ​<br/><br/>C’est un soir en se déplaçant en vélo qu’Arthur Claessens eu l’idée de SideLights : un système de lumière complet et intégré au guidon. De fils en aiguilles le concept s’est transformé en prototypes fabriqués à la main, notamment réalisé par deux anciens collègues étudiants de la HEIG-VD : Tim Hofer et Claude Allenspach. ​<br/><br/>Après plus de 2 ans de travail et de multiples essais de prototypes, l’équipe SideLights arrive enfin avec un produit qui va révolutionner la visibilité à vélo. En plus de son concept novateur sécurisant, SideLights est une prouesse technologique : Compact, puissant, résistant et facile d’utilisation. Il fait l’objet d’une demande de brevet.  Ce produit a tout pour répondre aux attentes des cyclistes les plus aguerris. ​<br/><br/>Après une première série BETA de SideLights, le produit sera officiellement lancé sur une campagne de financement participatif fin 2024. Vous souhaitez suivre notre aventure de plus près ? N’hésitez pas à nous suivre sur les réseaux sociaux et vous inscrire à notre newsletter !​</p>"
           }
         }
       },
@@ -71,7 +71,7 @@
         "text_6zQ7eM": {
           "type": "text",
           "settings": {
-            "text": "<ul><li>Cycliste de haut niveau en BMX Racing<\/li><li>Passionné de vélos en tous genres, commuter​<\/li><li>Alumni HEIG-VD, en économie d’entrepris<\/li><\/ul>",
+            "text": "<ul><li>Cycliste de haut niveau en BMX Racing</li><li>Passionné de vélos en tous genres, commuter​</li><li>Alumni HEIG-VD, en économie d’entrepris</li></ul>",
             "text_style": "body"
           }
         }
@@ -82,7 +82,7 @@
         "text_6zQ7eM"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/claessens-arthur_heig-vd-1329-2-lower.jpg",
+        "image": "shopify://shop_images/claessens-arthur_heig-vd-1329-2-lower.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -110,7 +110,7 @@
         "text_mLJhFN": {
           "type": "text",
           "settings": {
-            "text": "<ul><li><em>2021 - 2022<\/em> : <strong>Idée, premiers prototypes durant les études<\/strong><\/li><li><em>Juillet 2023<\/em> : <strong>Incubation du projet au sein de la HEIG-VD. Soutien financier de la fondation Gebert Rüf Stiftung<\/strong><\/li><li><em>Mars 2024<\/em> : <strong>Dépôt de brevet, présentation du projet et du prototype au public​<\/strong><\/li><li><em>Mai 2024<\/em> : <strong>Design final​<\/strong><\/li><li><em>Été 2024<\/em> : <strong>Premier produit de pré-série<\/strong><\/li><li><em>Fin 2024<\/em> : <strong>Lancement officiel du produit, pré-commandes<\/strong><\/li><\/ul>"
+            "text": "<ul><li>2022 : <strong>Idée et création des premiers prototypes</strong></li><li>Juin 2023 : <strong>R&D au laboratoire universitaire, </strong><em>Yverdon-les-Bains, Suisse</em></li><li>Octobre 2023 : <strong>Brevet en attente pour SideLights, </strong><em>couverture internationale</em></li><li>Mars 2024 : <strong>Prototype fonctionnel achevé</strong></li><li>Avril 2024 : <strong>Partenariat de fabrication</strong>, <em>sécurisé pour la production de masse</em></li><li>Septembre 2024 : <strong>Test du prototype final</strong></li><li>Décembre 2024 : <strong>Derniers ajustements et contrôles de qualité</strong></li><li>Février 2025 : <strong>Production à grande échelle</strong></li><li>Avril 2025 : <strong>Expédition aux contributeurs</strong></li></ul>"
           }
         }
       },
@@ -133,9 +133,9 @@
         "column_UCiLcQ": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/portrait_arthur.jpg",
+            "image": "shopify://shop_images/Calque_11.png",
             "title": "Arthur Claessens",
-            "text": "<p>Founder & CEO<\/p>",
+            "text": "<p>Founder & CEO</p>",
             "link_label": "",
             "link": ""
           }
@@ -143,9 +143,9 @@
         "column_JJBiYF": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/portrait_martin.jpg",
+            "image": "shopify://shop_images/Calque_12.png",
             "title": "Martin Stricker",
-            "text": "<p>Art & Product Manager​<\/p>",
+            "text": "<p>Art & Product Manager​</p>",
             "link_label": "",
             "link": ""
           }
@@ -153,9 +153,19 @@
         "column_9JNKay": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/portrait_thibault.jpg",
+            "image": "shopify://shop_images/portrait_thibault.png",
             "title": "Thibault Francfort",
-            "text": "<p>Industrialization Manager​<\/p>",
+            "text": "<p>Industrialization Manager​</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_D99Bmz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Calque_10.png",
+            "title": "Luca Romano",
+            "text": "<p>R&D Engineer</p>",
             "link_label": "",
             "link": ""
           }
@@ -163,9 +173,9 @@
         "column_DTA7JD": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/portrait_alexandre.png",
+            "image": "shopify://shop_images/portrait_alexandre.png",
             "title": "Alexandre Pagès",
-            "text": "<p>CFO<\/p>",
+            "text": "<p>CFO</p>",
             "link_label": "",
             "link": ""
           }
@@ -173,9 +183,9 @@
         "column_hkEbtc": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/portrait_bastien.png",
+            "image": "shopify://shop_images/bastien_portrait_croped.jpg",
             "title": "Bastien Claessens",
-            "text": "<p>Web Manager<\/p>",
+            "text": "<p>Web Manager</p>",
             "link_label": "",
             "link": ""
           }
@@ -185,6 +195,7 @@
         "column_UCiLcQ",
         "column_JJBiYF",
         "column_9JNKay",
+        "column_D99Bmz",
         "column_DTA7JD",
         "column_hkEbtc"
       ],
@@ -196,7 +207,7 @@
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "circle",
-        "columns_desktop": 5,
+        "columns_desktop": 6,
         "column_alignment": "center",
         "background_gradient_opacity_start": 100,
         "background_gradient_opacity_start_position": 0,
@@ -218,10 +229,22 @@
         "row_UFitnw": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/portrait_zoe_lower_croped.jpg",
+            "image": "shopify://shop_images/SideLights_Claessens.jpg",
             "caption": "Notre ambassadrice",
             "heading": "Zoé Claessens",
-            "text": "<p>Athlète professionnelle de BMX Racing<\/p><ul><li>Médaillée de Bronze aux JO de Paris 2024<\/li><li>2x Vice-championne du monde<\/li><li>2x Championne d'Europe<\/li><\/ul>",
+            "text": "<p>Athlète professionnelle de BMX Racing</p><ul><li>Médaillée de Bronze aux JO de Paris 2024</li><li>2x Vice-championne du monde</li><li>2x Championne d'Europe</li></ul>",
+            "button_label": "",
+            "button_link": "",
+            "button_isPopup": false
+          }
+        },
+        "row_dNkDjw": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/SideLights_Froidevaux.jpg",
+            "caption": "Notre ambassadeur",
+            "heading": "Robin Froidevaux",
+            "text": "<p>Athlète professionnel de cyclisme sur route et piste</p><ul><li>Membre de l'équipe <strong>Tudor Pro Cycling Team</strong></li><li>Champion suisse sur route en 2022</li><li>Participation au Tour d'Italie en 2024</li></ul>",
             "button_label": "",
             "button_link": "",
             "button_isPopup": false
@@ -229,7 +252,8 @@
         }
       },
       "block_order": [
-        "row_UFitnw"
+        "row_UFitnw",
+        "row_dNkDjw"
       ],
       "custom_css": [
 
@@ -239,7 +263,7 @@
         "background_gradient_opacity_start_position": 0,
         "background_gradient_opacity_end": 100,
         "background_gradient_opacity_end_position": 100,
-        "image_height": "medium",
+        "image_height": "large",
         "desktop_image_width": "medium",
         "heading_size": "h1",
         "text_style": "body",
@@ -260,21 +284,21 @@
         "column_y9rU3i": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HEIG-VD_logotype-baseline_blanc-rvb.png",
+            "image": "shopify://shop_images/HEIG-VD_logotype-baseline_blanc-rvb.png",
             "title": "",
             "text": "",
             "link_label": "HEIG-VD",
-            "link": "https:\/\/heig-vd.ch\/"
+            "link": "https://heig-vd.ch/"
           }
         },
         "column_PK4WMA": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/grs_logo_WEISS.png",
+            "image": "shopify://shop_images/grs_logo_WEISS.png",
             "title": "",
             "text": "",
             "link_label": "Gebert Rüf Stiftung",
-            "link": "https:\/\/www.grstiftung.ch\/fr.html"
+            "link": "https://www.grstiftung.ch/fr.html"
           }
         }
       },
@@ -312,41 +336,41 @@
         "column_9CA9NA": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/logo_VENTUREKICK_cmyk-1.png",
+            "image": "shopify://shop_images/logo_VENTUREKICK_cmyk-1.png",
             "title": "",
             "text": "",
             "link_label": "Venture Kick",
-            "link": "https:\/\/www.venturekick.ch\/"
+            "link": "https://www.venturekick.ch/"
           }
         },
         "column_UkJBHn": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Innosuisse_Logo_supported_Initial_Coaching_rgb_negativ_EN_8128639e-8bed-4e91-beb3-ed7dcf061920.png",
+            "image": "shopify://shop_images/Innosuisse_Logo_supported_Initial_Coaching_rgb_negativ_EN_8128639e-8bed-4e91-beb3-ed7dcf061920.png",
             "title": "",
             "text": "",
             "link_label": "Innosuisse",
-            "link": "https:\/\/www.innosuisse.ch\/inno\/fr\/home.html"
+            "link": "https://www.innosuisse.ch/inno/fr/home.html"
           }
         },
         "column_TGe7Pr": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Innovaud_white.png",
+            "image": "shopify://shop_images/Innovaud_white.png",
             "title": "",
             "text": "",
             "link_label": "Innovaud",
-            "link": "https:\/\/www.innovaud.ch\/fr\/"
+            "link": "https://www.innovaud.ch/fr/"
           }
         },
         "column_WyhFBF": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/EDB_logo_white.svg",
+            "image": "shopify://shop_images/EDB_logo_white.svg",
             "title": "",
             "text": "",
             "link_label": "Enabled By Design",
-            "link": "https:\/\/enabledbydesign.ch\/"
+            "link": "https://enabledbydesign.ch/"
           }
         }
       },
