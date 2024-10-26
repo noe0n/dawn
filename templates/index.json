@@ -173,8 +173,8 @@
         ".button:hover:after {--border-offset: 0;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/gauche_black_2.jpg",
-        "image_2": "shopify://shop_images/droite_black.jpg",
+        "image": "shopify://shop_images/SL_gauche_step2.jpg",
+        "image_2": "shopify://shop_images/SL_droite_step2.jpg",
         "image_overlay_opacity": 100,
         "image_overlay_opacity_top": 100,
         "image_overlay_opacity_top_position": 0,
