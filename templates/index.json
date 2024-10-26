@@ -179,7 +179,7 @@
         "image_overlay_opacity_top": 100,
         "image_overlay_opacity_top_position": 0,
         "image_overlay_opacity_bottom": 0,
-        "image_overlay_opacity_bottom_position": 20,
+        "image_overlay_opacity_bottom_position": 40,
         "image_height": "small",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
