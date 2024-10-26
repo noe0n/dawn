@@ -46,7 +46,7 @@
         "buttons_ThRq7E"
       ],
       "custom_css": [
-        ".banner {min-height: 70vh; min-height: 70svh; height: 70vh; height: 70svh; max-height: 70vh; max-height: 70svh; text-shadow: 0px 0px 20px rgba(0, 0, 0, 1);}",
+        ".banner {min-height: 73vh; min-height: 73svh; height: 73vh; height: 73svh; max-height: 73vh; max-height: 73svh; text-shadow: 0px 0px 20px rgba(0, 0, 0, 1);}",
         ".button {--border-offset: 0; padding: 16px; background-color: rgb(235 183 91); color: black; font-weight: 600; border-radius: 4px !important; animation: glowing_around 2500ms infinite; animation-timing-function: ease;}",
         ".button:hover:after {--border-offset: 0;}",
         "@media (max-width: 749px) {.banner__content--bottom-center {position: absolute; bottom: 0; text-align: center; padding-bottom: 20px; }}"
@@ -54,9 +54,9 @@
       "settings": {
         "image_overlay_opacity": 100,
         "image_overlay_opacity_top": 0,
-        "image_overlay_opacity_top_position": 30,
+        "image_overlay_opacity_top_position": 37,
         "image_overlay_opacity_bottom": 100,
-        "image_overlay_opacity_bottom_position": 100,
+        "image_overlay_opacity_bottom_position": 97,
         "image_height": "medium",
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
@@ -167,8 +167,8 @@
         "buttons_TFa7mb"
       ],
       "custom_css": [
-        ".banner {min-height: 30vh; min-height: 30svh; height: 30vh; height: 30svh; max-height: 30vh; max-height: 30svh;}",
-        ".banner__content {min-height: 30svh;}",
+        ".banner {min-height: 27vh; min-height: 27svh; height: 27vh; height: 27svh; max-height: 27vh; max-height: 27svh;}",
+        ".banner__content {min-height: 27svh;}",
         ".button {--border-offset: 0; padding: 16px; background-color: rgb(255 173 91); color: black; font-weight: 600; border-radius: 4px !important; animation: glowing_around 2500ms infinite; animation-timing-function: ease;}",
         ".button:hover:after {--border-offset: 0;}"
       ],
