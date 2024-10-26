@@ -167,11 +167,11 @@
         "buttons_TFa7mb"
       ],
       "custom_css": [
-        ".banner {min-height: 27vh; min-height: 27svh; height: 27vh; height: 27svh; max-height: 27vh; max-height: 27svh;}",
+        ".banner {min-height: 27vh; min-height: 27svh; height: 27vh; height: 27svh;}",
         ".banner__content {min-height: 27svh;}",
         ".button {--border-offset: 0; padding: 16px; background-color: rgb(255 173 91); color: black; font-weight: 600; border-radius: 4px !important; animation: glowing_around 2500ms infinite; animation-timing-function: ease;}",
         ".button:hover:after {--border-offset: 0;}",
-        "@media (max-width: 749px) {}"
+        "@media (max-width: 749px) {.banner {min-height: 37vh; min-height: 37svh; height: 37vh; height: 37svh;} .banner__content {min-height: 37svh;}}"
       ],
       "settings": {
         "image": "shopify://shop_images/SL_gauche_step2.jpg",
