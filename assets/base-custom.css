@@ -87,13 +87,13 @@ body {
 }
 @keyframes text_glowing_around {
   0% {
-    text-shadow: 0 0 15px #ffffff30;
+    text-shadow: 0 0 15px #ffffff40;
   }
   50% {
-    text-shadow: 0 0 20px #ffffff30;
+    text-shadow: 0 0 40px #fffcd6d2;
   }
   100% {
-    text-shadow: 0 0 15px #ffffff30;
+    text-shadow: 0 0 15px #ffffff40;
   }
 }
 
