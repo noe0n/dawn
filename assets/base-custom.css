@@ -84,6 +84,7 @@ body {
   100% {
     box-shadow: 0 0 15px #ffffff40;
   }
+}
 @keyframes text_glowing_around {
   0% {
     text-shadow: 0 0 15px #ffffff40;
