@@ -49,7 +49,7 @@
         ".banner {min-height: 68vh; min-height: 68svh; height: 68vh; height: 68svh;}",
         ".button {--border-offset: 0; padding: 16px; background-color: rgb(235 183 91); color: black; font-weight: 600; border-radius: 4px !important; animation: glowing_around 2500ms infinite; animation-timing-function: ease;}",
         ".button:hover:after {--border-offset: 0;}",
-        "@media (max-width: 749px) {.banner {min-height: 63vh; min-height: 63svh; height: 63vh; height: 63svh; }}"
+        "@media (max-width: 749px) {.banner {min-height: 63vh; min-height: 63svh; height: 63vh; height: 63svh; } .banner__content--bottom-center {position: absolute; bottom: 0; text-align: center; padding-bottom: 0px; }}"
       ],
       "settings": {
         "image_overlay_opacity": 100,
