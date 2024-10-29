@@ -483,7 +483,7 @@
         "buttons_QdUFRL": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Précommander",
+            "button_label_1": "Précommander maintenant",
             "button_link_1": "https://www.kickstarter.com/projects/sidelights/sidelights-first-360-and-double-beam-safety-bike-lights",
             "button_isPopup": false,
             "button_style_secondary_1": false,
