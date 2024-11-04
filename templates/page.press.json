@@ -25,24 +25,11 @@
             "text": "Communiqué de presse du 4 novembre 2024",
             "text_style": "body"
           }
-        },
-        "buttons_Q3Ybkn": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Communiqué de presse [PDF]",
-            "button_link_1": "https://cdn.shopify.com/s/files/1/0790/1269/2294/files/Communique_de_presse_-_SideLights_Lancement_Produit.pdf?v=1727076946",
-            "button_isPopup": false,
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
         "heading_yLiqf6",
-        "text_eGkwQj",
-        "buttons_Q3Ybkn"
+        "text_eGkwQj"
       ],
       "settings": {
         "image_2": "shopify://shop_images/claessens-arthur_heig-vd-1406-Avec_accentuation-Bruit.jpg",
