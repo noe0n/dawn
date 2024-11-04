@@ -32,14 +32,14 @@
         "text_eGkwQj"
       ],
       "settings": {
-        "image_2": "shopify://shop_images/claessens-arthur_heig-vd-1406-Avec_accentuation-Bruit.jpg",
+        "image_2": "shopify://shop_images/SL_gauche_step2.jpg",
         "image_overlay_opacity": 0,
         "image_overlay_opacity_top": 100,
         "image_overlay_opacity_top_position": 0,
         "image_overlay_opacity_bottom": 100,
         "image_overlay_opacity_bottom_position": 100,
-        "image_height": "small",
-        "desktop_content_position": "middle-center",
+        "image_height": "medium",
+        "desktop_content_position": "top-center",
         "show_text_box": false,
         "desktop_content_alignment": "left",
         "color_scheme": "scheme-4",
