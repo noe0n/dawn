@@ -46,10 +46,10 @@
         "buttons_ThRq7E"
       ],
       "custom_css": [
-        ".banner {min-height: 68vh; min-height: 68svh; height: 68vh; height: 68svh;}",
+        ".banner {min-height: 80vh; min-height: 80svh; height: 80vh; height: 80svh;}",
         ".button {--border-offset: 0; padding: 16px; background-color: rgb(235 183 91); color: black; font-weight: 600; border-radius: 4px !important; animation: glowing_around 2500ms infinite ease;}",
         ".button:hover:after {--border-offset: 0;}",
-        "@media (max-width: 749px) {.banner {min-height: 73vh; min-height: 73svh; height: 73vh; height: 73svh; text-shadow: 0px 0px 15px #000; } .banner__content--bottom-center {position: absolute; bottom: 0; text-align: center; padding-bottom: 0px; }}"
+        "@media (max-width: 749px) {.banner {min-height: 80vh; min-height: 80svh; height: 80vh; height: 80svh; text-shadow: 0px 0px 15px #000; } .banner__content--bottom-center {position: absolute; bottom: 0; text-align: center; padding-bottom: 0px; }}"
       ],
       "settings": {
         "image_overlay_opacity": 100,
@@ -166,6 +166,7 @@
         "text_Vn94mU",
         "buttons_TFa7mb"
       ],
+      "disabled": true,
       "custom_css": [
         ".banner {min-height: 27vh; min-height: 27svh; height: 27vh; height: 27svh;}",
         ".banner__content {min-height: 27svh;}",
@@ -276,6 +277,7 @@
     },
     "custom_liquid_KeVcwK": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<a\n  href=\"https://www.kickstarter.com/projects/sidelights/sidelights-first-360-and-double-beam-safety-bike-lights\"\n  target=\"_blank\"\n  class=\"carousel-link\"\n>\n  <div class=\"carousel\">\n    <div class=\"group\">\n      <div class=\"card glow\">PRE-ORDER NOW</div>\n      <div class=\"card\">\n        <img\n          src=\"https://cdn.shopify.com/s/files/1/0790/1269/2294/files/SLxKS_2_w_1.png?v=1730148599\"\n          alt=\"Logo\"\n          class=\"carousel-image\"\n        />\n      </div>\n      <div class=\"card glow2\">WE ARE LIVE ON KICKSTARTER</div>\n      <div class=\"card\">\n        <img\n          src=\"https://cdn.shopify.com/s/files/1/0790/1269/2294/files/SLxKS_2_w_1.png?v=1730148599\"\n          alt=\"Logo\"\n          class=\"carousel-image\"\n        />\n      </div>\n      <div class=\"card glow\">PRE-ORDER NOW</div>\n      <div class=\"card\">\n        <img\n          src=\"https://cdn.shopify.com/s/files/1/0790/1269/2294/files/SLxKS_2_w_1.png?v=1730148599\"\n          alt=\"Logo\"\n          class=\"carousel-image\"\n        />\n      </div>\n      <div class=\"card glow2\">WE ARE LIVE ON KICKSTARTER</div>\n      <div class=\"card\">\n        <img\n          src=\"https://cdn.shopify.com/s/files/1/0790/1269/2294/files/SLxKS_2_w_1.png?v=1730148599\"\n          alt=\"Logo\"\n          class=\"carousel-image\"\n        />\n      </div>\n    </div>\n    <!-- Groupe dupliqué pour créer un effet continu sans espace vide -->\n    <div class=\"group\" aria-hidden=\"true\">\n      <div class=\"card glow\">PRE-ORDER NOW</div>\n      <div class=\"card\">\n        <img\n          src=\"https://cdn.shopify.com/s/files/1/0790/1269/2294/files/SLxKS_2_w_1.png?v=1730148599\"\n          alt=\"Logo\"\n          class=\"carousel-image\"\n        />\n      </div>\n      <div class=\"card glow2\">WE ARE LIVE ON KICKSTARTER</div>\n      <div class=\"card\">\n        <img\n          src=\"https://cdn.shopify.com/s/files/1/0790/1269/2294/files/SLxKS_2_w_1.png?v=1730148599\"\n          alt=\"Logo\"\n          class=\"carousel-image\"\n        />\n      </div>\n      <div class=\"card glow\">PRE-ORDER NOW</div>\n      <div class=\"card\">\n        <img\n          src=\"https://cdn.shopify.com/s/files/1/0790/1269/2294/files/SLxKS_2_w_1.png?v=1730148599\"\n          alt=\"Logo\"\n          class=\"carousel-image\"\n        />\n      </div>\n      <div class=\"card glow2\">WE ARE LIVE ON KICKSTARTER</div>\n      <div class=\"card\">\n        <img\n          src=\"https://cdn.shopify.com/s/files/1/0790/1269/2294/files/SLxKS_2_w_1.png?v=1730148599\"\n          alt=\"Logo\"\n          class=\"carousel-image\"\n        />\n      </div>\n    </div>\n  </div>\n</a>\n\n<style>\n  .carousel-link {\n    text-decoration: none;\n  }\n\n  .carousel {\n    width: 100%;\n    min-height: 5vh;\n    max-height: 5vh;\n    min-height: 5svh;\n    max-height: 5svh;\n    overflow: hidden;\n    display: flex;\n    background: #000;\n    cursor: pointer;\n  }\n\n  .group {\n    display: flex;\n    animation: scrolling 20s linear infinite;\n    will-change: transform;\n  }\n\n  .card {\n    font-size: 1.5rem;\n    font-weight: bold;\n    padding: 0px 10px;\n    margin: 10px;\n    border-radius: 5px;\n    white-space: nowrap;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n  }\n  @media (max-width: 749px) {\n    .card{\n      margin: 4px;\n    }\n  }\n\n  /* Style pour les cartes avec texte lumineux */\n  .glow {\n    color: #000;\n    background: #fff;\n    animation: bg_glowing 2500ms infinite ease;\n  }\n  .glow2 {\n    color: #000;\n    background: #fff;\n    animation: bg_glowing_2 2500ms infinite ease;\n  }\n\n  /* Style pour les images dans les cartes */\n  .carousel-image {\n    max-width: 300px;\n    max-height: 5vh;\n    max-height: 5svh;\n    display: block;\n  }\n\n  /* Animation de scrolling sans interruption */\n  @keyframes scrolling {\n    0% {\n      transform: translateX(0);\n    }\n    100% {\n      transform: translateX(-100%);\n    }\n  }\n\n  @keyframes text_glowing_around_2 {\n    0% {\n      text-shadow: 0 0 15px #ffffff40;\n    }\n    50% {\n      text-shadow: 0 0 40px #fffcd6d2;\n    }\n    100% {\n      text-shadow: 0 0 15px #ffffff40;\n    }\n  }\n\n  @keyframes bg_glowing {\n    0% {\n      background: #fff;\n    }\n    50% {\n      background: rgb(255, 173, 91);\n    }\n    100% {\n      background: #fff;\n    }\n  }\n  @keyframes bg_glowing_2 {\n    0% {\n      background: rgb(255, 173, 91);\n    }\n    50% {\n      background: #fff;\n    }\n    100% {\n      background: rgb(255, 173, 91);\n    }\n  }\n</style>",
         "color_scheme": "scheme-4",
@@ -498,6 +500,7 @@
         "text_jRCn7F",
         "buttons_QdUFRL"
       ],
+      "disabled": true,
       "custom_css": [
         ".button {--border-offset: 0; padding: 16px; background-color: rgb(255 173 91); color: black; font-weight: 600; border-radius: 4px !important; animation: glowing_around 2500ms infinite; animation-timing-function: ease;}",
         ".button:hover:after {--border-offset: 0;}"
