@@ -605,6 +605,9 @@
         },
         "subtotal_label_with_quantity": {
           "many": "Subtotal (%{count} items)"
+        },
+        "view_all_items": {
+          "many": "Show all items %{count}"
         }
       },
       "shipping": {
