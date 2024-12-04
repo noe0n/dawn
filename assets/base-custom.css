@@ -50,14 +50,14 @@ body {
   background-color: rgba(var(--custom-background-color-rgb), 0.25);
   backdrop-filter: blur(30px);
   -webkit-backdrop-filter: blur(30px);
-  /*color: rgba(255, 255, 255, 1);*/
+  color: white;
   text-transform: uppercase;
   box-shadow: 0 0 30px #00000040;
   transition: all 0.2s ease;
 }
 .button:hover {
   background-color: rgba(255, 255, 255, 1) !important;
-  color: rgba(0, 0, 0) !important;
+  color: black !important;
   box-shadow: 0 0 200px #ffffff40;
 }
 @keyframes glowing {
