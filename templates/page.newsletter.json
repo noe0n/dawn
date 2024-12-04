@@ -11,9 +11,31 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
+      }
+    },
+    "image_banner_ihpMDQ": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/P1130783_true.jpg",
+        "image_2": "shopify://shop_images/SideLights_Froidevaux.jpg",
+        "image_overlay_opacity": 0,
+        "image_overlay_opacity_top": 100,
+        "image_overlay_opacity_top_position": 0,
+        "image_overlay_opacity_bottom": 100,
+        "image_overlay_opacity_bottom_position": 100,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "newsletter_K4MXEw": {
@@ -43,7 +65,7 @@
         "email_form_Hz6eQL"
       ],
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-4",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
@@ -52,6 +74,7 @@
   },
   "order": [
     "main",
+    "image_banner_ihpMDQ",
     "newsletter_K4MXEw"
   ]
 }
