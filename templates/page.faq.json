@@ -94,9 +94,7 @@
         "collapsible_row_mtdYdA"
       ],
       "disabled": true,
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "caption": "",
         "heading": "Commandes SideLights BETA",
@@ -120,7 +118,7 @@
           "settings": {
             "heading": "SideLights est-il compatible avec mon vélo ou ma trottinette ?",
             "icon": "question_mark",
-            "row_content": "<p>SideLights est compatible selon deux conditions : </p><ul><li>Le diamètre interne (trou dans le guidon) mesure au minimum 15mm, sur 13cm de longueur.</li><li>L’angle du guidon qui tend vers le cycliste (backsweep) ne dépasse pas les 25 degrés.</li></ul>",
+            "row_content": "<p>SideLights est compatible selon deux conditions : </p><ul><li>Le diamètre interne (trou dans le guidon) mesure au minimum 15mm, sur 12cm de longueur.</li><li>L’angle du guidon qui tend vers le cycliste (backsweep) ne dépasse pas 30°.</li></ul>",
             "page": ""
           }
         },
@@ -198,9 +196,7 @@
         "collapsible_row_9CJYrM",
         "collapsible_row_AtcDqf"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "caption": "",
         "heading": "Compatibilité et Montage",
@@ -293,9 +289,7 @@
         "collapsible_row_fVP3xK",
         "collapsible_row_Rn7HEm"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "caption": "",
         "heading": "Fonctionnalités et Utilisation ",
