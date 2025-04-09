@@ -143,7 +143,7 @@
         "collapsible_row_TDAw9C": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Dois-je changer de poignée pour monter le système SideLights sur mon vélo ? ",
+            "heading": "Dois-je changer de poignées pour monter le système SideLights sur mon vélo ? ",
             "icon": "question_mark",
             "row_content": "<p>Si vous avez la possibilité d’accéder au trou interne de votre guidon avec vos poignées actuelles, vous pouvez les garder. Si vos poignées ne permettent aucune ouverture à leur embout, il vous faudra changer de poignées.</p><p>Nous proposons également une paire de poignées SideLights ayant un ajustement parfait!</p>",
             "page": ""
@@ -275,7 +275,7 @@
           "settings": {
             "heading": "Comment vérifier le niveau de la batterie et le mode d'éclairage ?",
             "icon": "question_mark",
-            "row_content": "<p>SideLights est doté de trois LEDs situées en haut du produit qui fournit des informations sur l'état de la batterie et le mode d'éclairage. Vous pouvez choisir entre trois modes d'éclairage : ECO, NORMAL et POWER.</p>",
+            "row_content": "<p>SideLights est doté de trois LEDs situées en haut du produit qui fournit des informations sur l'état de la batterie et le mode d'éclairage. Vous pouvez choisir entre deux modes d'éclairage : NORMAL et POWER.</p>",
             "page": ""
           }
         }
