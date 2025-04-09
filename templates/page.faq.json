@@ -275,7 +275,7 @@
           "settings": {
             "heading": "Comment vérifier le niveau de la batterie et le mode d'éclairage ?",
             "icon": "question_mark",
-            "row_content": "<p>SideLights est doté de trois LEDs situées en haut du produit qui fournit des informations sur l'état de la batterie et le mode d'éclairage. Vous pouvez choisir entre deux modes d'éclairage : NORMAL et POWER.</p>",
+            "row_content": "<p>SideLights est doté de trois LEDs situées en haut du produit qui fournit des informations sur l'état de la batterie et le mode d'éclairage. Vous pouvez choisir entre trois modes d'éclairage : ECO, NORMAL et POWER.</p>",
             "page": ""
           }
         }
