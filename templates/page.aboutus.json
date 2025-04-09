@@ -110,7 +110,7 @@
         "text_mLJhFN": {
           "type": "text",
           "settings": {
-            "text": "<ul><li>2022 : <strong>Idée et création des premiers prototypes</strong></li><li>Juin 2023 : <strong>R&D au laboratoire universitaire, </strong><em>Yverdon-les-Bains, Suisse</em></li><li>Octobre 2023 : <strong>Dépôt de brevet pour SideLights, </strong><em>couverture internationale</em></li><li>Mars 2024 : <strong>Prototype fonctionnel achevé</strong></li><li>Avril 2024 : <strong>Partenariat de fabrication</strong> <em>sécurisé pour la production à grande échelle</em></li><li>Septembre 2024 : <strong>Test du prototype final</strong></li><li>Décembre 2024 : <strong>Derniers ajustements et contrôles de qualité</strong></li><li>Février 2025 : <strong>Production à grande échelle</strong></li><li>Avril 2025 : <strong>Expédition aux contributeurs</strong></li></ul>"
+            "text": "<ul><li>2022 : <strong>Idée et création des premiers prototypes</strong></li><li>Juin 2023 : <strong>R&D au laboratoire universitaire, </strong><em>Yverdon-les-Bains, Suisse</em></li><li>Octobre 2023 : <strong>Dépôt de brevet pour SideLights, </strong><em>couverture internationale</em></li><li>Mars 2024 : <strong>Prototype fonctionnel achevé</strong></li><li>Avril 2024 : <strong>Partenariat de fabrication</strong> <em>sécurisé pour la production à grande échelle</em></li><li>Septembre 2024 : <strong>Test du prototype final</strong></li><li>Janvier 2025 : <strong>Derniers ajustements et contrôles de qualité</strong></li><li>Mai 2025 : <strong>Production à grande échelle</strong></li><li>été 2025 : <strong>Expédition aux contributeurs</strong></li></ul>"
           }
         }
       },
@@ -199,9 +199,7 @@
         "column_DTA7JD",
         "column_hkEbtc"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "title": "Qui se trouve derrière SideLights ?",
         "heading_size": "h1",
@@ -255,9 +253,7 @@
         "row_UFitnw",
         "row_dNkDjw"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "background_gradient_opacity_start": 100,
         "background_gradient_opacity_start_position": 0,
@@ -306,9 +302,7 @@
         "column_y9rU3i",
         "column_PK4WMA"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "title": "Merci à nos partenaires",
         "heading_size": "h1",
@@ -380,9 +374,7 @@
         "column_TGe7Pr",
         "column_WyhFBF"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "title": "",
         "heading_size": "h1",
