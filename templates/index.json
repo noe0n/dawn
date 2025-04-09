@@ -598,6 +598,16 @@
             "link": "https://www.blick.ch/fr/sport/autres-sports/linnovation-de-sidelights-arthur-claessens-de-lelite-du-bmx-a-la-securite-des-cyclistes-lambdas-id19527451.html"
           }
         },
+        "column_MMwWQJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Bikerumor.png",
+            "title": "SideLights Puts Bright LED Lights & Turn Signals in Bar Ends So Cars Will See You!",
+            "text": "",
+            "link_label": "Bikerumor",
+            "link": "https://bikerumor.com/sidelights-puts-bright-led-lights-turn-signals-in-bar-ends-so-cars-will-see-you/"
+          }
+        },
         "column_nBxWBU": {
           "type": "column",
           "settings": {
@@ -616,16 +626,6 @@
             "text": "",
             "link_label": "PME",
             "link": "https://www.pme.ch/business/2024/04/08/le-velo-et-la-fibre-entrepreneuriale-cest-une-histoire-de-famille-697480"
-          }
-        },
-        "column_MMwWQJ": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Bikerumor.png",
-            "title": "SideLights Puts Bright LED Lights & Turn Signals in Bar Ends So Cars Will See You!",
-            "text": "",
-            "link_label": "Bikerumor",
-            "link": "https://bikerumor.com/sidelights-puts-bright-led-lights-turn-signals-in-bar-ends-so-cars-will-see-you/"
           }
         },
         "column_bLVEey": {
@@ -662,9 +662,9 @@
       "block_order": [
         "column_W9HAPn",
         "column_9kt4nr",
+        "column_MMwWQJ",
         "column_nBxWBU",
         "column_gkWAVn",
-        "column_MMwWQJ",
         "column_bLVEey",
         "column_NppJaX",
         "column_ajCXfM"
