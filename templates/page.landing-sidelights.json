@@ -19,11 +19,43 @@
         "padding_bottom": 52
       }
     },
+    "image_banner_DppNRW": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_D8p6CA": {
+          "type": "heading",
+          "settings": {
+            "heading": "L'Éclairage Vélo Ultime pour Votre Sécurité",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_D8p6CA"
+      ],
+      "settings": {
+        "image_overlay_opacity": 100,
+        "image_overlay_opacity_top": 0,
+        "image_overlay_opacity_top_position": 35,
+        "image_overlay_opacity_bottom": 100,
+        "image_overlay_opacity_bottom_position": 100,
+        "image_height": "small",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
     "image_banner_rKJfUY": {
       "type": "image-banner",
       "blocks": {
         "heading_7c79eR": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "L'Éclairage Vélo Ultime pour Votre Sécurité",
             "heading_size": "h0"
@@ -1023,6 +1055,7 @@
   },
   "order": [
     "custom_liquid_B9akQc",
+    "image_banner_DppNRW",
     "image_banner_rKJfUY",
     "newsletter_BhHrMk",
     "custom_liquid_KwMzBd",
