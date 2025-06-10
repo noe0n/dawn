@@ -1,6 +1,10 @@
 <!doctype html>
 <html class="js" lang="{{ request.locale.iso_code }}">
   <head>
+    {% if template == 'page.landing-sidelights' %}
+  <meta name="robots" content="noindex, nofollow">
+{% endif %}
+
 	{% render 'pandectes-rules' %}
     
 
