@@ -9,15 +9,876 @@
  */
 {
   "sections": {
-    "main": {
-      "type": "main-page",
+    "image_banner_rKJfUY": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_7c79eR": {
+          "type": "heading",
+          "settings": {
+            "heading": "L'Éclairage Vélo Ultime pour Votre Sécurité",
+            "heading_size": "h0"
+          }
+        },
+        "text_PHFgaC": {
+          "type": "text",
+          "settings": {
+            "text": "SideLights : visibilité à 360°, indicateurs de direction et double faisceau lumineux. Une innovation conçue et développée en Suisse.",
+            "text_style": "body"
+          }
+        },
+        "buttons_ThRq7E": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Précommander SideLights",
+            "button_link_1": "shopify://pages/pre-order",
+            "button_isPopup": false,
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_7c79eR",
+        "text_PHFgaC",
+        "buttons_ThRq7E"
+      ],
+      "custom_css": [
+        ".banner {min-height: 73vh; min-height: 73svh; height: 73vh; height: 73svh;}",
+        ".button {--border-offset: 0; padding: 16px; background-color: #ebeb5b; font-weight: 600; border-radius: 4px; animation: glowing_around 2500ms infinite ease;}",
+        ".button:hover:after {--border-offset: 0;}",
+        "@media (max-width: 749px) {.banner {min-height: 78vh; min-height: 78svh; height: 78vh; height: 78svh; text-shadow: 0px 0px 15px #000; } .banner__content--bottom-center {position: absolute; bottom: 0; text-align: center; padding-bottom: 0px; }}"
+      ],
       "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
+        "image_overlay_opacity": 100,
+        "image_overlay_opacity_top": 0,
+        "image_overlay_opacity_top_position": 35,
+        "image_overlay_opacity_bottom": 100,
+        "image_overlay_opacity_bottom_position": 100,
+        "image_height": "medium",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "image_banner_i6Dggj": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_ri9rP8": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Bannière avec image",
+            "heading_size": "h1"
+          }
+        },
+        "text_HgQqy9": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Fournissez des détails à votre clientèle sur l’image/les images ou le contenu de la bannière du modèle.",
+            "text_style": "body"
+          }
+        },
+        "buttons_ehHMJW": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Précommander SideLights",
+            "button_link_1": "shopify://pages/pre-order",
+            "button_isPopup": false,
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_ri9rP8",
+        "text_HgQqy9",
+        "buttons_ehHMJW"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".banner {min-height: 25vh;}",
+        ".button {--border-offset: 0; padding: 16px; background-color: rgb(235 183 91); color: black; font-weight: 600; border-radius: 4px !important; animation: glowing_around 2500ms infinite; animation-timing-function: ease;}",
+        ".button:hover:after {--border-offset: 0;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Image_vignette_KS_0.2_croped.jpg",
+        "image_overlay_opacity": 50,
+        "image_overlay_opacity_top": 100,
+        "image_overlay_opacity_top_position": 0,
+        "image_overlay_opacity_bottom": 0,
+        "image_overlay_opacity_bottom_position": 100,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_banner_ebpDfH": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_dT7MAx": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Bannière avec image",
+            "heading_size": "h1"
+          }
+        },
+        "text_Vn94mU": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Fournissez des détails à votre clientèle sur l’image/les images ou le contenu de la bannière du modèle.",
+            "text_style": "body"
+          }
+        },
+        "buttons_TFa7mb": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Précommander sur Indiegogo",
+            "button_link_1": "https://www.indiegogo.com/projects/sidelights-360-double-beam-safety-bike-lights#/",
+            "button_isPopup": false,
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_dT7MAx",
+        "text_Vn94mU",
+        "buttons_TFa7mb"
+      ],
+      "custom_css": [
+        ".banner {min-height: 27vh; min-height: 27svh; height: 27vh; height: 27svh;}",
+        ".banner__content {min-height: 27svh;}",
+        ".button {--border-offset: 0; padding: 16px; background-color: #eb1478; color: white; font-weight: 600; border-radius: 4px !important; animation: glowing_around 2500ms infinite; animation-timing-function: ease;}",
+        ".button:hover:after {--border-offset: 0;}",
+        "@media (max-width: 749px) {.banner {min-height: 22vh; min-height: 22svh; height: 22vh; height: 22svh; } .banner__content {min-height: 22svh; }}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/SL_gauche_step2.jpg",
+        "image_2": "shopify://shop_images/SL_droite_step2.jpg",
+        "image_overlay_opacity": 100,
+        "image_overlay_opacity_top": 100,
+        "image_overlay_opacity_top_position": 0,
+        "image_overlay_opacity_bottom": 0,
+        "image_overlay_opacity_bottom_position": 35,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "image_banner_iG6t69": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_j8cLCU": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Bannière avec image",
+            "heading_size": "h1"
+          }
+        },
+        "text_jCCGpp": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Fournissez des détails à votre clientèle sur l’image/les images ou le contenu de la bannière du modèle.",
+            "text_style": "body"
+          }
+        },
+        "buttons_khBe3e": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Précommander SideLights",
+            "button_link_1": "shopify://pages/pre-order",
+            "button_isPopup": false,
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_j8cLCU",
+        "text_jCCGpp",
+        "buttons_khBe3e"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".banner {min-height: 25vh;}",
+        ".button {--border-offset: 0; padding: 16px; background-color: rgb(235 183 91); color: black; font-weight: 600; border-radius: 4px !important; animation: glowing_around 2500ms infinite; animation-timing-function: ease;}",
+        ".button:hover:after {--border-offset: 0;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/P1130784_2.jpg",
+        "image_2": "shopify://shop_images/P1130783.jpg",
+        "image_overlay_opacity": 60,
+        "image_overlay_opacity_top": 100,
+        "image_overlay_opacity_top_position": 0,
+        "image_overlay_opacity_bottom": 0,
+        "image_overlay_opacity_bottom_position": 100,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "custom_liquid_DLwUCz": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<div class=\"carousel\">\n  <div class=\"group\">\n    <div class=\"card glow\">WE ARE LIVE ON KICKSTARTER</div>\n    <div class=\"card\">WE ARE LIVE ON KICKSTARTER</div>\n    <div class=\"card glow\">WE ARE LIVE ON KICKSTARTER</div>\n    <div class=\"card\">WE ARE LIVE ON KICKSTARTER</div>\n    <div class=\"card glow\">WE ARE LIVE ON KICKSTARTER</div>\n    <div class=\"card\">WE ARE LIVE ON KICKSTARTER</div>\n  </div>\n  <!-- Groupe dupliqué pour créer un effet continu sans espace vide -->\n  <div class=\"group\" aria-hidden=\"true\">\n    <div class=\"card glow\">WE ARE LIVE ON KICKSTARTER</div>\n    <div class=\"card\">WE ARE LIVE ON KICKSTARTER</div>\n    <div class=\"card glow\">WE ARE LIVE ON KICKSTARTER</div>\n    <div class=\"card\">WE ARE LIVE ON KICKSTARTER</div>\n    <div class=\"card\">WE ARE LIVE ON KICKSTARTER</div>\n    <div class=\"card glow\">WE ARE LIVE ON KICKSTARTER</div>\n  </div>\n</div>\n\n<style>\n  \n.carousel {\n    width: 100%;\n    min-height: 4vh;\n    min-height: 4svh;\n    height: 4vh;\n    height: 4svh;\n    max-height: 4vh;\n    max-height: 4svh;\n    overflow: hidden;\n    display: flex;\n    background: #000;\n    animation: bg_glowing 2500ms infinite ease;\n  }\n\n  .group {\n    display: flex;\n    animation: scrolling 20s linear infinite;\n    will-change: transform;\n  }\n\n  .card {\n    color: white;\n    font-size: 2rem;\n    font-weight: bold;\n    padding: 10px;\n    margin: 7px;\n    border-radius: 5px;\n    white-space: nowrap;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    \n  }\n  .glow{\n    color: rgb(255,173,91);\n    background: #000;\n  }\n\n  /* Animation de scrolling sans interruption */\n  @keyframes scrolling {\n    0% {\n      transform: translateX(0);\n    }\n    100% {\n      transform: translateX(-100%);\n    }\n  }\n  @keyframes bg_glowing{\n  0% {\n    background: #000;\n  }\n  50% {\n    background: rgb(255 173 91);\n  }\n  100% {\n    background: #000;\n  }\n  }\n</style>",
+        "color_scheme": "scheme-4",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "custom_liquid_eCyNe9": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<a href=\"https://www.kickstarter.com/projects/sidelights/sidelights-first-360-and-double-beam-safety-bike-lights\" target=\"_blank\" class=\"carousel-link\">\n  <div class=\"carousel\">\n    <div class=\"group\">\n      <div class=\"card glow\">PRE-ORDER NOW</div>\n      <div class=\"card\"><img src=\"https://cdn.shopify.com/s/files/1/0790/1269/2294/files/SLxKS_logo_2.png?v=1730147808\" alt=\"Logo\" class=\"carousel-image\"></div>\n      <div class=\"card glow\">WE ARE LIVE ON KICKSTARTER</div>\n      <div class=\"card\"><img src=\"https://cdn.shopify.com/s/files/1/0790/1269/2294/files/SLxKS_logo_2.png?v=1730147808\" alt=\"Logo\" class=\"carousel-image\"></div>\n      <div class=\"card glow\">PRE-ORDER NOW</div>\n      <div class=\"card\"><img src=\"https://cdn.shopify.com/s/files/1/0790/1269/2294/files/SLxKS_logo_2.png?v=1730147808\" alt=\"Logo\" class=\"carousel-image\"></div>\n    </div>\n    <!-- Groupe dupliqué pour créer un effet continu sans espace vide -->\n    <div class=\"group\" aria-hidden=\"true\">\n      <div class=\"card glow\">PRE-ORDER NOW</div>\n      <div class=\"card\"><img src=\"https://cdn.shopify.com/s/files/1/0790/1269/2294/files/SLxKS_logo_2.png?v=1730147808\" alt=\"Logo\" class=\"carousel-image\"></div>\n      <div class=\"card glow\">WE ARE LIVE ON KICKSTARTER</div>\n      <div class=\"card\"><img src=\"https://cdn.shopify.com/s/files/1/0790/1269/2294/files/SLxKS_logo_2.png?v=1730147808\" alt=\"Logo\" class=\"carousel-image\"></div>\n      <div class=\"card glow\">PRE-ORDER NOW</div>\n      <div class=\"card\"><img src=\"https://cdn.shopify.com/s/files/1/0790/1269/2294/files/SLxKS_logo_2.png?v=1730147808\" alt=\"Logo\" class=\"carousel-image\"></div>\n    </div>\n  </div>\n</a>\n\n<style>\n  .carousel-link {\n    text-decoration: none;\n  }\n\n  .carousel {\n    width: 100%;\n    min-height: 4vh;\n    overflow: hidden;\n    display: flex;\n    background: #000;\n    cursor: pointer;\n  }\n\n  .group {\n    display: flex;\n    animation: scrolling 20s linear infinite;\n    will-change: transform;\n  }\n\n  .card {\n    font-size: 2rem;\n    font-weight: bold;\n    padding: 10px;\n    margin: 7px;\n    border-radius: 5px;\n    white-space: nowrap;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n  }\n\n  /* Style pour les cartes avec texte lumineux */\n  .glow {\n    color: #fff;\n    background: #000;\n    animation: text_glowing_around 2500ms infinite ease;\n  }\n\n  /* Style pour les images dans les cartes */\n  .carousel-image {\n    max-width: 300px; /* Ajustez selon la taille souhaitée */\n    display: block;\n  }\n\n  /* Animation de scrolling sans interruption */\n  @keyframes scrolling {\n    0% {\n      transform: translateX(0);\n    }\n    100% {\n      transform: translateX(-100%);\n    }\n  }\n\n  @keyframes bg_glowing {\n    0% {\n      background: #000;\n    }\n    50% {\n      background: rgb(255, 173, 91);\n    }\n    100% {\n      background: #000;\n    }\n  }\n</style>",
+        "color_scheme": "scheme-4",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "custom_liquid_KeVcwK": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<a\n  href=\"https://www.kickstarter.com/projects/sidelights/sidelights-first-360-and-double-beam-safety-bike-lights\"\n  target=\"_blank\"\n  class=\"carousel-link\"\n>\n  <div class=\"carousel\">\n    <div class=\"group\">\n      <div class=\"card glow\">PRE-ORDER NOW</div>\n      <div class=\"card\">\n        <img\n          src=\"https://cdn.shopify.com/s/files/1/0790/1269/2294/files/SLxKS_2_w_1.png?v=1730148599\"\n          alt=\"Logo\"\n          class=\"carousel-image\"\n        />\n      </div>\n      <div class=\"card glow2\">WE ARE LIVE ON KICKSTARTER</div>\n      <div class=\"card\">\n        <img\n          src=\"https://cdn.shopify.com/s/files/1/0790/1269/2294/files/SLxKS_2_w_1.png?v=1730148599\"\n          alt=\"Logo\"\n          class=\"carousel-image\"\n        />\n      </div>\n      <div class=\"card glow\">PRE-ORDER NOW</div>\n      <div class=\"card\">\n        <img\n          src=\"https://cdn.shopify.com/s/files/1/0790/1269/2294/files/SLxKS_2_w_1.png?v=1730148599\"\n          alt=\"Logo\"\n          class=\"carousel-image\"\n        />\n      </div>\n      <div class=\"card glow2\">WE ARE LIVE ON KICKSTARTER</div>\n      <div class=\"card\">\n        <img\n          src=\"https://cdn.shopify.com/s/files/1/0790/1269/2294/files/SLxKS_2_w_1.png?v=1730148599\"\n          alt=\"Logo\"\n          class=\"carousel-image\"\n        />\n      </div>\n    </div>\n    <!-- Groupe dupliqué pour créer un effet continu sans espace vide -->\n    <div class=\"group\" aria-hidden=\"true\">\n      <div class=\"card glow\">PRE-ORDER NOW</div>\n      <div class=\"card\">\n        <img\n          src=\"https://cdn.shopify.com/s/files/1/0790/1269/2294/files/SLxKS_2_w_1.png?v=1730148599\"\n          alt=\"Logo\"\n          class=\"carousel-image\"\n        />\n      </div>\n      <div class=\"card glow2\">WE ARE LIVE ON KICKSTARTER</div>\n      <div class=\"card\">\n        <img\n          src=\"https://cdn.shopify.com/s/files/1/0790/1269/2294/files/SLxKS_2_w_1.png?v=1730148599\"\n          alt=\"Logo\"\n          class=\"carousel-image\"\n        />\n      </div>\n      <div class=\"card glow\">PRE-ORDER NOW</div>\n      <div class=\"card\">\n        <img\n          src=\"https://cdn.shopify.com/s/files/1/0790/1269/2294/files/SLxKS_2_w_1.png?v=1730148599\"\n          alt=\"Logo\"\n          class=\"carousel-image\"\n        />\n      </div>\n      <div class=\"card glow2\">WE ARE LIVE ON KICKSTARTER</div>\n      <div class=\"card\">\n        <img\n          src=\"https://cdn.shopify.com/s/files/1/0790/1269/2294/files/SLxKS_2_w_1.png?v=1730148599\"\n          alt=\"Logo\"\n          class=\"carousel-image\"\n        />\n      </div>\n    </div>\n  </div>\n</a>\n\n<style>\n  .carousel-link {\n    text-decoration: none;\n  }\n\n  .carousel {\n    width: 100%;\n    min-height: 5vh;\n    max-height: 5vh;\n    min-height: 5svh;\n    max-height: 5svh;\n    overflow: hidden;\n    display: flex;\n    background: #000;\n    cursor: pointer;\n  }\n\n  .group {\n    display: flex;\n    animation: scrolling 20s linear infinite;\n    will-change: transform;\n  }\n\n  .card {\n    font-size: 1.5rem;\n    font-weight: bold;\n    padding: 0px 10px;\n    margin: 10px;\n    border-radius: 5px;\n    white-space: nowrap;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n  }\n  @media (max-width: 749px) {\n    .card{\n      margin: 4px;\n    }\n  }\n\n  /* Style pour les cartes avec texte lumineux */\n  .glow {\n    color: #000;\n    background: #fff;\n    animation: bg_glowing 2500ms infinite ease;\n  }\n  .glow2 {\n    color: #000;\n    background: #fff;\n    animation: bg_glowing_2 2500ms infinite ease;\n  }\n\n  /* Style pour les images dans les cartes */\n  .carousel-image {\n    max-width: 300px;\n    max-height: 5vh;\n    max-height: 5svh;\n    display: block;\n  }\n\n  /* Animation de scrolling sans interruption */\n  @keyframes scrolling {\n    0% {\n      transform: translateX(0);\n    }\n    100% {\n      transform: translateX(-100%);\n    }\n  }\n\n  @keyframes text_glowing_around_2 {\n    0% {\n      text-shadow: 0 0 15px #ffffff40;\n    }\n    50% {\n      text-shadow: 0 0 40px #fffcd6d2;\n    }\n    100% {\n      text-shadow: 0 0 15px #ffffff40;\n    }\n  }\n\n  @keyframes bg_glowing {\n    0% {\n      background: #fff;\n    }\n    50% {\n      background: rgb(255, 173, 91);\n    }\n    100% {\n      background: #fff;\n    }\n  }\n  @keyframes bg_glowing_2 {\n    0% {\n      background: rgb(255, 173, 91);\n    }\n    50% {\n      background: #fff;\n    }\n    100% {\n      background: rgb(255, 173, 91);\n    }\n  }\n</style>",
+        "color_scheme": "scheme-4",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "custom_liquid_LQHhEy": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<a\n  href=\"https://www.kickstarter.com/projects/sidelights/sidelights-first-360-and-double-beam-safety-bike-lights\"\n  target=\"_blank\"\n  class=\"carousel-link\"\n>\n  <div class=\"carousel\">\n    <div class=\"group\">\n      <div class=\"card glow\">PRE-ORDER NOW</div>\n      <div class=\"card\">\n        <img\n          src=\"https://cdn.shopify.com/s/files/1/0790/1269/2294/files/SLxKS_2_w_1.png?v=1730148599\"\n          alt=\"Logo\"\n          class=\"carousel-image\"\n        />\n      </div>\n      <div class=\"card glow2\">WE ARE LIVE ON KICKSTARTER</div>\n      <div class=\"card\">\n        <img\n          src=\"https://cdn.shopify.com/s/files/1/0790/1269/2294/files/SLxKS_2_w_1.png?v=1730148599\"\n          alt=\"Logo\"\n          class=\"carousel-image\"\n        />\n      </div>\n      <div class=\"card glow\">PRE-ORDER NOW</div>\n      <div class=\"card\">\n        <img\n          src=\"https://cdn.shopify.com/s/files/1/0790/1269/2294/files/SLxKS_2_w_1.png?v=1730148599\"\n          alt=\"Logo\"\n          class=\"carousel-image\"\n        />\n      </div>\n      <div class=\"card glow2\">WE ARE LIVE ON KICKSTARTER</div>\n      <div class=\"card\">\n        <img\n          src=\"https://cdn.shopify.com/s/files/1/0790/1269/2294/files/SLxKS_2_w_1.png?v=1730148599\"\n          alt=\"Logo\"\n          class=\"carousel-image\"\n        />\n      </div>\n    </div>\n    <!-- Groupe dupliqué pour créer un effet continu sans espace vide -->\n    <div class=\"group\" aria-hidden=\"true\">\n      <div class=\"card glow\">PRE-ORDER NOW</div>\n      <div class=\"card\">\n        <img\n          src=\"https://cdn.shopify.com/s/files/1/0790/1269/2294/files/SLxKS_2_w_1.png?v=1730148599\"\n          alt=\"Logo\"\n          class=\"carousel-image\"\n        />\n      </div>\n      <div class=\"card glow2\">WE ARE LIVE ON KICKSTARTER</div>\n      <div class=\"card\">\n        <img\n          src=\"https://cdn.shopify.com/s/files/1/0790/1269/2294/files/SLxKS_2_w_1.png?v=1730148599\"\n          alt=\"Logo\"\n          class=\"carousel-image\"\n        />\n      </div>\n      <div class=\"card glow\">PRE-ORDER NOW</div>\n      <div class=\"card\">\n        <img\n          src=\"https://cdn.shopify.com/s/files/1/0790/1269/2294/files/SLxKS_2_w_1.png?v=1730148599\"\n          alt=\"Logo\"\n          class=\"carousel-image\"\n        />\n      </div>\n      <div class=\"card glow2\">WE ARE LIVE ON KICKSTARTER</div>\n      <div class=\"card\">\n        <img\n          src=\"https://cdn.shopify.com/s/files/1/0790/1269/2294/files/SLxKS_2_w_1.png?v=1730148599\"\n          alt=\"Logo\"\n          class=\"carousel-image\"\n        />\n      </div>\n    </div>\n  </div>\n</a>\n\n<style>\n  .carousel-link {\n    text-decoration: none;\n  }\n\n  .carousel {\n    width: 100%;\n    min-height: 4vh;\n    overflow: hidden;\n    display: flex;\n    background: rgb(255, 173, 91);\n    cursor: pointer;\n  }\n\n  .group {\n    display: flex;\n    animation: scrolling 20s linear infinite;\n    will-change: transform;\n  }\n\n  .card {\n    font-size: 1.5rem;\n    font-weight: bold;\n    padding: 0px 10px;\n    margin: 15px;\n    border-radius: 5px;\n    white-space: nowrap;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n  }\n\n  /* Style pour les cartes avec texte lumineux */\n  .glow {\n    color: rgb(255, 173, 91);\n    background: #fff;\n    animation: bg_glowing 2500ms infinite ease;\n  }\n  .glow2 {\n    color: rgb(255, 173, 91);\n    background: #fff;\n    animation: bg_glowing_2 2500ms infinite ease;\n  }\n\n  /* Style pour les images dans les cartes */\n  .carousel-image {\n    max-width: 300px; /* Ajustez selon la taille souhaitée */\n    display: block;\n  }\n\n  /* Animation de scrolling sans interruption */\n  @keyframes scrolling {\n    0% {\n      transform: translateX(0);\n    }\n    100% {\n      transform: translateX(-100%);\n    }\n  }\n\n  @keyframes text_glowing_around_2 {\n    0% {\n      text-shadow: 0 0 15px #ffffff40;\n    }\n    50% {\n      text-shadow: 0 0 40px #fffcd6d2;\n    }\n    100% {\n      text-shadow: 0 0 15px #ffffff40;\n    }\n  }\n\n  @keyframes bg_glowing {\n    0% {\n      background: #fff;\n    }\n    50% {\n      background: #000;\n    }\n    100% {\n      background: #fff;\n    }\n  }\n  @keyframes bg_glowing_2 {\n    0% {\n      background: #000;\n    }\n    50% {\n      background: #fff;\n    }\n    100% {\n      background: #000;\n    }\n  }\n</style>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "multirow_AGehtJ": {
+      "type": "multirow",
+      "blocks": {
+        "row_jk8jiP": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Sans_titre_3_1.gif",
+            "caption": "",
+            "heading": "Visible à 360°",
+            "text": "<p>Soyez visible à chaque intersection et sous n'importe quel angle, éclairé par 700+ lumens.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_isPopup": false
+          }
+        },
+        "row_VaUyzJ": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Easy_interaction_gif_copie.gif",
+            "caption": "",
+            "heading": "INDICATEURS DE DIRECTION",
+            "text": "<p>Indiquez vos intentions sur la route afin d'être prévisible pour les conducteurs, réduisant ainsi le risque d'accidents.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_isPopup": false
+          }
+        },
+        "row_rgHhcH": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/SideLights_claessens_arthur-4821_copie_2_d380b87e-13d5-4abe-ad3f-0646d40e7a46.jpg",
+            "caption": "",
+            "heading": "Visibilité à Double Faisceau",
+            "text": "<p>Soyez visibles sur toute la largeur de votre vélo grâce à un puissant double faisceau, encourageant les voitures à laisser une plus grande distance de dépassement.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_isPopup": false
+          }
+        },
+        "row_mVBTU6": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Sans_titre_3_2.gif",
+            "caption": "",
+            "heading": "Installation Facile",
+            "text": "<p>Installation rapide et simple, sans outil supplémentaire.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_isPopup": false
+          }
+        },
+        "row_UnYtXN": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/L-R_SLfn_v2.png",
+            "caption": "",
+            "heading": "Utilisation Simple et Intuitive",
+            "text": "<p>Facile à utiliser et à recharger grâce à des batteries USB-C interchangeables. Le système est solidement intégré au guidon à l'aide d'un outil.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_isPopup": false
+          }
+        },
+        "row_UQirVQ": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/allbikesblackandwite.jpg",
+            "caption": "",
+            "heading": "Compatible",
+            "text": "<p>Compatibilité avec la majorité des vélos. Vérifiez sur notre <a href=\"/pages/faq\" title=\"FAQ\">page FAQ</a> pour en être sûr.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_isPopup": false
+          }
+        },
+        "row_3jJt9R": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/8.jpg",
+            "caption": "",
+            "heading": "<strong>Résistant et durable</strong>",
+            "text": "<p>SideLights est conçu pour résister aux chocs et aux intempéries. Le corps en aluminium, associé à des pads protecteurs absorbe les chocs tout en étant waterproof. </p>",
+            "button_label": "",
+            "button_link": "",
+            "button_isPopup": false
+          }
+        }
+      },
+      "block_order": [
+        "row_jk8jiP",
+        "row_VaUyzJ",
+        "row_rgHhcH",
+        "row_mVBTU6",
+        "row_UnYtXN",
+        "row_UQirVQ",
+        "row_3jJt9R"
+      ],
+      "settings": {
+        "background_gradient_opacity_start": 100,
+        "background_gradient_opacity_start_position": 0,
+        "background_gradient_opacity_end": 75,
+        "background_gradient_opacity_end_position": 50,
+        "image_height": "adapt",
+        "desktop_image_width": "small",
+        "heading_size": "h1",
+        "text_style": "subtitle",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "scheme-4",
+        "row_color_scheme": "scheme-4",
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_4H66iA": {
+      "type": "multicolumn",
+      "disabled": true,
+      "custom_css": [
+        ".button {--border-offset: 0; padding: 16px; background-color: rgb(235 183 91); color: black; font-weight: 600; border-radius: 4px !important; animation: glowing_around 2500ms infinite; animation-timing-function: ease;}",
+        ".button:hover:after {--border-offset: 0;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_gradient_opacity_start": 100,
+        "background_gradient_opacity_start_position": 0,
+        "background_gradient_opacity_end": 100,
+        "background_gradient_opacity_end_position": 100,
+        "background_style": "primary",
+        "button_label": "Précommander",
+        "button_link": "shopify://pages/pre-order",
+        "color_scheme": "scheme-4",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 12,
+        "padding_bottom": 48
+      }
+    },
+    "video_ig4jrx": {
+      "type": "video",
+      "disabled": true,
+      "custom_css": [
+        ".deferred-media__poster-button {background-color: white; color: black;}"
+      ],
+      "settings": {
+        "heading": "Voyez par vous-même.",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video": "shopify://files/videos/SIDELIGHT_PRES_1.2 modifié.mp4",
+        "video_url": "",
+        "description": "",
+        "full_width": false,
+        "background_gradient_opacity_start": 80,
+        "background_gradient_opacity_start_position": 0,
+        "background_gradient_opacity_end": 100,
+        "background_gradient_opacity_end_position": 100,
+        "color_scheme": "scheme-4",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_X6M3VK": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_78M7Qx": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "L'Éclairage Vélo Ultime pour Votre Sécurité",
+            "heading_size": "h1"
+          }
+        },
+        "text_jRCn7F": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "SideLights : visibilité à 360°, indicateurs de direction et double faisceau lumineux. Une innovation conçue et développée en Suisse.",
+            "text_style": "body"
+          }
+        },
+        "buttons_QdUFRL": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Précommander maintenant",
+            "button_link_1": "https://www.kickstarter.com/projects/sidelights/sidelights-first-360-and-double-beam-safety-bike-lights",
+            "button_isPopup": false,
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_78M7Qx",
+        "text_jRCn7F",
+        "buttons_QdUFRL"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".button {--border-offset: 0; padding: 16px; background-color: rgb(255 173 91); color: black; font-weight: 600; border-radius: 4px !important; animation: glowing_around 2500ms infinite; animation-timing-function: ease;}",
+        ".button:hover:after {--border-offset: 0;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/SideLights_claessens_arthur-4912.jpg",
+        "image_2": "shopify://shop_images/SXB-41.jpg",
+        "image_overlay_opacity": 20,
+        "image_overlay_opacity_top": 100,
+        "image_overlay_opacity_top_position": 0,
+        "image_overlay_opacity_bottom": 100,
+        "image_overlay_opacity_bottom_position": 100,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "image_with_text_yGzGfd": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_XUen3w": {
+          "type": "heading",
+          "settings": {
+            "heading": "Spécifications",
+            "heading_size": "h2"
+          }
+        },
+        "text_R3PYfK": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Éclairage </strong></p><ul><li>Avant : Jusqu'à 600 Lumens</li><li>Total : Jusqu'à +700 Lumens</li></ul><p><strong>Batterie</strong> </p><ul><li>2x 1400mAh </li><li>Chargement USB-C (batteries interchangeables)</li><li>recharge rapide en 20 minutes</li></ul><p><strong>Autonomie</strong> </p><ul><li>ECO - 8h</li><li>NORMAL - 4h</li><li>POWER - 2h</li></ul><p><strong>Résistance & poids</strong></p><ul><li>Waterproof : Certification IP67 (pluie et poussière)</li><li>Poids : 250g</li></ul>",
+            "text_style": "body"
+          }
+        },
+        "button_EgnfpU": {
+          "type": "button",
+          "settings": {
+            "button_label": "Plus d'informations",
+            "button_link": "shopify://pages/faq",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_XUen3w",
+        "text_R3PYfK",
+        "button_EgnfpU"
+      ],
+      "custom_css": [
+        ".image-with-text__text p {margin-bottom: 1rem; line-height: 1.5;}",
+        "li {line-height: 1.5;}",
+        "ul {margin-top: 10px; margin-bottom: 10px;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/MG_7427.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-4",
+        "color_scheme": "scheme-4",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_PzHjBL": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_W9HAPn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/rts-logo-fond-blanc-centre_f073ad03-6e90-4d00-ac21-7302cbce0380.jpg",
+            "title": "<em>Un kit de lumières pour guidon révolutionne la sécurité des cyclistes</em>",
+            "text": "",
+            "link_label": "RTS",
+            "link": "https://www.rts.ch/audio-podcast/2024/audio/eureka-un-kit-de-lumieres-pour-guidon-revolutionne-la-securite-des-cyclistes-28695598.html"
+          }
+        },
+        "column_9kt4nr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/media_logos3.png",
+            "title": "<em>Arthur Claessens, de l'élite du BMX à la sécurité des cyclistes lambdas</em>",
+            "text": "",
+            "link_label": "Blick",
+            "link": "https://www.blick.ch/fr/sport/autres-sports/linnovation-de-sidelights-arthur-claessens-de-lelite-du-bmx-a-la-securite-des-cyclistes-lambdas-id19527451.html"
+          }
+        },
+        "column_MMwWQJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Bikerumor.png",
+            "title": "SideLights Puts Bright LED Lights & Turn Signals in Bar Ends So Cars Will See You!",
+            "text": "",
+            "link_label": "Bikerumor",
+            "link": "https://bikerumor.com/sidelights-puts-bright-led-lights-turn-signals-in-bar-ends-so-cars-will-see-you/"
+          }
+        },
+        "column_nBxWBU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/media_logos2.png",
+            "title": "<em>Je ne pensais pas lancer une start-up si tôt, mais j’avais une bonne idée</em>",
+            "text": "",
+            "link_label": "24heures",
+            "link": "https://www.24heures.ch/je-ne-pensais-pas-lancer-une-start-up-si-tot-mais-javais-une-bonne-idee-685615961700"
+          }
+        },
+        "column_gkWAVn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/media_logos.png",
+            "title": "<em>Le vélo et la fibre entrepreneuriale, c’est une histoire de famille</em>",
+            "text": "",
+            "link_label": "PME",
+            "link": "https://www.pme.ch/business/2024/04/08/le-velo-et-la-fibre-entrepreneuriale-cest-une-histoire-de-famille-697480"
+          }
+        },
+        "column_bLVEey": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/lextension_geneve_logo.jpg",
+            "title": "<em>SideLights : Rendre les cyclistes plus visibles</em>",
+            "text": "",
+            "link_label": "L'Extension Diamant Alpin (ETE 2024)",
+            "link": "https://www.lextension.ch/"
+          }
+        },
+        "column_NppJaX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/6333f474c31401.16060024.png",
+            "title": "<em>Arthur Claessens, de l’élite du BMX à la sécurité des cyclistes lambdas</em>",
+            "text": "",
+            "link_label": "M Le Média",
+            "link": "https://www.mlemedia.ch/videos/arthur-claessens-de-l-elite-du-bmx-a-la-securite-des-cyclistes-lambdas-2001"
+          }
+        },
+        "column_ajCXfM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BonsPlansEcolo_eshop_last.png",
+            "title": "<em>Sidelights un éclairage vélo révolutionnaire à 360° avec clignotants intégrés</em>",
+            "text": "",
+            "link_label": "Bons Plans Ecolo",
+            "link": "https://bonsplansecolo.fr/sidelights-un-eclairage-velo-revolutionnaire-a-360-avec-clignotants-integres"
+          }
+        }
+      },
+      "block_order": [
+        "column_W9HAPn",
+        "column_9kt4nr",
+        "column_MMwWQJ",
+        "column_nBxWBU",
+        "column_gkWAVn",
+        "column_bLVEey",
+        "column_NppJaX",
+        "column_ajCXfM"
+      ],
+      "settings": {
+        "title": "Ils parlent de nous",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_gradient_opacity_start": 100,
+        "background_gradient_opacity_start_position": 0,
+        "background_gradient_opacity_end": 70,
+        "background_gradient_opacity_end_position": 100,
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-4",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_7twp4X": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_6E34NG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/HEIG-VD_logotype-baseline_blanc-rvb.png",
+            "title": "",
+            "text": "",
+            "link_label": "HEIG-VD",
+            "link": "https://heig-vd.ch/"
+          }
+        },
+        "column_ACp3FP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/grs_logo_WEISS.png",
+            "title": "",
+            "text": "",
+            "link_label": "Gebert Rüf Stiftung",
+            "link": "https://www.grstiftung.ch/fr.html"
+          }
+        },
+        "column_dJyKQC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FIT.png",
+            "title": "",
+            "text": "",
+            "link_label": "FIT",
+            "link": "https://www.fondation-fit.ch/fr/"
+          }
+        }
+      },
+      "block_order": [
+        "column_6E34NG",
+        "column_ACp3FP",
+        "column_dJyKQC"
+      ],
+      "settings": {
+        "title": "Merci à nos partenaires",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_gradient_opacity_start": 70,
+        "background_gradient_opacity_start_position": 0,
+        "background_gradient_opacity_end": 95,
+        "background_gradient_opacity_end_position": 100,
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-4",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "multicolumn_8gaqWC": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_KjkGNW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/logo_VENTUREKICK_cmyk-1.png",
+            "title": "",
+            "text": "",
+            "link_label": "Venture Kick",
+            "link": "https://www.venturekick.ch/"
+          }
+        },
+        "column_VnxWtx": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Innosuisse_Logo_supported_Initial_Coaching_rgb_negativ_EN_8128639e-8bed-4e91-beb3-ed7dcf061920.png",
+            "title": "",
+            "text": "",
+            "link_label": "Innosuisse",
+            "link": "https://www.innosuisse.ch/inno/fr/home.html"
+          }
+        },
+        "column_kn4FTx": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Innovaud_white.png",
+            "title": "",
+            "text": "",
+            "link_label": "Innovaud",
+            "link": "https://www.innovaud.ch/fr/"
+          }
+        },
+        "column_PdXUxT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/EDB_logo_white.svg",
+            "title": "",
+            "text": "",
+            "link_label": "Enabled By Design",
+            "link": "https://enabledbydesign.ch/"
+          }
+        },
+        "column_7mt3XQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/VF.png",
+            "title": "",
+            "text": "",
+            "link_label": "VF Ingénerie",
+            "link": "https://vfingenierie.ch/"
+          }
+        }
+      },
+      "block_order": [
+        "column_KjkGNW",
+        "column_VnxWtx",
+        "column_kn4FTx",
+        "column_PdXUxT",
+        "column_7mt3XQ"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "left",
+        "background_gradient_opacity_start": 95,
+        "background_gradient_opacity_start_position": 0,
+        "background_gradient_opacity_end": 100,
+        "background_gradient_opacity_end_position": 100,
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-4",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "17198331059f03173f": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_REDTUD": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "Rejoignez l'aventure sur Instagram",
+            "title_color": "#ffffff",
+            "alignment": "center",
+            "show_instagram_link": false,
+            "link_alignment": "left",
+            "link_color": "#000000",
+            "background_color": "",
+            "feed_id": "",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_REDTUD"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "h2 {font-family: Montserrat; font-weight: 700; text-transform: uppercase;}"
+      ],
+      "settings": {
+        "include_margins": true
       }
     }
   },
   "order": [
-    "main"
+    "image_banner_rKJfUY",
+    "image_banner_i6Dggj",
+    "image_banner_ebpDfH",
+    "image_banner_iG6t69",
+    "custom_liquid_DLwUCz",
+    "custom_liquid_eCyNe9",
+    "custom_liquid_KeVcwK",
+    "custom_liquid_LQHhEy",
+    "multirow_AGehtJ",
+    "multicolumn_4H66iA",
+    "video_ig4jrx",
+    "image_banner_X6M3VK",
+    "image_with_text_yGzGfd",
+    "multicolumn_PzHjBL",
+    "multicolumn_7twp4X",
+    "multicolumn_8gaqWC",
+    "17198331059f03173f"
   ]
 }
