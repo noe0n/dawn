@@ -101,6 +101,42 @@
         "padding_bottom": 0
       }
     },
+    "newsletter_bVWdDT": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_fANAQ9": {
+          "type": "heading",
+          "settings": {
+            "heading": "GET SPECIAL EUROBIKE OFFER",
+            "heading_size": "h0"
+          }
+        },
+        "paragraph_FWemyw": {
+          "type": "paragraph",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Faites partie des premières personnes à être informées des nouvelles collections et des offres exclusives.</p>"
+          }
+        },
+        "email_form_VWCCDC": {
+          "type": "email_form",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_fANAQ9",
+        "paragraph_FWemyw",
+        "email_form_VWCCDC"
+      ],
+      "name": "t:sections.newsletter.presets.name",
+      "settings": {
+        "color_scheme": "scheme-5",
+        "full_width": true,
+        "padding_top": 28,
+        "padding_bottom": 0
+      }
+    },
     "custom_liquid_KwMzBd": {
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
@@ -561,6 +597,16 @@
         "padding_bottom": 36
       }
     },
+    "custom_liquid_RUxhDV": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div style=\"background-color: #C76694; padding: 3rem 1rem; text-align: center;\">\n  <form \n    method=\"post\" \n    action=\"/contact#redirect\" \n    accept-charset=\"UTF-8\" \n    class=\"contact-form\" \n    id=\"custom-newsletter-form\"\n    style=\"max-width: 480px; margin: auto;\"\n  >\n    <input \n      type=\"hidden\" name=\"form_type\" value=\"contact\">\n    <input \n      type=\"hidden\" name=\"utf8\" value=\"✓\">\n\n    <input \n      type=\"email\" \n      name=\"contact[email]\" \n      placeholder=\"E-mail\" \n      required \n      style=\"\n        width: 100%;\n        padding: 16px;\n        font-size: 16px;\n        border-radius: 6px;\n        border: 1px solid #333;\n        background-color: #111;\n        color: white;\n        margin-bottom: 16px;\n        font-family: Montserrat, sans-serif;\n      \"\n    >\n\n    <button \n      type=\"submit\" \n      style=\"\n        padding: 16px 32px;\n        background-color: #FFF;\n        color: #111;\n        font-weight: 600;\n        font-size: 16px;\n        border: none;\n        border-radius: 4px;\n        cursor: pointer;\n        animation: glowing_around 2500ms infinite;\n        font-family: Montserrat, sans-serif;\n      \"\n    >\n      Stay in touch and preorder\n    </button>\n  </form>\n</div>\n\n<script>\n  // Redirection après soumission réussie\n  document.addEventListener('DOMContentLoaded', function () {\n    if (window.location.hash === \"#redirect\") {\n      window.location.href = \"https://sidelights.com/pages/earlybird\";\n    }\n  });\n</script>\n\n<style>\n@keyframes glowing_around {\n  0% { box-shadow: 0 0 5px #FFf; }\n  50% { box-shadow: 0 0 15px #FFf; }\n  100% { box-shadow: 0 0 5px #FFf; }\n}\n</style>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "image_banner_X6M3VK": {
       "type": "image-banner",
       "blocks": {
@@ -980,6 +1026,8 @@
     "multirow_AGehtJ",
     "multicolumn_4H66iA",
     "video_ig4jrx",
+    "newsletter_bVWdDT",
+    "custom_liquid_RUxhDV",
     "image_banner_X6M3VK",
     "image_with_text_yGzGfd",
     "multicolumn_PzHjBL",
