@@ -21,6 +21,7 @@
         },
         "text_PHFgaC": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "SideLights : visibilité à 360°, indicateurs de direction et double faisceau lumineux. Une innovation conçue et développée en Suisse.",
             "text_style": "body"
@@ -45,12 +46,63 @@
         "text_PHFgaC",
         "buttons_ThRq7E"
       ],
-      "custom_css": [
-        ".banner {min-height: 73vh; min-height: 73svh; height: 73vh; height: 73svh;}",
-        ".button {--border-offset: 0; padding: 16px; background-color: #ebeb5b; font-weight: 600; border-radius: 4px; animation: glowing_around 2500ms infinite ease;}",
-        ".button:hover:after {--border-offset: 0;}",
-        "@media (max-width: 749px) {.banner {min-height: 78vh; min-height: 78svh; height: 78vh; height: 78svh; text-shadow: 0px 0px 15px #000; } .banner__content--bottom-center {position: absolute; bottom: 0; text-align: center; padding-bottom: 0px; }}"
+      "custom_css": [],
+      "settings": {
+        "image": "shopify://shop_images/SideLights_Eurobike_visual_sans_logo.png",
+        "image_overlay_opacity": 100,
+        "image_overlay_opacity_top": 0,
+        "image_overlay_opacity_top_position": 100,
+        "image_overlay_opacity_bottom": 100,
+        "image_overlay_opacity_bottom_position": 100,
+        "image_height": "adapt",
+        "desktop_content_position": "top-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_banner_iKJitX": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_KTVR6e": {
+          "type": "heading",
+          "settings": {
+            "heading": "L'Éclairage Vélo Ultime pour Votre Sécurité",
+            "heading_size": "h0"
+          }
+        },
+        "text_Lbz8KA": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "SideLights : visibilité à 360°, indicateurs de direction et double faisceau lumineux. Une innovation conçue et développée en Suisse.",
+            "text_style": "body"
+          }
+        },
+        "buttons_Qd6yaD": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Texte du bouton",
+            "button_link_1": "",
+            "button_isPopup": false,
+            "button_style_secondary_1": false,
+            "button_label_2": "Texte du bouton",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_KTVR6e",
+        "text_Lbz8KA",
+        "buttons_Qd6yaD"
       ],
+      "disabled": true,
+      "name": "Image banner test",
       "settings": {
         "image_overlay_opacity": 100,
         "image_overlay_opacity_top": 0,
@@ -66,6 +118,40 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": false
+      }
+    },
+    "newsletter_BhHrMk": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_T9NCdg": {
+          "type": "heading",
+          "settings": {
+            "heading": "S’abonner à nos e-mails",
+            "heading_size": "h0"
+          }
+        },
+        "paragraph_QKff69": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Faites partie des premières personnes à être informées des nouvelles collections et des offres exclusives.</p>"
+          }
+        },
+        "email_form_c6G38D": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_T9NCdg",
+        "paragraph_QKff69",
+        "email_form_c6G38D"
+      ],
+      "name": "t:sections.newsletter.presets.name",
+      "settings": {
+        "color_scheme": "scheme-5",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "image_banner_i6Dggj": {
@@ -166,6 +252,7 @@
         "text_Vn94mU",
         "buttons_TFa7mb"
       ],
+      "disabled": true,
       "custom_css": [
         ".banner {min-height: 27vh; min-height: 27svh; height: 27vh; height: 27svh;}",
         ".banner__content {min-height: 27svh;}",
@@ -840,7 +927,11 @@
           "settings": {
             "title": "Rejoignez l'aventure sur Instagram",
             "title_color": "#ffffff",
+            "title_size_v2": 0,
             "alignment": "center",
+            "instafeed_margin_top": 0,
+            "instafeed_margin_bottom": 0,
+            "instafeed_margin_sides": 0,
             "show_instagram_link": false,
             "link_alignment": "left",
             "link_color": "#000000",
@@ -864,6 +955,8 @@
   },
   "order": [
     "image_banner_rKJfUY",
+    "image_banner_iKJitX",
+    "newsletter_BhHrMk",
     "image_banner_i6Dggj",
     "image_banner_ebpDfH",
     "image_banner_iG6t69",
