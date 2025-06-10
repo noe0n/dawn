@@ -13,7 +13,6 @@
   "sections": {
     "header": {
       "type": "header",
-      "disabled": true,
       "custom_css": [
         ".header__search,.header__icon--cart {display: none !important;}"
       ],
