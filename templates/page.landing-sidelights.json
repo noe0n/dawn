@@ -11,6 +11,7 @@
   "sections": {
     "custom_liquid_B9akQc": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Logo",
       "settings": {
         "custom_liquid": "<div style=\"text-align: center;\">\n  <img src=\"{{ 'Logo_Sidelight_complet_B.png' | asset_url }}\" alt=\"SideLights logo\" style=\"width: 200px; height: auto;\">\n</div>",
