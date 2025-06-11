@@ -536,7 +536,7 @@
         "text_R3PYfK": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Éclairage </strong></p><ul><li>Avant : Jusqu'à 600 Lumens</li><li>Total : Jusqu'à +700 Lumens</li></ul><p><strong>Batterie</strong> </p><ul><li>2x 1400mAh </li><li>Chargement USB-C (batteries interchangeables)</li><li>recharge rapide en 20 minutes</li></ul><p><strong>Autonomie</strong> </p><ul><li>ECO - 8h</li><li>NORMAL - 4h</li><li>POWER - 2h</li></ul><p><strong>Résistance & poids</strong></p><ul><li>Waterproof : Certification IP67 (pluie et poussière)</li><li>Poids : 250g</li></ul>",
+            "text": "<p><strong>Éclairage </strong></p><ul><li>Avant : Jusqu'à 600 Lumens</li><li>Total : Jusqu'à +700 Lumens</li></ul><p><strong>Batterie</strong> </p><ul><li>2x 1400mAh </li><li>Chargement USB-C (batteries interchangeables)</li></ul><p><strong>Autonomie</strong> </p><ul><li>ECO - 8h</li><li>NORMAL - 4h</li><li>POWER - 2h</li></ul><p><strong>Résistance & poids</strong></p><ul><li>Waterproof : Certification IP67 (pluie et poussière)</li><li>Poids : 250g</li></ul>",
             "text_style": "body"
           }
         },
