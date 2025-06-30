@@ -30,7 +30,7 @@
         "text_WctVyi": {
           "type": "text",
           "settings": {
-            "text": "<p>Le vélo est un moyen de transport génial, écologique et de plus en plus utilisé. Cependant la sécurité des cyclistes est mise à rude épreuve face au trafic. Les cyclistes sont trop peu visibles, pourtant, <a href=\"https://www.bfu.ch/fr\" target=\"_blank\" title=\"https://www.bfu.ch/fr\">la moitié des accidents pourraient être évités si le cycliste était vu 1s plus tôt</a>. Les systèmes de lumières actuels manquent de visibilité et n’ont pas suivi l’évolution qu’a eu le vélo sur les dernières années. ​<br/><br/>C’est un soir en se déplaçant en vélo qu’Arthur Claessens eu l’idée de SideLights : un système de lumière complet et intégré au guidon. De fils en aiguilles le concept s’est transformé en prototypes fabriqués à la main, notamment réalisé par deux anciens collègues étudiants de la HEIG-VD : Tim Hofer et Claude Allenspach. ​<br/><br/>Après plus de 2 ans de travail et de multiples essais de prototypes, l’équipe SideLights arrive enfin avec un produit qui va révolutionner la visibilité à vélo. En plus de son concept novateur sécurisant, SideLights est une prouesse technologique : Compact, puissant, résistant et facile d’utilisation. Il fait l’objet d’une demande de brevet.  Ce produit a tout pour répondre aux attentes des cyclistes les plus aguerris. ​<br/><br/>Après une première série BETA de SideLights, le produit sera officiellement lancé sur une campagne de financement participatif fin 2024. Vous souhaitez suivre notre aventure de plus près ? N’hésitez pas à nous suivre sur les réseaux sociaux et vous inscrire à notre newsletter !​</p>"
+            "text": "<p>Le vélo est un moyen de transport génial, écologique et de plus en plus utilisé. Cependant la sécurité des cyclistes est mise à rude épreuve face au trafic. Les cyclistes sont trop peu visibles, pourtant, <a href=\"https://www.bfu.ch/fr\" target=\"_blank\" title=\"https://www.bfu.ch/fr\">la moitié des accidents pourraient être évités si le cycliste était vu 1s plus tôt</a>. Les systèmes de lumières actuels manquent de visibilité et n’ont pas suivi l’évolution qu’a eu le vélo sur les dernières années. ​<br/><br/>C’est un soir en se déplaçant en vélo qu’Arthur Claessens eu l’idée de SideLights : un système de lumière complet et intégré au guidon. De fils en aiguilles le concept s’est transformé en prototypes fabriqués à la main, notamment réalisé par deux anciens collègues étudiants de la HEIG-VD : Tim Hofer et Claude Allenspach. ​<br/><br/>Vous souhaitez suivre notre aventure de plus près ? N’hésitez pas à nous suivre sur les réseaux sociaux et vous inscrire à notre newsletter !​</p>"
           }
         }
       },
@@ -118,6 +118,7 @@
         "heading_6PkmgM",
         "text_mLJhFN"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -140,12 +141,12 @@
             "link": ""
           }
         },
-        "column_JJBiYF": {
+        "column_D99Bmz": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Calque_12.png",
-            "title": "Martin Stricker",
-            "text": "<p>Art & Product Manager​</p>",
+            "image": "shopify://shop_images/Calque_10.png",
+            "title": "Luca Romano",
+            "text": "<p>CTO</p>",
             "link_label": "",
             "link": ""
           }
@@ -160,22 +161,12 @@
             "link": ""
           }
         },
-        "column_D99Bmz": {
+        "column_JJBiYF": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Calque_10.png",
-            "title": "Luca Romano",
-            "text": "<p>R&D Engineer</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_DTA7JD": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/portrait_alexandre.png",
-            "title": "Alexandre Pagès",
-            "text": "<p>CFO</p>",
+            "image": "shopify://shop_images/Calque_12.png",
+            "title": "Martin Stricker",
+            "text": "<p>Art & Product Manager​</p>",
             "link_label": "",
             "link": ""
           }
@@ -193,10 +184,9 @@
       },
       "block_order": [
         "column_UCiLcQ",
-        "column_JJBiYF",
-        "column_9JNKay",
         "column_D99Bmz",
-        "column_DTA7JD",
+        "column_9JNKay",
+        "column_JJBiYF",
         "column_hkEbtc"
       ],
       "custom_css": [],
