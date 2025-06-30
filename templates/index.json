@@ -716,7 +716,7 @@
         "column_dJyKQC": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/FIT.png",
+            "image": "shopify://shop_images/FIT-logo-vert.png",
             "title": "",
             "text": "",
             "link_label": "FIT",
@@ -730,12 +730,12 @@
         "column_dJyKQC"
       ],
       "settings": {
-        "title": "Merci à nos partenaires",
+        "title": "nos partenaires",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_gradient_opacity_start": 70,
         "background_gradient_opacity_start_position": 0,
         "background_gradient_opacity_end": 95,
@@ -766,7 +766,7 @@
         "column_VnxWtx": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Innosuisse_Logo_supported_Initial_Coaching_rgb_negativ_EN_8128639e-8bed-4e91-beb3-ed7dcf061920.png",
+            "image": "shopify://shop_images/Core_coaching_logo_white.png",
             "title": "",
             "text": "",
             "link_label": "Innosuisse",
@@ -775,6 +775,7 @@
         },
         "column_kn4FTx": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Innovaud_white.png",
             "title": "",
@@ -816,8 +817,8 @@
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 5,
-        "column_alignment": "left",
+        "columns_desktop": 4,
+        "column_alignment": "center",
         "background_gradient_opacity_start": 95,
         "background_gradient_opacity_start_position": 0,
         "background_gradient_opacity_end": 100,
@@ -829,7 +830,7 @@
         "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 0,
-        "padding_bottom": 36
+        "padding_bottom": 32
       }
     },
     "17198331059f03173f": {
