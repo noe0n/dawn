@@ -63,46 +63,10 @@
         <div class="bs-title">{% if product.available %}
      <div id="stock-display">
        <span class="green-dot"></span>
-       <span style="font-weight:bold;">En stock - </span>
+       <span style="font-weight:bold;">Précommande - </span>
     </div>
-      {% endif %}<span id="delivery_date2">&nbsp;{{ block.settings.teaser_title }}
-         {% assign jexpedition2 = block.settings['time-livraison1'] | times: 86400 %}
-         {% assign jexpedition3 = block.settings['time-livraison2'] | times: 86400 %}     
-              {{ 'now' | date: '%s' | plus: jexpedition2 | date: '%d' }}{{
-                'now'
-                | date: '%s'
-                | plus: jexpedition2
-                | date: '%B'
-                | replace: 'January', '/01'
-                | replace: 'February', '/02'
-                | replace: 'March', '/03'
-                | replace: 'May', '/04'
-                | replace: 'April', '/05'
-                | replace: 'June', '/06'
-                | replace: 'July', '/07'
-                | replace: 'August', '/08'
-                | replace: 'September', '/09'
-                | replace: 'October', '/10'
-                | replace: 'November', '/11'
-                | replace: 'December', '/12'
-              }}&nbsp;et le&nbsp;{{ 'now' | date: '%s' | plus: jexpedition3 | date: '%d' }}{{
-                'now'
-                | date: '%s'
-                | plus: jexpedition3
-                | date: '%B'
-                | replace: 'January', '/01'
-                | replace: 'February', '/02'
-                | replace: 'March', '/03'
-                | replace: 'May', '/04'
-                | replace: 'April', '/05'
-                | replace: 'June', '/06'
-                | replace: 'July', '/07'
-                | replace: 'August', '/08'
-                | replace: 'September', '/09'
-                | replace: 'October', '/10'
-                | replace: 'November', '/11'
-                | replace: 'December', '/12'
-              }} 
+      {% endif %}<span id="delivery_date2">&nbsp;{{ block.settings.teaser_title }} janvier 2026   
+             
       </span></div>
       
       </div>
