@@ -147,7 +147,7 @@
                   {%- endform -%}
                 </div>
                 {% when  'livraison' %}
-                {% render 'block-livraison' %}
+                {% render 'block-livraison', block: block %} %}
               
               {%- when 'inventory' -%}
                 <p
