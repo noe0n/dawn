@@ -130,55 +130,9 @@
         "padding_bottom": 36
       }
     },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column-0": {
-          "type": "column",
-          "settings": {
-            "title": "Free Shipping",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column-1": {
-          "type": "column",
-          "settings": {
-            "title": "Hassle-Free Exchanges",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column-0",
-        "column-1"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "left",
-        "background_gradient_opacity_start": 100,
-        "background_gradient_opacity_start_position": 0,
-        "background_gradient_opacity_end": 100,
-        "background_gradient_opacity_end_position": 100,
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "related-products": {
       "type": "related-products",
+      "disabled": true,
       "settings": {
         "heading": "You may also like",
         "heading_size": "h2",
@@ -193,89 +147,6 @@
         "columns_mobile": "2",
         "padding_top": 36,
         "padding_bottom": 28
-      }
-    },
-    "multicolumn_JhUdNX": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_zepq76": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/logo_VENTUREKICK_cmyk-1.png",
-            "title": "",
-            "text": "",
-            "link_label": "Venture Kick",
-            "link": "https://www.venturekick.ch/"
-          }
-        },
-        "column_6jmUrA": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Core_coaching_logo_white.png",
-            "title": "",
-            "text": "",
-            "link_label": "Innosuisse",
-            "link": "https://www.innosuisse.ch/inno/fr/home.html"
-          }
-        },
-        "column_jp8far": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Innovaud_white.png",
-            "title": "",
-            "text": "",
-            "link_label": "Innovaud",
-            "link": "https://www.innovaud.ch/fr/"
-          }
-        },
-        "column_wnnHr8": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/winner.png",
-            "title": "",
-            "text": "",
-            "link_label": ">>venture>>",
-            "link": "https://www.venture.ch/winners"
-          }
-        },
-        "column_pAy8bD": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/VF.png",
-            "title": "",
-            "text": "",
-            "link_label": "VF Ingénerie",
-            "link": "https://vfingenierie.ch/"
-          }
-        }
-      },
-      "block_order": [
-        "column_zepq76",
-        "column_6jmUrA",
-        "column_jp8far",
-        "column_wnnHr8",
-        "column_pAy8bD"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 4,
-        "column_alignment": "center",
-        "background_gradient_opacity_start": 95,
-        "background_gradient_opacity_start_position": 0,
-        "background_gradient_opacity_end": 100,
-        "background_gradient_opacity_end_position": 100,
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-4",
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 0,
-        "padding_bottom": 32
       }
     },
     "multicolumn_pmM7XQ": {
@@ -452,12 +323,94 @@
         "padding_top": 36,
         "padding_bottom": 12
       }
+    },
+    "multicolumn_JhUdNX": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_zepq76": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/logo_VENTUREKICK_cmyk-1.png",
+            "title": "",
+            "text": "",
+            "link_label": "Venture Kick",
+            "link": "https://www.venturekick.ch/"
+          }
+        },
+        "column_6jmUrA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Core_coaching_logo_white.png",
+            "title": "",
+            "text": "",
+            "link_label": "Innosuisse",
+            "link": "https://www.innosuisse.ch/inno/fr/home.html"
+          }
+        },
+        "column_jp8far": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Innovaud_white.png",
+            "title": "",
+            "text": "",
+            "link_label": "Innovaud",
+            "link": "https://www.innovaud.ch/fr/"
+          }
+        },
+        "column_wnnHr8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/winner.png",
+            "title": "",
+            "text": "",
+            "link_label": ">>venture>>",
+            "link": "https://www.venture.ch/winners"
+          }
+        },
+        "column_pAy8bD": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/VF.png",
+            "title": "",
+            "text": "",
+            "link_label": "VF Ingénerie",
+            "link": "https://vfingenierie.ch/"
+          }
+        }
+      },
+      "block_order": [
+        "column_zepq76",
+        "column_6jmUrA",
+        "column_jp8far",
+        "column_wnnHr8",
+        "column_pAy8bD"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_gradient_opacity_start": 95,
+        "background_gradient_opacity_start_position": 0,
+        "background_gradient_opacity_end": 100,
+        "background_gradient_opacity_end_position": 100,
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-4",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 32
+      }
     }
   },
   "order": [
     "main",
     "image-with-text",
-    "multicolumn",
     "related-products",
     "multicolumn_pmM7XQ",
     "multicolumn_Q3MKNm",
