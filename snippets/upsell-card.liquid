@@ -17,12 +17,12 @@
   <div style="margin-top: 8px; font-weight: 600;">
     <div style="margin-top: 8px; font-weight: 600; display: flex; align-items: center; gap: 5px; justify-content: center;flex-direction:column;">
        
-       <span>{{ variant.title }}</span>
+       <span style="font-size:14px;">{{ variant.title }}</span>
       <div style="display:flex;">   
-      <span style="font-size:14px;">{{ variant.price | money }}</span>
+      <span style="font-size:13px;line-height: 1;">{{ variant.price | money }}</span>
 
       {%- if variant.compare_at_price and variant.compare_at_price > variant.price -%}
-        <span style="text-decoration: line-through; color: #999;font-size:13px;">
+        <span style="text-decoration: line-through; color: #999;font-size:13px;line-height: 1;">
           {{ variant.compare_at_price | money }}
         </span>
       {%- endif -%}
