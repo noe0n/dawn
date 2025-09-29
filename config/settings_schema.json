@@ -404,6 +404,21 @@
     ]
   },
   {
+    "name": "Upsell produit",
+    "settings": [
+        {
+          "type": "product",
+          "id": "upsell_product_1",
+          "label": "Produit Upsell #1"
+        },
+        {
+          "type": "product",
+          "id": "upsell_product_2",
+          "label": "Produit Upsell #2"
+        }
+      ]
+  },
+  {
     "name": "t:settings_schema.inputs.name",
     "settings": [
       {
