@@ -30,6 +30,18 @@
             "text_style": "body"
           }
         },
+        "included_checklist_Ln6kJ8": {
+          "type": "included_checklist",
+          "settings": {
+            "title": "What’s Included:",
+            "item_1": "Lorem ipsum",
+            "item_2": "Lorem ipsum",
+            "item_3": "Lorem ipsum",
+            "item_4": "Lorem ipsum",
+            "item_5": "Lorem ipsum",
+            "item_6": "Lorem ipsum"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {}
@@ -87,6 +99,7 @@
         "vendor",
         "title",
         "caption",
+        "included_checklist_Ln6kJ8",
         "price",
         "variant_picker",
         "quantity_selector",
