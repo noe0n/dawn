@@ -3481,4 +3481,5 @@ details-disclosure > details {
     .totals__total-value{font-size:12px!important;}
     .fsb__label{font-size:11px!important;}
     .fsb__value{font-size:11px!important;}
+    .bundle_subtitle{display:none;}
 }
