@@ -1,0 +1,72 @@
+{%- if settings.fsb_enabled -%}
+{%- assign threshold_cents = settings.fsb_threshold | default: 0 | times: 100 | round -%}
+{%- assign total = cart.total_price -%}
+{%- assign remaining = threshold_cents | minus: total -%}
+{%- if remaining < 0 -%}{%- assign remaining = 0 -%}{%- endif -%}
+
+{%- assign percent = 0 -%}
+{%- if threshold_cents > 0 -%}
+  {%- assign percent = total | times: 100 | divided_by: threshold_cents -%}
+  {%- if percent > 100 -%}{%- assign percent = 100 -%}{%- endif -%}
+{%- else -%}
+  {%- assign percent = 100 -%}
+{%- endif -%}
+
+<div class="fsb"
+     data-threshold="{{ threshold_cents }}"
+     data-label-before="{{ settings.fsb_label_before | escape }}"
+     data-label-after="{{ settings.fsb_label_after  | escape }}"
+     data-remaining-suffix="{{ settings.fsb_remaining_suffix | escape }}"
+     data-value-after="{{ settings.fsb_value_after | escape }}">
+  <div class="fsb__row">
+    <span class="fsb__label">
+      {%- if total < threshold_cents -%}
+        {{ settings.fsb_label_before }}
+      {%- else -%}
+        {{ settings.fsb_label_after }}
+      {%- endif -%}
+    </span>
+    <span class="fsb__value">
+      {%- if total < threshold_cents -%}
+        {{ remaining | money }} {{ settings.fsb_remaining_suffix }}
+      {%- else -%}
+        {{ settings.fsb_value_after }}
+      {%- endif -%}
+    </span>
+  </div>
+  <div class="fsb__bar">
+    <span class="fsb__progress" style="width: {{ percent }}%"></span>
+  </div>
+</div>
+
+<style>
+  .fsb{padding:10px 10px 5px;background:{{settings.couleur-fond-s}};}
+.fsb__row{display:flex;align-items:baseline;justify-content:space-between;gap:12px}
+.fsb__label{font-size:14px;color:var(--color-foreground, #111)}
+.fsb__value{font-weight:700;font-size:14px}
+
+
+.fsb__bar{
+  position:relative;
+  height:6px;
+  background:rgba(0,0,0,.12);
+  border-radius:999px;
+  overflow:hidden;
+}
+
+
+.fsb__progress{
+  position:absolute;
+  left:0; top:0; bottom:0;
+  width:var(--fsb-pct, 0%);
+  display:block;
+  border-radius:inherit;
+
+  background: rgb(var(--color-button, 17,17,17)) !important;
+
+  background-color:#111 !important;
+  transition:width .35s ease;
+}
+
+</style>
+{%- endif -%}
