@@ -127,7 +127,7 @@
           "settings": {
             "heading": "Je heurte souvent mon guidon, par exemple lorsque je le frotte contre un mur. SideLights est-il assez solide ?",
             "icon": "question_mark",
-            "row_content": "<p>Absolument ! Le corps des SideLights est fabriqué en aluminium et nous avons inclus des coussinets de protection remplaçables pour une meilleure absorption des chocs. Cela garantit une résistance à long terme aux impacts, même dans des conditions difficiles.</p>",
+            "row_content": "<p>Absolument ! Le corps des SideLights est fabriqué en aluminium et nous avons inclus des pads de protection remplaçables pour une meilleure absorption des chocs. Cela garantit une résistance à long terme aux impacts, même dans des conditions difficiles.</p>",
             "page": ""
           }
         },
@@ -182,7 +182,7 @@
             "heading": "Comment recharger mon système SideLights ? ",
             "icon": "question_mark",
             "row_content": "<p>SideLights simplifie la recharge : ses batteries interchangeables peuvent être facilement retirées du corps principal qui est verrouillé. Vous pouvez les recharger à l'aide d'une prise USB-C. <br/><br/>Vous avez également la possibilité d'acheter des batteries supplémentaires.</p>",
-            "page": ""
+            "page": "faq"
           }
         }
       },
@@ -230,7 +230,7 @@
           "settings": {
             "heading": "Puis-je utiliser SideLights comme éclairage principal pour voir la route lorsqu'il fait complètement noir ?",
             "icon": "question_mark",
-            "row_content": "<p>Oui ! Nos puissants doubles feux avant, qui fournissent jusqu'à 600 lumens, assurent une excellente visibilité, vous permettant de voir clairement la route même dans l'obscurité totale.</p>",
+            "row_content": "<p>Oui ! Nos puissants doubles feux avant, qui fournissent jusqu'à 500 lumens, assurent une excellente visibilité, vous permettant de voir clairement la route même dans l'obscurité totale.</p>",
             "page": ""
           }
         },
@@ -275,7 +275,7 @@
           "settings": {
             "heading": "Comment vérifier le niveau de la batterie et le mode d'éclairage ?",
             "icon": "question_mark",
-            "row_content": "<p>SideLights est doté de trois LEDs situées en haut du produit qui fournit des informations sur l'état de la batterie et le mode d'éclairage. Vous pouvez choisir entre trois modes d'éclairage : ECO, NORMAL et POWER.</p>",
+            "row_content": "<p>SideLights est doté de trois LEDs situées en haut du produit qui fournit des informations sur l'état de la batterie et le mode d'éclairage. </p><p>Concernant le double faisceau avant, vous avez le choix entre les feux de route (500lm) ou feux de croisement (150lm).</p>",
             "page": ""
           }
         }
