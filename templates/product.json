@@ -32,6 +32,7 @@
         },
         "included_checklist_Ln6kJ8": {
           "type": "included_checklist",
+          "disabled": true,
           "settings": {
             "title": "What’s Included:",
             "item_1": "Lorem ipsum",
