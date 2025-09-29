@@ -124,6 +124,7 @@
     "cart_type": "drawer",
     "show_vendor": false,
     "show_cart_note": false,
+    "cart_color_icons": "#ffffff",
     "couleur-fond-s": "#000000",
     "recommand_products": [
       "poignees",
