@@ -1464,21 +1464,126 @@
         "default": false
       },
       {
+        "type": "text",
+        "id": "cart_ic_svg1",
+        "label": "Icône SVG 1",
+        "info": "Lien du fichier SVG hébergé sur Shopify."
+      },
+      {
+        "type": "image_picker",
+        "id": "cart_ic_img1",
+        "label": "Image 1",
+        "info": "Utile si le SVG est vide. Format : 40px de côté."
+      },
+      {
+        "type": "richtext",
+        "id": "cart_ic_text1",
+        "label": "Texte 1",
+        "default": "<p>Livraison en 2 jours ouvrés</p>"
+      },
+      {
+        "type": "text",
+        "id": "cart_ic_svg2",
+        "label": "Icône SVG 2",
+        "info": "Lien du fichier SVG hébergé sur Shopify."
+      },
+      {
+        "type": "image_picker",
+        "id": "cart_ic_img2",
+        "label": "Image 2",
+        "info": "Utile si le SVG est vide. Format : 40px de côté."
+      },
+      {
+        "type": "richtext",
+        "id": "cart_ic_text2",
+        "label": "Texte 2",
+        "default": "<p>Paiement 100% sécurisé</p>"
+      },
+      {
+        "type": "text",
+        "id": "cart_ic_svg3",
+        "label": "Icône SVG 3",
+        "info": "Lien du fichier SVG hébergé sur Shopify."
+      },
+      {
+        "type": "image_picker",
+        "id": "cart_ic_img3",
+        "label": "Image 3",
+        "info": "Utile si le SVG est vide. Format : 40px de côté."
+      },
+      {
+        "type": "richtext",
+        "id": "cart_ic_text3",
+        "label": "Texte 3",
+        "default": "<p>97% de satisfaction client</p>"
+      },
+      {
+        "type": "color",
+        "id": "cart_color_icons",
+        "label": "Couleur du texte",
+        "default": "#171717"
+      },
+      {
         "type": "header",
-        "content": "t:settings_schema.cart.settings.cart_drawer.header"
+        "content":"Recommandés"
       },
       {
-        "type": "collection",
-        "id": "cart_drawer_collection",
-        "label": "t:settings_schema.cart.settings.cart_drawer.collection.label",
-        "info": "t:settings_schema.cart.settings.cart_drawer.collection.info"
+        "type": "color",
+        "id": "couleur-fond-s",
+        "label": "Couleur fond bloc entier",
+        "default":"#fffaf0"
       },
       {
-        "type": "color_scheme",
-        "id": "cart_color_scheme",
-        "label": "t:sections.all.colors.label",
-        "default": "scheme-1"
-      }
+        "type": "product_list",
+        "id": "recommand_products",
+        "label": "Produits recommandés"
+      },
+      {
+        "type": "text",
+        "id": "titre-recommand",
+        "label": "Titre",
+        "default":"Nos recommandations"
+      },
+      {
+        "type": "header",
+        "content":"Livraison gratuite"
+      },
+    {
+      "type": "checkbox",
+      "id": "fsb_enabled",
+      "label": "Afficher la barre de livraison gratuite",
+      "default": true
+    },
+    {
+      "type": "number",
+      "id": "fsb_threshold",
+      "label": "Seuil de livraison gratuite (montant TTC)",
+      "default": 50,
+    },
+    {
+      "type": "text",
+      "id": "fsb_label_before",
+      "label": "Texte avant d’atteindre le seuil (gauche)",
+      "default": "Complétez pour la livraison gratuite"
+    },
+    {
+      "type": "text",
+      "id": "fsb_remaining_suffix",
+      "label": "Texte de droite avant le seuil (suffixe)",
+      "default": "restant"
+    },
+    {
+      "type": "text",
+      "id": "fsb_label_after",
+      "label": "Texte après avoir atteint le seuil (gauche)",
+      "default": "Frais de livraison estimés"
+    },
+    {
+      "type": "text",
+      "id": "fsb_value_after",
+      "label": "Texte de droite après le seuil",
+      "default": "Gratuit"
+    }
     ]
   }
 ]
