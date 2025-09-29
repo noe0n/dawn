@@ -606,5 +606,388 @@
       </video>
     {% endif %}
     {% comment %}------- CUSTOM CODE ENDING -------{% endcomment %}
+     <script>
+(function () {
+  const SUPPRESS_MS = 3000;
+  let suppressCartNav = false;
+
+  // Expose une méthode pour activer le bouclier depuis tes autres scripts
+  window.armCartRedirectShield = function(ms = SUPPRESS_MS){
+    suppressCartNav = true;
+    setTimeout(() => (suppressCartNav = false), ms);
+  };
+
+  const isCartUrl = (url) => {
+    try { const u = new URL(url, location.origin); return /^\/cart(\/|$|\?|#)/i.test(u.pathname); }
+    catch { return /\/cart(\/|$|\?|#)/i.test(String(url || "")); }
+  };
+
+  // Pendant que le bouclier est armé, on bloque toute nav vers /cart
+  document.addEventListener('click', (e) => {
+    if (!suppressCartNav) return;
+    const a = e.target.closest?.('a[href]');
+    if (a && isCartUrl(a.href)) { e.preventDefault(); e.stopImmediatePropagation(); }
+  }, true);
+
+  document.addEventListener('submit', (e) => {
+    if (!suppressCartNav) return;
+    const f = e.target.closest?.('form[action]');
+    if (f && isCartUrl(f.action)) { e.preventDefault(); e.stopImmediatePropagation(); }
+  }, true);
+})();
+</script>
+<script>
+(function(){
+  /* ------------ Helpers ------------ */
+  const nextTick = () => new Promise(r => requestAnimationFrame(() => setTimeout(r, 0)));
+
+  // Throttle: max 1 (re)init toutes ~400ms
+  let __swpTimer = null, __swpLast = 0;
+  const MIN_GAP = 400, RUN_DELAY = 80;
+  window.scheduleDrawerSwiperInit = function(delay){
+    const now = Date.now();
+    if (__swpTimer) return;
+    const wait = Math.max(delay ?? RUN_DELAY, MIN_GAP - (now - __swpLast));
+    __swpTimer = setTimeout(() => {
+      __swpTimer = null; __swpLast = Date.now();
+      window.ensureDrawerSwipers();
+    }, wait);
+  };
+
+  // (Re)init sans boucle: si instance existe -> update, sinon -> new Swiper
+  window.ensureDrawerSwipers = function () {
+    if (!window.Swiper) return;
+
+    // --- Upsell principal ---
+    document.querySelectorAll('#CartDrawer .swiper-testmonials').forEach(el => {
+      if (el.swiper) {
+        try { el.swiper.update(); el.swiper.updateAutoHeight?.(200); } catch(e){}
+        return;
+      }
+      const wrap = el.closest('.swiper-testmonials-wrapper-container') || el.parentElement || el;
+      const prev = wrap.querySelector('.swiper-button-prev');
+      const next = wrap.querySelector('.swiper-button-next');
+      const pag  = wrap.querySelector('.swiper-pagination-testi');
+
+      new Swiper(el, {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        observer: true,
+        observeParents: true,
+        watchOverflow: true,
+        navigation: (prev && next) ? { prevEl: prev, nextEl: next } : undefined,
+        pagination: pag ? { el: pag, clickable: true } : undefined,
+        on: { init(){ setTimeout(() => el.swiper?.update(), 0); } }
+      });
+    });
+
+    // --- Petit bandeau (.swiper5) ---
+    document.querySelectorAll('#CartDrawer .swiper5').forEach(el => {
+      if (el.swiper) { try { el.swiper.update(); } catch(e){} return; }
+      const container = el.closest('.test1') || el.parentElement || el;
+      const prev = container.querySelector('.swiper-button-prev');
+      const next = container.querySelector('.swiper-button-next');
+
+      new Swiper(el, {
+        slidesPerView: 1,
+        loop: true,
+        autoplay: { delay: 3500, disableOnInteraction: false },
+        observer: true,
+        observeParents: true,
+        navigation: (prev && next) ? { prevEl: prev, nextEl: next } : undefined
+      });
+    });
+  };
+
+  /* ------------ Drawer: open / refresh / upsell ATC ------------ */
+
+  // Ouvrir le drawer
+  window.openCartDrawerRobust = async function (){
+    const el  = document.querySelector('cart-drawer');
+    const box = document.getElementById('CartDrawer');
+    try { el?.open?.(); } catch(_) {}
+    if (box && !box.classList.contains('active')) box.classList.add('active');
+    (el?.querySelector('[role="dialog"]') || box)?.focus?.();
+    await nextTick();
+    scheduleDrawerSwiperInit(80);
+  };
+
+ 
+  window.refreshCartDrawer = async function (){
+    const drawer = document.querySelector('cart-drawer') || document.getElementById('CartDrawer');
+    if (!drawer) return;
+
+    let refreshed = false;
+
+  
+    if (typeof drawer.fetchCart === 'function') {
+      try { drawer.fetchCart(); refreshed = true; } catch(_) {}
+    }
+  
+    if (!refreshed && typeof drawer.renderContents === 'function') {
+      try { await drawer.renderContents(); refreshed = true; } catch(_) {}
+    }
+
+    if (!refreshed) {
+      try {
+        const html = await fetch(`${location.pathname}?section_id=cart-drawer`, { headers:{Accept:'text/html'} }).then(r=>r.text());
+        const tmp = document.createElement('div'); tmp.innerHTML = html;
+        const fresh = tmp.querySelector('cart-drawer') || tmp.querySelector('#CartDrawer');
+        if (fresh) { drawer.innerHTML = fresh.innerHTML; refreshed = true; }
+      } catch(_) {}
+    }
+
+    requestAnimationFrame(() => scheduleDrawerSwiperInit(80));   // une passe, throttlée
+    document.body.dispatchEvent(new CustomEvent('cart:updated', { bubbles:true, detail:{source:'manual-refresh'} }));
+    window.armCartRedirectShield?.();
+  };
+
+  window.clicktoadd = async function(button, evt){
+    evt?.preventDefault?.(); evt?.stopPropagation?.();
+
+    const raw = button.getAttribute('dataid') || button.dataset.id || '';
+    const variantId = (raw.match(/\d+/) || [])[0];
+    if (!variantId) { console.error('❌ Variant ID introuvable'); return false; }
+
+    button.classList.add('is-loading'); button.setAttribute('aria-busy','true');
+    try {
+      const res = await fetch('/cart/add.js', {
+        method: 'POST',
+        headers: {'Accept':'application/json','Content-Type':'application/json'},
+        body: JSON.stringify({ id: Number(variantId), quantity: 1 })
+      });
+      if (!res.ok) throw new Error('Add to cart failed');
+
+      await openCartDrawerRobust();
+      await refreshCartDrawer();
+      setTimeout(() => scheduleDrawerSwiperInit(120), 120);
+    } catch (e) {
+      console.error('[clicktoadd]', e);
+    } finally {
+      button.classList.remove('is-loading'); button.removeAttribute('aria-busy');
+    }
+    return false;
+  };
+
+
+
+  function bindForDrawer(drawer){
+    if (!drawer) return;
+
+
+    new MutationObserver(() => {
+      if (drawer.classList.contains('active')) scheduleDrawerSwiperInit(60);
+    }).observe(drawer, { attributes:true, attributeFilter:['class'] });
+
+
+    const zones = [];
+    const items = drawer.querySelector('#CartDrawer-CartItems'); if (items) zones.push(items);
+    const ups1  = drawer.querySelector('#section-testmonials');  if (ups1)  zones.push(ups1);
+    const ups2  = drawer.querySelector('.test1');                if (ups2)  zones.push(ups2);
+
+
+    const needsInit = (zone) =>
+      zone.querySelector('.swiper-testmonials:not(.swiper-initialized), .swiper5:not(.swiper-initialized)');
+
+    zones.forEach(zone => {
+      let deb;
+      new MutationObserver(() => {
+        clearTimeout(deb);
+        deb = setTimeout(() => { if (needsInit(zone)) scheduleDrawerSwiperInit(80); }, 50);
+      }).observe(zone, { childList:true, subtree:true });
+    });
+
+    drawer.addEventListener('click', (e) => {
+      const hit = e.target.closest?.(
+        'cart-remove-button, .cart-remove-button, [data-cart-remove],' +
+        'button[name="remove"], button[name="minus"], button[name="plus"]'
+      );
+      if (hit) {
+        scheduleDrawerSwiperInit(150);
+        setTimeout(() => scheduleDrawerSwiperInit(300), 300);
+      }
+    }, true);
+
+    drawer.addEventListener('change', (e) => {
+      const el = e.target;
+      if (el?.matches?.('input[name="updates[]"], .quantity__input')) {
+        scheduleDrawerSwiperInit(150);
+        setTimeout(() => scheduleDrawerSwiperInit(300), 300);
+      }
+    }, true);
+  }
+
+  
+  const live = new MutationObserver(() => {
+    const cur = document.getElementById('CartDrawer');
+    if (cur && cur !== window.__drawerCurrentEl) {
+      window.__drawerCurrentEl = cur;
+      bindForDrawer(cur);
+      scheduleDrawerSwiperInit(100);
+    }
+  });
+  live.observe(document.body, { childList:true, subtree:true });
+
+ 
+  const first = document.getElementById('CartDrawer');
+  if (first) { window.__drawerCurrentEl = first; bindForDrawer(first); scheduleDrawerSwiperInit(100); }
+
+
+  ['cart:updated','cart:change','line-item:change','line-item:remove'].forEach(evt => {
+    document.body.addEventListener(evt, () => scheduleDrawerSwiperInit(120), true);
+  });
+
+  window.addEventListener('resize', () => scheduleDrawerSwiperInit(80));
+})();
+</script>
+
+<script>
+(function(){
+ 
+  const ARM_MS = 3500;
+  let shield = false;
+  window.armCartRedirectShield = function(ms = ARM_MS){
+    shield = true;
+    setTimeout(()=> shield = false, ms);
+  };
+  const isCartUrl = (url) => {
+    try { const u = new URL(url, location.origin); return /^\/cart(\/|$|\?|#)/i.test(u.pathname); }
+    catch { return /\/cart(\/|$|\?|#)/i.test(String(url||'')); }
+  };
+  
+  addEventListener('click', (e) => {
+    if (!shield) return;
+    const a = e.target.closest?.('a[href]');
+    if (a && isCartUrl(a.href)) { e.preventDefault(); e.stopImmediatePropagation(); }
+  }, true);
+
+  addEventListener('submit', (e) => {
+    if (!shield) return;
+    const f = e.target.closest?.('form[action]');
+    if (f && isCartUrl(f.action)) { e.preventDefault(); e.stopImmediatePropagation(); }
+  }, true);
+
+  async function openDrawerAndRefresh(){
+    try { await (window.openCartDrawerRobust?.() ?? Promise.resolve()); } catch {}
+    try { await (window.refreshCartDrawer?.() ?? Promise.resolve()); } catch {}
+
+    setTimeout(() => { try { window.refreshCartDrawer?.(); } catch {} }, 120);
+  }
+
+  async function addToCartAjax(form){
+    const fd = new FormData(form);
+    const res = await fetch('/cart/add.js', {
+      method: 'POST',
+      headers: { 'Accept': 'application/json' },
+      body: fd
+    });
+    if (!res.ok) throw new Error('Add to cart failed');
+
+    await openDrawerAndRefresh();
+
+    window.armCartRedirectShield?.(ARM_MS);
+  }
+
+  addEventListener('click', (e) => {
+    const btn = e.target.closest?.('button[name="add"], .product-form__submit, [data-add-to-cart]');
+    if (!btn) return;
+    const form = btn.closest?.('form[action*="/cart/add"]');
+    if (!form) return;
+    e.preventDefault(); e.stopImmediatePropagation();
+    addToCartAjax(form).catch(err => console.error('[ATC]', err));
+  }, true);
+
+  addEventListener('submit', (e) => {
+    const form = e.target.closest?.('form[action*="/cart/add"]');
+    if (!form) return;
+    e.preventDefault(); e.stopImmediatePropagation();
+    addToCartAjax(form).catch(err => console.error('[ATC submit]', err));
+  }, true);
+
+  if (!window.openCartDrawerRobust) {
+    window.openCartDrawerRobust = async function(){
+      const el  = document.querySelector('cart-drawer');
+      const box = document.getElementById('CartDrawer');
+      try { el?.open?.(); } catch {}
+      if (box && !box.classList.contains('active')) box.classList.add('active');
+      (el?.querySelector('[role="dialog"]') || box)?.focus?.();
+      await new Promise(r => requestAnimationFrame(r));
+    };
+  }
+})();
+</script>
+<script>
+(function () {
+  const wait = (ms)=>new Promise(r=>setTimeout(r,ms));
+
+  async function getCartJson(){
+    try {
+      const r = await fetch('/cart.js?ts='+Date.now(), {
+        headers:{Accept:'application/json'}, cache:'no-store'
+      });
+      return await r.json();
+    } catch { return null; }
+  }
+
+  // Enlève toutes les marques "empty" et ré-affiche les items
+  function clearEmptyState() {
+    const root = document.querySelector('cart-drawer') || document.getElementById('CartDrawer');
+    if (!root) return;
+
+    const shells = new Set([
+      root,
+      root.closest?.('cart-drawer'),
+      document.getElementById('CartDrawer'),
+      ...root.querySelectorAll('.is-empty, .cart-drawer--is-empty')
+    ].filter(Boolean));
+
+    shells.forEach(el=>{
+      el.classList?.remove('is-empty','cart-drawer--is-empty');
+      el.removeAttribute?.('empty');
+      if (el.dataset) delete el.dataset.empty;
+    });
+
+    // cacher l’empty-state et montrer le contenu
+    root.querySelectorAll('#CartDrawer-Empty').forEach(n=>n.setAttribute('hidden','true'));
+    root.querySelectorAll('.js-contents, #CartDrawer-CartItems, [data-render="items"]').forEach(n=>{
+      if ('hidden' in n) n.hidden = false;
+      n.removeAttribute?.('hidden');
+      if (n.style && n.style.display === 'none') n.style.display = '';
+    });
+  }
+
+  async function fixDrawerEmptyFlag() {
+    const cart = await getCartJson();
+    if (!cart || cart.item_count <= 0) return;
+
+    // Demande à Dawn de rerender si dispo
+    const comp = document.querySelector('cart-drawer');
+    try { comp?.fetchCart?.(); } catch {}
+    try { await comp?.renderContents?.(); } catch {}
+
+    // Puis force visuellement l’état "non vide"
+    clearEmptyState();
+
+    // Certaines apps rejouent un render un peu plus tard — on repasse 2 fois
+    setTimeout(clearEmptyState, 180);
+    setTimeout(clearEmptyState, 600);
+  }
+
+  // Expose pour que tu puisses l’appeler où tu veux
+  window.fixDrawerEmptyFlag = fixDrawerEmptyFlag;
+
+  // Branches utiles : dès qu’on ouvre/MAJ le drawer on sécurise
+  document.body.addEventListener('cart:added',  ()=> setTimeout(fixDrawerEmptyFlag, 80), true);
+  document.body.addEventListener('cart:updated', ()=> setTimeout(fixDrawerEmptyFlag, 80), true);
+
+  // Si ta shell reçoit la classe .active (ouverture) → sécurise
+  const box = document.getElementById('CartDrawer');
+  if (box) {
+    new MutationObserver(() => {
+      if (box.classList.contains('active')) setTimeout(fixDrawerEmptyFlag, 80);
+    }).observe(box, { attributes:true, attributeFilter:['class'] });
+  }
+})();
+</script>
   </body>
 </html>
