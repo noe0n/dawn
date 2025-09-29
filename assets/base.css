@@ -3468,7 +3468,7 @@ details-disclosure > details {
     width: 1rem;
     pointer-events: none;
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 750px) {
     .badgeContainer>img {
         width: 50% !important;
         height: 50% !important;
@@ -3477,4 +3477,5 @@ details-disclosure > details {
     .badgeContainer {
         width: 47px !important;
     }
+    #CartDrawer-Checkout{padding-left:0;padding-right:0;}
 }
