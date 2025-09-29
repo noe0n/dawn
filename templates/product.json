@@ -100,7 +100,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Easy_interaction_gif_copie.gif",
-            "title": "INDICATEURS DE DIRECTION",
+            "title": "<strong>INDICATEURS DE DIRECTION</strong>",
             "text": "<p>Indiquez vos intentions sur la route afin d'être prévisible pour les conducteurs, réduisant ainsi le risque d'accidents.</p>",
             "link_label": "",
             "link": ""
@@ -110,7 +110,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Sans_titre_3_1.gif",
-            "title": "VISIBLE À 360°",
+            "title": "<strong>VISIBLE À 360°</strong>",
             "text": "<p>Soyez visible à chaque intersection et sous n'importe quel angle, éclairé par 700+ lumens.</p>",
             "link_label": "",
             "link": ""
@@ -120,7 +120,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Sans_titre_3_2.gif",
-            "title": "INSTALLATION FACILE",
+            "title": "<strong>INSTALLATION FACILE</strong>",
             "text": "<p>Installation rapide et simple, sans outil supplémentaire.</p>",
             "link_label": "",
             "link": ""
