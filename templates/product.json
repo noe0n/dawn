@@ -567,45 +567,72 @@
         "collapsible_row_fzx7UG": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Lorem ipsum",
-            "icon": "none",
-            "row_content": "",
+            "heading": "SideLights est-il compatible avec mon vélo ou ma trottinette ?",
+            "icon": "question_mark",
+            "row_content": "<p>SideLights est compatible selon deux conditions : </p><ul><li>Le diamètre interne (trou dans le guidon) mesure au minimum 15mm, sur 12cm de longueur.</li><li>L’angle du guidon qui tend vers le cycliste (backsweep) ne dépasse pas 30°.</li></ul>",
             "page": ""
           }
         },
         "collapsible_row_NqRPCc": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Lorem ipsum",
-            "icon": "none",
-            "row_content": "",
+            "heading": "J'ai peur que l'on me vole mon système. Est-ce sécurisé ?",
+            "icon": "question_mark",
+            "row_content": "<p>Une fois monté, SideLights est fixé dans le guidon à l'aide d'un outil. Il ne peut pas être enlevé à la main. Les batteries sont cachées et n'ont aucune utilité en dehors du produit.</p>",
             "page": ""
           }
         },
         "collapsible_row_7qPWKV": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Rangée réductible",
-            "icon": "none",
-            "row_content": "",
+            "heading": "SideLights est-il compatible avec un rétroviseur ?",
+            "icon": "question_mark",
+            "row_content": "<p>SideLights est compatibles avec les rétroviseurs ne s'insérant pas à l'intérieur du guidon. </p><p>Nous proposons également un rétroviseur SideLights ayant un ajustement parfait avec nos produits !</p>",
             "page": ""
           }
         },
         "collapsible_row_GJfjCn": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Lorem ipsum",
-            "icon": "none",
-            "row_content": "",
+            "heading": "Ai-je besoin d'outils pour monter le système SideLights sur mon vélo ?",
+            "icon": "question_mark",
+            "row_content": "<p>Vous n'aurez pas besoin d'outils spéciaux pour monter le produit sur votre vélo. Tout ce dont vous avez besoin est fourni dans l'emballage.</p>",
             "page": ""
           }
         },
         "collapsible_row_XD9JFA": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Lorem ipsum",
-            "icon": "none",
-            "row_content": "",
+            "heading": "Qu'est-ce-qui rend SideLights unique par rapport à un système de lumières classique ? ",
+            "icon": "question_mark",
+            "row_content": "<p>Le système SideLights vous offre une visibilité à 360 degrés et dans toute votre largeur. Les indicateurs de direction vous accompagnent dans les changements de direction, augmentant ainsi votre visibilité lors d’un changement de direction. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_PhrV6m": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Serai-je visible ? Combien de lumens les lampes ont-elles ?",
+            "icon": "question_mark",
+            "row_content": "<p>Le système SideLights offre une visibilité à 360 degrés, couvrant toute la largeur du vélo pour une sécurité maximale. Les clignotants intégrés améliorent votre visibilité lorsque vous changez de direction. Avec plus de 700 lumens de puissance combinée, vous serez plus visible que jamais.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_7E3fKB": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Comment activer les clignotants ?",
+            "icon": "question_mark",
+            "row_content": "<p>Nous disposons d'un bouton d'interaction unique de chaque côté qui est très facile à utiliser. Vous n'avez pas besoin de retirer votre main de la poignée - une simple pression tout en tenant le guidon active le clignotant.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_39TGxV": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Comment vérifier le niveau de la batterie et le mode d'éclairage ?",
+            "icon": "question_mark",
+            "row_content": "<p>SideLights est doté de trois LEDs situées en haut du produit qui fournit des informations sur l'état de la batterie et le mode d'éclairage. Vous pouvez choisir entre trois modes d'éclairage : ECO, NORMAL et POWER.</p>",
             "page": ""
           }
         }
@@ -615,12 +642,15 @@
         "collapsible_row_NqRPCc",
         "collapsible_row_7qPWKV",
         "collapsible_row_GJfjCn",
-        "collapsible_row_XD9JFA"
+        "collapsible_row_XD9JFA",
+        "collapsible_row_PhrV6m",
+        "collapsible_row_7E3fKB",
+        "collapsible_row_39TGxV"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
         "caption": "",
-        "heading": "Contenu réductible",
+        "heading": "Montage & Utilisation ",
         "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "row",
