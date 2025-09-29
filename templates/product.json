@@ -68,7 +68,7 @@
         "livraison_nzftTG": {
           "type": "livraison",
           "settings": {
-            "teaser_title": "Livraison gratuite",
+            "teaser_title": "Livraison estimée",
             "phrase_seule": true
           }
         },
