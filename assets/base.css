@@ -3478,4 +3478,5 @@ details-disclosure > details {
         width: 47px !important;
     }
     #CartDrawer-Checkout{padding-left:0;padding-right:0;font-size:12px;}
+    .totals__total-value{font-size:12px;}
 }
