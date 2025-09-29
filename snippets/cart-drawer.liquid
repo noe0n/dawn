@@ -573,36 +573,56 @@
     </div>
   </div>
       <script> 
-
 function initSwiper() {
-    if (document.querySelector('.swiper5')) {
-        new Swiper('.swiper5', {
-            autoplay: {
-                 delay: 4000,
-                },
-                loop : true,
-                slidesPerView: 1,
-              
-        });
-    }
+  // .swiper5
+  document.querySelectorAll('.swiper5').forEach((el) => {
+    if (el.swiper) { try { el.swiper.update(); } catch(_){} return; }
 
-  swiperInstance = new Swiper(".swiper-testmonials", {
-            slidesPerView: 1,
-            spaceBetween: 10,
-             pagination: {
-        el: '.swiper-pagination-testi',
-        clickable: 'true',
-      },
-      navigation: {
-                nextEl: ' .swiper-button-next',
-                prevEl: ' .swiper-button-prev',
-              } 
-        });
+    const instance = new Swiper(el, {
+      slidesPerView: 1,
+      loop: true,
+      observer: true,
+      observeParents: true,
+      autoplay: {
+        delay: 4000,
+        disableOnInteraction: false,
+        pauseOnMouseEnter: true
+      }
+    });
 
-};
+    // Si le container était caché à l’init, assure le démarrage
+    setTimeout(() => instance.autoplay?.start?.(), 100);
+  });
 
-    initSwiper();
+  // .swiper-testmonials
+  document.querySelectorAll('.swiper-testmonials').forEach((el) => {
+    if (el.swiper) { try { el.swiper.update(); } catch(_){} return; }
 
+    // Récupère les éléments de navigation/pagination "proches" de ce slider
+    const wrap = el.closest('.swiper-testmonials-wrapper-container') || el.parentElement || document;
+    const next = wrap.querySelector('.swiper-button-next');
+    const prev = wrap.querySelector('.swiper-button-prev');
+    const pag  = wrap.querySelector('.swiper-pagination-testi');
+
+    const instance = new Swiper(el, {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      observer: true,
+      observeParents: true,
+      pagination: pag ? { el: pag, clickable: true } : undefined,
+      navigation: (prev && next) ? { nextEl: next, prevEl: prev } : undefined
+    });
+
+    setTimeout(() => instance.update(), 0);
+  });
+}
+
+initSwiper();
+
+// Si le slider est dans un drawer/tab, relance au moment où il devient visible:
+document.addEventListener('cart:updated', () => {
+  document.querySelectorAll('.swiper5').forEach(el => el.swiper?.autoplay?.start?.());
+});
 
    
 </script>
