@@ -194,12 +194,273 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "multicolumn_JhUdNX": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_zepq76": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/logo_VENTUREKICK_cmyk-1.png",
+            "title": "",
+            "text": "",
+            "link_label": "Venture Kick",
+            "link": "https://www.venturekick.ch/"
+          }
+        },
+        "column_6jmUrA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Core_coaching_logo_white.png",
+            "title": "",
+            "text": "",
+            "link_label": "Innosuisse",
+            "link": "https://www.innosuisse.ch/inno/fr/home.html"
+          }
+        },
+        "column_jp8far": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Innovaud_white.png",
+            "title": "",
+            "text": "",
+            "link_label": "Innovaud",
+            "link": "https://www.innovaud.ch/fr/"
+          }
+        },
+        "column_wnnHr8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/winner.png",
+            "title": "",
+            "text": "",
+            "link_label": ">>venture>>",
+            "link": "https://www.venture.ch/winners"
+          }
+        },
+        "column_pAy8bD": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/VF.png",
+            "title": "",
+            "text": "",
+            "link_label": "VF Ingénerie",
+            "link": "https://vfingenierie.ch/"
+          }
+        }
+      },
+      "block_order": [
+        "column_zepq76",
+        "column_6jmUrA",
+        "column_jp8far",
+        "column_wnnHr8",
+        "column_pAy8bD"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_gradient_opacity_start": 95,
+        "background_gradient_opacity_start_position": 0,
+        "background_gradient_opacity_end": 100,
+        "background_gradient_opacity_end_position": 100,
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-4",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 32
+      }
+    },
+    "multicolumn_pmM7XQ": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_jGgJzG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/rts-logo-fond-blanc-centre_f073ad03-6e90-4d00-ac21-7302cbce0380.jpg",
+            "title": "<em>Un kit de lumières pour guidon révolutionne la sécurité des cyclistes</em>",
+            "text": "",
+            "link_label": "RTS",
+            "link": "https://www.rts.ch/audio-podcast/2024/audio/eureka-un-kit-de-lumieres-pour-guidon-revolutionne-la-securite-des-cyclistes-28695598.html"
+          }
+        },
+        "column_btwamV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/media_logos3.png",
+            "title": "<em>Arthur Claessens, de l'élite du BMX à la sécurité des cyclistes lambdas</em>",
+            "text": "",
+            "link_label": "Blick",
+            "link": "https://www.blick.ch/fr/sport/autres-sports/linnovation-de-sidelights-arthur-claessens-de-lelite-du-bmx-a-la-securite-des-cyclistes-lambdas-id19527451.html"
+          }
+        },
+        "column_gA3wKX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Bikerumor.png",
+            "title": "SideLights Puts Bright LED Lights & Turn Signals in Bar Ends So Cars Will See You!",
+            "text": "",
+            "link_label": "Bikerumor",
+            "link": "https://bikerumor.com/sidelights-puts-bright-led-lights-turn-signals-in-bar-ends-so-cars-will-see-you/"
+          }
+        },
+        "column_bPkNcm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/media_logos2.png",
+            "title": "<em>Je ne pensais pas lancer une start-up si tôt, mais j’avais une bonne idée</em>",
+            "text": "",
+            "link_label": "24heures",
+            "link": "https://www.24heures.ch/je-ne-pensais-pas-lancer-une-start-up-si-tot-mais-javais-une-bonne-idee-685615961700"
+          }
+        },
+        "column_HtVM6j": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/media_logos.png",
+            "title": "<em>Le vélo et la fibre entrepreneuriale, c’est une histoire de famille</em>",
+            "text": "",
+            "link_label": "PME",
+            "link": "https://www.pme.ch/business/2024/04/08/le-velo-et-la-fibre-entrepreneuriale-cest-une-histoire-de-famille-697480"
+          }
+        },
+        "column_G3mrqX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/lextension_geneve_logo.jpg",
+            "title": "<em>SideLights : Rendre les cyclistes plus visibles</em>",
+            "text": "",
+            "link_label": "L'Extension Diamant Alpin (ETE 2024)",
+            "link": "https://www.lextension.ch/"
+          }
+        },
+        "column_kwre3e": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/6333f474c31401.16060024.png",
+            "title": "<em>Arthur Claessens, de l’élite du BMX à la sécurité des cyclistes lambdas</em>",
+            "text": "",
+            "link_label": "M Le Média",
+            "link": "https://www.mlemedia.ch/videos/arthur-claessens-de-l-elite-du-bmx-a-la-securite-des-cyclistes-lambdas-2001"
+          }
+        },
+        "column_JfzWBQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BonsPlansEcolo_eshop_last.png",
+            "title": "<em>Sidelights un éclairage vélo révolutionnaire à 360° avec clignotants intégrés</em>",
+            "text": "",
+            "link_label": "Bons Plans Ecolo",
+            "link": "https://bonsplansecolo.fr/sidelights-un-eclairage-velo-revolutionnaire-a-360-avec-clignotants-integres"
+          }
+        }
+      },
+      "block_order": [
+        "column_jGgJzG",
+        "column_btwamV",
+        "column_gA3wKX",
+        "column_bPkNcm",
+        "column_HtVM6j",
+        "column_G3mrqX",
+        "column_kwre3e",
+        "column_JfzWBQ"
+      ],
+      "settings": {
+        "title": "Ils parlent de nous",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_gradient_opacity_start": 100,
+        "background_gradient_opacity_start_position": 0,
+        "background_gradient_opacity_end": 70,
+        "background_gradient_opacity_end_position": 100,
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-4",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_Q3MKNm": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_inLBri": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/HEIG-VD_logotype-baseline_blanc-rvb.png",
+            "title": "",
+            "text": "",
+            "link_label": "HEIG-VD",
+            "link": "https://heig-vd.ch/"
+          }
+        },
+        "column_eEFhM8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/grs_logo_WEISS.png",
+            "title": "",
+            "text": "",
+            "link_label": "Gebert Rüf Stiftung",
+            "link": "https://www.grstiftung.ch/fr.html"
+          }
+        },
+        "column_DyCCLp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FIT-logo-vert.png",
+            "title": "",
+            "text": "",
+            "link_label": "FIT",
+            "link": "https://www.fondation-fit.ch/fr/"
+          }
+        }
+      },
+      "block_order": [
+        "column_inLBri",
+        "column_eEFhM8",
+        "column_DyCCLp"
+      ],
+      "settings": {
+        "title": "nos partenaires",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_gradient_opacity_start": 70,
+        "background_gradient_opacity_start_position": 0,
+        "background_gradient_opacity_end": 95,
+        "background_gradient_opacity_end_position": 100,
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-4",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
     }
   },
   "order": [
     "main",
     "image-with-text",
     "multicolumn",
-    "related-products"
+    "related-products",
+    "multicolumn_pmM7XQ",
+    "multicolumn_Q3MKNm",
+    "multicolumn_JhUdNX"
   ]
 }
