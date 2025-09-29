@@ -124,6 +124,7 @@
     "cart_type": "drawer",
     "show_vendor": false,
     "show_cart_note": false,
+    "cart_ic_img1": "shopify://shop_images/trans_a6b90935-5930-4511-8c25-c35a0e5e9350.png",
     "cart_color_icons": "#ffffff",
     "couleur-fond-s": "#000000",
     "recommand_products": [
