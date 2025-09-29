@@ -1,0 +1,68 @@
+{% assign upsell_product_1 = all_products[settings.upsell_product_1] %}
+{% assign upsell_product_2 = all_products[settings.upsell_product_2] %}
+{% assign current_product = all_products[product.handle] %}
+
+<div class="product-upsell-grid" id="shop-now" style="display: flex; gap: 16px; margin-top: 32px;" data-upsell-grid>
+
+  <div class="product-upsell-card is-selected" data-variant-id="{{ current_product.selected_or_first_available_variant.id }}">
+    {% render 'upsell-card', product: current_product %}
+  </div>
+
+ 
+  <div class="product-upsell-card" data-variant-id="{{ upsell_product_1.selected_or_first_available_variant.id }}">
+    {% render 'upsell-card', product: upsell_product_1 %}
+  </div>
+
+  <div class="product-upsell-card" data-variant-id="{{ upsell_product_2.selected_or_first_available_variant.id }}">
+    {% render 'upsell-card', product: upsell_product_2 %}
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const cards = document.querySelectorAll('.product-upsell-card');
+    const variantInput = document.querySelector('input[name="id"].product-variant-id');
+
+    if (!variantInput) {
+      console.warn("⚠️ Champ de variante introuvable");
+      return;
+    }
+
+    cards.forEach((card) => {
+      card.addEventListener('click', () => {
+
+        cards.forEach(c => c.classList.remove('is-selected'));
+        card.classList.add('is-selected');
+
+    
+        const selectedVariantId = card.dataset.variantId;
+        variantInput.value = selectedVariantId;
+
+        variantInput.dispatchEvent(new Event('change'));
+      });
+    });
+  });
+</script>
+
+
+<style>
+  .price.price--large.price--on-sale.price--show-badge{display:none;}
+  .product__tax{display:none;}
+  .product-upsell-card {
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 180px;
+    cursor: pointer;
+    transition: border-color 0.3s;
+  }
+
+  .product-upsell-card.is-selected {
+    border: 2px solid #0050d8;
+  }
+@media (max-width: 768px) {
+  .product-upsell-grid{flex-direction:column;}
+  .upsell-card{max-width:300px!important;}
+  .product-upsell-card{max-width:300px!important;margin:0 auto;}
+}
+</style>
