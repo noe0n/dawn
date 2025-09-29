@@ -64,6 +64,15 @@
             "content": "<p><strong>Double feux avant</strong></p><ul><li>Feux de position : 150 lm</li><li>Feux de route : 500 lm</li></ul><p><strong>Feux de visibilité</strong></p><ul><li>Feux latéraux et arrières : 100 lm</li><li>Clignotants : 100 lm par côté</li></ul><p><strong>Batterie</strong></p><ul><li>1400 mAh par côté</li><li>Recharge USB-C</li><li>Système de batterie interchangeable</li></ul><p><strong>Autonomie</strong></p><p>Mode visibilité 360°</p><ul><li>Feux de position : 5 h</li><li>Feux de route : 2,5 h</li></ul><p>Clignotants uniquement : 10 h</p><p><strong>Poids</strong></p><ul><li>Poids total (batteries incluses) : 250 g</li></ul><p><a href=\"https://sidelights.com/pages/faq\">Plus d'informations</a></p>",
             "page": ""
           }
+        },
+        "collapsible_tab_UC3ePH": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Ce qui est inclus",
+            "icon": "check_mark",
+            "content": "<p>Kit SideLights Beamkit<br/>Paire de SideLights System<br/><br/>Jeu de batteries interchangeables<br/>2 batteries 1400 mAh<br/><br/>Outil de montage<br/>Longue clé Allen pour une installation facile<br/><br/>Câble de recharge<br/>Câble double USB-C<br/><br/>Guide d'utilisation<br/>Instructions simples et visuelles étape par étape</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -75,7 +84,8 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "collapsible-row-0"
+        "collapsible-row-0",
+        "collapsible_tab_UC3ePH"
       ],
       "settings": {
         "enable_sticky_info": true,
