@@ -16,6 +16,7 @@
 
   <div style="margin-top: 8px; font-weight: 600;">
     <div style="margin-top: 8px; font-weight: 600; display: flex; align-items: center; gap: 5px; justify-content: center;">
+      <span>{{ variant.title }}</span>
       <span>{{ variant.price | money }}</span>
 
       {%- if variant.compare_at_price and variant.compare_at_price > variant.price -%}
