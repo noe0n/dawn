@@ -36,6 +36,7 @@
         },
         "variant_picker": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
             "picker_type": "button",
             "swatch_shape": "circle"
@@ -89,6 +90,7 @@
       ],
       "settings": {
         "enable_sticky_info": true,
+        "product_upsell": true,
         "color_scheme": "scheme-4",
         "media_size": "medium",
         "constrain_to_viewport": true,
