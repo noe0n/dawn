@@ -19,6 +19,17 @@
             "text_style": "uppercase"
           }
         },
+        "livraison_nzftTG": {
+          "type": "livraison",
+          "settings": {
+            "teaser_title": "Livraison gratuite",
+            "phrase_seule": true,
+            "fond_icones": "#ffffff",
+            "time-expedition": 2,
+            "time-livraison1": 3,
+            "time-livraison2": 5
+          }
+        },
         "title": {
           "type": "title",
           "settings": {}
@@ -78,6 +89,7 @@
       },
       "block_order": [
         "vendor",
+        "livraison_nzftTG",
         "title",
         "caption",
         "price",
