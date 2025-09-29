@@ -34,15 +34,15 @@
     </div>
   </div>
 
-   {%- if variant.compare_at_price and variant.compare_at_price > variant.price -%}
-      {%- assign diff = variant.compare_at_price | minus: variant.price -%}
-      {%- assign discount = 100.0 | times: diff | divided_by: variant.compare_at_price | round -%}
-      <div style="margin-top: 4px;">
-        <span style="display: inline-block; background: #0050d8; color: white; font-weight: bold; font-size: 0.75em; padding: 4px 10px; border-radius: 16px;">
-          - {{ discount }}%
-        </span>
-      </div>
-    {%- endif -%}
+  {%- if variant.compare_at_price and variant.compare_at_price > variant.price -%}
+  {%- assign savings = variant.compare_at_price | minus: variant.price -%}
+  <div style="margin-top: 4px;">
+    <span style="display: inline-block; background: #0050d8; color: white; font-weight: bold; font-size: 0.75em; padding: 4px 10px; border-radius: 16px;">
+      Économisez {{ savings | money }}
+    </span>
+  </div>
+{%- endif -%}
+
 </div>
 
 
