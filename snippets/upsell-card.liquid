@@ -34,16 +34,6 @@
         </span>
       </div>
     {%- endif -%}
-
-    {%- comment -%} Bouton ATC (optionnel) {%- endcomment -%}
-    <form method="post" action="/cart/add" style="margin-top:8px;">
-      <input type="hidden" name="id" value="{{ variant.id }}">
-      <button type="submit"
-        style="width:100%; padding:8px 12px; border-radius:8px; font-weight:600;"
-        {% unless variant.available %}disabled{% endunless %}>
-        {%- if variant.available -%}Ajouter au panier{%- else -%}Rupture{%- endif -%}
-      </button>
-    </form>
   </div>
 </div>
 
