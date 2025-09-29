@@ -88,8 +88,8 @@
            <div class="swiper5">
               <div class="swiper-wrapper">
                 <div class="swiper-slide"><div style="display:flex;justify-content:center;align-items:center;gap:10px;">{% if settings.cart_ic_img1 %}<img src="{{ settings.cart_ic_img1  | img_url: "master" }}">{% endif %}<p style="margin:0;">{{ settings.cart_ic_text1 }}</p></div></div>
-                <div class="swiper-slide"><div style="display:flex;justify-content:center;align-items:center;gap:10px;"><img src="{{ settings.cart_ic_img2  | img_url: "master" }}"><p style="margin:0;">{{ settings.cart_ic_text2 }}</p></div></div>
-                <div class="swiper-slide"><div style="display:flex;justify-content:center;align-items:center;gap:10px;"><img src="{{ settings.cart_ic_img3  | img_url: "master" }}"><p style="margin:0;">{{ settings.cart_ic_text3 }}</p></div></div>
+                <div class="swiper-slide"><div style="display:flex;justify-content:center;align-items:center;gap:10px;">{% if settings.cart_ic_img2 %}<img src="{{ settings.cart_ic_img2  | img_url: "master" }}">{% endif %}<p style="margin:0;">{{ settings.cart_ic_text2 }}</p></div></div>
+                <div class="swiper-slide"><div style="display:flex;justify-content:center;align-items:center;gap:10px;">{% if settings.cart_ic_img3 %}<img src="{{ settings.cart_ic_img3  | img_url: "master" }}">{% endif %}<p style="margin:0;">{{ settings.cart_ic_text3 }}</p></div></div>
                 
               </div>
       
