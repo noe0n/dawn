@@ -161,7 +161,8 @@
                 enctype="multipart/form-data"
                 class="product-form bundle_product_form"
                 data-productid="{{ product.id }}">
-
+             <input type="hidden" name="id" value="{{ variant.id }}">
+             <input type="hidden" name="quantity" value="1">
             <div class="bundle_slide_content">
               <div class="bundle_text">
                 <span class="bundle_subtitle {{ section.settings.a_bundle }}">{{ block.settings.subtitle }}</span>
