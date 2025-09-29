@@ -1,0 +1,282 @@
+<style>
+  .product_offer{
+    padding:20px;
+    background-color:{{ settings.bg-recommand }};
+  }
+  .text_offer{
+    color:{{settings.text_offer}};
+    margin: auto;
+  }
+  .text_offer p{
+     font-size:10px;
+    margin:0;
+  }
+  .text_offer p strong{
+    font-weight:700
+  }
+  #section-testmonials .atccs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #section-testmonials .product__form .btn{
+    border: none;
+    background: transparent !important;
+    color: #000 !important;
+    width: auto !important;
+    padding: 3px 13px !important;
+    border-radius: 3px !important;
+    min-width: auto !important;
+    position:relative;
+    z-index:11;
+  }
+  #section-testmonials .swiper-pagination-bullet {
+    width: 6px;
+    height: 6px;
+  }
+  
+  #section-testmonials.section-testmonials{
+      background: {{settings.couleur-fond-s}};
+      position:relative;
+      padding-bottom: 10px;
+      padding-top:5px;
+      padding-left: 2.75rem !important;
+    padding-right: 2.75rem !important;
+  }
+  .ajaxcart__footer{
+      background: {{ settings.bg-recommand }};
+  }
+  .ajaxcart__footer--fixed {
+      left: 0;
+      right: 0;
+      padding-left: 15px;
+      padding-right: 15px;
+  }
+  #section-testmonials .name-section {
+      font-weight: 400;
+      font-size: 16px;
+      color: {{ settings.text-recommand }}!important;
+      line-height: 1.2;
+      margin: 0;
+      margin-bottom:10px;
+  }
+
+   #section-testmonials .navigation-testmonials {
+        position: relative;
+    }
+
+
+  #section-testmonials .swiper-button-testmonials-next,
+  #section-testmonials .swiper-button-testmonials-prev {
+      cursor: pointer;
+      position:absolute;
+      z-index:2;
+      bottom: -70px;
+  }
+    #section-testmonials .swiper-button-testmonials-prev{
+      left: -20px;
+    }
+    #section-testmonials .swiper-button-testmonials-next {
+        right: -20px;
+    }
+
+  @media (max-width: 768px) {
+      #section-testmonials.section-testmonials {
+          flex-direction: column;
+          align-items: flex-start;
+      }
+
+      #section-testmonials .swiper-testmonials {
+          width: 100%;
+      }
+  }
+
+   #section-testmonials .swiper {
+    height: fit-content;
+  }
+
+  #section-testmonials .swiper-testmonials .swiper-slide {
+      background: #fff;
+      height: fit-content;
+      display: flex;
+      padding: 10px 10px;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 20px;
+  }
+
+  #section-testmonials .swiper-testmonials .swiper-slide * {
+      margin: 0;
+  }
+
+  #section-testmonials .card-slide {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+  }
+
+  #section-testmonials .head-slide {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  #section-testmonials .header-slide {
+      display: flex;
+      
+  }
+
+  #section-testmonials .title-slide h4 {
+      margin-bottom: 10px !important;
+      color: #000;
+      font-size: 14px;
+      font-weight: 700;
+      text-align: left;
+      line-height: 1.2;
+  }
+
+  #section-testmonials .swiper-button-disabled{
+    visibility: hidden;
+  }
+  #section-testmonials .title-slide h6 {
+      color: #b27a0d;
+      font-size: 12px;
+      font-weight: 700;
+  }
+.ajaxcart__payment-icons{display:none;}
+.swiper-testmonials-wrapper-container .swiper-pagination-testi{text-align:center;}
+@media (min-width: 769px) {
+.swiper-testmonials-wrapper-container .swiper-pagination-testi {bottom: 5px!important;position: relative;}
+}
+  @media (max-width: 768px) {
+    #section-testmonials .header-slide img{
+      width: 65px;
+      height:85px;
+      object-fit: cover;
+      border-radius: 0;
+  }
+  #section-testmonials{display:block;}
+      #section-testmonials .header-slide svg {
+          width: 40px;
+      }
+
+      #section-testmonials .title-slide h4 {
+          font-size: 12px;
+      }
+
+      #section-testmonials .swiper-testmonials .swiper-slide {
+          padding: 10px;
+      }
+  }
+  .swiper-testmonials .head-slide .title-slide {
+    padding-left: 8px;
+}
+.swiper-testmonials .product__submit__item{margin: 0 10px 10px 0!important;}
+.swiper-testmonials .product__submit__item .btn.addtocart{border: 1px solid #CECDC9;}
+.swiper-testmonials{overflow: hidden;}
+  #section-testmonials .cart-drawer__foot{padding:0;}
+
+  #section-testmonials .header-slide img{
+      width: 85px;
+      height:85px;
+      object-fit: cover;
+      border-radius: 0;
+  }
+  
+  #section-testmonials .atccs h6{
+    font-size:17px;
+    color:#000;
+  }
+  #section-testmonials .swiper-testmonials { width: 100%; }
+#section-testmonials .swiper-testmonials .swiper-wrapper{ align-items: stretch; }
+#section-testmonials .swiper-testmonials .swiper-slide{
+  flex: 0 0 100% !important;
+  width: 100% !important;
+  margin: 0 !important;          
+  box-sizing: border-box;
+}
+
+
+
+  .swiper-testmonials-wrapper-container {
+  position: relative;
+}
+
+.swiper-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 24px;
+}
+ .swiper-testmonials-wrapper-container .swiper-button-next, .swiper-button-prev{width:inherit;}
+.swiper-testmonials-wrapper-container .swiper-button-prev:after{content:none;}
+  .swiper-testmonials-wrapper-container .swiper-button-next:after{content:none;}
+  .swiper-testmonials {
+    overflow: hidden;
+}
+.swiper-testmonials-wrapper-container .swiper-arrow.prev {
+  left: -30px; /* en dehors du swiper */
+}
+.swiper-testmonials-wrapper-container .swiper-arrow.next {
+  right: -30px;
+}
+#section-testmonials .product__submit__holder{
+  position: absolute;
+  right: 0px;
+  bottom: 7px;
+}
+</style>
+<div id="section-testmonials" class="section-testmonials">
+  <div class="column-testmonials">
+    <div class="section-details">
+      <h4 class="name-section">{{ settings['titre-recommand'] }}</h4>
+    </div>
+  </div>
+  <div class="swiper-testmonials-wrapper-container">
+  <div class="swiper-arrow prev swiper-button-prev"><svg data-v-9c95a6fa="" width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg" class="fill-current"><path d="M11.375 12.1081L6.15681 6.93692L11.375 1.7658L9.59317 3.72091e-05L2.4659 6.93692L9.46591 14L11.375 12.1081Z"></path></svg></div>
+  <div class="swiper-testmonials">
+    <div class="swiper-wrapper">
+      {% for product in settings.recommand_products %}
+        <div class="swiper-slide">
+          <div class="card-slide">
+            <div class="head-slide">
+              <div class="header-slide">
+                <a href="{{ product.url }}"style="display:flex;">
+                <img src="{{ product.media[0] | img_url:'master' }}" width="" height="" alt="{{ product.title }}">
+                <div class="title-slide">
+                  <h4>{{ product.title }}</h4>
+                </div>
+                </a>
+                  
+                  <div class="product__submit__holder{% if show_payment_button %} product__submit__holder--spb{% endif %}{% if show_newsletter %} product__submit__holder--notification{% endif %}">
+                      <div class="product__submit__buttons">
+                        <div
+                          class="product__submit__item"
+                        >
+                          <a
+                            dataid="AddToCart--{{ product.variants.first.id }}"
+                            style="font-size:16px;padding: 12px 20px;text-decoration: none;color:#000;"
+                            href="#"
+                            class="btn addtocart" onclick="clicktoadd(this)"
+                          >
+                            <span data-add-to-cart-text>Ajouter - {{ product.price | money }}</span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+    <div class="swiper-arrow next swiper-button-next"><svg data-v-9c95a6fa="" width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg" class="fill-current"><path d="M2.625 1.89189L7.84319 7.06308L2.62501 12.2342L4.40683 14L11.5341 7.06308L4.53409 -8.26971e-08L2.625 1.89189Z"></path></svg></div>
+  <div class="swiper-pagination-testi"></div>
+    
+</div>
+</div>
+
