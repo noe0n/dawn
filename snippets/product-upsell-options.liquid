@@ -1,6 +1,6 @@
-{% assign upsell_product_1 = all_products[settings.upsell_product_1] %}
-{% assign upsell_product_2 = all_products[settings.upsell_product_2] %}
-{% assign current_product = all_products[product.handle] %}
+{% assign upsell_variant_1 = product.variants[0] %}
+{% assign upsell_variant_2 = product.variants[1] %}
+{% assign current_product = product %}
 
 <div class="product-upsell-grid" id="shop-now" style="display: flex; gap: 16px; margin-top: 32px;" data-upsell-grid>
 
