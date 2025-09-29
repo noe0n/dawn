@@ -1,30 +1,49 @@
+{%- comment -%}
+  Attend un paramètre "variant".
+  Ex: {% render 'upsell-card', variant: product.variants[0] %}
+{%- endcomment -%}
+
+{%- assign p = variant.product -%}
+{%- assign img = variant.featured_image | default: p.featured_image -%}
+
 <div class="upsell-card" style="border-radius: 8px; padding: 12px; text-align: center; max-width: 180px;">
-  <img src="{{ product.featured_image | image_url: width: 300 }}" alt="{{ product.title | escape }}" style="width: 100%; height: auto; object-fit: contain;">
+  {%- if img -%}
+    <img
+      src="{{ img | image_url: width: 300 }}"
+      alt="{{ p.title | escape }}"
+      style="width: 100%; height: auto; object-fit: contain;">
+  {%- endif -%}
 
   <div style="margin-top: 8px; font-weight: 600;">
-    {% assign variant = product.selected_or_first_available_variant %}
-
-    <div style="margin-top: 8px; font-weight: 600;display: flex;align-items:center;gap:5px;justify-content: center;">
+    <div style="margin-top: 8px; font-weight: 600; display: flex; align-items: center; gap: 5px; justify-content: center;">
       <span>{{ variant.price | money }}</span>
-      {% if variant.compare_at_price > variant.price %}
+
+      {%- if variant.compare_at_price and variant.compare_at_price > variant.price -%}
         <span style="text-decoration: line-through; color: #999;">
           {{ variant.compare_at_price | money }}
         </span>
-      {% endif %}
+      {%- endif -%}
     </div>
-    
-    {% if variant.compare_at_price > variant.price %}
-     {% assign compare_price = variant.compare_at_price | divided_by: 100.0 %}
-      {% assign real_price = variant.price | divided_by: 100.0 %}
-      {% assign difference = compare_price | minus: real_price %}
-      {% assign raw_discount = difference | times: 100 | divided_by: compare_price %}
-      {% assign discount = raw_discount | minus: 0.01 | round %}
+
+    {%- if variant.compare_at_price and variant.compare_at_price > variant.price -%}
+      {%- assign diff = variant.compare_at_price | minus: variant.price -%}
+      {%- assign discount = 100.0 | times: diff | divided_by: variant.compare_at_price | round -%}
       <div style="margin-top: 4px;">
         <span style="display: inline-block; background: #0050d8; color: white; font-weight: bold; font-size: 0.75em; padding: 4px 10px; border-radius: 16px;">
-          - {{ discount }}% 
+          - {{ discount }}%
         </span>
       </div>
-    {% endif %}
-    
-    </div>
+    {%- endif -%}
+
+    {%- comment -%} Bouton ATC (optionnel) {%- endcomment -%}
+    <form method="post" action="/cart/add" style="margin-top:8px;">
+      <input type="hidden" name="id" value="{{ variant.id }}">
+      <button type="submit"
+        style="width:100%; padding:8px 12px; border-radius:8px; font-weight:600;"
+        {% unless variant.available %}disabled{% endunless %}>
+        {%- if variant.available -%}Ajouter au panier{%- else -%}Rupture{%- endif -%}
+      </button>
+    </form>
+  </div>
 </div>
+
