@@ -164,39 +164,122 @@
         "padding_bottom": 36
       }
     },
-    "image-with-text": {
-      "type": "image-with-text",
+    "multirow_8gDq9i": {
+      "type": "multirow",
       "blocks": {
-        "image-with-text-0": {
-          "type": "heading",
+        "row_j6436p": {
+          "type": "row",
+          "disabled": true,
           "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
+            "image": "shopify://shop_images/Sans_titre_3_1.gif",
+            "caption": "",
+            "heading": "Visible à 360°",
+            "text": "<p>Soyez visible à chaque intersection et sous n'importe quel angle, éclairé par 700+ lumens.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_isPopup": false
           }
         },
-        "image-with-text-1": {
-          "type": "text",
+        "row_d4ewwG": {
+          "type": "row",
+          "disabled": true,
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "text_style": "body"
+            "image": "shopify://shop_images/Easy_interaction_gif_copie.gif",
+            "caption": "",
+            "heading": "INDICATEURS DE DIRECTION",
+            "text": "<p>Indiquez vos intentions sur la route afin d'être prévisible pour les conducteurs, réduisant ainsi le risque d'accidents.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_isPopup": false
+          }
+        },
+        "row_NhDN8t": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/SideLights_claessens_arthur-4821_copie_2_d380b87e-13d5-4abe-ad3f-0646d40e7a46.jpg",
+            "caption": "",
+            "heading": "Visibilité à Double Faisceau",
+            "text": "<p>Soyez visibles sur toute la largeur de votre vélo grâce à un puissant double faisceau, encourageant les voitures à laisser une plus grande distance de dépassement.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_isPopup": false
+          }
+        },
+        "row_9WEe7k": {
+          "type": "row",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Sans_titre_3_2.gif",
+            "caption": "",
+            "heading": "Installation Facile",
+            "text": "<p>Installation rapide et simple, sans outil supplémentaire.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_isPopup": false
+          }
+        },
+        "row_rf4AgB": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/L-R_SLfn_v2.png",
+            "caption": "",
+            "heading": "Utilisation Simple et Intuitive",
+            "text": "<p>Facile à utiliser et à recharger grâce à des batteries USB-C interchangeables. Le système est solidement intégré au guidon à l'aide d'un outil.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_isPopup": false
+          }
+        },
+        "row_YaRYEE": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/allbikesblackandwite.jpg",
+            "caption": "",
+            "heading": "Compatible",
+            "text": "<p>Compatibilité avec la majorité des vélos. Vérifiez sur notre <a href=\"/pages/faq\" title=\"FAQ\">page FAQ</a> pour en être sûr.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_isPopup": false
+          }
+        },
+        "row_8pLwMQ": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/8.jpg",
+            "caption": "",
+            "heading": "<strong>Résistant et durable</strong>",
+            "text": "<p>SideLights est conçu pour résister aux chocs et aux intempéries. Le corps en aluminium, associé à des pads protecteurs absorbe les chocs tout en étant waterproof. </p>",
+            "button_label": "",
+            "button_link": "",
+            "button_isPopup": false
           }
         }
       },
       "block_order": [
-        "image-with-text-0",
-        "image-with-text-1"
+        "row_j6436p",
+        "row_d4ewwG",
+        "row_NhDN8t",
+        "row_9WEe7k",
+        "row_rf4AgB",
+        "row_YaRYEE",
+        "row_8pLwMQ"
       ],
       "settings": {
-        "height": "small",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
+        "background_gradient_opacity_start": 100,
+        "background_gradient_opacity_start_position": 0,
+        "background_gradient_opacity_end": 75,
+        "background_gradient_opacity_end_position": 50,
+        "image_height": "adapt",
+        "desktop_image_width": "small",
+        "heading_size": "h1",
+        "text_style": "subtitle",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "scheme-2",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "scheme-4",
+        "row_color_scheme": "scheme-4",
+        "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -554,7 +637,7 @@
   "order": [
     "main",
     "multicolumn_aXHFa6",
-    "image-with-text",
+    "multirow_8gDq9i",
     "related-products",
     "multicolumn_pmM7XQ",
     "multicolumn_Q3MKNm",
