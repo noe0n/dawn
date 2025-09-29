@@ -3464,4 +3464,7 @@ details-disclosure > details {
   width: 20px;
   height: 20px;
 }
-
+.quantity__button .svg-wrapper {
+    width: 1rem;
+    pointer-events: none;
+}
