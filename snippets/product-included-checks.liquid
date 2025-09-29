@@ -1,0 +1,17 @@
+{% assign items = block.settings %}
+
+<div class="product-included-checks" style="margin-top: 24px;">
+  <h4 style="font-weight: 600; margin-bottom: 12px;">{{ items.title }}</h4>
+  <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px 24px;">
+    {% for i in (1..6) %}
+      {% assign key = "item_" | append: i %}
+      {% assign item_text = items[key] %}
+      {% if item_text != blank %}
+        <div style="display: flex; align-items: center; gap: 8px;">
+          {% render 'check-icon' %}
+          <span>{{ item_text }}</span>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
