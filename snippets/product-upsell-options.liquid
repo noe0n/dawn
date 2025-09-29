@@ -1,21 +1,15 @@
 
-{% assign upsell_product_1 = product.variants[0] %}
-{% assign upsell_product_2 = product.variants[1] %}
+{%- assign upsell_variant_1 = product.variants[0] -%}
+{%- assign upsell_variant_2 = product.variants[1] -%}
 {% assign current_product = product %}
 <div class="product-upsell-grid" id="shop-now" style="display: flex; gap: 16px; margin-top: 32px;" data-upsell-grid>
 
-  <div class="product-upsell-card is-selected" data-variant-id="{{ current_product.selected_or_first_available_variant.id }}">
-    {% render 'upsell-card', product: current_product %}
-  </div>
+  {%- for v in product.variants limit:3 -%}
+    <div class="product-upsell-card {% if forloop.first %}is-selected{% endif %}" data-variant-id="{{ v.id }}">
+      {% render 'upsell-card', variant: v %}
+    </div>
+  {%- endfor -%}
 
- 
-  <div class="product-upsell-card" data-variant-id="{{ upsell_product_1.selected_or_first_available_variant.id }}">
-    {% render 'upsell-card', product: upsell_product_1 %}
-  </div>
-
-  <div class="product-upsell-card" data-variant-id="{{ upsell_product_2.selected_or_first_available_variant.id }}">
-    {% render 'upsell-card', product: upsell_product_2 %}
-  </div>
 </div>
 
 <script>
