@@ -3468,3 +3468,10 @@ details-disclosure > details {
     width: 1rem;
     pointer-events: none;
 }
+@media screen and (max-width: 450px) {
+    .badgeContainer>img {
+        width: 50% !important;
+        height: 50% !important;
+        margin: 0 !important;
+    }
+}
