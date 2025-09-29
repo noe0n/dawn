@@ -3474,4 +3474,7 @@ details-disclosure > details {
         height: 50% !important;
         margin: 0 !important;
     }
+    .badgeContainer {
+        width: 47px !important;
+    }
 }
