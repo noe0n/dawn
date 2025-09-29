@@ -270,6 +270,7 @@ width:inherit!important;}
 
 .cart-drawer .cart-item > td + td {
   padding-left: 1rem;
+
 }
 
 .cart-drawer .cart-item__details {
@@ -307,6 +308,11 @@ width:inherit!important;}
   .cart-drawer .cart-item cart-remove-button {
     margin-left: -1rem;
   }
+  .cart-drawer .cart-item > td + td {
+    min-width: 100px;
+    height: fit-content;
+  }
+  ..cart-drawer .cart-item__price-wrapper .cart-item__discounted-prices{flex-direction:row!important;}
 }
 
 .cart-drawer__footer > * + * {
