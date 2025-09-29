@@ -74,6 +74,7 @@ cart-drawer:not(.is-empty) .cart-drawer__collection {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  display:block;
 }
 
 .drawer__heading {
