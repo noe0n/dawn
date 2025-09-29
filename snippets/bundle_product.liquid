@@ -1,0 +1,304 @@
+{%- assign collection = collections[block.settings.collection] -%}
+
+<style>
+  #bundle--{{ block.id }} {
+    /*background-color: {{ block.settings.color_bg_fix }};*/
+    {% unless block.settings.color_bg_fix == "rgba(0,0,0,0)" %}{% endunless %}
+    {% if block.settings.border %}border: 1px solid {{ block.settings.color_border }};{% endif %}
+  }
+  #bundle--{{ block.id }} .bundle_subtitle { color: {{ block.settings.color_subtitle }}; }
+  #bundle--{{ block.id }} .bundle_title { color: {{ block.settings.color_title }}; }
+  #bundle--{{ block.id }} .bundle_compare_at_price { color: {{ block.settings.color_compare_at_price }}; }
+  #bundle--{{ block.id }} .bundle_price { color: {{ block.settings.color_price }}; }
+  #bundle--{{ block.id }} .bundle_savings_text, #bundle--{{ block.id }} .bundle_savings { color: {{ block.settings.color_savings }}; }
+  .bundle-swiper-wrapper .bundle-swiper-button-prev:after{content: '';}
+
+.bundle-swiper-button-prev.swiper-button-disabled:after{content: '';}
+.bundle-swiper-wrapper .bundle-swiper-button-next:after{content: '';}
+
+.bundle-swiper-wrapper {
+  position: relative;
+  overflow: visible; 
+  width: 100%;
+  background: #f5f5f5;
+  padding:12px;
+  border-radius: 10px;
+}
+
+.bundle-swiper-wrapper .swiper {
+  overflow: hidden; 
+  border: 1px solid #e2e2e2;
+  border-radius: 10px;
+  background: #fff;
+}
+.bundle-swiper-button-next, .bundle-swiper-button-prev {
+    position: absolute;
+    top: 40%;
+    width: calc(var(--swiper-navigation-size) / 44 * 27);
+    height: var(--swiper-navigation-size);
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bundle_container .bundle-swiper-wrapper .swiper .swiper-slide{text-align: left;display:flex;}
+.bundle_subtitle p{padding-left:0;}
+
+@media screen and (min-width: 1551px){
+  .bundle-swiper-wrapper .bundle-swiper-button-prev{left: -22px;}
+  .bundle-swiper-wrapper .bundle-swiper-button-next{right: -25px;}
+}
+@media screen and (min-width: 641px) and (max-width: 1550px) {
+.bundle-swiper-wrapper .bundle-swiper-button-prev{left: 0px;}
+.bundle-swiper-wrapper .bundle-swiper-button-next{right: 0px;}
+  
+}
+@media screen and (max-width: 640px) {
+.bundle-swiper-wrapper .bundle-swiper-button-prev{left: -22px;}
+.bundle-swiper-wrapper .bundle-swiper-button-next{right: -22px;}
+.bundle-swiper-button-next, .bundle-swiper-button-prev{top:30%!important;}
+  .submitflex{
+    bottom: -5px !important;
+    width: 35px !important;
+    height: 35px !important;
+    right: 10px !important;
+  }
+}
+    .bundle_container .swiper-slide{justify-content: start;}
+.bundle_minimalist.bundle_product{position:relative;}
+.submitflex{display: flex;justify-content: center;align-items: center;background-color: #021D21;border-radius: 9999px;width: 48px;height: 48px;position: absolute;right:28px;bottom:30px;}
+.submitflex svg{
+    height: 1.25rem;
+    width: 1.25rem;
+    fill:#fff;
+}
+.swiper-pagination-bullet-active{background:#000!important;}
+.submitflex .bundle_atc{line-height: 1;}
+.bundle-option-label{font-size:13px;color:#000;}
+</style>  
+{%- assign compare_price = 0 -%}
+{%- assign percentage_amount = 0 -%}
+{%- assign savings = 0 -%}
+{%- assign total = 0 -%}
+{%- assign price = 0 -%}
+{%- assign difference = 0 -%}
+
+{%- for product in collection.products -%}
+
+{%- unless product.tags contains 'offert' -%}
+{%- assign price = price | plus: product.price_min -%}
+{%- endunless -%}
+
+{%- if product.tags contains 'offert' -%}
+{%- if block.settings.offer_percentage == "full" -%}
+
+{%- if product.compare_at_price_min > product.price_min -%}
+{%- assign savings = savings | plus: product.compare_at_price_min -%}
+{%- assign total = total | plus: product.compare_at_price_min -%}
+{%- else -%}
+{%- assign savings = savings | plus: product.price_min -%}
+{%- assign total = total | plus: product.price_min -%}
+{%- endif -%}
+
+{%- else -%}
+
+{%- assign percentage_offer = block.settings.percentage_offer | times: 0.01 -%}
+{%- assign percentage_amount = percentage_amount | plus: product.price_min | times: percentage_offer -%}
+{%- assign price = price | plus: product.price_min | minus: percentage_amount -%}
+{%- if product.compare_at_price_min > product.price_min -%}
+{%- assign difference = product.compare_at_price_min | minus: product.price_min -%}
+{%- assign savings = savings | plus: difference | plus: percentage_amount -%}
+{%- assign total = total | plus: product.compare_at_price_min -%}
+{%- else -%}
+{%- assign savings = savings | plus: percentage_amount -%}
+{%- assign total = total | plus: product.price_min -%}
+{%- endif -%}
+
+{%- endif -%}
+{%- endif -%}
+
+{%- unless product.tags contains 'offert' -%}
+{%- if product.compare_at_price_min > product.price_min -%}
+{%- assign total = total | plus: product.compare_at_price_min -%}
+{%- assign difference = product.compare_at_price_min | minus: product.price_min -%}
+{%- assign savings = savings | plus: difference -%}
+{%- else -%}
+{%- assign total = total | plus: product.price_min -%}
+{%- endif -%}
+{%- endunless -%}
+
+{%- endfor -%}
+
+
+  
+<div id="bundle--{{ block.id }}" class="{{ block.settings.sm_style }} bundle_product {{ section.settings.sh_bundle }}">
+  <div class="bundle_container{% if block.settings.sm_style != "bundle_minimalist" %} small--text-{{ block.settings.alignement_sm }}{% endif %}">
+{% comment %}
+    {% if block.settings.image %}
+      <img class="bundle_image {{ block.settings.sh_image }} {{ section.settings.a_bundle }} lazy{% if settings.lazyload_type == "blur" %} lazyBlur{% endif %}"
+           data-src="{{ block.settings.image | img_url: 'master' }}"
+           {% if settings.lazyload_type == "color" %}src="{{ block.settings.image | img_url: '1x' }}"{% elsif settings.lazyload_type == "blur" %}src="{{ block.settings.image | img_url: '100x' }}"{% endif %}
+           alt="{{ block.settings.image.alt | escape }}"
+           {% if block.settings.alignement_sm == "center" and block.settings.sm_style != "bundle_minimalist" %}style="margin-left: auto; margin-right: auto;"{% endif %}>
+    {% endif %}
+{% endcomment %}
+  <div class="bundle-swiper-wrapper">
+    <div class="swiper bundle-swiper-{{ block.id }}">
+      <div class="swiper-wrapper">
+        {% for product in collection.products %}
+        {% if product.available %}
+        <div class="swiper-slide">
+          <div class="paddingslide">
+           <img
+              class="bundle_image"
+              src="{{ product.featured_image | img_url: '500x' }}"
+              alt="{{ product.title }}"
+              loading="lazy"
+            >
+          <form method="post"
+                action="/cart/add"
+                enctype="multipart/form-data"
+                class="product-form bundle_product_form"
+                data-productid="{{ product.id }}">
+
+            <div class="bundle_slide_content">
+              <div class="bundle_text">
+                <span class="bundle_subtitle {{ section.settings.a_bundle }}">{{ block.settings.subtitle }}</span>
+                <span class="bundle_title {{ section.settings.a_bundle }}">{{ product.title }}</span>
+                {% if product.variants.size > 1 %}
+                <div class="bundle-product-variant_selector">
+                  {% for option in product.options_with_values %}
+                  <label class="bundle-option-label">{{ option.name }}</label>
+                  <select name="id">
+                    {% for variant in product.variants %}
+                      {% if variant.available %}
+                        <option value="{{ variant.id }}">
+                          {{ variant.title }} - {{ variant.price | money_without_trailing_zeros }}
+                        </option>
+                      {% else %}
+                        <option value="{{ variant.id }}" disabled>
+                          {{ variant.title }} — {{ 'products.product.sold_out' | t }}
+                        </option>
+                      {% endif %}
+                    {% endfor %}
+                  </select>
+                {%  endfor %}
+                </div>
+                {% else %}<br/>
+                {% endif %}
+                {% assign hasvariant = false %}
+                {% if product.variants.size > 1 %}
+                    {% assign hasvariant = true %}
+                {% endif %}
+                {% if hasvariant %}
+
+                {% else %}
+                {% if product.compare_at_price_min > product.price_min %}
+                  <span class="bundle_compare_at_price {{ section.settings.a_bundle }}">
+                    <del>{{ product.compare_at_price_min | money_without_trailing_zeros }}</del>
+                  </span>
+                {% endif %}
+                <span class="bundle_price {{ section.settings.a_bundle }}{% if product.compare_at_price_min > product.price_min %} bundle_on_sale{% endif %}">
+                  {{ product.price_min | money_without_trailing_zeros }}
+                </span>
+                {% endif %}
+              </div>
+
+              <div class="bundle_cta text-left {{ section.settings.a_bundle }}"
+                   {% if block.settings.alignement_sm == "center" and block.settings.sm_style != "bundle_minimalist" %}style="margin-left: auto; margin-right: auto;"{% endif %}>
+                {% if block.settings.direct_checkout %}
+                <input type="hidden" name="return_to" value="/checkout/" />
+                {% endif %}
+                <div class="submitflex">
+                  <button type="submit"
+                          class="add-to-cart btn--add-to-cart bundle_atc"style="display: flex;align-items: center;justify-content: center;background: transparent;border: none;">
+                   <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fff" class="size-5 text-body group-hover/quick-buy:rotate-90 transition-transform duration-150" preserveAspectRatio="xMidYMid meet" aria-hidden="true" focusable="false" role="presentation" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15"></path></svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+          </div>
+        
+        {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+    <div class="bundle-swiper-button-prev">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6 text-body">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5"></path>
+        </svg>
+      </div>
+      <div class="bundle-swiper-button-next"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6 text-body">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5"></path>
+      </svg>
+      </div>
+      <div class="swiper-pagination"></div>
+  </div>
+  </div>
+</div>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    new Swiper(".bundle-swiper-{{ block.id }}", {
+      slidesPerView: 1,
+      spaceBetween: 0,
+      navigation: {
+        nextEl: ".bundle-swiper-button-next",
+        prevEl: ".bundle-swiper-button-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      on: {
+        init: function () {
+          reInitProductForms();
+        },
+        slideChange: function () {
+          reInitProductForms();
+        }
+      }
+    });
+  });
+  function reInitProductForms() {
+  document.querySelectorAll('form[action="/cart/add"]').forEach(form => {
+    if (!form.classList.contains('initialized')) {
+      form.classList.add('initialized');
+
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        const formData = new FormData(form);
+
+        fetch('/cart/add.js', {
+          method: 'POST',
+          body: formData
+        })
+        .then(res => res.json())
+        .then(data => {
+          if (typeof ajaxCart !== 'undefined' && typeof ajaxCart.load === 'function') {
+            ajaxCart.load(); // recharge contenu + ouvre drawer
+          } else {
+            window.location.href = '/cart'; // fallback
+          }
+        });
+      });
+    }
+  });
+}
+
+</script>
+<style>
+  #bundle--{{ block.id }} .swiper-slide .paddingslide {
+    padding: 12px;
+    display:flex;
+  }
+  .bundle_subtitle p{padding-left:0!important;}
+  #bundle--{{ block.id }} .swiper-slide form{margin-top:0;}
+  #bundle--{{ block.id }} .swiper-slide .bundle_text{min-height:90px;}
+</style>
+
+
+
+
