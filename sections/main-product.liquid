@@ -735,6 +735,106 @@
       "type": "@app"
     },
     {
+      "type": "product_bundle_glx",
+      "name": "Upsell GLX",
+      "settings": [
+        {
+        "type": "richtext",
+        "id": "title",
+        "label": "Titre",
+        "default": "<p>Lorem ipsum !</p>"
+        },
+        {
+          "type": "text",
+          "id": "bundle_title",
+          "label": "Titre du Bundle",
+          "default": "Taille"
+        },
+        {
+        "type": "richtext",
+        "id": "subtitle",
+        "label": "Sous-titre",
+        "default": "<p>Offre limitée</p>"
+        },
+        {
+        "type": "select",
+        "id": "choix_title",
+        "label": "Style du titre",
+        "default": "h2--1",
+        "info": "Les styles de titre sont personnalisables dans les paramètres généraux du thème.",
+        "options": [
+        { "value": "h2--1", "label": "Style 1" },
+        { "value": "h2--2", "label": "Style 2" },
+        { "value": "h2--3", "label": "Sytle 3" }
+        ]
+        },
+        {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+        },
+        {
+        "type": "select",
+        "id": "sh_image",
+        "label": "Ombre sur l'image",
+        "default": "",
+        "options": [
+        { "value": "", "label": "Pas d'ombres" },
+        { "value": "sh--1", "label": "Style 1" },
+        { "value": "sh--2", "label": "Style 2" },
+        { "value": "sh--3", "label": "Sytle 3" }
+        ]
+        },
+        {
+        "type": "collection",
+        "id": "collection",
+        "label": "Collection"
+        },
+        {
+        "type": "select",
+        "id": "sm_style",
+        "label": "Style du bundle sur mobile",
+        "default": "bundle_minimalist",
+        "options": [
+        { "value": "bundle_minimalist", "label": "Minimaliste" },
+        { "value": "bundle_full", "label": "Complet" }
+        ]
+        },
+        {
+        "type": "select",
+        "id": "alignement_sm",
+        "label": "Alignement des éléments sur mobile",
+        "default": "left",
+        "info": "Utile seulement si le style complet est sélectionné ci-dessus",
+        "options": [
+        { "value": "left", "label": "Gauche" },
+        { "value": "center", "label": "Centré" }
+        ]
+        },
+        {
+        "type": "select",
+        "id": "offer_percentage",
+        "label": "Style de l'offre",
+        "default": "full",
+        "options": [
+          { "value": "full", "label": "1 produit offert" },
+          { "value": "50%", "label": "1 produit en réduction" }
+        ]
+        },
+        {
+        "type":      "range",
+        "id":        "percentage_offer",
+        "min":       5,
+        "max":        95,
+        "step":       1,
+        "unit":       "%",
+        "label":     "Montant de la réduction",
+        "info": "Utile si le style de l'offre est le produit en réduction.",
+        "default":   50
+        },
+      ]
+    },
+    {
       "type": "livraison",
       "name": "Livraison",
       "limit": 1,
