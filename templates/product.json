@@ -93,6 +93,21 @@
             "content": "<p><strong>Kit SideLights Beamkit</strong><br/>Paire de SideLights System<br/><br/><strong>Jeu de batteries interchangeables</strong><br/>2 batteries 1400 mAh<br/><br/><strong>Outil de montage</strong><br/>Longue clé Allen pour une installation facile<br/><br/><strong>Câble de recharge</strong><br/>Câble double USB-C<br/><br/><strong>Guide d'utilisation</strong><br/>Instructions simples et visuelles étape par étape</p>",
             "page": ""
           }
+        },
+        "product_bundle_glx_k8VWVt": {
+          "type": "product_bundle_glx",
+          "settings": {
+            "title": "<p>Lorem ipsum !</p>",
+            "bundle_title": "Taille",
+            "subtitle": "<p>Offre limitée</p>",
+            "choix_title": "h2--1",
+            "sh_image": "",
+            "collection": "decouvrez-aussi",
+            "sm_style": "bundle_minimalist",
+            "alignement_sm": "left",
+            "offer_percentage": "full",
+            "percentage_offer": 50
+          }
         }
       },
       "block_order": [
@@ -107,7 +122,8 @@
         "livraison_nzftTG",
         "description",
         "collapsible-row-0",
-        "collapsible_tab_UC3ePH"
+        "collapsible_tab_UC3ePH",
+        "product_bundle_glx_k8VWVt"
       ],
       "settings": {
         "enable_sticky_info": true,
