@@ -26,8 +26,8 @@
         "caption": {
           "type": "text",
           "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
+            "text": "<strong>Offre spéciale</strong>, livraison janvier 2026",
+            "text_style": "body"
           }
         },
         "price": {
