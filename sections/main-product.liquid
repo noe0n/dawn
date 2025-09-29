@@ -148,7 +148,8 @@
                 </div>
                 {% when  'livraison' %}
                 {% render 'block-livraison', block: block %}
-              
+               {% when 'included_checklist' %}
+                  {% render 'product-included-checks', block: block %}
               {%- when 'inventory' -%}
                 <p
                   class="product__inventory{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.inventory_management != 'shopify' %} visibility-hidden{% endif %}"
@@ -736,25 +737,69 @@
       "type": "@app"
     },
     {
-  "type": "livraison",
-  "name": "Livraison",
-  "limit": 1,
-  "settings": [
-    {
-      "type": "text",
-      "id": "teaser_title",
-      "label": "teaser title",
-      "default": "Livraison gratuite"
+      "type": "livraison",
+      "name": "Livraison",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "teaser_title",
+          "label": "teaser title",
+          "default": "Livraison gratuite"
+        },
+        {
+          "type": "checkbox",
+          "id": "phrase_seule",
+          "label": "Afficher seulement une phrase",
+          "default": false
+        },
+        
+      ]
     },
     {
-      "type": "checkbox",
-      "id": "phrase_seule",
-      "label": "Afficher seulement une phrase",
-      "default": false
+      "type": "included_checklist",
+      "name": "Checklist produit",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Titre",
+          "default": "What’s Included:"
+        },
+        {
+          "type": "text",
+          "id": "item_1",
+          "label": "Élément 1",
+          "default": "Vibro Sculpt Pro"
+        },
+        {
+          "type": "text",
+          "id": "item_2",
+          "label": "Élément 2",
+          "default": "Pro Sculpting Pads"
+        },
+        {
+          "type": "text",
+          "id": "item_3",
+          "label": "Élément 3"
+        },
+        {
+          "type": "text",
+          "id": "item_4",
+          "label": "Élément 4"
+        },
+        {
+          "type": "text",
+          "id": "item_5",
+          "label": "Élément 5"
+        },
+        {
+          "type": "text",
+          "id": "item_6",
+          "label": "Élément 6"
+        }
+      ]
     },
-    
-  ]
-},
     {
       "type": "text",
       "name": "t:sections.main-product.blocks.text.name",
