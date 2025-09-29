@@ -34,18 +34,6 @@
           "type": "price",
           "settings": {}
         },
-        "included_checklist_XWFWeh": {
-          "type": "included_checklist",
-          "settings": {
-            "title": "What’s Included:",
-            "item_1": "Vibro Sculpt Pro",
-            "item_2": "Pro Sculpting Pads",
-            "item_3": "",
-            "item_4": "",
-            "item_5": "",
-            "item_6": ""
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "disabled": true,
@@ -100,7 +88,6 @@
         "title",
         "caption",
         "price",
-        "included_checklist_XWFWeh",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
