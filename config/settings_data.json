@@ -124,6 +124,13 @@
     "cart_type": "drawer",
     "show_vendor": false,
     "show_cart_note": false,
+    "couleur-fond-s": "#000000",
+    "recommand_products": [
+      "poignees",
+      "miroir",
+      "batterie"
+    ],
+    "fsb_threshold": 100,
     "cart_drawer_collection": "",
     "cart_color_scheme": "scheme-4",
     "sections": {
