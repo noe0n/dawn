@@ -1,0 +1,483 @@
+<style>
+  .bs-teaser-container {
+    padding: 0px;
+  }
+  .bs-teaser-container .bs-teaser-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    border: 1px solid #000;
+    padding: 5px 20px;
+    margin-bottom: 10px;
+  }
+  .bs-teaser-container .bs-teaser-content .bs-icon {
+    width: fit-content;
+  }
+  .bs-teaser-container .bs-teaser-content .bs-icon svg {
+    width: 25px;
+    margin-top: -4px;
+    display: inline-block;
+  }
+  .bs-teaser-container .bs-teaser-content .bs-info-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .bs-teaser-container .bs-teaser-content .bs-info-wrap .bs-title {
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 150%;
+    margin: 0;
+    padding: 0;
+  }
+  .bs-teaser-container .bs-teaser-content .bs-info-wrap .bs-info, .bs-teaser-container .bs-teaser-content .bs-info-wrap .bs-delay {
+    font-size: 13px;
+    line-height: normal;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 0;
+    font-weight: 400;
+  }
+  .bs-teaser-container .bs-teaser-content .bs-info-wrap .bs-delay .bs-colorize {
+    color: {{block.settings.delay_color}};
+    font-weight: 800;
+  }
+
+  @media (max-width: 768px) {
+    .bs-teaser-container .bs-teaser-content .bs-icon svg{
+      width: 25px;
+    }
+    .bs-teaser-container .bs-teaser-content .bs-info-wrap .bs-info, .bs-teaser-container .bs-teaser-content .bs-info-wrap .bs-delay {
+      font-size: 12px;
+    }
+  }
+</style>
+
+{% if block.settings.phrase_seule %}
+<div class="bs-teaser-container">
+  <div class="bs-teaser-content">
+    <div class="containerflexh">
+      <div class="bs-info-wrap">
+        <div class="bs-title">{% if product.available %}
+     <div id="stock-display">
+       <span class="green-dot"></span>
+       <span style="font-weight:bold;">En stock - </span>
+    </div>
+      {% endif %}<span id="delivery_date2">&nbsp;{{ block.settings.teaser_title }}
+         {% assign jexpedition2 = block.settings['time-livraison1'] | times: 86400 %}
+         {% assign jexpedition3 = block.settings['time-livraison2'] | times: 86400 %}     
+              {{ 'now' | date: '%s' | plus: jexpedition2 | date: '%d' }}{{
+                'now'
+                | date: '%s'
+                | plus: jexpedition2
+                | date: '%B'
+                | replace: 'January', '/01'
+                | replace: 'February', '/02'
+                | replace: 'March', '/03'
+                | replace: 'May', '/04'
+                | replace: 'April', '/05'
+                | replace: 'June', '/06'
+                | replace: 'July', '/07'
+                | replace: 'August', '/08'
+                | replace: 'September', '/09'
+                | replace: 'October', '/10'
+                | replace: 'November', '/11'
+                | replace: 'December', '/12'
+              }}&nbsp;et le&nbsp;{{ 'now' | date: '%s' | plus: jexpedition3 | date: '%d' }}{{
+                'now'
+                | date: '%s'
+                | plus: jexpedition3
+                | date: '%B'
+                | replace: 'January', '/01'
+                | replace: 'February', '/02'
+                | replace: 'March', '/03'
+                | replace: 'May', '/04'
+                | replace: 'April', '/05'
+                | replace: 'June', '/06'
+                | replace: 'July', '/07'
+                | replace: 'August', '/08'
+                | replace: 'September', '/09'
+                | replace: 'October', '/10'
+                | replace: 'November', '/11'
+                | replace: 'December', '/12'
+              }} 
+      </span></div>
+      
+      </div>
+  </div>
+</div>
+</div>
+  <style>
+ @media (max-width: 768px) {
+    .bs-teaser-container .bs-teaser-content .bs-info-wrap .bs-title{
+      font-size:14px!important;
+    }
+  }
+
+     #stock-display{display:flex;gap:4px;align-items:center;}
+  #stock-text{font-weight:bold;}
+  .green-dot {
+    background: #0de440;
+    height: 10px;
+    width: 10px;
+    border-radius: 20px;
+    animation: greendot 2s linear infinite;
+    transform: scale(1);
+    margin-right: 7px;
+    margin-left: 3px;
+}
+.bs-teaser-container .bs-teaser-content .bs-info-wrap .bs-title {
+    font-weight: normal;
+    font-size: 15px;
+    letter-spacing: 0;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.bs-teaser-container .bs-teaser-content{border:0!important;}
+  @keyframes greendot{
+    0% {
+    transform: scale(.95);
+    box-shadow: 0 0 #21e082;
+    }
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px #f4af2900;
+    }
+    100% {
+        transform: scale(.95);
+        box-shadow: 0 0 #f4af2900;
+    }
+  }
+</style>
+{% else %}
+<div class="bs-teaser-container"style="margin-top:10px;">
+  <div class="bs-teaser-content">
+    <div class="containerflexh">
+      <div class="bs-icon">
+       <img width="25" height="25" src="https://img.icons8.com/ink/48/truck.png" style="margin-top:-5px;"alt="truck"/>
+      </div>
+      <div class="bs-info-wrap">
+        <div class="bs-title"><span id="delivery_date2 ">{{ block.settings.teaser_title }}
+         {% assign jexpedition2 = block.settings['time-livraison1'] | times: 86400 %}
+              
+              {{ 'now' | date: '%s' | plus: jexpedition2 | date: '%d' }}
+              {{
+                'now'
+                | date: '%s'
+                | plus: jexpedition2
+                | date: '%B'
+                | replace: 'January', 'Janvier'
+                | replace: 'February', 'Fevrier'
+                | replace: 'March', 'Mars'
+                | replace: 'May', 'Mai'
+                | replace: 'April', 'Avril'
+                | replace: 'June', 'Juin'
+                | replace: 'July', 'Juillet'
+                | replace: 'August', 'Août'
+                | replace: 'October', 'Octobre'
+                | replace: 'November', 'Novembre'
+                | replace: 'September', 'Septembre'
+                | replace: 'December', 'Decembre'
+              }}
+            
+</span></div>
+        
+      </div>
+  </div>
+    <div class="bs2-teaser-container">
+    <div class="bs2-teaser-inner">
+      <div class="bs2-teaser-col">
+        <div class="bs2-teaser-icon">
+          <img src="{{ block.settings.icon1 | img_url: "master"}}" width="{{ block.settings.icon-livrwidth1}}" height="{{ block.settings.icon-livrwidth1}}">
+        </div>
+        <strong>Commandez aujourd'hui</strong>
+         <span> {{ 'now' | date: '%s' |  date: '%d' }} {{
+                'now'
+                | date: '%s'
+                | plus: 0
+                | date: '%B'
+                | replace: 'January', 'Janvier'
+                | replace: 'February', 'Fevrier'
+                | replace: 'March', 'Mars'
+                | replace: 'May', 'Mai'
+                | replace: 'April', 'Avril'
+                | replace: 'June', 'Juin'
+                | replace: 'July', 'Juillet'
+                | replace: 'August', 'Août'
+                | replace: 'October', 'Octobre'
+                | replace: 'November', 'Novembre'
+                | replace: 'September', 'Septembre'
+                | replace: 'December', 'Decembre'
+              }}</span>
+      </div>
+      <div class="bs2-teaser-col">
+        <div class="bs2-teaser-icon">
+         <img src="{{ block.settings.icon2 | img_url: "master"}}" width="{{ block.settings.icon-livrwidth2}}" height="{{ block.settings.icon-livrwidth2}}">
+        </div>
+        <strong>Commande expédiée</strong>
+        <span id="shipping_date">
+          {% assign hour_now = 'now' | date: "%H" | plus: 0 %}
+          {% assign jexpedition1 = block.settings['time-expedition'] | times: 86400 %}
+        
+          
+            {{ 'now' | date: '%s' | plus: jexpedition1 | date: '%d' }}
+            {{
+              'now'
+              | date: '%s'
+              | plus: jexpedition1
+              | date: '%B'
+              | replace: 'January', 'Janvier'
+              | replace: 'February', 'Fevrier'
+              | replace: 'March', 'Mars'
+              | replace: 'May', 'Mai'
+              | replace: 'April', 'Avril'
+              | replace: 'June', 'Juin'
+              | replace: 'July', 'Juillet'
+              | replace: 'August', 'Août'
+              | replace: 'October', 'Octobre'
+              | replace: 'November', 'Novembre'
+              | replace: 'September', 'Septembre'
+              | replace: 'December', 'Decembre'
+            }}
+        </span>
+      </div>
+      <div class="bs2-teaser-col">
+        <div class="bs2-teaser-icon">
+         <img src="{{ block.settings.icon3 | img_url: "master"}}" width="{{ block.settings.icon-livrwidth3}}" height="{{ block.settings.icon-livrwidth3}}">
+        </div>
+        <strong>Livraison estimée</strong>
+        <span id="delivery_date">
+         {% assign jexpedition2 = block.settings['time-livraison1'] | times: 86400 %}
+           {% assign jexpedition3 = block.settings['time-livraison2'] | times: 86400 %} 
+              {{ 'now' | date: '%s' | plus: jexpedition2 | date: '%d' }} 
+              {{
+                'now'
+                | date: '%s'
+                | plus: jexpedition2
+                | date: '%B'
+                | replace: 'January', 'Janvier'
+                | replace: 'February', 'Fevrier'
+                | replace: 'March', 'Mars'
+                | replace: 'May', 'Mai'
+                | replace: 'April', 'Avril'
+                | replace: 'June', 'Juin'
+                | replace: 'July', 'Juillet'
+                | replace: 'August', 'Août'
+                | replace: 'October', 'Octobre'
+                | replace: 'November', 'Novembre'
+                | replace: 'September', 'Septembre'
+                | replace: 'December', 'Decembre'
+              }}
+        
+              <!-- {{ 'now' | date: '%s' | plus: jexpedition3 | date: '%d' }}
+              {{
+                'now'
+                | date: '%s'
+                | plus: jexpedition3
+                | date: '%B'
+                | replace: 'January', 'Janvier'
+                | replace: 'February', 'Fevrier'
+                | replace: 'March', 'Mars'
+                | replace: 'May', 'Mai'
+                | replace: 'April', 'Avril'
+                | replace: 'June', 'Juin'
+                | replace: 'July', 'Juillet'
+                | replace: 'August', 'Août'
+                | replace: 'October', 'Octobre'
+                | replace: 'November', 'Novembre'
+                | replace: 'September', 'Septembre'
+                | replace: 'December', 'Decembre'
+              }} -->
+</span>
+      </div>
+    </div>
+  </div>
+    <!-- <div class="text-center"style="width:100%;"><span style="font-size:12px!important;font-style: italic;">Prévoyez un jour de délai supplémentaire pour les dimanches et jours feriés</span> -->
+  </div>
+</div>
+</div>
+{% endif %}
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+  new Swiper(".bs-swiper", {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    autoplay: true,
+    loop: true,
+    speed: 1000,
+  });
+});
+</script>
+<style>
+
+.bs-icon img {
+  display: block;
+}
+.bs-swiper .swiper-slide {
+  width: auto;
+}
+  .flexv{
+    display:flex;
+    flex-direction:column;
+    justify-content: left;
+    text-align: left;
+    
+  }
+  .bs-swiper .swiper-slide{
+    justify-content:left!important;
+  }
+  .flexvspan1{
+    font-size:13px!important;
+  }
+  .flexvspan2{
+    font-size:13px!important;
+    line-height:normal;
+    color:#a4a4a4;
+  }
+  .bs-icon svg {
+    width: 25px;
+  }
+  .deliverydate2{font-size:18px;font-weight:normal;}
+  .containerflexh{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items:center;
+  }
+  .bs-teaser-container {
+    padding: 0px;
+  }
+  .bs-teaser-container .bs-teaser-content {
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    gap: 20px;
+    border: 1px solid #e2e2e2;
+    padding: 5px 20px;
+    margin-bottom: 10px;
+  }
+  .bs-teaser-container .bs-teaser-content .bs-icon {
+    width: fit-content;
+  }
+  .bs-teaser-container .bs-teaser-content .bs-icon svg {
+    width: 25px;
+    margin-top: -4px;
+    display: inline-block;
+  }
+  .bs-teaser-container .bs-teaser-content .bs-info-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .bs-teaser-container .bs-teaser-content .bs-info-wrap .bs-title {
+    font-weight: normal;
+    font-size: 15px;
+    letter-spacing: 0;
+    
+    margin: 0;
+    padding: 0;
+  }
+  .bs-teaser-container .bs-teaser-content .bs-info-wrap .bs-info, .bs-teaser-container .bs-teaser-content .bs-info-wrap .bs-delay {
+    font-size: 13px;
+    line-height: normal;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 0;
+    font-weight: 400;
+  }
+  .bs-teaser-container .bs-teaser-content .bs-info-wrap .bs-delay .bs-colorize {
+    color: {{block.settings.delay_color}};
+    font-weight: 800;
+  }
+
+  @media (max-width: 768px) {
+    .bs-teaser-container .bs-teaser-content .bs-icon svg{
+      width: 25px;
+    }
+    .bs-teaser-container .bs-teaser-content .bs-info-wrap .bs-info, .bs-teaser-container .bs-teaser-content .bs-info-wrap .bs-delay {
+      font-size: 12px;
+    }
+  }
+  .bs2-teaser-container{margin-bottom:10px;width:100%;}
+</style>
+
+  
+
+
+
+<style>
+  .bs2-teaser-inner {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+  }
+
+  .bs2-teaser-inner::before {
+    content: '';
+    border-bottom: 1px dashed #2b195a;
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    top: 23px;
+    z-index: -1;
+  }
+
+  .bs2-teaser-icon {
+    width: 50px;
+    height: 50px;
+    background: {{block.settings.fond_icones}}!important;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4px;
+    font-size: 12px;
+    border: 4px solid white;
+  }
+
+  .bs2-teaser-icon svg {
+    width: 20px;
+  }
+
+  .bs2-teaser-icon i {
+    font-size: 18px;
+  }
+
+  .bs2-teaser-col {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .bs2-teaser-col:first-child::before,
+  .bs2-teaser-col:last-child::before {
+    content: '';
+    width: 50%;
+    left: 0;
+    top: 20px;
+    height: 5px;
+    background: white;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .bs2-teaser-col:last-child::before {
+    left: unset;
+    right: 0;
+  }
+  
+</style>
+
+
+
+
