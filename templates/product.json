@@ -94,7 +94,7 @@
           "settings": {
             "heading": "Compatibilité",
             "icon": "ruler",
-            "content": "<p>SideLights est compatible selon deux conditions : </p><ul><li>Le diamètre interne (trou dans le guidon) mesure au minimum 15mm, sur 12cm de longueur.</li><li>L’angle du guidon qui tend vers le cycliste (backsweep) ne dépasse pas 30°.</li></ul>",
+            "content": "<p>SideLights est compatible avec 80% des vélos/trottinettes, selon deux conditions : </p><ul><li>Le diamètre interne (trou dans le guidon) mesure au minimum 15mm, sur 12cm de longueur.</li><li>L’angle du guidon qui tend vers le cycliste (backsweep) ne dépasse pas 30°.</li></ul>",
             "page": ""
           }
         },
