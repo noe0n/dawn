@@ -75,7 +75,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Spécifications",
-            "icon": "leather",
+            "icon": "box",
             "content": "<p><strong>Double feux avant</strong></p><ul><li>Feux de position : 150 lm</li><li>Feux de route : 500 lm</li></ul><p><strong>Feux de visibilité</strong></p><ul><li>Feux latéraux et arrières : 100 lm</li><li>Clignotants : 100 lm par côté</li></ul><p><strong>Batterie</strong></p><ul><li>1400 mAh par côté</li><li>Recharge USB-C</li><li>Système de batterie interchangeable</li></ul><p><strong>Autonomie</strong></p><p>Mode visibilité 360°</p><ul><li>Feux de position : 5 h</li><li>Feux de route : 2,5 h</li></ul><p>Clignotants uniquement : 10 h</p><p><strong>Poids</strong></p><ul><li>Poids total (batteries incluses) : 250 g</li></ul><p><a href=\"https://sidelights.com/pages/faq\">Plus d'informations</a></p>",
             "page": ""
           }
@@ -86,6 +86,15 @@
             "heading": "Ce qui est inclus",
             "icon": "check_mark",
             "content": "<p><strong>Kit SideLights Beamkit</strong><br/>Paire de SideLights System<br/><br/><strong>Jeu de batteries interchangeables</strong><br/>2 batteries 1400 mAh<br/><br/><strong>Outil de montage</strong><br/>Longue clé Allen pour une installation facile<br/><br/><strong>Câble de recharge</strong><br/>Câble double USB-C<br/><br/><strong>Guide d'utilisation</strong><br/>Instructions simples et visuelles étape par étape</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_iqQBpb": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Compatibilité",
+            "icon": "ruler",
+            "content": "<p>SideLights est compatible selon deux conditions : </p><ul><li>Le diamètre interne (trou dans le guidon) mesure au minimum 15mm, sur 12cm de longueur.</li><li>L’angle du guidon qui tend vers le cycliste (backsweep) ne dépasse pas 30°.</li></ul>",
             "page": ""
           }
         },
@@ -123,6 +132,7 @@
         "description",
         "collapsible-row-0",
         "collapsible_tab_UC3ePH",
+        "collapsible_tab_iqQBpb",
         "product_bundle_glx_k8VWVt"
       ],
       "settings": {
