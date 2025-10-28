@@ -42,7 +42,7 @@
       {%- for media in product.media -%}
         {%- liquid
           if section.settings.hide_variants and variant_images contains media.src or variant_images contains media.id
-            assign variant_image = true
+            assign variant_image = false
           else
             assign variant_image = false
           endif
