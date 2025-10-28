@@ -124,6 +124,10 @@
       "add_to_cart": "Précommander",
       "description": "Description",
       "on_sale": "En vente",
+      "preorders": "Pré-ventes |",
+       "months": {
+          "january": "Janvier"
+        },
       "product_variants": "Variantes de produits",
       "quantity": {
         "label": "Quantité",
