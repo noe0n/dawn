@@ -37,7 +37,7 @@
   {%- if variant.compare_at_price and variant.compare_at_price > variant.price -%}
   {%- assign savings = variant.compare_at_price | minus: variant.price -%}
   <div style="margin-top: 4px;">
-    <span style="display: inline-block; background: #EB1478; color: white; font-weight: bold; font-size: 10px; padding: 4px 10px; border-radius: 16px;">
+    <span style="display: inline-block; background: #FB5607; color: white; font-weight: bold; font-size: 10px; padding: 4px 10px; border-radius: 16px;">
       Économisez {{ savings | money | replace: '.10', ''  }}
     </span>
   </div>

@@ -311,7 +311,7 @@
       "custom_css": [
         ".banner {min-height: 27vh; min-height: 27svh; height: 27vh; height: 27svh;}",
         ".banner__content {min-height: 27svh;}",
-        ".button {--border-offset: 0; padding: 16px; background-color: #eb1478; color: white; font-weight: 600; border-radius: 4px !important; animation: glowing_around 2500ms infinite; animation-timing-function: ease;}",
+        ".button {--border-offset: 0; padding: 16px; background-color: #FB5607; color: white; font-weight: 600; border-radius: 4px !important; animation: glowing_around 2500ms infinite; animation-timing-function: ease;}",
         ".button:hover:after {--border-offset: 0;}",
         "@media (max-width: 749px) {.banner {min-height: 22vh; min-height: 22svh; height: 22vh; height: 22svh; } .banner__content {min-height: 22svh; }}"
       ],
