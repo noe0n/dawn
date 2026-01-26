@@ -151,7 +151,7 @@
         "buttons_TFa7mb": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Précommander SideLights",
+            "button_label_1": "Commander SideLights",
             "button_link_1": "shopify://products/eclairage-velo",
             "button_isPopup": false,
             "button_style_secondary_1": false,
