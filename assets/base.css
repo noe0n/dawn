@@ -3536,3 +3536,7 @@ details-disclosure > details {
   font-size: 1.5rem;
   cursor: pointer;
 }
+
+#OpenKlaviyoPopup{
+  background: #fb5607 !important;
+}
