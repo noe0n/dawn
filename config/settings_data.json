@@ -138,6 +138,9 @@
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
+        "custom_css": [
+          ".password-content{display:none;}"
+        ],
         "settings": {
           "color_scheme": "scheme-1"
         }
