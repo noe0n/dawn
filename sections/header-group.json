@@ -17,13 +17,21 @@
         "announcement_eJiJNR": {
           "type": "announcement",
           "settings": {
-            "text": "🚚 Livraison Janvier 2026",
+            "text": "Entrez dans une nouvelle ère avec Side Light",
+            "link": ""
+          }
+        },
+        "announcement_Yz3b4t": {
+          "type": "announcement",
+          "settings": {
+            "text": "Bienvenue dans notre boutique",
             "link": ""
           }
         }
       },
       "block_order": [
-        "announcement_eJiJNR"
+        "announcement_eJiJNR",
+        "announcement_Yz3b4t"
       ],
       "name": "t:sections.announcement-bar.presets.name",
       "settings": {
