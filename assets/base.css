@@ -3528,13 +3528,20 @@ details-disclosure > details {
 }
 
 .klaviyo-modal__close {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  background: none;
-  border: 0;
-  font-size: 1.5rem;
-  cursor: pointer;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: 0;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #FB5607;
+    font-weight: bold;
+    background: #fff;
+    border-radius: 500px;
+    padding: 10px;
+    width: 40px;
+    z-index: 9;
 }
 
 #OpenKlaviyoPopup{
