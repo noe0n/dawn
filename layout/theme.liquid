@@ -1025,6 +1025,23 @@
     overlay.addEventListener('click', closeModal);
   });
 </script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const btn = document.getElementById('OpenKlaviyoPopup');
+  const modal = document.getElementById('KlaviyoModal');
+
+  if (!btn || !modal) return;
+
+  btn.addEventListener('click', function (e) {
+    e.preventDefault();
+    e.stopPropagation();
+    e.stopImmediatePropagation(); 
+
+    modal.classList.add('is-active');
+    document.body.style.overflow = 'hidden';
+  }, true); 
+});
+</script>
 
   </body>
 </html>
