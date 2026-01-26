@@ -1002,5 +1002,29 @@
     </div>
   </div>
 </div>
+  <script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const openBtn = document.getElementById('OpenKlaviyoPopup');
+    const modal = document.getElementById('KlaviyoModal');
+    const closeBtn = modal.querySelector('.klaviyo-modal__close');
+    const overlay = modal.querySelector('.klaviyo-modal__overlay');
+
+    if (!openBtn || !modal) return;
+
+    openBtn.addEventListener('click', () => {
+      modal.classList.add('is-active');
+      document.body.style.overflow = 'hidden';
+    });
+
+    const closeModal = () => {
+      modal.classList.remove('is-active');
+      document.body.style.overflow = '';
+    };
+
+    closeBtn.addEventListener('click', closeModal);
+    overlay.addEventListener('click', closeModal);
+  });
+</script>
+
   </body>
 </html>

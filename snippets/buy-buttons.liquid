@@ -67,7 +67,7 @@
         {%- if gift_card_recipient_feature_active -%}
           {%- render 'gift-card-recipient-form', product: product, form: form, section: section -%}
         {%- endif -%}
-
+        {% comment %}
         <div class="product-form__buttons">
           {%- liquid
             assign check_against_inventory = true
@@ -104,6 +104,20 @@
           {%- if show_dynamic_checkout -%}
             {{ form | payment_button }}
           {%- endif -%}
+        </div>
+        {% endcomment %}
+         <div class="product-form__buttons">
+
+          <button
+            type="button"
+            id="OpenKlaviyoPopup"
+            class="product-form__submit button button--full-width button--primary"
+          >
+            <span>
+              {{ 'products.product.add_to_cart' | t }}
+            </span>
+          </button>
+
         </div>
       {%- endform -%}
     </product-form>
