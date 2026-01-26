@@ -139,10 +139,10 @@
       "main-password-header": {
         "type": "main-password-header",
         "custom_css": [
-          ".password-content{display:none;}"
+          ".password-content {display: none;}"
         ],
         "settings": {
-          "color_scheme": "scheme-1"
+          "color_scheme": "scheme-4"
         }
       },
       "main-password-footer": {
