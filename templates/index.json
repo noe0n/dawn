@@ -324,7 +324,7 @@
         "row_rgHhcH": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/SideLights_claessens_arthur-4821_copie_2_d380b87e-13d5-4abe-ad3f-0646d40e7a46.jpg",
+            "image": "shopify://shop_images/TEST_sidelights.png",
             "caption": "",
             "heading": "Visibilité à Double Faisceau",
             "text": "<p>Soyez visibles sur toute la largeur de votre vélo grâce à un puissant double faisceau, encourageant les voitures à laisser une plus grande distance de dépassement.</p>",
@@ -536,7 +536,7 @@
         "text_R3PYfK": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Double feux avant</strong></p><ul><li>Feux de position : 150 lm</li><li>Feux de route : 500 lm</li></ul><p><strong>Feux de visibilité</strong></p><ul><li>Feux latéraux et arrières : 100 lm</li><li>Clignotants : 100 lm par côté</li></ul><p><strong>Batterie</strong></p><ul><li>1400 mAh par côté</li><li>Recharge USB-C</li><li>Système de batterie interchangeable</li></ul><p><strong>Autonomie</strong></p><p>Mode visibilité 360°</p><ul><li>Feux de position : 5 h</li><li>Feux de route : 2,5 h</li></ul><p>Clignotants uniquement : 10 h</p><p><strong>Poids</strong></p><ul><li>Poids total (batteries incluses) : 250 g</li></ul>",
+            "text": "<p><strong>Double feux avant</strong></p><ul><li>Feux de position : 150 lm</li><li>Feux de route : 500 lm</li></ul><p><strong>Feux de visibilité</strong></p><ul><li>Feux latéraux et arrières : 100 lm</li><li>Clignotants : 100 lm par côté</li></ul><p><strong>Batterie</strong></p><ul><li>1300 mAh par côté</li><li>Recharge USB-C</li><li>Système de batterie interchangeable</li></ul><p><strong>Autonomie</strong></p><p>Mode visibilité 360°</p><ul><li>Feux de position : 5 h</li><li>Feux de route : 2,5 h</li></ul><p>Clignotants uniquement : 10 h</p><p><strong>Poids</strong></p><ul><li>Poids total (batteries incluses) : 250 g</li></ul>",
             "text_style": "body"
           }
         },
