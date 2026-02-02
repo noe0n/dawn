@@ -171,7 +171,7 @@
         ".banner__content {min-height: 40svh;}",
         ".button {--border-offset: 0; padding: 16px; background-color: #fb5607; color: white; font-weight: 600; border-radius: 4px !important; animation: glowing_around 2500ms infinite; animation-timing-function: ease;}",
         ".button:hover:after {--border-offset: 0;}",
-        "@media (max-width: 749px) {.banner {min-height: 35vh; min-height: 35svh; height: 35vh; height: 35svh; } .banner__content {min-height: 35svh; }}"
+        "@media (max-width: 749px) {.banner {min-height: 40vh; min-height: 40svh; height: 40vh; height: 40svh; } .banner__content {min-height: 40svh; }}"
       ],
       "settings": {
         "image": "shopify://shop_images/lateral.jpg",
