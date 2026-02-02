@@ -174,8 +174,8 @@
         "@media (max-width: 749px) {.banner {min-height: 22vh; min-height: 22svh; height: 22vh; height: 22svh; } .banner__content {min-height: 22svh; }}"
       ],
       "settings": {
-        "image": "shopify://shop_images/14_-_Grande_0212f792-5516-4947-afd8-727984c442bc.jpg",
-        "image_2": "shopify://shop_images/lateral.jpg",
+        "image": "shopify://shop_images/lateral.jpg",
+        "image_2": "shopify://shop_images/14_-_Grande_0212f792-5516-4947-afd8-727984c442bc.jpg",
         "image_overlay_opacity": 100,
         "image_overlay_opacity_top": 100,
         "image_overlay_opacity_top_position": 0,
