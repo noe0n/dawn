@@ -67,7 +67,7 @@
         {%- if gift_card_recipient_feature_active -%}
           {%- render 'gift-card-recipient-form', product: product, form: form, section: section -%}
         {%- endif -%}
-        {% comment %}
+        
         <div class="product-form__buttons">
           {%- liquid
             assign check_against_inventory = true
@@ -105,7 +105,7 @@
             {{ form | payment_button }}
           {%- endif -%}
         </div>
-        {% endcomment %}
+       {% comment %}
          <div class="product-form__buttons">
 
           <button
@@ -119,6 +119,7 @@
           </button>
 
         </div>
+         {% endcomment %}
       {%- endform -%}
     </product-form>
   {%- else -%}
