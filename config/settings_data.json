@@ -124,7 +124,7 @@
     "cart_type": "drawer",
     "show_vendor": false,
     "show_cart_note": false,
-    "cart_ic_text1": "<p>Livraison Janvier 2026</p>",
+    "cart_ic_text1": "<p>Livraison début avril</p>",
     "cart_color_icons": "#ffffff",
     "couleur-fond-s": "#000000",
     "recommand_products": [
@@ -132,6 +132,7 @@
       "miroir",
       "batterie"
     ],
+    "fsb_enabled": false,
     "fsb_threshold": 100,
     "cart_drawer_collection": "",
     "cart_color_scheme": "scheme-4",
