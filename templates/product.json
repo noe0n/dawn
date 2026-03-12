@@ -129,7 +129,7 @@
       ],
       "settings": {
         "enable_sticky_info": true,
-        "product_upsell": true,
+        "product_upsell": false,
         "color_scheme": "scheme-4",
         "media_size": "medium",
         "constrain_to_viewport": true,
