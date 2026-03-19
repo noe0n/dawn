@@ -35,10 +35,47 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "rich_text_hCLACg": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_izgN7H": {
+          "type": "heading",
+          "settings": {
+            "heading": "Guide d'utilisation",
+            "heading_size": "h1"
+          }
+        },
+        "button_YjacYH": {
+          "type": "button",
+          "settings": {
+            "button_label": "Télécharger",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_izgN7H",
+        "button_YjacYH"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
-    "video_pQFrQF"
+    "video_pQFrQF",
+    "rich_text_hCLACg"
   ]
 }
