@@ -12,7 +12,7 @@
     "main": {
       "type": "main-page",
       "custom_css": [
-        "h1{display:none;}"
+        "h1 {display: none;}"
       ],
       "settings": {
         "padding_top": 28,
@@ -26,7 +26,7 @@
         "heading": "",
         "heading_size": "h1",
         "enable_video_looping": false,
-        "video": "shopify://files/videos/HOW TO USE 4K FINAL.mov",
+        "video": "shopify://files/videos/HOW TO USE 4K FR v3.mov",
         "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": false,
