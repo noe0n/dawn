@@ -60,7 +60,7 @@
     opacity: 1;
   }
 }
-account-icon{margin-bottom:4px;}
+account-icon{margin-bottom:5px;}
 .localization-form__select {
   border-radius: var(--inputs-radius-outset);
   position: relative;
