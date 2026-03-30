@@ -407,7 +407,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".header__icon--account {display: none !important;}"
+      ""
     ]
   }
 }
