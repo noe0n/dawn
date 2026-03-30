@@ -100,11 +100,11 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
 @media screen and (min-width: 750px) {
   
 
-  .header.page-width,
+ /* .header.page-width,
   .utility-bar__grid.page-width {
     padding-left: 3.2rem;
     padding-right: 3.2rem;
-  }
+  }*/
 
   .page-width--narrow {
     padding: 0 9rem;
