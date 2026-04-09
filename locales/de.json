@@ -121,10 +121,10 @@
   },
   "products": {
     "product": {
-      "add_to_cart": "In den Warenkorb legen",
+      "add_to_cart": "Vorbestellen",
       "description": "Beschreibung",
       "on_sale": "Sale",
-       "preorders": "Vorbestellung |",
+      "preorders": "Vorbestellung |",
       "months": {
         "january": "Januar"
       },
